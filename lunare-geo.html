@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rapoarte lunare GEO · Marketing Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="rep-top">
+    <header class="rep-head">
+      <h1 class="rep-head__title" id="rep-title">GEO Reporting – Dr. Ardeleanu</h1>
+      <div class="rep-head__right">
+        <span class="actual" id="actual">Actual</span>
+        <div class="toggle" role="group" aria-label="Mod afișare">
+          <button type="button" class="toggle__btn" data-mode="month" aria-pressed="true">Month</button>
+          <button type="button" class="toggle__btn" data-mode="ytd" aria-pressed="false">YTD</button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="period" aria-label="Perioadă">
+      <span class="period__label">Perioadă</span>
+      <div class="period__years" id="chips-years"></div>
+      <span class="period__sep" aria-hidden="true"></span>
+      <div class="period__months" id="chips-months"></div>
+    </nav>
+  </div>
+
+  <main class="page">
+    <h2 class="section-title">Rapoarte lunare GEO <span class="pill" id="demo-pill"></span></h2>
+
+
+
+    <div class="panel" id="geo-questions"></div>
+    <div class="panel" id="geo-cities"></div>
+    <div class="panel">
+      <div class="table-wrap">
+        <table class="kpi">
+          <thead><tr id="kpi-head"></tr></thead>
+          <tbody id="kpi-body"></tbody>
+        </table>
+      </div>
+      <p class="note" id="kpi-empty" hidden>Nu există date pentru perioada selectată.</p>
+      <p class="note" id="kpi-ytd-note" hidden>„–” la YTD înseamnă că acel KPI nu se poate aduna pe mai multe luni (sunt rate, medii sau persoane unice care se pot repeta de la o lună la alta).</p>
+      <p class="note" id="kpi-general-note"></p>
+    </div>
+    <div class="panel" id="geo-compare"></div>
+    <div class="panel" id="geo-trend"></div>
+    <div class="panel" id="geo-take"></div>
+
+    <div class="panel" id="cmp-panel" hidden>
+      <h3 class="panel__title" id="cmp-title"></h3>
+      <div class="table-wrap">
+        <table class="kpi cmp">
+          <thead><tr id="cmp-head"></tr></thead>
+          <tbody id="cmp-body"></tbody>
+        </table>
+      </div>
+      <ul class="notes notes--tight" id="cmp-notes"></ul>
+    </div>
+
+    <div class="panel" id="top-panel" hidden>
+      <h3 class="panel__title" id="top-title"></h3>
+      <div class="table-wrap">
+        <table class="kpi">
+          <thead><tr id="top-head"></tr></thead>
+          <tbody id="top-body"></tbody>
+        </table>
+      </div>
+      <p class="note" id="top-note" hidden></p>
+    </div>
+
+    <div class="panel" id="notes-panel" hidden>
+      <h3 class="panel__title">Cum am calculat și ce lipsește</h3>
+      <ul class="notes" id="notes-list"></ul>
+    </div>
+  </main>
+
+  <a class="fab" href="lunare.html">← Înapoi</a>
+
+  <script src="js/cfg-geo.js"></script>
+  <script src="js/report.js"></script>
+  <script src="js/geo.js"></script>
+</body>
+</html>

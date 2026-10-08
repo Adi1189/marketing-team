@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rapoarte săptămânale Facebook · Marketing Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="rep-top">
+    <header class="rep-head">
+      <h1 class="rep-head__title" id="rep-title">Facebook Weekly – Dr. Ardeleanu</h1>
+      <div class="rep-head__right">
+        <span class="actual" id="actual">Actual</span>
+      </div>
+    </header>
+
+    <nav class="period" aria-label="Săptămâna">
+      <span class="period__label">Săptămâna</span>
+      <div class="period__weeks" id="chips-weeks"></div>
+    </nav>
+  </div>
+
+  <main class="page">
+    <h2 class="section-title">Rapoarte săptămânale Facebook <span class="pill pill--real">Tier 1 · date reale</span></h2>
+    <p class="section-sub" id="week-sub"></p>
+
+    <div class="panel">
+      <h3 class="panel__title" id="cmp-title"></h3>
+      <div class="table-wrap">
+        <table class="kpi cmp">
+          <thead><tr id="cmp-head"></tr></thead>
+          <tbody id="cmp-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="panel">
+      <h3 class="panel__title" id="top-title"></h3>
+      <div class="table-wrap">
+        <table class="kpi cmp">
+          <thead><tr id="top-head"></tr></thead>
+          <tbody id="top-body"></tbody>
+        </table>
+      </div>
+      <p class="note" id="top-note" hidden></p>
+    </div>
+    <div class="panel">
+      <h3 class="panel__title">KPI-uri Dr. Ardeleanu, față de săptămâna anterioară</h3>
+      <div class="table-wrap">
+        <table class="kpi">
+          <thead><tr id="kpi-head"></tr></thead>
+          <tbody id="kpi-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+
+
+    <div class="panel">
+      <h3 class="panel__title">Constatări din raportul săptămânal (S29–S40)</h3>
+      <ul class="notes notes--take" id="take-list"></ul>
+    </div>
+
+    <div class="panel">
+      <h3 class="panel__title">Cum am calculat și ce lipsește</h3>
+      <ul class="notes" id="notes-list"></ul>
+    </div>
+  </main>
+
+  <a class="fab" href="saptamanale.html">← Înapoi</a>
+
+  <script src="js/wk-facebook.js"></script>
+  <script src="js/weekly.js"></script>
+</body>
+</html>
