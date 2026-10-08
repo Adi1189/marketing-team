@@ -8,6 +8,13 @@ var WEEKS = CFG.weeks;
 var US = CFG.cmp.brands.filter(function (b) { return b.us; })[0].id;
 var state = { idx: WEEKS.length - 1 };
 
+var EMBED = /[?&]embed=1/.test(location.search) && window.parent !== window;
+if (EMBED) {
+  var qpw = new URLSearchParams(location.search);
+  var wi = parseInt(qpw.get('w'), 10);
+  if (!isNaN(wi) && wi >= 0 && wi < WEEKS.length) state.idx = wi;
+}
+
 function nf(v, d) { return v.toLocaleString('ro-RO', { minimumFractionDigits: d, maximumFractionDigits: d }); }
 function esc(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function fmt(k, v) {
@@ -145,3 +152,19 @@ function render() {
 
 renderTexts();
 render();
+
+if (EMBED) {
+  var reportHeightW = function () {
+    parent.postMessage({ type: 'height', value: Math.ceil(document.body.getBoundingClientRect().height) }, '*');
+  };
+  window.addEventListener('message', function (e) {
+    if (e.source !== parent) return;
+    var d = e.data || {};
+    if (d.type === 'week' && d.idx >= 0 && d.idx < WEEKS.length) { state.idx = d.idx; render(); reportHeightW(); }
+  });
+  window.addEventListener('load', function () {
+    parent.postMessage({ type: 'ready', kind: 'week', weeks: WEEKS, channel: CFG.channel }, '*');
+    reportHeightW();
+  });
+  if (window.ResizeObserver) new ResizeObserver(reportHeightW).observe(document.body);
+}

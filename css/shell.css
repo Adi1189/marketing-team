@@ -1,0 +1,91 @@
+/* ---------- Pagina de start: 3 carduri ---------- */
+.cards--three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.card--sec { max-width: none; display: flex; flex-direction: column; }
+.card--sec .card__actions { margin-top: auto; padding-top: 22px; }
+.card--sec .card__desc { min-height: 3em; margin-bottom: 4px; }
+.card--sec .card__actions { border-top: 1px dashed #e4d6c6; margin-top: 22px; }
+.btn .ico { width: 18px; height: 18px; flex: none; }
+.btn--view { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.btn--share {
+  width: 100%;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  background: var(--brand-white);
+  border-style: dashed;
+}
+.btn--share:hover { background: var(--brand-wheat); }
+.toast {
+  position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%) translateY(20px);
+  background: var(--brand-primary); color: var(--brand-white);
+  font-weight: 600; font-size: 14px; padding: 12px 20px; border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(60, 20, 10, .3);
+  opacity: 0; pointer-events: none; transition: opacity .2s ease, transform .2s ease; z-index: 100;
+}
+.toast.is-on { opacity: 1; transform: translateX(-50%) translateY(0); }
+@media (max-width: 900px) { .cards--three { grid-template-columns: 1fr; } }
+
+/* ---------- Pagina cu meniu (desktop / mobil) ---------- */
+.shell-top { position: sticky; top: 0; z-index: 50; box-shadow: 0 2px 10px rgba(60, 20, 10, .10); }
+.shell-top .rep-top { position: static; box-shadow: none; }
+.toggle__btn:disabled { opacity: .4; cursor: not-allowed; }
+.chip.is-empty { opacity: .5; }
+.period__group { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.tabs {
+  display: flex;
+  overflow-x: auto;
+  background: #fffdf9;
+  border-top: 1px solid #e9d9a8;
+  scrollbar-width: thin;
+  scrollbar-color: #7b1c16 #f1e8dc;
+}
+.tab {
+  flex: none;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  color: #6b6259;
+  background: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  padding: 17px 22px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tab:hover { color: var(--brand-primary); }
+.tab.is-active { color: var(--brand-primary); font-weight: 700; border-bottom-color: var(--brand-primary); }
+.tab:focus-visible { outline: 3px solid var(--brand-gold); outline-offset: -3px; }
+.shell-frame { display: block; width: 100%; border: 0; min-height: 420px; background: var(--brand-cream); }
+.shell-empty { padding: 60px 28px; text-align: center; color: var(--text-muted); }
+
+/* Varianta mobil: coloană îngustă, perioadă și meniu pe un singur rând derulabil */
+body.view-mobile { background: #e9dfd2; }
+body.view-mobile .shell { max-width: 430px; margin: 0 auto; background: var(--brand-cream); min-height: 100vh; box-shadow: 0 0 40px rgba(60, 20, 10, .18); }
+body.view-mobile .rep-head { padding: 14px 16px; gap: 10px; }
+body.view-mobile .rep-head__title { font-size: 19px; }
+body.view-mobile .actual { font-size: 10.5px; padding: 7px 12px; }
+body.view-mobile .toggle__btn { font-size: 11.5px; padding: 7px 12px; }
+body.view-mobile .period { padding: 10px 14px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+body.view-mobile .period::-webkit-scrollbar { display: none; }
+body.view-mobile .period__months, body.view-mobile .period__years, body.view-mobile .period__weeks, body.view-mobile .period__group { flex-wrap: nowrap; }
+body.view-mobile .period__sep { display: block; flex: none; }
+body.view-mobile .chip { flex: none; white-space: nowrap; font-size: 13px; padding: 7px 14px; }
+body.view-mobile .period__label { flex: none; }
+body.view-mobile .tab { font-size: 14px; padding: 14px 16px 11px; }
+body.view-mobile .fab { right: calc(50% - 205px); }
+@media (max-width: 460px) { body.view-mobile .fab { right: 14px; } }
+
+/* luni imediat după an, în același rând (se rup natural pe rândul următor) */
+.shell-top .period__months { display: contents; }
+.period--weeks { border-top: 1px solid #f0e6da; padding-top: 10px; padding-bottom: 12px; }
+.period--weeks[hidden] { display: none; }
+.shell-frame[hidden], .shell-empty[hidden] { display: none; }
+
+/* chipuri compacte: toate cele 12 luni încap pe un rând la ecrane late */
+.shell-top .period { gap: 12px 9px; }
+.shell-top .period .chip { padding: 8px 13px; font-size: 13.5px; }
+.shell-top .period__label { margin-right: 2px; }

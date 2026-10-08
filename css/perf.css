@@ -1,0 +1,27 @@
+/* ---------- Performance Marketing Budget ---------- */
+.rep-head__sub { font-size: 13px; color: #f2d9b0; margin-top: 4px; font-weight: 400; }
+.perf-page { max-width: 1240px; margin: 0 auto; padding: 22px 28px 60px; }
+.perf-page .note { margin-top: 18px; }
+.summary {
+  background: #fff6e8; border: 1px solid #f0dcc0; border-left: 5px solid var(--brand-gold);
+  border-radius: 14px; padding: 18px 22px; font-size: 15px; line-height: 1.7;
+}
+.summary__title { font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--brand-primary); margin: 0 0 8px; }
+.summary p { margin: 0; }
+.summary b { color: var(--brand-primary); }
+.summary .good { color: #3f7d2c; }
+.summary .bad { color: #c0392b; }
+.perf-h {
+  margin: 34px 0 6px; font-size: 24px; font-weight: 800; color: var(--brand-primary);
+  padding-bottom: 8px; border-bottom: 1px solid #f0dcc0;
+}
+.perf-sub { margin: 0 0 12px; font-size: 13px; color: var(--text-muted); }
+.chartcard { background: var(--brand-white); border-radius: 18px; box-shadow: var(--shadow); padding: 16px; overflow-x: auto; margin-top: 12px; }
+.chartcard svg { display: block; }
+.chartcard .empty { padding: 34px 12px; color: var(--text-muted); font-size: 15px; }
+.chartcard text { font-family: 'Poppins', system-ui, sans-serif; }
+.panel--tbl { margin-top: 12px; }
+table.kpi td.dash { color: var(--text-muted); }
+.chip:disabled { opacity: .4; cursor: not-allowed; }
+@media (max-width: 640px) { .perf-page { padding: 14px 12px 50px; } .perf-h { font-size: 20px; } }
+body.view-mobile .perf-page { padding: 14px 12px 50px; }

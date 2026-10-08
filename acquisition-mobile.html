@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acquisition Marketing · Marketing Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/shell.css">
+</head>
+<body class="view-mobile" data-title="Acquisition Marketing">
+  <div class="shell">
+    <div class="shell-top">
+      <header class="rep-head">
+        <h1 class="rep-head__title" id="shell-title">Acquisition Marketing – Dr. Ardeleanu</h1>
+        <div class="rep-head__right">
+          <span class="actual" id="shell-actual">Actual</span>
+          <div class="toggle" role="group" aria-label="Mod afișare">
+            <button type="button" class="toggle__btn" data-mode="week" aria-pressed="false">Week</button>
+            <button type="button" class="toggle__btn" data-mode="month" aria-pressed="true">Month</button>
+            <button type="button" class="toggle__btn" data-mode="ytd" aria-pressed="false">YTD</button>
+          </div>
+        </div>
+      </header>
+      <nav class="period" id="shell-period" aria-label="Perioadă"></nav>
+      <nav class="period period--weeks" id="shell-weeks" aria-label="Săptămâna" hidden></nav>
+      <nav class="tabs" id="shell-tabs" aria-label="Meniu"></nav>
+    </div>
+    <div class="shell-empty" id="shell-notice" hidden></div>
+    <iframe class="shell-frame" id="shell-frame" title="Conținut" scrolling="no"></iframe>
+    <a class="fab" href="index.html">← Înapoi</a>
+  </div>
+  <script src="js/shell.js"></script>
+</body>
+</html>

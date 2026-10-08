@@ -23,6 +23,15 @@ var keys = Object.keys(DATA).sort();
 var latest = keys[keys.length - 1];
 var state = { year: +latest.slice(0, 4), month: +latest.slice(5), mode: 'month' };
 
+// Mod „embed”: pagina e încărcată în noul meniu; perioada vine din URL și din mesaje.
+var EMBED = /[?&]embed=1/.test(location.search) && window.parent !== window;
+if (EMBED) {
+  var qp = new URLSearchParams(location.search);
+  if (qp.get('y')) state.year = +qp.get('y');
+  if (qp.get('m')) state.month = +qp.get('m');
+  if (qp.get('mode')) state.mode = qp.get('mode') === 'ytd' ? 'ytd' : 'month';
+}
+
 function key(y, m) { return y + '-' + String(m).padStart(2, '0'); }
 function nf(v, d) { return v.toLocaleString('ro-RO', { minimumFractionDigits: d, maximumFractionDigits: d }); }
 function esc(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
@@ -350,3 +359,22 @@ document.querySelectorAll('.toggle__btn').forEach(function (b) {
 
 renderMeta();
 render();
+
+if (EMBED) {
+  var reportHeight = function () {
+    parent.postMessage({ type: 'height', value: Math.ceil(document.body.getBoundingClientRect().height) }, '*');
+  };
+  window.addEventListener('message', function (e) {
+    if (e.source !== parent) return;
+    var d = e.data || {};
+    if (d.type === 'period') {
+      state.year = d.year; state.month = d.month; state.mode = d.mode === 'ytd' ? 'ytd' : 'month';
+      render(); reportHeight();
+    }
+  });
+  window.addEventListener('load', function () {
+    parent.postMessage({ type: 'ready', kind: 'month', months: keys, channel: CFG.channel }, '*');
+    reportHeight();
+  });
+  if (window.ResizeObserver) new ResizeObserver(reportHeight).observe(document.body);
+}
