@@ -1,87 +1,56 @@
-// DATE DEMONSTRATIVE – valori de test, nu cifre reale. Doar iul–sep 2026.
+// SEO: structură copiată de la pagina GEO; datele urmează.
 window.REPORT_CONFIG = {
  "channel": "SEO",
+ "demo": false,
+ "pillText": "Date SEO · urmează",
  "kpis": [
   {
-   "key": "sessions",
-   "label": "Sesiuni organice",
-   "hint": "vizite pe site venite din căutările Google (nu din reclame)",
+   "key": "pos",
+   "label": "Poziția medie în Google („dentist [oraș]”)",
+   "hint": "locul mediu în rezultate pentru căutarea „dentist” + orașul clinicii (1 = primul rezultat)",
    "type": "num",
-   "additive": true
-  },
-  {
-   "key": "clicks",
-   "label": "Click-uri din Google",
-   "hint": "de câte ori au apăsat oamenii pe site-ul nostru în rezultate",
-   "type": "num",
-   "additive": true
-  },
-  {
-   "key": "impressions",
-   "label": "Afișări în Google",
-   "hint": "de câte ori a apărut site-ul în rezultatele căutărilor",
-   "type": "num",
-   "additive": true
-  },
-  {
-   "key": "ctr",
-   "label": "CTR",
-   "hint": "din 100 de afișări, câte au dus la click, în procente",
-   "type": "pct",
    "additive": false
   },
   {
-   "key": "position",
-   "label": "Poziția medie în Google",
-   "hint": "locul mediu în rezultate (mai mic = mai bine)",
-   "type": "dec",
-   "additive": false,
-   "invert": true
-  },
-  {
    "key": "top10",
-   "label": "Cuvinte cheie în top 10",
-   "hint": "câte căutări ne aduc pe prima pagină Google",
+   "label": "Cuvinte generale în top 10",
+   "hint": "câte căutări fără oraș (de exemplu „clinica dentara”) ne aduc pe prima pagină Google",
    "type": "num",
-   "additive": "last"
+   "additive": false
   },
   {
-   "key": "indexed",
-   "label": "Pagini indexate",
-   "hint": "câte pagini ale site-ului sunt cunoscute de Google",
+   "key": "mappack",
+   "label": "Clinici în Map Pack",
+   "hint": "în câte clinici apărem printre cele 3 rezultate de pe hartă, la căutările testate",
    "type": "num",
-   "additive": "last"
+   "additive": false
+  },
+  {
+   "key": "clicks",
+   "label": "Clicuri pe pagina clinicii",
+   "hint": "câte persoane au intrat din Google pe pagina clinicii",
+   "type": "num",
+   "additive": false
+  },
+  {
+   "key": "impr",
+   "label": "Afișări în Google",
+   "hint": "de câte ori a apărut site-ul în rezultatele căutărilor",
+   "type": "num",
+   "additive": false
   }
  ],
+ "top": null,
+ "notes": [
+  "Datele SEO urmează: măsurătorile se vor face separat. Pagina copiază structura paginii GEO, iar rândurile, coloanele și KPI-urile sunt locuri rezervate, care se adaptează când stabilim ce măsurăm.",
+  "Poziția în Google: 1 = primul rezultat, sub 10 = prima pagină; cifra mai mică e mai bună. La volum mic de afișări, poziția e instabilă.",
+  "Map Pack = cele 3 rezultate afișate pe hartă, deasupra rezultatelor obișnuite, când cineva caută o clinică locală."
+ ],
  "data": {
-  "2026-07": {
-   "sessions": 9184,
-   "clicks": 7863,
-   "impressions": 326934,
-   "ctr": 2.41,
-   "position": 13.3,
-   "top10": 77,
-   "indexed": 510
-  },
-  "2026-08": {
-   "sessions": 8847,
-   "clicks": 7736,
-   "impressions": 314952,
-   "ctr": 2.46,
-   "position": 15.0,
-   "top10": 77,
-   "indexed": 519
-  },
-  "2026-09": {
-   "sessions": 8391,
-   "clicks": 7217,
-   "impressions": 303399,
-   "ctr": 2.38,
-   "position": 14.0,
-   "top10": 74,
-   "indexed": 527
+  "2026-10": {
+   "pending": true,
+   "q": {},
+   "note": {}
   }
- },
- "demo": true,
- "notes": []
+ }
 };

@@ -155,6 +155,7 @@ function cellHtml(k, row, withNote) {
   var v = row ? row[k.key] : null;
   var q = row && row.q ? (row.q[k.key] || '') : '';
   var n = withNote && row && row.note ? (row.note[k.key] || '') : '';
+  if (v == null && row && row.pending) return '<span class="muted">urmează</span>';
   var main = v == null ? '–' : (q ? '<span class="q">' + q + '</span>' : '') + fmt(k, v);
   return main + (n ? '<span class="cell__note">' + esc(n) + '</span>' : '');
 }
