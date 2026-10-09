@@ -43,6 +43,7 @@ function rowOf(brand, week, KP) {
 function delta(k, cur, prev, qc, qp) {
   if (cur == null || prev == null) return { text: '–', cls: '' };
   if ((qc || '').indexOf('≥') > -1 || (qp || '').indexOf('≥') > -1) return { text: '–', cls: '' };
+  if ((qc || '').indexOf('≈') > -1 && (qp || '').indexOf('≈') > -1) return { text: '–', cls: '' };   // două cifre rotunjite: diferența nu spune nimic
   if (prev === 0) return { text: '–', cls: '' };
   var d = (cur - prev) / prev * 100;
   return { text: (d > 0 ? '+' : '') + d.toLocaleString('ro-RO', { maximumFractionDigits: 1 }) + '%', cls: d > 0 ? 'delta--up' : d < 0 ? 'delta--down' : '' };
@@ -133,7 +134,7 @@ function renderTop() {
            '</td><td class="left"><strong>' + esc(w.id) + '</strong><span class="kpi__hint">' + esc(w.range) + '</span></td><td class="num"><strong>' + val + '</strong></td><td class="num">' + link + '</td></tr>';
   }).join('');
   var note = document.getElementById('top-note');
-  note.textContent = 'Linkurile postărilor nu sunt în rapoartele KPI, deci apar cu „–” până le adăugăm.';
+  note.textContent = 'Linkurile lipsesc acolo unde raportul nu le-a avut sau nu le-a putut citi, deci apar cu „–”.';
   note.hidden = !missing;
 }
 

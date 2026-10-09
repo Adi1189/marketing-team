@@ -44,7 +44,8 @@ function fmt(k, v) {
 
 function delta(k, cur, prev, qc, qp) {
   if (cur == null || prev == null) return { text: '–', cls: '' };
-  if ((qc || '').indexOf('≥') > -1 || (qp || '').indexOf('≥') > -1) return { text: '–', cls: '' };   // cifre minime: nu comparăm
+  if ((qc || '').indexOf('≥') > -1 || (qp || '').indexOf('≥') > -1) return { text: '–', cls: '' };
+  if ((qc || '').indexOf('≈') > -1 && (qp || '').indexOf('≈') > -1) return { text: '–', cls: '' };   // două cifre rotunjite: diferența nu spune nimic   // cifre minime: nu comparăm
   var d, text;
   if (k.type === 'pct') {
     d = cur - prev; text = (d > 0 ? '+' : '') + nf(d, k.decimals != null ? k.decimals : 2) + '%';
@@ -253,7 +254,7 @@ function renderTop() {
       return '<tr class="' + (b.us ? 'row--us' : '') + '"><td class="left">' + esc(b.name) + '</td><td class="left">' + title +
              '</td><td class="left">' + wk + '</td><td class="num"><strong>' + val + '</strong></td><td class="num">' + link + '</td></tr>';
     }).join('');
-    note.textContent = 'Linkurile postărilor nu sunt în rapoartele KPI, deci apar cu „–” până le adăugăm.';
+    note.textContent = 'Linkurile lipsesc acolo unde raportul nu le-a avut sau nu le-a putut citi, deci apar cu „–”.';
     note.hidden = !anyMissing;
     return;
   }

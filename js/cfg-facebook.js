@@ -62,8 +62,8 @@ window.REPORT_CONFIG = {
  },
  "notes": [
   "Perioadele sunt grupate ca în rapoartele KPI: iulie = S29–S31, august = S32–S35, septembrie = S36–S40.",
-  "Doar S38–S40 au inventar complet de postări. Până pe 14 septembrie, rapoartele conțin doar un eșantion din feed, deci numărul de postări și engagementul mediu apar doar pentru septembrie, din 3 din cele 5 săptămâni.",
-  "Engagement = reacții + comentarii + distribuiri. În S40 comentariile nu au fost capturate, deci valoarea e minimă.",
+  "Septembrie (S36–S40) are inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile (5 din 5 săptămâni). Până în S35, rapoartele conțin doar un eșantion din feed, deci iulie și august nu au număr de postări și engagement mediu.",
+  "Engagement = reacții + comentarii + distribuiri.",
   "Urmăritorii sunt rotunjiți la mii în rapoarte (≈17.000), așa că o creștere lunară nu se poate vedea.",
   "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
@@ -206,69 +206,67 @@ window.REPORT_CONFIG = {
    }
   },
   "2026-09": {
-   "posts": 31,
-   "eng_sum": 978,
-   "eng_n": 31,
-   "followers": 17000,
+   "posts": 46,
+   "eng_sum": 1311,
+   "eng_n": 46,
+   "followers": 18000,
    "leads": 1311,
    "q": {
-    "posts": "≥",
-    "avgeng": "≥",
     "followers": "≈"
    },
    "note": {
-    "posts": "3 din 5 săpt. (S38, S39, S40)",
-    "avgeng": "3 din 5 săpt.; S40 fără comentarii",
+    "posts": "5 din 5 săpt. (S36–S40)",
+    "avgeng": "5 din 5 săpt.",
     "followers": "rotunjit la mii · la S40",
     "leads": "Facebook + Instagram, împreună · noi (unice): 827"
    },
    "topPosts": {
     "DrA": {
-     "title": "Urare Dr. Arina Lupu, 26 sept (72/59/2)",
-     "value": 133,
-     "q": "≥",
+     "title": "La mulți ani, Dr. Arina Lupu!",
+     "value": 140,
+     "q": "",
      "week": "S39",
      "range": "21–27 sep",
-     "url": null
+     "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid0g5xfVGz9WDfkGET9BLtdB3RYVQaey9eMbyyMEsxrFPh3XzKGrwQ9Q8bhpRyFiL5wl"
     },
     "DE": {
-     "title": "Reel emoțional de pacient „Sunt un om fragil…”, 22 sept (198/13/14)",
-     "value": 225,
-     "q": "≥",
+     "title": "Sunt un om fragil… – Maia Morgenstern (reel)",
+     "value": 227,
+     "q": "",
      "week": "S39",
      "range": "21–27 sep",
-     "url": null
+     "url": "https://www.facebook.com/reel/1104230865426730"
     },
     "RM": {
-     "title": "Ziua Mondială a Zâmbetului, 2 oct (40/2/3)",
-     "value": 45,
+     "title": "Ai primit un plan de tratament, dar încă nu ești sigur că este alegerea potrivită?",
+     "value": 652,
      "q": "",
-     "week": "S40",
-     "range": "28 sep–4 oct",
-     "url": null
+     "week": "S37",
+     "range": "7–13 sep",
+     "url": "https://www.facebook.com/ReginaMariaDentalClinics/posts/pfbid0NxuueRBTqi38RgmSRQwCuuAPy67UMsAyShBUBcurNQC27j7vm7pu24tQWgHUuA8yl"
     },
     "Life": {
-     "title": "Carusel newsjacking politic, 2 oct (555/7/26)",
-     "value": 588,
-     "q": "≥",
+     "title": "Guvernele se schimbă. Scuzele pentru dentist rămân stabile",
+     "value": 711,
+     "q": "",
      "week": "S40",
      "range": "28 sep–4 oct",
-     "url": null
+     "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid02QGvRB1wLiUgzyG1bYDiwXtUuXqagV6cJ5c8vvboHazkZ7knWH6Co6Z77WkcY9UKvl"
     },
     "Eli": {
-     "title": "Urare Dr. Ștefa, 24 sept (31/26/0)",
-     "value": 57,
+     "title": "Ce înseamnă o adiție de os",
+     "value": 100,
      "q": "",
-     "week": "S39",
-     "range": "21–27 sep",
-     "url": null
+     "week": "S38",
+     "range": "14–20 sep",
+     "url": "https://www.facebook.com/reel/1096653936252782"
     },
     "DB": {
-     "title": "„Dental Blue Slobozia reunited”, 22 sept (43/7/4)",
-     "value": 54,
+     "title": "Dental Blue Constanța vs. Dental Blue Fetești?",
+     "value": 71,
      "q": "",
-     "week": "S39",
-     "range": "21–27 sep",
+     "week": "S36",
+     "range": "31 aug–6 sep",
      "url": null
     }
    }
@@ -353,10 +351,10 @@ window.REPORT_CONFIG = {
    }
   ],
   "notes": [
-   "Doar S38–S40 au inventar complet de postări pentru toate paginile, deci postările și engagementul mediu apar doar pentru septembrie.",
+   "Septembrie (S36–S40) are inventar complet de postări pe toate paginile; iulie și august nu, deci postările și engagementul mediu apar doar pentru septembrie.",
    "Elidadent și Dental Blue pornesc de la pagini mici (4,7K și 6,3K urmăritori): cifrele lor nu se compară direct cu ale noastre.",
-   "Life Dental Spa are în S40 un carusel cu 555 de reacții (newsjacking politic), care urcă mult engagementul lor mediu.",
-   "Life Dental Spa nu are urmăritorii în rapoartele din septembrie; am păstrat ultima cifră (S35)."
+   "Life Dental Spa are în S40 un carusel politic (newsjacking) cu 711 interacțiuni, care urcă mult engagementul lor mediu.",
+   "Life Dental Spa are urmăritorii exacți (rotunjiți la mii) din S40: 83.000."
   ],
   "data": {
    "DrA": {
@@ -378,16 +376,16 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
+      "posts": "",
+      "avgeng": "",
       "followers": "≈",
       "topval": ""
      },
-     "posts": 31,
-     "eng_sum": 978,
-     "eng_n": 31,
-     "followers": 17000,
-     "topval": 133
+     "posts": 46,
+     "eng_sum": 1311,
+     "eng_n": 46,
+     "followers": 18000,
+     "topval": 140
     }
    },
    "DE": {
@@ -409,16 +407,16 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
+      "posts": "",
+      "avgeng": "",
       "followers": "≈",
       "topval": ""
      },
-     "posts": 48,
-     "eng_sum": 1642,
-     "eng_n": 48,
+     "posts": 89,
+     "eng_sum": 3449,
+     "eng_n": 89,
      "followers": 46000,
-     "topval": 225
+     "topval": 227
     }
    },
    "RM": {
@@ -440,16 +438,16 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
+      "posts": "",
+      "avgeng": "",
       "followers": "≈",
       "topval": ""
      },
-     "posts": 27,
-     "eng_sum": 313,
-     "eng_n": 27,
+     "posts": 45,
+     "eng_sum": 2067,
+     "eng_n": 45,
      "followers": 84000,
-     "topval": 45
+     "topval": 652
     }
    },
    "Life": {
@@ -471,16 +469,16 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
-      "topval": "",
-      "followers": "≈"
+      "posts": "",
+      "avgeng": "",
+      "followers": "≈",
+      "topval": ""
      },
-     "posts": 20,
-     "eng_sum": 795,
-     "eng_n": 20,
-     "topval": 588,
-     "followers": 82000,
+     "posts": 33,
+     "eng_sum": 1541,
+     "eng_n": 33,
+     "topval": 711,
+     "followers": 83000,
      "note": {
       "followers": "ultima cifră din rapoarte (S35)"
      }
@@ -505,16 +503,16 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
+      "posts": "",
+      "avgeng": "",
       "followers": "≈",
       "topval": ""
      },
-     "posts": 21,
-     "eng_sum": 459,
-     "eng_n": 21,
+     "posts": 32,
+     "eng_sum": 799,
+     "eng_n": 32,
      "followers": 4700,
-     "topval": 57
+     "topval": 100
     }
    },
    "DB": {
@@ -536,16 +534,16 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
+      "posts": "",
+      "avgeng": "",
       "followers": "≈",
       "topval": ""
      },
-     "posts": 5,
-     "eng_sum": 131,
-     "eng_n": 5,
+     "posts": 9,
+     "eng_sum": 265,
+     "eng_n": 9,
      "followers": 6300,
-     "topval": 54
+     "topval": 71
     }
    }
   }
