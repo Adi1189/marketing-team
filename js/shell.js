@@ -20,6 +20,7 @@
   var avail = {};        // tab -> luni (2026) cu date
   var weeksInfo = null;  // lista de săptămâni, din pagina săptămânală încărcată
   var loaded = { tab: null, kind: null };
+  var wantLatest = false;   // la intrarea în Week deschidem cea mai recentă săptămână
 
   var el = {
     title: document.getElementById('shell-title'), actual: document.getElementById('shell-actual'),
@@ -66,6 +67,14 @@
     var ms = avail[state.tab];
     if (state.mode !== 'week' && ms && ms.length && ms.indexOf(state.month) === -1) { state.month = Math.max.apply(null, ms); return true; }
     return false;
+  }
+
+  // Week pornește de la cea mai recentă săptămână (și luna ei)
+  function goLatestWeek() {
+    if (!weeksInfo || !weeksInfo.length) return false;
+    var last = weeksInfo.length - 1, mi = MONTHS.indexOf(weeksInfo[last].month);
+    state.week = last; if (mi > -1) state.month = mi + 1;
+    return true;
   }
 
   // la Week: dacă luna aleasă n-are săptămâni, trecem pe ultima lună care are
@@ -170,6 +179,7 @@
       state.mode = m;
       // Week pornește din orice tab: dacă tab-ul nu are raport săptămânal, mergem pe Facebook
       if (m === 'week' && !tabObj().week) state.tab = 'facebook';
+      if (m === 'week' && !(state.mode === m && before === 'week')) { wantLatest = !goLatestWeek(); }
       if (m === 'week' && weeksInfo) {
         snapWeekMonth();
         var mw = monthWeeks();
@@ -192,6 +202,7 @@
     }
     if (d.type === 'ready' && d.kind === 'week') {
       weeksInfo = d.weeks;
+      if (wantLatest) { goLatestWeek(); wantLatest = false; writeHash(); }
       snapWeekMonth(); writeHash();
       var mw = monthWeeks();
       if (mw.length && mw.indexOf(state.week) === -1) state.week = mw[mw.length - 1];
