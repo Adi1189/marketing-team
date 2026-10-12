@@ -64,11 +64,13 @@ window.REPORT_CONFIG = {
   "Perioadele sunt grupate ca în rapoartele KPI: iulie = S29–S31, august = S32–S35, septembrie = S36–S40.",
   "Raportul pentru S29 (13–19 iulie) lipsește, deci iulie are doar S30 și S31.",
   "Engagement = like-uri + comentarii (Instagram nu arată distribuirile). În S31, S32, S34 și S35 raportul dă doar like-uri, de aceea cifrele din iulie și august sunt minime („≥”).",
-  "S36 și S37: rapoartele dau doar numărul aproximativ de postări (≈), fără engagement, deci septembrie are engagement din 3 din 5 săptămâni.",
+  "Septembrie (S36–S40) are inventar complet de postări, cu engagement citit în toate cele 5 săptămâni; unde unele like-uri sunt ascunse, cifra e marcată „≥”.",
   "Urmăritorii vin doar din câteva rapoarte (S28, S32, S35, S36, S38, S40); pentru fiecare lună e ultima cifră disponibilă.",
   "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
-  "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte."
+  "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte.",
+  "Septembrie e citit cu skill-ul actualizat și nu se compară direct cu iulie–august, care vin din rapoartele vechi: engagementul nou e mult mai mic (de exemplu S38–S39 la noi: 374 și 224, față de 699 și 568 în rapoartele vechi).",
+  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie."
  ],
  "data": {
   "2026-07": {
@@ -208,68 +210,138 @@ window.REPORT_CONFIG = {
    }
   },
   "2026-09": {
-   "posts": 42,
-   "eng_sum": 1393,
-   "eng_n": 28,
+   "posts": 44,
+   "eng_sum": 1168,
+   "eng_n": 43,
    "leads": 1311,
    "q": {
-    "posts": "≈",
-    "avgeng": ""
+    "posts": "",
+    "avgeng": "≥",
+    "followers": "≈"
    },
    "note": {
-    "posts": "5 din 5 săpt.; S36, S37 aproximativ",
-    "avgeng": "3 din 5 săpt.",
-    "followers": "la S40 (28 sep–4 oct)",
+    "posts": "5 din 5 săpt. (S36–S40)",
+    "avgeng": "5 din 5 săpt.",
+    "followers": "valoare de la data rulării",
     "leads": "Facebook + Instagram, împreună · noi (unice): 827"
    },
-   "followers": 4559,
+   "followers": 4585,
    "topPosts": {
     "DrA": {
-     "title": "Urare Dr. Arina Lupu (92/58)",
-     "value": 150,
+     "title": "CARE Forum continuă, cu energie… (carusel)",
+     "value": 65,
+     "q": "",
+     "week": "S38",
+     "range": "14–20 sep",
+     "url": "https://www.instagram.com/dr.ardeleanu/p/Ddd8WKCm-0Q/"
+    },
+    "DE": {
+     "title": "Ai auzit de tomografia computerizată dentară (CBCT)… (reel)",
+     "value": 82,
      "q": "",
      "week": "S39",
      "range": "21–27 sep",
-     "url": null
-    },
-    "DE": {
-     "title": "Campania Align Smile Wallet (379/1)",
-     "value": 380,
-     "q": "≥",
-     "week": "S39",
-     "range": "21–27 sep",
-     "url": null
+     "url": "https://www.instagram.com/dent.estet/reel/DdnubhTgURe/"
     },
     "RM": {
-     "title": "Notă „Lucrăm la V2 a campaniei” (99/2)",
-     "value": 101,
-     "q": "≥",
+     "title": "Lucrăm la versiunea V2 a campaniei. Mulțumim pentru feedback",
+     "value": 112,
+     "q": "",
      "week": "S39",
      "range": "21–27 sep",
-     "url": null
+     "url": "https://www.instagram.com/reginamariadentalclinics/p/DdtpJ8xIa_e/"
     },
     "Life": {
-     "title": "Reel carii fără durere",
-     "value": 11,
-     "q": "≥",
+     "title": "Știai că o carie poate evolua fără să doară? (reel)",
+     "value": 13,
+     "q": "",
      "week": "S38",
      "range": "14–20 sep",
-     "url": null
+     "url": "https://www.instagram.com/lifedentalspa/reel/DdaySr7FJnq/"
     },
     "Eli": {
-     "title": "Colab Bianca Iotu (Insula Iubirii), 394/2",
-     "value": 396,
-     "q": "≥",
+     "title": "Toată lumea are aceeași curiozitate: «Bianca de la Insula Iubirii…» (reel)",
+     "value": 389,
+     "q": "",
      "week": "S38",
      "range": "14–20 sep",
-     "url": null
+     "url": "https://www.instagram.com/clinicaelidadent/reel/DdWzQTQNh9y/"
     },
     "DB": {
-     "title": "„Dental Blue Slobozia reunited” (45/7)",
-     "value": 52,
+     "title": "Working Dentist Day",
+     "value": 4,
+     "q": "",
+     "week": "S40",
+     "range": "28 sep–4 oct",
+     "url": "https://www.instagram.com/dental_blue_international/p/Dd1zcIclY38/"
+    }
+   }
+  },
+  "2026-10": {
+   "posts": 8,
+   "eng_sum": 210,
+   "eng_n": 8,
+   "leads": null,
+   "q": {
+    "posts": "≥",
+    "avgeng": "",
+    "followers": ""
+   },
+   "note": {
+    "posts": "luna în curs: doar S41 (5–11 oct)",
+    "avgeng": "doar S41",
+    "followers": "la S41",
+    "leads": "luna în curs"
+   },
+   "followers": 4600,
+   "nocmp": true,
+   "topPosts": {
+    "DrA": {
+     "title": "„Nu există scurtături către succes.” — TEDx Tudor Vianu",
+     "value": 61,
      "q": "≥",
-     "week": "S39",
-     "range": "21–27 sep",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.instagram.com/reel/DeKC2_mEVrO/"
+    },
+    "DE": {
+     "title": "Behind the scenes cu Dr. Adeli…",
+     "value": 141,
+     "q": "≥",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.instagram.com/reel/DeKJTlkjRgp/"
+    },
+    "RM": {
+     "title": "„Cât de multe lucruri știm…” — colaborare cu influencer (albuandreeanicoleta)",
+     "value": 630,
+     "q": "≥",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.instagram.com/reel/DeQnpcGIpL5/"
+    },
+    "Life": {
+     "title": "Ce înseamnă să faci stomatologie altfel?",
+     "value": 10,
+     "q": "≥",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.instagram.com/reel/DeTb9aFjCaL/"
+    },
+    "Eli": {
+     "title": "Din Târgoviște, direct la Budapesta",
+     "value": 22,
+     "q": "≥",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.instagram.com/p/DePDFYxDQAy/"
+    },
+    "DB": {
+     "title": "",
+     "value": null,
+     "q": "",
+     "week": null,
+     "range": null,
      "url": null
     }
    }
@@ -355,9 +427,9 @@ window.REPORT_CONFIG = {
   ],
   "notes": [
    "Engagement = like-uri + comentarii (Instagram nu arată distribuirile). Unde raportul dă doar like-uri, cifra e minimă („≥”).",
-   "În S36 și S37 rapoartele dau doar numărul aproximativ de postări, fără engagement; S29 lipsește.",
+   "Septembrie (S36–S40) are inventar complet de postări și engagement citit în toate cele 5 săptămâni.",
    "Urmăritorii apar doar în câteva rapoarte, iar unele conturi au cifre rotunjite. Elidadent și Dental Blue au conturi mici: nu se compară direct cu noi.",
-   "Life Dental Spa are cifre de engagement foarte mici sau incomplete în S39–S40 (în S40 raportul nu are cifre exacte)."
+   "Life Dental Spa are cifre de engagement foarte mici: 27 la 6 postări în S39 și 30 la 7 în S40."
   ],
   "data": {
    "DrA": {
@@ -386,15 +458,29 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≈",
-      "avgeng": "",
+      "posts": "",
+      "avgeng": "≥",
+      "followers": "≈",
       "topval": ""
      },
-     "posts": 42,
-     "eng_sum": 1393,
-     "eng_n": 28,
-     "followers": 4559,
-     "topval": 150
+     "posts": 44,
+     "eng_sum": 1168,
+     "eng_n": 43,
+     "followers": 4585,
+     "topval": 65
+    },
+    "2026-10": {
+     "posts": 8,
+     "eng_sum": 210,
+     "eng_n": 8,
+     "followers": 4600,
+     "topval": 61,
+     "q": {
+      "posts": "≥",
+      "avgeng": "",
+      "followers": "",
+      "topval": "≥"
+     }
     }
    },
    "DE": {
@@ -423,15 +509,29 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≈",
-      "avgeng": "≥",
+      "posts": "",
+      "avgeng": "",
+      "followers": "≈",
       "topval": ""
      },
-     "posts": 81,
-     "eng_sum": 2269,
-     "eng_n": 47,
-     "followers": 8895,
-     "topval": 380
+     "posts": 88,
+     "eng_sum": 2140,
+     "eng_n": 88,
+     "followers": 8944,
+     "topval": 82
+    },
+    "2026-10": {
+     "posts": 17,
+     "eng_sum": 416,
+     "eng_n": 16,
+     "followers": 8956,
+     "topval": 141,
+     "q": {
+      "posts": "≥",
+      "avgeng": "≥",
+      "followers": "",
+      "topval": "≥"
+     }
     }
    },
    "RM": {
@@ -460,14 +560,29 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
+      "posts": "",
       "avgeng": "≥",
+      "followers": "≈",
       "topval": ""
      },
-     "posts": 38,
-     "eng_sum": 772,
-     "eng_n": 24,
+     "posts": 35,
+     "eng_sum": 1001,
+     "eng_n": 32,
      "followers": 13600,
-     "topval": 101
+     "topval": 112
+    },
+    "2026-10": {
+     "posts": 9,
+     "eng_sum": 766,
+     "eng_n": 9,
+     "followers": 13600,
+     "topval": 630,
+     "q": {
+      "posts": "≥",
+      "avgeng": "",
+      "followers": "≈",
+      "topval": "≥"
+     }
     }
    },
    "Life": {
@@ -496,15 +611,29 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "posts": "≈",
-      "avgeng": "≥",
+      "posts": "",
+      "avgeng": "",
+      "followers": "≈",
       "topval": ""
      },
-     "posts": 35,
-     "eng_sum": 40,
-     "eng_n": 10,
-     "followers": 13100,
-     "topval": 11
+     "posts": 32,
+     "eng_sum": 151,
+     "eng_n": 32,
+     "followers": 13200,
+     "topval": 13
+    },
+    "2026-10": {
+     "posts": 5,
+     "eng_sum": 21,
+     "eng_n": 5,
+     "followers": 13200,
+     "topval": 10,
+     "q": {
+      "posts": "≥",
+      "avgeng": "",
+      "followers": "≈",
+      "topval": "≥"
+     }
     }
    },
    "Eli": {
@@ -533,14 +662,29 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
+      "posts": "",
       "avgeng": "",
+      "followers": "≈",
       "topval": ""
      },
      "posts": 28,
-     "eng_sum": 581,
-     "eng_n": 18,
-     "followers": 506,
-     "topval": 396
+     "eng_sum": 727,
+     "eng_n": 28,
+     "followers": 507,
+     "topval": 389
+    },
+    "2026-10": {
+     "posts": 7,
+     "eng_sum": 98,
+     "eng_n": 7,
+     "followers": 511,
+     "topval": 22,
+     "q": {
+      "posts": "≥",
+      "avgeng": "",
+      "followers": "",
+      "topval": "≥"
+     }
     }
    },
    "DB": {
@@ -569,14 +713,29 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
+      "posts": "",
       "avgeng": "",
+      "followers": "≈",
       "topval": ""
      },
      "posts": 3,
-     "eng_sum": 71,
+     "eng_sum": 8,
      "eng_n": 3,
-     "followers": 399,
-     "topval": 52
+     "followers": 405,
+     "topval": 4
+    },
+    "2026-10": {
+     "posts": 0,
+     "eng_sum": null,
+     "eng_n": 0,
+     "followers": 410,
+     "topval": null,
+     "q": {
+      "posts": "≥",
+      "avgeng": "",
+      "followers": "",
+      "topval": ""
+     }
     }
    }
   }

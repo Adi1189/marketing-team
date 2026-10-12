@@ -61,6 +61,11 @@ window.WEEKLY_CONFIG = {
    "id": "S40",
    "range": "28 sep–4 oct",
    "month": "Septembrie"
+  },
+  {
+   "id": "S41",
+   "range": "5–11 oct",
+   "month": "Octombrie"
   }
  ],
  "kpis": [
@@ -172,10 +177,10 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Vizualizări",
  "take": [
-  "Ritmul nostru e peste al Life și al Regina Maria, sub al DENT ESTET. Media pe săptămânile cu număr exact: 5,2 videouri la noi, 6,3 la DENT ESTET, 4,4 la Life și 3,4 la Regina Maria. S39 e cea mai bună săptămână a noastră (11 Shorts), urmată de S37 și S40, cu câte 8.",
-  "Performanța noastră e foarte inegală. Vizionările per video sunt 480–670 în S29, S30, S31, S33, S38 și S40, dar doar 9 în S32, 37 în S35 și 7 în S36. În S39 sunt 133: dintre cele 11 Shorts, 4 au sub 20 de vizionări, iar 6 au fost postate în doar două zile (22 și 24 sept).",
-  "Pe vizionări per video suntem peste DENT ESTET în 7 din 11 săptămâni și peste Life în 7 din 11, dar sub Regina Maria în 7 din 10. DENT ESTET publică mult (8–10 videouri pe săptămână în 6 din cele 11 săptămâni cu număr exact), cu 40–350 de vizionări pe video.",
-  "S40 are cele mai bune rezultate ale noastre din ultimele săptămâni: 8 Shorts, 3.912 vizionări, cel mai bun video la 1.273 („Hei, Leo!”, previzualizarea zâmbetului). Like-uri per vizionare în S40: 0,8% la noi, 2,2% la DENT ESTET, 1,1% la Life, 0,6% la Regina Maria.",
+  "Ritmul nostru e peste al Life și al Regina Maria, sub al DENT ESTET. Media pe săptămânile cu număr exact: 5,3 videouri la noi, 7,4 la DENT ESTET, 4,6 la Life și 3,8 la Regina Maria. S39 e cea mai bună săptămână a noastră (11 Shorts), urmată de S40 și S37, cu câte 8. În S41 am avut 7 Shorts, față de 14 la DENT ESTET.",
+  "Performanța noastră e foarte inegală. Vizionările per video sunt între 140 și 668 în 10 săptămâni, dar sub 60 în S32 (9), S35 (36), S36 (18). Vizionările sunt citite la data rulării, deci săptămânile recente au avut mai puțin timp să acumuleze.",
+  "Pe vizionări per video suntem peste DENT ESTET în 7 din 12 săptămâni, peste Life în 7 din 12, dar sub Regina Maria în 8 din 11. DENT ESTET publică mult (2–14 videouri pe săptămână în săptămânile cu număr exact), cu 38–701 vizionări pe video; în S41, un singur Short (Maia Morgenstern) are 7.901 din cele 9.815 ale lor.",
+  "S41: 7 Shorts, 1.803 vizionări (S40: 8 Shorts, 3.973), cel mai bun video 1.387 („Un zâmbet recâștigat”). Abonații noștri: 934, față de 1.350 la DENT ESTET și 9.330 la Regina Maria.",
   "Dentalist nu e în comparație, dar domină YouTube. Canalul personal al Dr. Alexandra Mircea are 345K abonați și a avut un Short cu 171.029 de vizionări (S31), o săptămână cu 133.472 (S37) și un video cu 341.000 (S39)."
  ],
  "notes": [
@@ -184,7 +189,9 @@ window.WEEKLY_CONFIG = {
   "Dental Blue nu are canal YouTube; Elidadent are un canal abandonat (0 videoclipuri). Community posts nu sunt numărate.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
-  "Abonații sunt exacți pentru canalul nostru și rotunjiți la 10 pentru DENT ESTET, Regina Maria și Life („≈”); rapoartele îi dau doar în unele săptămâni, iar în rest păstrez ultima cifră cunoscută."
+  "Abonații sunt cei de la data rulării, nu de la sfârșitul săptămânilor: exacți pentru noi, rotunjiți de API la concurenți („≈”). Pentru S29–S35 păstrez ultima cifră cunoscută din rapoarte.",
+  "S36–S40 au fost recitite cu skill-ul actualizat, cu vizualizările citite la data rulării (12 octombrie). Săptămânile S29–S35 vin din rapoartele vechi, citite mai devreme, deci vizualizările lor nu se compară direct cu cele de acum.",
+  "S41 (5–11 octombrie) a fost citită pe 12 octombrie, fără cheia API (din paginile publice YouTube); abonații Elidadent nu au putut fi citiți. Vizualizările din S41 au avut mai puțin timp să acumuleze decât cele din S36–S40."
  ],
  "data": {
   "DrA": {
@@ -317,96 +324,120 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "subs": ""
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
      "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-     "subs": "ultima cifră: S35"
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 2,
-    "views": 13,
+    "views": 35,
     "top": {
-     "title": "Short promo CARE Forum",
-     "value": 12,
+     "title": "Lucrează mai inteligent, nu mai mult! Din experiență… (Short)",
+     "value": 19,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/qe4hj53yWKk"
     },
-    "topval": 12,
-    "subs": 925
+    "topval": 19,
+    "subs": 934
    },
    "S37": {
     "q": {
-     "subs": ""
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
      "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-     "subs": "ultima cifră: S35"
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 8,
-    "views": 1481,
+    "views": 1546,
     "top": {
-     "title": "Short „Te speli zilnic pe dinți…”",
-     "value": 713,
+     "title": "Te speli zilnic pe dinți, dar tot apar carii… (Short)",
+     "value": 721,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/eHlv75lKQAU"
     },
-    "topval": 713,
-    "subs": 925
+    "topval": 721,
+    "subs": 934
    },
    "S38": {
     "q": {
-     "subs": ""
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
      "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-     "subs": "ultima cifră: S35"
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 4,
-    "views": 2154,
+    "views": 2180,
     "top": {
-     "title": "Short „El n-a văzut-o venind”",
-     "value": 1096,
+     "title": "El n-a văzut o venind (Short)",
+     "value": 1103,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/Nb6m75rpInM"
     },
-    "topval": 1096,
-    "subs": 925
+    "topval": 1103,
+    "subs": 934
    },
    "S39": {
     "q": {
-     "subs": ""
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
+     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 11,
-    "views": 1467,
+    "views": 1541,
     "top": {
-     "title": "Short testimonial „Mă simt foarte bine…”",
-     "value": 433,
+     "title": "Mă simt foarte bine, deja zic că sunt ai mei! (Short)",
+     "value": 440,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/MQSSu4Oky0E"
     },
-    "topval": 433,
-    "subs": 931
+    "topval": 440,
+    "subs": 934
    },
    "S40": {
     "q": {
-     "subs": ""
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
+     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 8,
-    "views": 3912,
+    "views": 3973,
     "top": {
-     "title": "Short „Hei, Leo!” (previzualizarea zâmbetului)",
-     "value": 1273,
+     "title": "Hei, Leo! Vrei să vezi zâmbetul înainte de tratament? (Short)",
+     "value": 1278,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/M3kE3pea1ls"
     },
-    "topval": 1273,
-    "subs": 932
+    "topval": 1278,
+    "subs": 934
+   },
+   "S41": {
+    "q": {
+     "subs": "",
+     "topval": ""
+    },
+    "note": {},
+    "posts": 7,
+    "views": 1803,
+    "subs": 934,
+    "top": {
+     "title": "Un zâmbet recâștigat. O stare care se vede",
+     "value": 1387,
+     "q": "",
+     "url": "https://www.youtube.com/shorts/ztt5VfAJPHY"
+    },
+    "topval": 1387
    }
   },
   "DE": {
@@ -531,89 +562,117 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
     "posts": 10,
-    "views": 719,
+    "views": 815,
     "top": {
-     "title": "Short implant case review",
-     "value": 306,
+     "title": "Implant dentar – Case review (Short)",
+     "value": 307,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/FH0s1gHhY8g"
     },
-    "topval": 306,
-    "subs": 1340
+    "topval": 307,
+    "subs": 1350
    },
    "S37": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
     "posts": 10,
-    "views": 872,
+    "views": 949,
     "top": {
-     "title": "Short gingivita reversibilă",
-     "value": 287,
+     "title": "Gingivita este reversibilă. Ce se întâmplă dacă nu… (Short)",
+     "value": 294,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/1HwNuwWspYE"
     },
-    "topval": 287,
-    "subs": 1340
+    "topval": 294,
+    "subs": 1350
    },
    "S38": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
-    "posts": 9,
-    "views": 379,
+    "posts": 8,
+    "views": 431,
     "top": {
-     "title": "Short boală parodontală și infarct",
-     "value": 117,
+     "title": "Legătura dintre boala parodontală și infarct sau AVC (Short)",
+     "value": 124,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/5Q_iizTyj08"
     },
-    "topval": 117,
-    "subs": 1340
+    "topval": 124,
+    "subs": 1350
    },
    "S39": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
-    "note": {},
-    "posts": 3,
-    "views": 145,
+    "note": {
+     "subs": "rotunjit de API · valoare de la data rulării"
+    },
+    "posts": 10,
+    "views": 904,
     "top": {
-     "title": "Short fațete, coroane, implanturi pe termen lung",
-     "value": 83,
+     "title": "Ce rol are inteligența artificială în ortodonție? (Short)",
+     "value": 177,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/sGBUXWZZdwc"
     },
-    "topval": 83,
-    "subs": 1340
+    "topval": 177,
+    "subs": 1350
    },
    "S40": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
-    "note": {},
+    "note": {
+     "subs": "rotunjit de API · valoare de la data rulării"
+    },
     "posts": 8,
-    "views": 756,
+    "views": 793,
     "top": {
-     "title": "Short All-on-4 Brașov",
-     "value": 210,
+     "title": "DENT ESTET Brașov: pașii după inserarea implanturilor (Short)",
+     "value": 216,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/3hjSjSiDBuk"
     },
-    "topval": 210,
+    "topval": 216,
     "subs": 1350
+   },
+   "S41": {
+    "q": {
+     "subs": "≈",
+     "topval": ""
+    },
+    "note": {
+     "subs": "rotunjit de YouTube"
+    },
+    "posts": 14,
+    "views": 9815,
+    "subs": 1350,
+    "top": {
+     "title": "Maia Morgenstern despre încredere și medicina dentară",
+     "value": 7901,
+     "q": "",
+     "url": "https://www.youtube.com/shorts/x5la6ODBHLY"
+    },
+    "topval": 7901
    }
   },
   "RM": {
@@ -738,89 +797,117 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
     "posts": 3,
-    "views": 1405,
+    "views": 1462,
     "top": {
-     "title": "Short „Copilul tău fuge de dentist?”",
-     "value": 972,
+     "title": "Copilul tău fuge de dentist? Nu ești singurul… (Short)",
+     "value": 984,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/F5rL5qyBTSs"
     },
-    "topval": 972,
+    "topval": 984,
     "subs": 9330
    },
    "S37": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
     "posts": 2,
-    "views": 1400,
+    "views": 1447,
     "top": {
-     "title": "Short gingivită vs boală parodontală",
-     "value": 1176,
+     "title": "Cum știi dacă ai gingivită sau boală parodontală (Short)",
+     "value": 1187,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/MzOJIfRt0wA"
     },
-    "topval": 1176,
+    "topval": 1187,
     "subs": 9330
    },
    "S38": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
-    "posts": 4,
-    "views": 2760,
+    "posts": 5,
+    "views": 3166,
     "top": {
-     "title": "Short „Implantul dentar…”",
-     "value": 1517,
+     "title": "Implantul dentar: cum obții un rezultat natural (Short)",
+     "value": 1529,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/3BRGDQIUXS0"
     },
-    "topval": 1517,
+    "topval": 1529,
     "subs": 9330
    },
    "S39": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
-    "note": {},
+    "note": {
+     "subs": "rotunjit de API · valoare de la data rulării"
+    },
     "posts": 4,
-    "views": 1155,
+    "views": 1228,
     "top": {
-     "title": "Short Fast&Fixed",
-     "value": 401,
+     "title": "Fast&Fixed: cum îți poți recăpăta zâmbetul (Short)",
+     "value": 405,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/2Xk1OVcvfKk"
     },
-    "topval": 401,
+    "topval": 405,
     "subs": 9330
    },
    "S40": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
-    "note": {},
+    "note": {
+     "subs": "rotunjit de API · valoare de la data rulării"
+    },
     "posts": 3,
-    "views": 652,
+    "views": 699,
     "top": {
-     "title": "Short Ziua Zâmbetului",
-     "value": 473,
+     "title": "Ziua Mondială a Zâmbetului la noi în clinică (Short)",
+     "value": 501,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/2mhAxxqRKPE"
     },
-    "topval": 473,
+    "topval": 501,
     "subs": 9330
+   },
+   "S41": {
+    "q": {
+     "subs": "≈",
+     "topval": ""
+    },
+    "note": {
+     "subs": "rotunjit de YouTube"
+    },
+    "posts": 7,
+    "views": 3816,
+    "subs": 9330,
+    "top": {
+     "title": "Aceste obiceiuri îți pot distruge dinții",
+     "value": 1216,
+     "q": "",
+     "url": "https://www.youtube.com/shorts/sVG6FiwoOS4"
+    },
+    "topval": 1216
    }
   },
   "Life": {
@@ -943,89 +1030,117 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
     "posts": 4,
-    "views": 1245,
+    "views": 1295,
     "top": {
-     "title": "Long-form Gabriela Cristea",
-     "value": 774,
+     "title": "Gabriela Cristea a revenit la Life Dental Spa pentru… (video)",
+     "value": 798,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/watch?v=yAvCBRu4jiY"
     },
-    "topval": 774,
+    "topval": 798,
     "subs": 2000
    },
    "S37": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
     "posts": 3,
-    "views": 352,
+    "views": 371,
     "top": {
-     "title": "Short încrederea",
-     "value": 166,
+     "title": "Încrederea se construiește în timp (Short)",
+     "value": 170,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/QC824AIf4bw"
     },
-    "topval": 166,
+    "topval": 170,
     "subs": 2000
    },
    "S38": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S35"
+     "subs": "rotunjit de API · valoare de la data rulării"
     },
     "posts": 4,
-    "views": 358,
+    "views": 401,
     "top": {
-     "title": "Short „Ți s-a spus că un dinte trebuie scos?”",
-     "value": 160,
+     "title": "Ți s-a spus că un dinte trebuie scos? Nu te grăbi… (Short)",
+     "value": 170,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/Dl3xoo7-Ea8"
     },
-    "topval": 160,
+    "topval": 170,
     "subs": 2000
    },
    "S39": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
-    "note": {},
+    "note": {
+     "subs": "rotunjit de API · valoare de la data rulării"
+    },
     "posts": 5,
-    "views": 451,
+    "views": 491,
     "top": {
-     "title": "Short „Te speli corect pe dinți…”",
-     "value": 135,
+     "title": "Te speli corect pe dinți de două ori pe zi și, totuși… (Short)",
+     "value": 148,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/rtfT9WPR_i8"
     },
-    "topval": 135,
+    "topval": 148,
     "subs": 2000
    },
    "S40": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
-    "note": {},
+    "note": {
+     "subs": "rotunjit de API · valoare de la data rulării"
+    },
     "posts": 5,
-    "views": 2823,
+    "views": 2833,
     "top": {
-     "title": "Short „Te speli pe dinți…”",
-     "value": 810,
+     "title": "Te speli pe dinți de două ori pe zi și tot îți… (Short)",
+     "value": 814,
      "q": "",
-     "url": null
+     "url": "https://www.youtube.com/shorts/fPKXTFf7eUo"
     },
-    "topval": 810,
+    "topval": 814,
     "subs": 2000
+   },
+   "S41": {
+    "q": {
+     "subs": "≈",
+     "topval": ""
+    },
+    "note": {
+     "subs": "rotunjit de YouTube"
+    },
+    "posts": 4,
+    "views": 1675,
+    "subs": 2000,
+    "top": {
+     "title": "Prima vizită a copilului la dentist",
+     "value": 718,
+     "q": "",
+     "url": "https://www.youtube.com/shorts/ZU_f-LI_lSI"
+    },
+    "topval": 718
    }
   },
   "Eli": {
@@ -1155,10 +1270,11 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S29"
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 0,
     "views": 0,
@@ -1173,10 +1289,11 @@ window.WEEKLY_CONFIG = {
    },
    "S37": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S29"
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 0,
     "views": 0,
@@ -1191,10 +1308,11 @@ window.WEEKLY_CONFIG = {
    },
    "S38": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S29"
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 0,
     "views": 0,
@@ -1209,10 +1327,11 @@ window.WEEKLY_CONFIG = {
    },
    "S39": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
     "note": {
-     "subs": "ultima cifră: S29"
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 0,
     "views": 0,
@@ -1227,9 +1346,12 @@ window.WEEKLY_CONFIG = {
    },
    "S40": {
     "q": {
-     "subs": "≈"
+     "subs": "≈",
+     "topval": ""
     },
-    "note": {},
+    "note": {
+     "subs": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+    },
     "posts": 0,
     "views": 0,
     "top": {
@@ -1240,6 +1362,25 @@ window.WEEKLY_CONFIG = {
     },
     "topval": null,
     "subs": 1
+   },
+   "S41": {
+    "q": {
+     "subs": "",
+     "topval": ""
+    },
+    "note": {
+     "subs": "nu a putut fi citit"
+    },
+    "posts": 0,
+    "views": 0,
+    "subs": null,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null
    }
   }
  }

@@ -59,7 +59,9 @@ window.REPORT_CONFIG = {
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
   "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte.",
-  "Abonații vin din rapoarte: exacți pentru noi, rotunjiți la 10 la concurenți. Pentru fiecare lună e ultima cifră din raport."
+  "Abonații vin din rapoarte: pentru septembrie sunt cei de la data rulării (12 octombrie), exacți pentru noi și rotunjiți de API la concurenți. Pentru iulie–august e ultima cifră din rapoartele vechi.",
+  "Septembrie (S36–S40) a fost recitit cu skill-ul actualizat, cu vizualizările citite pe 12 octombrie. Iulie–august vin din rapoartele vechi, citite mai devreme, deci variația față de august poate fi influențată de data citirii.",
+  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie."
  ],
  "data": {
   "2026-07": {
@@ -178,49 +180,49 @@ window.REPORT_CONFIG = {
   },
   "2026-09": {
    "posts": 33,
-   "views": 9027,
+   "views": 9275,
    "leads": null,
    "q": {
-    "subs": ""
+    "subs": "≈"
    },
    "note": {
     "posts": "5 din 5 săpt.",
-    "views": "vizionări din ziua raportului",
+    "views": "vizionări citite pe 12 oct",
     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-    "subs": "la S40, cifră exactă"
+    "subs": "valoare de la data rulării"
    },
    "topPosts": {
     "DrA": {
-     "title": "Short „Hei, Leo!” (previzualizarea zâmbetului)",
-     "value": 1273,
+     "title": "Hei, Leo! Vrei să vezi zâmbetul înainte de tratament? (Short)",
+     "value": 1278,
      "q": "",
      "week": "S40",
      "range": "28 sep–4 oct",
-     "url": null
+     "url": "https://www.youtube.com/shorts/M3kE3pea1ls"
     },
     "DE": {
-     "title": "Short implant case review",
-     "value": 306,
+     "title": "Implant dentar – Case review (Short)",
+     "value": 307,
      "q": "",
      "week": "S36",
      "range": "31 aug–6 sep",
-     "url": null
+     "url": "https://www.youtube.com/shorts/FH0s1gHhY8g"
     },
     "RM": {
-     "title": "Short „Implantul dentar…”",
-     "value": 1517,
+     "title": "Implantul dentar: cum obții un rezultat natural (Short)",
+     "value": 1529,
      "q": "",
      "week": "S38",
      "range": "14–20 sep",
-     "url": null
+     "url": "https://www.youtube.com/shorts/3BRGDQIUXS0"
     },
     "Life": {
-     "title": "Short „Te speli pe dinți…”",
-     "value": 810,
+     "title": "Te speli pe dinți de două ori pe zi și tot îți… (Short)",
+     "value": 814,
      "q": "",
      "week": "S40",
      "range": "28 sep–4 oct",
-     "url": null
+     "url": "https://www.youtube.com/shorts/fPKXTFf7eUo"
     },
     "Eli": {
      "title": "",
@@ -231,7 +233,67 @@ window.REPORT_CONFIG = {
      "url": null
     }
    },
-   "subs": 932
+   "subs": 934
+  },
+  "2026-10": {
+   "posts": 7,
+   "views": 1803,
+   "leads": null,
+   "q": {
+    "posts": "≥",
+    "views": "≥",
+    "subs": ""
+   },
+   "note": {
+    "posts": "luna în curs: doar S41 (5–11 oct)",
+    "views": "doar S41 · citit pe 12 oct",
+    "leads": "luna în curs",
+    "subs": "la S41"
+   },
+   "subs": 934,
+   "nocmp": true,
+   "topPosts": {
+    "DrA": {
+     "title": "Un zâmbet recâștigat. O stare care se vede",
+     "value": 1387,
+     "q": "≥",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.youtube.com/shorts/ztt5VfAJPHY"
+    },
+    "DE": {
+     "title": "Maia Morgenstern despre încredere și medicina dentară",
+     "value": 7901,
+     "q": "≥",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.youtube.com/shorts/x5la6ODBHLY"
+    },
+    "RM": {
+     "title": "Aceste obiceiuri îți pot distruge dinții",
+     "value": 1216,
+     "q": "≥",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.youtube.com/shorts/sVG6FiwoOS4"
+    },
+    "Life": {
+     "title": "Prima vizită a copilului la dentist",
+     "value": 718,
+     "q": "≥",
+     "week": "S41",
+     "range": "5–11 oct",
+     "url": "https://www.youtube.com/shorts/ZU_f-LI_lSI"
+    },
+    "Eli": {
+     "title": "",
+     "value": null,
+     "q": "",
+     "week": null,
+     "range": null,
+     "url": null
+    }
+   }
   }
  },
  "compare": {
@@ -303,7 +365,7 @@ window.REPORT_CONFIG = {
    "Dental Blue nu are canal YouTube. Elidadent are un canal abandonat (0 videoclipuri în toate cele 12 săptămâni).",
    "În S30 raportul nu are date pe Shorts pentru DENT ESTET și Regina Maria, deci iulie e minim pentru ei („≥”).",
    "Vizualizările sunt cele din ziua raportului: videoclipurile recente au mai puține vizualizări decât cele vechi.",
-   "Abonații sunt exacți pentru canalul nostru și rotunjiți la 10 pentru DENT ESTET, Regina Maria și Life („≈”); sunt cei de la ultimul raport din lună."
+   "Abonații sunt cei de la data rulării: exacți pentru noi, rotunjiți de API („≈”) pentru DENT ESTET, Regina Maria și Life."
   ],
   "data": {
    "DrA": {
@@ -329,13 +391,25 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "topval": "",
-      "subs": ""
+      "subs": "≈",
+      "topval": ""
      },
      "posts": 33,
-     "views": 9027,
-     "topval": 1273,
-     "subs": 932
+     "views": 9275,
+     "topval": 1278,
+     "subs": 934
+    },
+    "2026-10": {
+     "posts": 7,
+     "views": 1803,
+     "subs": 934,
+     "topval": 1387,
+     "q": {
+      "posts": "≥",
+      "views": "≥",
+      "subs": "",
+      "topval": "≥"
+     }
     }
    },
    "DE": {
@@ -364,13 +438,25 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "topval": "",
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
-     "posts": 40,
-     "views": 2871,
-     "topval": 306,
+     "posts": 46,
+     "views": 3892,
+     "topval": 307,
      "subs": 1350
+    },
+    "2026-10": {
+     "posts": 14,
+     "views": 9815,
+     "subs": 1350,
+     "topval": 7901,
+     "q": {
+      "posts": "≥",
+      "views": "≥",
+      "subs": "≈",
+      "topval": "≥"
+     }
     }
    },
    "RM": {
@@ -399,13 +485,25 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "topval": "",
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
-     "posts": 16,
-     "views": 7372,
-     "topval": 1517,
+     "posts": 17,
+     "views": 8002,
+     "topval": 1529,
      "subs": 9330
+    },
+    "2026-10": {
+     "posts": 7,
+     "views": 3816,
+     "subs": 9330,
+     "topval": 1216,
+     "q": {
+      "posts": "≥",
+      "views": "≥",
+      "subs": "≈",
+      "topval": "≥"
+     }
     }
    },
    "Life": {
@@ -432,13 +530,25 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "topval": "",
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
      "posts": 21,
-     "views": 5229,
-     "topval": 810,
+     "views": 5391,
+     "topval": 814,
      "subs": 2000
+    },
+    "2026-10": {
+     "posts": 4,
+     "views": 1675,
+     "subs": 2000,
+     "topval": 718,
+     "q": {
+      "posts": "≥",
+      "views": "≥",
+      "subs": "≈",
+      "topval": "≥"
+     }
     }
    },
    "Eli": {
@@ -460,11 +570,25 @@ window.REPORT_CONFIG = {
     },
     "2026-09": {
      "q": {
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
      "posts": 0,
      "views": 0,
-     "subs": 1
+     "subs": 1,
+     "topval": null
+    },
+    "2026-10": {
+     "posts": 0,
+     "views": 0,
+     "subs": null,
+     "topval": null,
+     "q": {
+      "posts": "≥",
+      "views": "≥",
+      "subs": "",
+      "topval": ""
+     }
     }
    }
   }

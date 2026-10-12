@@ -61,6 +61,11 @@ window.WEEKLY_CONFIG = {
    "id": "S40",
    "range": "28 sep–4 oct",
    "month": "Septembrie"
+  },
+  {
+   "id": "S41",
+   "range": "5–11 oct",
+   "month": "Octombrie"
   }
  ],
  "kpis": [
@@ -194,18 +199,20 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 11 săptămâni: 7,4 postări pe săptămână la noi, 7,0 la Regina Maria, 7,1 la Life și 14,5 la DENT ESTET. Vârful nostru a fost 13 în S38. În S40 am coborât la 6, în timp ce DENT ESTET a urcat la 19.",
-  "Pe rata de engagement stăm bine. Suntem peste DENT ESTET în 8 din 9 săptămâni cu cifre (0,46–1,39% față de 0,25–1,08%) și peste Regina Maria și Life în toate. Pe engagement mediu per postare, DENT ESTET ne depășește în 4 din 9 săptămâni (S30, S35, S39, S40). În S30 și S39 pe un vârf (307 și 380).",
-  "S40 e cea mai slabă săptămână a noastră dintre cele 9 cu cifre. Media a căzut la 21,0 pe postare, de la 63,1 în S39. S39 a fost trasă de două urări de ziua medicilor (257 din 568). Fără ele media e 44,4, deci S40 rămâne sub jumătate din acel nivel.",
-  "Urmăritori: DENT ESTET a crescut cu 1.222 (+15,9%) din S28 până în S40, noi cu 287 (+6,7%). Life a crescut cu +4,0% și Regina Maria cu +1,5%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+6,8%) și Dental Blue (+7,0%) cresc procentual la fel ca noi, de la baze foarte mici.",
-  "Ce a adus vârfuri: colaborări cu persoane publice (Elidadent × Bianca Iotu: 396; DENT ESTET × Maia Morgenstern: 208; Regina Maria × influenceri: 171), campanii cu reducere (DENT ESTET, Align Smile Wallet: 380) și momentele de echipă. La noi: urarea Dr. Arina Lupu (150), reelul despre extinderea Slobozia (144) și postarea CARE Forum (136)."
+  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 12 săptămâni: 7,6 postări pe săptămână la noi, 6,9 la Regina Maria, 6,7 la Life și 15,2 la DENT ESTET. Vârful nostru a fost 12 în S38. În S41 am avut 8 postări, față de 17 la DENT ESTET.",
+  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 11 din 12 săptămâni cu cifre (0,42–1,24% față de 0,21–1,12%), peste Regina Maria în 11 și peste Life în 11. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 12 săptămâni (S30, S35, S40).",
+  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 12 cu cifre e S40 (19,3), cea mai bună e S33 (54,2). În S40 a fost 19,3, iar în S41 26,2 (reelul de la TEDx: 61).",
+  "Urmăritori, de la prima cifră (S28) la S41: DENT ESTET +1.283 (+16,7%), noi +328 (+7,7%). Life +4,8% și Regina Maria +1,5%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+7,8%) și Dental Blue (+9,9%) pornesc de la baze foarte mici.",
+  "Ce a adus vârfuri: colaborări cu persoane publice (Elidadent × Bianca Iotu: 396; DENT ESTET × Maia Morgenstern: 208; Regina Maria × influenceri: 171 în vechile rapoarte, 630 în S41), campanii cu reducere (DENT ESTET, Align Smile Wallet: 380) și momentele de echipă. La noi, cele mai bune trei postări săptămânale: Reel extindere Slobozia (129/15) (144, S32); Reel update Brăila, 21 aug (likes) (97, S34); Reel umor „întrebări nepotrivite”, 13 aug (84/4) (88, S33)."
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
-  "Raportul pentru S29 lipsește. În S36 și S37 rapoartele dau doar numărul aproximativ de postări, fără engagement.",
+  "Raportul pentru S29 lipsește.",
   "Engagement = like-uri + comentarii (Instagram nu arată distribuirile); unde raportul dă doar like-uri, cifra e minimă („≥”). Urmăritorii apar doar în câteva rapoarte (se păstrează ultima cifră cunoscută).",
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
-  "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport."
+  "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
+  "S36–S40 au fost recitite cu skill-ul actualizat. Engagementul din aceste săptămâni e mult sub cel din rapoartele vechi (de exemplu S38 la noi: 374 față de 699, S39: 224 față de 568), deci nu se compară direct cu S30–S35. Urmăritorii din S36–S40 sunt cei de la data rulării, nu de la sfârșitul săptămânilor.",
+  "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Regina Maria are în S41 un reel în colaborare cu 630 de interacțiuni; fără el media ei ar fi 17,0. Raportul nu are variația față de S40 (nu a măsurat acea săptămână), dar aici S40 există și e folosit pentru variație."
  ],
  "data": {
   "DrA": {
@@ -364,108 +371,136 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "posts": "≈",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 6,
-    "followers": 4461,
+    "followers": 4600,
     "top": {
-     "title": "Doar o parte din postări au cifre (58/4)",
-     "value": 62,
-     "q": "≥",
-     "url": null
+     "title": "Fiecare zâmbet are o poveste, iar povestea mea a… (reel colaborativ @drvirginiaardeleanu)",
+     "value": 61,
+     "q": "",
+     "url": "https://www.instagram.com/drvirginiaardeleanu/reel/DcwKYIaNMP-/"
     },
-    "topval": 62,
-    "leads": 346
+    "topval": 61,
+    "leads": 346,
+    "eng_sum": 156,
+    "eng_n": 6
    },
    "S37": {
     "q": {
-     "posts": "≈",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S36",
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
      "leads": "Facebook + Instagram, împreună"
     },
-    "posts": 8,
-    "followers": 4461,
+    "posts": 10,
+    "followers": 4600,
     "top": {
-     "title": "O singură postare cu cifre",
-     "value": 13,
-     "q": "≥",
-     "url": null
+     "title": "Când obiectivele sunt clare, mesajul ajunge repede… (reel)",
+     "value": 62,
+     "q": "",
+     "url": "https://www.instagram.com/dr.ardeleanu/reel/DdD8KLbEbf7/"
     },
-    "topval": 13,
-    "leads": 312
+    "topval": 62,
+    "leads": 312,
+    "eng_sum": 279,
+    "eng_n": 10
    },
    "S38": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈",
+     "avgeng": "≥"
     },
     "note": {
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
+     "avgeng": "11 din 12 postări au engagement citit"
     },
-    "posts": 13,
-    "eng_sum": 699,
-    "eng_n": 13,
-    "followers": 4505,
+    "posts": 12,
+    "eng_sum": 374,
+    "eng_n": 11,
+    "followers": 4600,
     "top": {
-     "title": "Postare CARE Forum, 20 sept (130/6)",
-     "value": 136,
+     "title": "CARE Forum continuă, cu energie… (carusel)",
+     "value": 65,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/dr.ardeleanu/p/Ddd8WKCm-0Q/"
     },
-    "topval": 136,
+    "topval": 65,
     "leads": 328
    },
    "S39": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S38",
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
      "leads": "Facebook + Instagram, împreună"
     },
     "posts": 9,
-    "eng_sum": 568,
+    "eng_sum": 224,
     "eng_n": 9,
-    "followers": 4505,
+    "followers": 4585,
     "top": {
-     "title": "Urare Dr. Arina Lupu (92/58)",
-     "value": 150,
+     "title": "Într-un context economic în continuă schimbare, leadershipul… (Forbes CEE Forum)",
+     "value": 52,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/dr.ardeleanu/p/DdqV-npCqAZ/"
     },
-    "topval": 150,
+    "topval": 52,
     "leads": 284
    },
    "S40": {
     "q": {
-     "avgeng": "",
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+    },
+    "posts": 7,
+    "eng_sum": 135,
+    "eng_n": 7,
+    "followers": 4585,
+    "top": {
+     "title": "Când pacientul uită pentru o secundă de ce a venit la dentist (reel)",
+     "value": 38,
+     "q": "",
+     "url": "https://www.instagram.com/dr.ardeleanu/reel/Dd_CdZkjDd9/"
+    },
+    "topval": 38,
+    "leads": 380
+   },
+   "S41": {
+    "q": {
+     "followers": "",
      "topval": ""
     },
     "note": {
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Puls avea S41 doar parțial la ultima citire"
     },
-    "posts": 6,
-    "eng_sum": 126,
-    "eng_n": 6,
-    "followers": 4559,
+    "leads": null,
+    "posts": 8,
+    "eng_sum": 210,
+    "eng_n": 8,
+    "followers": 4600,
     "top": {
-     "title": "Reel umor, 2 oct (36/1)",
-     "value": 37,
+     "title": "„Nu există scurtături către succes.” — TEDx Tudor Vianu",
+     "value": 61,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DeKC2_mEVrO/"
     },
-    "topval": 37,
-    "leads": 380
+    "topval": 61
    }
   },
   "DE": {
@@ -611,100 +646,124 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
-    "posts": 19,
-    "followers": 8393,
+    "posts": 17,
+    "followers": 8955,
     "top": {
-     "title": "Doar o parte din postări au cifre (65/1)",
-     "value": 66,
-     "q": "≥",
-     "url": null
+     "title": "Chirurgie avansată. Practică reală. Expertiză… (colaborare @dentestet.arad)",
+     "value": 55,
+     "q": "",
+     "url": "https://www.instagram.com/dentestet.arad/p/Dc0fbpYjXzG/"
     },
-    "topval": 66
+    "topval": 55,
+    "eng_sum": 432,
+    "eng_n": 17
    },
    "S37": {
     "q": {
-     "posts": "≈",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
-    "posts": 10,
-    "followers": 8393,
+    "posts": 18,
+    "followers": 8955,
     "top": {
-     "title": "raportul nu dă cifre",
-     "value": null,
+     "title": "Un zâmbet «perfect» poate ascunde o problemă pe care… (reel)",
+     "value": 66,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/dent.estet/reel/DdGQFukDKC6/"
     },
-    "topval": null
+    "topval": 66,
+    "eng_sum": 435,
+    "eng_n": 18
    },
    "S38": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
-    "posts": 19,
-    "eng_sum": 701,
-    "eng_n": 19,
-    "followers": 8393,
+    "posts": 18,
+    "eng_sum": 339,
+    "eng_n": 18,
+    "followers": 8955,
     "top": {
-     "title": "Carusel „Nu am os pentru implant?”",
-     "value": 136,
+     "title": "La DENT ESTET 4 Teens, fiecare caz ne amintește că… (carusel)",
+     "value": 42,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/dent.estet/p/DdYKs-GjdlS/"
     },
-    "topval": 136
+    "topval": 42
    },
    "S39": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
-    "posts": 14,
-    "eng_sum": 1169,
-    "eng_n": 14,
-    "followers": 8393,
+    "posts": 16,
+    "eng_sum": 391,
+    "eng_n": 16,
+    "followers": 8944,
     "top": {
-     "title": "Campania Align Smile Wallet (379/1)",
-     "value": 380,
+     "title": "Ai auzit de tomografia computerizată dentară (CBCT)… (reel)",
+     "value": 82,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/dent.estet/reel/DdnubhTgURe/"
     },
-    "topval": 380
+    "topval": 82
    },
    "S40": {
     "q": {
-     "avgeng": "≥",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 19,
-    "eng_sum": 399,
-    "eng_n": 14,
-    "followers": 8895,
+    "eng_sum": 543,
+    "eng_n": 19,
+    "followers": 8944,
     "top": {
-     "title": "Anunț LIVE ProTV (73/1)",
-     "value": 74,
+     "title": "De mai bine de 5 ani, facem Ploieștiul să zâmbească (carusel)",
+     "value": 81,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/dent.estet/p/DeBQjZekann/"
     },
-    "topval": 74
+    "topval": 81
+   },
+   "S41": {
+    "q": {
+     "followers": "",
+     "topval": "",
+     "avgeng": "≥"
+    },
+    "note": {
+     "avgeng": "16 din 17 postări au engagement citit"
+    },
+    "posts": 17,
+    "eng_sum": 416,
+    "eng_n": 16,
+    "followers": 8956,
+    "top": {
+     "title": "Behind the scenes cu Dr. Adeli…",
+     "value": 141,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DeKJTlkjRgp/"
+    },
+    "topval": 141
    }
   },
   "RM": {
@@ -850,99 +909,129 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "rotunjit în pagină · valoare de la data rulării"
     },
-    "posts": 6,
-    "followers": 13500,
+    "posts": 5,
+    "followers": 13600,
     "top": {
-     "title": "raportul nu dă cifre",
-     "value": null,
+     "title": "Ce impact are menopauza asupra sănătății cavității… (reel colaborativ @dr.cezaraelena)",
+     "value": 70,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/dr.cezaraelena/reel/Dc3J6m5SKKr/"
     },
-    "topval": null
+    "topval": 70,
+    "eng_sum": 173,
+    "eng_n": 5
    },
    "S37": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "rotunjit în pagină · valoare de la data rulării"
     },
     "posts": 7,
-    "followers": 13500,
+    "followers": 13600,
     "top": {
-     "title": "raportul nu dă cifre",
-     "value": null,
+     "title": "Ani de zile, pacientul nostru nu a mai putut mânca… (reel)",
+     "value": 41,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reginamariadentalclinics/reel/DdG9ydboOt7/"
     },
-    "topval": null
+    "topval": 41,
+    "eng_sum": 165,
+    "eng_n": 7
    },
    "S38": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈",
+     "avgeng": "≥"
     },
     "note": {
-     "followers": "ultima cifră: S35"
+     "followers": "rotunjit în pagină · valoare de la data rulării",
+     "avgeng": "7 din 8 postări au engagement citit"
     },
-    "posts": 9,
-    "eng_sum": 317,
-    "eng_n": 9,
-    "followers": 13500,
+    "posts": 8,
+    "eng_sum": 228,
+    "eng_n": 7,
+    "followers": 13600,
     "top": {
-     "title": "Colab @drdianapopescu, gingii",
-     "value": 78,
+     "title": "O conversație despre sănătatea gingiilor… (postare colaborativă @drdianapopescu)",
+     "value": 81,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/drdianapopescu/p/DdUHfKktpdF/"
     },
-    "topval": 78
+    "topval": 81
    },
    "S39": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈",
+     "avgeng": "≥"
     },
     "note": {
-     "followers": "ultima cifră: S35"
+     "followers": "rotunjit în pagină · valoare de la data rulării",
+     "avgeng": "5 din 6 postări au engagement citit"
     },
-    "posts": 7,
-    "eng_sum": 221,
-    "eng_n": 7,
-    "followers": 13500,
+    "posts": 6,
+    "eng_sum": 186,
+    "eng_n": 5,
+    "followers": 13600,
     "top": {
-     "title": "Notă „Lucrăm la V2 a campaniei” (99/2)",
-     "value": 101,
+     "title": "Lucrăm la versiunea V2 a campaniei. Mulțumim pentru feedback",
+     "value": 112,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reginamariadentalclinics/p/DdtpJ8xIa_e/"
     },
-    "topval": 101
+    "topval": 112
    },
    "S40": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈",
+     "avgeng": "≥"
     },
     "note": {
-     "avgeng": "doar like-uri"
+     "followers": "rotunjit în pagină · valoare de la data rulării",
+     "avgeng": "8 din 9 postări au engagement citit"
     },
     "posts": 9,
-    "eng_sum": 234,
+    "eng_sum": 249,
     "eng_n": 8,
     "followers": 13600,
     "top": {
-     "title": "Reel Ziua Zâmbetului (71/6); un reel cu like-uri ascunse",
-     "value": 77,
-     "q": "≥",
-     "url": null
+     "title": "De Ziua Mondială a Zâmbetului… (reel)",
+     "value": 82,
+     "q": "",
+     "url": "https://www.instagram.com/reginamariadentalclinics/reel/Dd_LCpaOT-w/"
     },
-    "topval": 77
+    "topval": 82
+   },
+   "S41": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit în pagină"
+    },
+    "posts": 9,
+    "eng_sum": 766,
+    "eng_n": 9,
+    "followers": 13600,
+    "top": {
+     "title": "„Cât de multe lucruri știm…” — colaborare cu influencer (albuandreeanicoleta)",
+     "value": 630,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DeQnpcGIpL5/"
+    },
+    "topval": 630
    }
   },
   "Life": {
@@ -1085,98 +1174,123 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "posts": "≈",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "rotunjit în pagină · valoare de la data rulării"
     },
-    "posts": 9,
-    "followers": 13000,
+    "posts": 7,
+    "followers": 13200,
     "top": {
-     "title": "raportul nu dă cifre",
-     "value": null,
+     "title": "Carii ascunse, fisuri dentare, retracții gingivale… (reel)",
+     "value": 11,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/lifedentalspa/reel/DcxmD8xAX1O/"
     },
-    "topval": null
+    "topval": 11,
+    "eng_sum": 35,
+    "eng_n": 7
    },
    "S37": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "rotunjit în pagină · valoare de la data rulării"
     },
-    "posts": 8,
-    "followers": 13000,
+    "posts": 7,
+    "followers": 13200,
     "top": {
-     "title": "raportul nu dă cifre",
-     "value": null,
+     "title": "Cât mai amâni vizita la medicul stomatolog? (reel)",
+     "value": 6,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/lifedentalspa/reel/DdDi4UTDVkx/"
     },
-    "topval": null
+    "topval": 6,
+    "eng_sum": 27,
+    "eng_n": 7
    },
    "S38": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S35"
+     "followers": "rotunjit în pagină · valoare de la data rulării"
     },
     "posts": 5,
-    "eng_sum": 24,
+    "eng_sum": 32,
     "eng_n": 5,
-    "followers": 13000,
+    "followers": 13200,
     "top": {
-     "title": "Reel carii fără durere",
-     "value": 11,
+     "title": "Știai că o carie poate evolua fără să doară? (reel)",
+     "value": 13,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/lifedentalspa/reel/DdaySr7FJnq/"
     },
-    "topval": 11
+    "topval": 13
    },
    "S39": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri",
-     "followers": "ultima cifră: S35"
+     "followers": "rotunjit în pagină · valoare de la data rulării"
     },
     "posts": 6,
-    "eng_sum": 16,
-    "eng_n": 5,
-    "followers": 13000,
+    "eng_sum": 27,
+    "eng_n": 6,
+    "followers": 13200,
     "top": {
-     "title": "O postare fără cifre în raport",
-     "value": 7,
-     "q": "≥",
-     "url": null
+     "title": "Crezi că fațetele dentare înseamnă un zâmbet artificial? (reel)",
+     "value": 12,
+     "q": "",
+     "url": "https://www.instagram.com/lifedentalspa/reel/DdvX768DAf3/"
     },
-    "topval": 7
+    "topval": 12
    },
    "S40": {
     "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "rotunjit în pagină · valoare de la data rulării"
+    },
+    "posts": 7,
+    "followers": 13200,
+    "top": {
+     "title": "Guvernele se schimbă. Scuzele pentru dentist rămân surprinzător de stabile.",
+     "value": 9,
+     "q": "",
+     "url": "https://www.instagram.com/lifedentalspa/p/Dd9TQ_lClJ-/"
+    },
+    "topval": 9,
+    "eng_sum": 30,
+    "eng_n": 7
+   },
+   "S41": {
+    "q": {
+     "followers": "≈",
      "topval": ""
     },
     "note": {
-     "avgeng": "raportul nu dă engagement"
+     "followers": "rotunjit în pagină"
     },
-    "posts": 7,
-    "followers": 13100,
+    "posts": 5,
+    "eng_sum": 21,
+    "eng_n": 5,
+    "followers": 13200,
     "top": {
-     "title": "Carusel „Guvernele se schimbă”",
-     "value": 8,
+     "title": "Ce înseamnă să faci stomatologie altfel?",
+     "value": 10,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DeTb9aFjCaL/"
     },
-    "topval": 8
+    "topval": 10
    }
   },
   "Eli": {
@@ -1322,97 +1436,121 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 5,
-    "followers": 488,
+    "followers": 511,
     "top": {
-     "title": "raportul nu dă cifre",
-     "value": null,
+     "title": "Cum se citește o radiografie dentară și ce caut… (reel)",
+     "value": 13,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/clinicaelidadent/reel/Dc3gnd_icNn/"
     },
-    "topval": null
+    "topval": 13,
+    "eng_sum": 50,
+    "eng_n": 5
    },
    "S37": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 5,
-    "followers": 488,
+    "followers": 511,
     "top": {
-     "title": "raportul nu dă cifre",
-     "value": null,
+     "title": "La finalul zilei când întrebi sacul de gunoi… (reel)",
+     "value": 55,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/clinicaelidadent/reel/DdB0nPfCJoE/"
     },
-    "topval": null
+    "topval": 55,
+    "eng_sum": 91,
+    "eng_n": 5
    },
    "S38": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 5,
     "eng_sum": 435,
     "eng_n": 5,
-    "followers": 488,
+    "followers": 511,
     "top": {
-     "title": "Colab Bianca Iotu (Insula Iubirii), 394/2",
-     "value": 396,
+     "title": "Toată lumea are aceeași curiozitate: «Bianca de la Insula Iubirii…» (reel)",
+     "value": 389,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/clinicaelidadent/reel/DdWzQTQNh9y/"
     },
-    "topval": 396
+    "topval": 389
    },
    "S39": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 6,
-    "eng_sum": 88,
+    "eng_sum": 91,
     "eng_n": 6,
-    "followers": 488,
+    "followers": 507,
     "top": {
-     "title": "Colab Insula Iubirii (38/2)",
-     "value": 40,
+     "title": "Când filmezi cu Bianca de la Insula Iubirii… (reel)",
+     "value": 42,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/clinicaelidadent/reel/DdlnwRojEiH/"
     },
-    "topval": 40
+    "topval": 42
    },
    "S40": {
     "q": {
-     "avgeng": "",
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+    },
+    "posts": 7,
+    "eng_sum": 60,
+    "eng_n": 7,
+    "followers": 507,
+    "top": {
+     "title": "Te-a durut un dinte, iar apoi durerea a dispărut? (reel)",
+     "value": 16,
+     "q": "",
+     "url": "https://www.instagram.com/clinicaelidadent/reel/DeCQ2k4kUx_/"
+    },
+    "topval": 16
+   },
+   "S41": {
+    "q": {
+     "followers": "",
      "topval": ""
     },
     "note": {},
     "posts": 7,
-    "eng_sum": 58,
+    "eng_sum": 98,
     "eng_n": 7,
-    "followers": 506,
+    "followers": 511,
     "top": {
-     "title": "Reel „Te-a durut un dinte…”",
-     "value": 15,
+     "title": "Din Târgoviște, direct la Budapesta",
+     "value": 22,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/p/DePDFYxDQAy/"
     },
-    "topval": 15
+    "topval": 22
    }
   },
   "DB": {
@@ -1552,32 +1690,118 @@ window.WEEKLY_CONFIG = {
    },
    "S36": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
+     "posts": "nicio postare în săptămână"
     },
     "posts": 0,
-    "followers": 390,
+    "followers": 409,
     "top": {
      "title": "fără postări",
      "value": null,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": null,
+    "eng_sum": null,
+    "eng_n": 0
    },
    "S37": {
     "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
+     "posts": "nicio postare în săptămână"
+    },
+    "posts": 0,
+    "followers": 409,
+    "top": {
+     "title": "fără postări",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null,
+    "eng_sum": null,
+    "eng_n": 0
+   },
+   "S38": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+    },
+    "posts": 1,
+    "eng_sum": 1,
+    "eng_n": 1,
+    "followers": 409,
+    "top": {
+     "title": "Îți lipsesc 5 sau mai mulți dinți? (reel)",
+     "value": 1,
+     "q": "",
+     "url": "https://www.instagram.com/dental_blue_international/reel/DdbKf0cAk4p/"
+    },
+    "topval": 1
+   },
+   "S39": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+    },
+    "posts": 1,
+    "eng_sum": 3,
+    "eng_n": 1,
+    "followers": 405,
+    "top": {
+     "title": "Dental Blue Slobozia reunited",
+     "value": 3,
+     "q": "",
+     "url": "https://www.instagram.com/dental_blue_international/p/Ddj8fZUD9eF/"
+    },
+    "topval": 3
+   },
+   "S40": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+    },
+    "posts": 1,
+    "eng_sum": 4,
+    "eng_n": 1,
+    "followers": 405,
+    "top": {
+     "title": "Working Dentist Day",
+     "value": 4,
+     "q": "",
+     "url": "https://www.instagram.com/dental_blue_international/p/Dd1zcIclY38/"
+    },
+    "topval": 4
+   },
+   "S41": {
+    "q": {
+     "followers": "",
      "topval": ""
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S35"
+     "posts": "nicio postare în săptămână"
     },
     "posts": 0,
-    "followers": 390,
+    "eng_sum": null,
+    "eng_n": 0,
+    "followers": 410,
     "top": {
      "title": "fără postări",
      "value": null,
@@ -1585,62 +1809,6 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null
-   },
-   "S38": {
-    "q": {
-     "avgeng": "",
-     "topval": ""
-    },
-    "note": {
-     "followers": "ultima cifră: S35"
-    },
-    "posts": 1,
-    "eng_sum": 15,
-    "eng_n": 1,
-    "followers": 390,
-    "top": {
-     "title": "Promo implant Slobozia",
-     "value": 15,
-     "q": "",
-     "url": null
-    },
-    "topval": 15
-   },
-   "S39": {
-    "q": {
-     "avgeng": "",
-     "topval": ""
-    },
-    "note": {},
-    "posts": 1,
-    "eng_sum": 52,
-    "eng_n": 1,
-    "followers": 394,
-    "top": {
-     "title": "„Dental Blue Slobozia reunited” (45/7)",
-     "value": 52,
-     "q": "",
-     "url": null
-    },
-    "topval": 52
-   },
-   "S40": {
-    "q": {
-     "avgeng": "",
-     "topval": ""
-    },
-    "note": {},
-    "posts": 1,
-    "eng_sum": 4,
-    "eng_n": 1,
-    "followers": 399,
-    "top": {
-     "title": "„Working Dentist Day”",
-     "value": 4,
-     "q": "",
-     "url": null
-    },
-    "topval": 4
    }
   }
  }

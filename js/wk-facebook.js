@@ -61,6 +61,11 @@ window.WEEKLY_CONFIG = {
    "id": "S40",
    "range": "28 sep–4 oct",
    "month": "Septembrie"
+  },
+  {
+   "id": "S41",
+   "range": "5–11 oct",
+   "month": "Octombrie"
   }
  ],
  "kpis": [
@@ -194,18 +199,19 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Doar ultimele 5 din cele 12 săptămâni (S36–S40, adică septembrie) au inventar complet de postări. Până în S35, rapoartele conțin un eșantion din feed (1–4 postări pe pagină), fără total săptămânal, deci frecvența, engagementul mediu și rata de engagement se pot calcula doar pentru S36–S40.",
-  "Postări pe săptămână (S36–S40): noi 5 → 10 → 13 → 10 → 8; DENT ESTET 19 → 17 → 18 → 17 → 18. Am urcat până la 13 în S38 și scădem de atunci, în timp ce DENT ESTET se ține între 17 și 19 postări.",
-  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S36–S40: 17,8 → 18,3 → 37,8 → 43,7 → 13,9. Vârful e în S39, unde cea mai bună postare (urarea pentru Dr. Arina Lupu) are 140 din 437; fără ea, media S39 e 33,0. În S40 scade la 13,9.",
-  "Pe urmăritor stăm bine față de paginile mari. Rata noastră (engagement mediu împărțit la urmăritori) a fost 0,21% → 0,24% → 0,08% în S38–S40, față de 0,06% → 0,09% → 0,09% la DENT ESTET și 0,01% → 0,03% → 0,03% la Regina Maria. Life Dental Spa are 0,07% → 0,03% → 0,13%, cu vârf în S40 din cauza caruselului politic. Elidadent și Dental Blue au rate mari doar pentru că pornesc de la pagini mici (4,7K și 6,3K): nu sunt comparabile direct cu noi."
+  "Doar ultimele 6 din cele 13 săptămâni (S36–S41, adică septembrie și prima săptămână din octombrie) au inventar complet de postări. Până în S35, rapoartele conțin un eșantion din feed (1–4 postări pe pagină), fără total săptămânal, deci frecvența, engagementul mediu și rata de engagement se pot calcula doar pentru S36–S41.",
+  "Postări pe săptămână (S36–S41): noi 5 → 10 → 13 → 10 → 8 → 9; DENT ESTET 19 → 17 → 18 → 17 → 18 → 15. Am urcat până la 13 în S38 și scădem de atunci, în timp ce DENT ESTET se ține între 15 și 19 postări.",
+  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S36–S41: 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6. Vârful e în S39 (43,7), cu urarea pentru Dr. Arina Lupu ca postare de top (140 din 437). În S40 scade la 13,9, iar în S41 revine la 27,6 (reelul „Nu există scurtături către succes”: 53).",
+  "Pe urmăritor stăm bine față de paginile mari. Rata noastră (engagement mediu împărțit la urmăritori) a fost 0,24% → 0,08% → 0,15% în S39–S41, față de 0,09% → 0,09% → 0,07% la DENT ESTET și 0,03% → 0,03% → 0,02% la Regina Maria. Elidadent are 1,30% în S41, dar include o postare în colaborare cu 107 distribuiri; Elidadent și Dental Blue pornesc de la pagini mici (4,7K și 6,3K), deci nu sunt comparabile direct cu noi."
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
   "Engagement = reacții + comentarii + distribuiri. Doar S36–S40 au inventar complet de postări; în rest, rapoartele conțin doar un eșantion din feed (postările și engagementul mediu apar cu „–”). La top, în săptămânile fără inventar complet cifra e cea mai bună postare din eșantion (minimă).",
-  "Urmăritorii: S38–S40 sunt rotunjiți la mii, din pagină. La S36–S37 am valorile exacte, dar sunt cele de la data rulării (9 octombrie), nu de la sfârșitul acelor săptămâni, deci apar cu „≈”. Pentru S29–S35 se păstrează ultima cifră cunoscută.",
+  "Urmăritorii: S38–S40 sunt rotunjiți la mii, din pagină. La S36–S37 am valorile exacte, dar sunt cele de la data rulării, nu de la sfârșitul acelor săptămâni, deci apar cu „≈”. Pentru S29–S35 se păstrează ultima cifră cunoscută.",
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
-  "S36–S40 au fost recitite cu skill-ul actualizat (9 octombrie): inventar complet, cu reacții, comentarii și distribuiri citite pentru toate conturile. Unele cifre ies mai mari decât în raportul vechi, de exemplu Regina Maria: 145 → 284 în S40 și 105 → 246 în S39, deci aceste săptămâni nu sunt comparabile direct cu S29–S35 la acel cont."
+  "S36–S40 au fost recitite cu skill-ul actualizat: inventar complet, cu reacții, comentarii și distribuiri citite pentru toate conturile. Unele cifre ies mai mari decât în raportul vechi, de exemplu Regina Maria: 145 → 284 în S40 și 105 → 246 în S39, deci aceste săptămâni nu sunt comparabile direct cu S29–S35 la acel cont.",
+  "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Acel raport compară cu un S40 „calculat din feed” (11 postări, 32,7), care nu se potrivește cu citirea completă a S40 de aici (8 postări, 13,9) și pare să includă și postări din S39 (140 și 89). Am păstrat citirea completă a S40; merită verificat dacă S40 are 8 sau 11 postări."
  ],
  "data": {
   "DrA": {
@@ -354,7 +360,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii",
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
      "leads": "Facebook + Instagram, împreună"
     },
     "followers": 18076,
@@ -376,7 +382,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii",
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
      "leads": "Facebook + Instagram, împreună"
     },
     "followers": 18076,
@@ -457,6 +463,28 @@ window.WEEKLY_CONFIG = {
     },
     "topval": 39,
     "leads": 380
+   },
+   "S41": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "leads": "Puls avea S41 doar parțial la ultima citire",
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "leads": null,
+    "posts": 9,
+    "eng_sum": 248,
+    "eng_n": 9,
+    "followers": 18000,
+    "top": {
+     "title": "„Nu există scurtături către succes.” (reel)",
+     "value": 53,
+     "q": "",
+     "url": "https://www.facebook.com/reel/4392264901085415/"
+    },
+    "topval": 53
    }
   },
   "DE": {
@@ -592,7 +620,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 46411,
     "top": {
@@ -612,7 +640,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 46411,
     "top": {
@@ -685,6 +713,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/1457569959855673"
     },
     "topval": 133
+   },
+   "S41": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 15,
+    "eng_sum": 465,
+    "eng_n": 15,
+    "followers": 46000,
+    "top": {
+     "title": "Ai pierdut un singur dinte? Implant unidentar… (reel)",
+     "value": 114,
+     "q": "",
+     "url": "https://www.facebook.com/reel/4586622198283571/"
+    },
+    "topval": 114
    }
   },
   "RM": {
@@ -820,7 +868,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 84673,
     "top": {
@@ -840,7 +888,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 84673,
     "top": {
@@ -913,6 +961,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/2520203885136694"
     },
     "topval": 67
+   },
+   "S41": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 10,
+    "eng_sum": 134,
+    "eng_n": 10,
+    "followers": 84000,
+    "top": {
+     "title": "„Nu există rețete universale…” — Hot Takes, pentru copii (reel)",
+     "value": 27,
+     "q": "",
+     "url": "https://www.facebook.com/reel/2621948774911864/"
+    },
+    "topval": 27
    }
   },
   "Life": {
@@ -1048,7 +1116,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 83574,
     "top": {
@@ -1068,7 +1136,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 83574,
     "top": {
@@ -1141,6 +1209,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid02QGvRB1wLiUgzyG1bYDiwXtUuXqagV6cJ5c8vvboHazkZ7knWH6Co6Z77WkcY9UKvl"
     },
     "topval": 711
+   },
+   "S41": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 7,
+    "eng_sum": 66,
+    "eng_n": 7,
+    "followers": 83000,
+    "top": {
+     "title": "Ce înseamnă să faci stomatologie altfel? (reel) — egalitate 13 cu o postare din 5 oct (9/0/4)",
+     "value": 13,
+     "q": "",
+     "url": "https://www.facebook.com/reel/1113287494741624/"
+    },
+    "topval": 13
    }
   },
   "Eli": {
@@ -1276,7 +1364,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 4748,
     "top": {
@@ -1296,7 +1384,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 4748,
     "top": {
@@ -1369,6 +1457,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/1377236204230433"
     },
     "topval": 34
+   },
+   "S41": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 8,
+    "eng_sum": 487,
+    "eng_n": 8,
+    "followers": 4700,
+    "top": {
+     "title": "Din Târgoviște, direct la Budapesta — stand expo (postare în colaborare cu Next Story)",
+     "value": 162,
+     "q": "",
+     "url": "https://www.facebook.com/nextstory.romania/posts/pfbid02uaZUwK5N8M4sAnw4SxJg82Kp4zHT81Ar5RspCRV1iVEmjLCDRNHo3KLQTwBFTVgFl"
+    },
+    "topval": 162
    }
   },
   "DB": {
@@ -1504,7 +1612,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 6343,
     "top": {
@@ -1524,7 +1632,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "valoare de la data rulării (9 oct), nu de la sfârșitul săptămânii"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "followers": 6343,
     "top": {
@@ -1597,6 +1705,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02oeshWaNDBzAfdKHVo4oTpBFjRt2GqFtnPS14vkZ3javLjSAvZ4KViq4ZjoWqoNZBl&id=100057645392894"
     },
     "topval": 20
+   },
+   "S41": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 5,
+    "eng_sum": 109,
+    "eng_n": 5,
+    "followers": 6300,
+    "top": {
+     "title": "La mulți ani, as. Miha! (foto, echipă Slobozia)",
+     "value": 37,
+     "q": "",
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Jh1QRJVToQTWVefQe3dtJwHMzRGhWKWMLin7dhnekDVrPJbQTvLSwBt3iSfW3vEjl&id=100057645392894"
+    },
+    "topval": 37
    }
   }
  }
