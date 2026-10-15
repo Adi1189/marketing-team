@@ -1,5 +1,5 @@
-// Date reale din rapoartele KPI Tier 1 (12 săptămâni, S29–S40), grupate pe luni cum apar în rapoarte.
-// Iulie = S29–S31 · August = S32–S35 · Septembrie = S36–S40.
+// Date reale din rapoartele KPI Tier 1 (S27–S41), grupate pe luni.
+// Iulie = S27–S31 · August = S32–S35 · Septembrie = S36–S40 · Octombrie = S41–S44.
 window.REPORT_CONFIG = {
  "channel": "TikTok",
  "demo": false,
@@ -52,9 +52,9 @@ window.REPORT_CONFIG = {
   "showMonth": true
  },
  "notes": [
-  "Perioadele sunt grupate ca în rapoartele KPI: iulie = S29–S31, august = S32–S35, septembrie = S36–S40.",
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31 (5 săptămâni), august = S32–S35 (4), septembrie = S36–S40 (5), octombrie = S41–S44 (4). O săptămână intră în luna în care cad cele mai multe zile ale ei; excepție, S40 (28 sep–4 oct), pe care o păstrăm în septembrie, ca în rapoartele tale.",
   "Numărul de videouri vine din paginile de profil TikTok și e complet pentru toate cele 12 săptămâni.",
-  "Pentru iulie, august și septembrie (S29–S40) avem vizualizările totale ale fiecărui cont, citite pe 12–14 octombrie.",
+  "Pentru iulie, august și septembrie (S27–S40) avem vizualizările totale ale fiecărui cont, citite pe 12–14 octombrie.",
   "Pentru top postare: la iulie, august și septembrie avem linkul fiecărui cont; titlul lipsește din blocurile de iulie și august.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
@@ -65,14 +65,14 @@ window.REPORT_CONFIG = {
  ],
  "data": {
   "2026-07": {
-   "posts": 11,
-   "views": 13589,
+   "posts": 19,
+   "views": 24965,
    "leads": null,
    "q": {
     "followers": ""
    },
    "note": {
-    "posts": "3 din 3 săpt. (S29–S31)",
+    "posts": "5 din 5 săpt. (S27–S31)",
     "views": "vizionări citite pe 14 oct",
     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
     "followers": "la S31"
@@ -88,11 +88,11 @@ window.REPORT_CONFIG = {
     },
     "DE": {
      "title": "",
-     "value": 1152,
+     "value": 6214,
      "q": "",
-     "week": "S31",
-     "range": "27 iul–2 aug",
-     "url": "https://www.tiktok.com/@dentestetclinic/video/7667174077785902338"
+     "week": "S27",
+     "range": "29 iun–5 iul",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7657090334668721430"
     },
     "RM": {
      "title": "",
@@ -112,19 +112,19 @@ window.REPORT_CONFIG = {
     },
     "Eli": {
      "title": "",
-     "value": 997,
+     "value": 2023,
      "q": "",
-     "week": "S30",
-     "range": "20–26 iul",
-     "url": "https://www.tiktok.com/@elidadent/video/7665774779302972694"
+     "week": "S28",
+     "range": "6–12 iul",
+     "url": "https://www.tiktok.com/@elidadent/video/7660531282253712662"
     },
     "DB": {
      "title": "",
-     "value": 1070,
+     "value": 2679,
      "q": "",
-     "week": "S30",
-     "range": "20–26 iul",
-     "url": "https://www.tiktok.com/@dentalbluechain/photo/7666729531251658005"
+     "week": "S27",
+     "range": "29 iun–5 iul",
+     "url": "https://www.tiktok.com/@dentalbluechain/video/7659146519467134216"
     }
    },
    "followers": 6746
@@ -403,20 +403,19 @@ window.REPORT_CONFIG = {
    "Dental Blue a postat doar 3 videoclipuri în 12 săptămâni. Dental Safari nu are cont TikTok, deci nu e în comparație.",
    "„≥” la top înseamnă că raportul dă doar un minim (de exemplu „903+”).",
    "Vârfuri izolate (≈), nu tendință: Life 60.400 în august (S35) și 18.500 (S32), Elidadent 15.700 (S33) și 20.800 în septembrie (S38), Life 11.200 în septembrie (S36).",
-   "Iulie, august și septembrie (S29–S40) au vizualizările totale ale fiecărui cont, citite pe 12–14 octombrie (cu „≈” unde pagina rotunjește)."
+   "Iulie, august și septembrie (S27–S40) au vizualizările totale ale fiecărui cont, citite pe 12–14 octombrie (cu „≈” unde pagina rotunjește)."
   ],
   "data": {
    "DrA": {
     "2026-07": {
      "q": {
       "topval": "",
-      "followers": "",
-      "views": ""
+      "followers": ""
      },
-     "posts": 11,
+     "posts": 19,
      "topval": 2529,
      "followers": 6746,
-     "views": 13589
+     "views": 24965
     },
     "2026-08": {
      "q": {
@@ -457,13 +456,12 @@ window.REPORT_CONFIG = {
     "2026-07": {
      "q": {
       "topval": "",
-      "followers": "",
-      "views": ""
+      "followers": ""
      },
-     "posts": 18,
-     "topval": 1152,
+     "posts": 30,
+     "topval": 6214,
      "followers": 6156,
-     "views": 11378
+     "views": 24687
     },
     "2026-08": {
      "q": {
@@ -504,13 +502,12 @@ window.REPORT_CONFIG = {
     "2026-07": {
      "q": {
       "topval": "",
-      "followers": "",
-      "views": ""
+      "followers": ""
      },
-     "posts": 8,
+     "posts": 9,
      "topval": 3421,
      "followers": 5511,
-     "views": 16706
+     "views": 17822
     },
     "2026-08": {
      "q": {
@@ -551,13 +548,12 @@ window.REPORT_CONFIG = {
     "2026-07": {
      "q": {
       "topval": "",
-      "followers": "",
-      "views": ""
+      "followers": ""
      },
-     "posts": 19,
+     "posts": 27,
      "topval": 8061,
      "followers": 6874,
-     "views": 24070
+     "views": 27837
     },
     "2026-08": {
      "q": {
@@ -598,13 +594,12 @@ window.REPORT_CONFIG = {
     "2026-07": {
      "q": {
       "topval": "",
-      "followers": "",
-      "views": ""
+      "followers": ""
      },
-     "posts": 5,
-     "topval": 997,
+     "posts": 12,
+     "topval": 2023,
      "followers": 1896,
-     "views": 3455
+     "views": 12178
     },
     "2026-08": {
      "q": {
@@ -645,13 +640,12 @@ window.REPORT_CONFIG = {
     "2026-07": {
      "q": {
       "topval": "",
-      "followers": "",
-      "views": ""
+      "followers": ""
      },
-     "posts": 3,
-     "topval": 1070,
+     "posts": 5,
+     "topval": 2679,
      "followers": 885,
-     "views": 1354
+     "views": 4710
     },
     "2026-08": {
      "q": {

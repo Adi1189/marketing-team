@@ -1,7 +1,17 @@
-// Date reale din rapoartele KPI Tier 1 (S29–S40), pe săptămână.
+// Date reale din rapoartele KPI Tier 1 (S27–S41), pe săptămână.
 window.WEEKLY_CONFIG = {
  "channel": "YouTube",
  "weeks": [
+  {
+   "id": "S27",
+   "range": "29 iun–5 iul",
+   "month": "Iulie"
+  },
+  {
+   "id": "S28",
+   "range": "6–12 iul",
+   "month": "Iulie"
+  },
   {
    "id": "S29",
    "range": "13–19 iul",
@@ -177,23 +187,24 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Vizualizări",
  "take": [
-  "Ritmul nostru e peste al Regina Maria, apropiat de al Life și sub al DENT ESTET. Media pe săptămânile cu număr exact: 5,3 videouri la noi, 7,9 la DENT ESTET, 5,1 la Life și 3,9 la Regina Maria. S39 e cea mai bună săptămână a noastră (11 Shorts), urmată de S40 și S37, cu câte 8. În S41 am avut 7 Shorts, față de 14 la DENT ESTET.",
-  "Performanța noastră e foarte inegală. Vizionările per video sunt între 140 și 694 în 10 săptămâni, dar sub 60 în S32 (31), S35 (48), S36 (18). Vizionările sunt citite la data rulării, deci săptămânile recente au avut mai puțin timp să acumuleze.",
-  "Pe vizionări per video suntem peste DENT ESTET în 7 din 13 săptămâni, peste Life în 7 din 13, dar sub Regina Maria în 8 din 12. DENT ESTET publică mult (2–14 videouri pe săptămână în săptămânile cu număr exact), cu 46–701 vizionări pe video (Fără S31, unde totalul lor e dominat de un singur video viral). Cele mai mari vârfuri: DENT ESTET 407.134 (S31); Regina Maria 17.390 (S32); DENT ESTET 7.901 (S41).",
+  "Ritmul nostru e peste al Regina Maria, apropiat de al Life și sub al DENT ESTET. Media pe săptămânile cu număr exact: 5,1 videouri la noi, 9,9 la DENT ESTET, 4,5 la Life și 3,6 la Regina Maria. S39 e cea mai bună săptămână a noastră (11 Shorts), urmată de S40 și S37, cu câte 8. În S41 am avut 7 Shorts, față de 14 la DENT ESTET.",
+  "Performanța noastră e foarte inegală. Vizionările per video sunt între 140 și 694 în 12 săptămâni, dar sub 60 în S32 (31), S35 (48), S36 (18). Vizionările sunt citite la data rulării, deci săptămânile recente au avut mai puțin timp să acumuleze.",
+  "Pe vizionări per video suntem peste DENT ESTET în 9 din 15 săptămâni, peste Life în 8 din 14, dar sub Regina Maria în 8 din 14. DENT ESTET publică mult (2–14 videouri pe săptămână în săptămânile cu număr exact), cu 32–701 vizionări pe video (Fără S31, unde totalul lor e dominat de un singur video viral). în S27 au avut 40 videoclipuri, o săptămână neobișnuită. Cele mai mari vârfuri: DENT ESTET 407.134 (S31); Regina Maria 17.390 (S32); DENT ESTET 7.901 (S41).",
   "S41: 7 Shorts, 1.803 vizionări (S40: 8 Shorts, 3.973), cel mai bun video 1.387. Abonații noștri: 934, față de 1.350 la DENT ESTET și 9.330 la Regina Maria.",
   "Dentalist nu e în comparație, dar domină YouTube. Canalul personal al Dr. Alexandra Mircea are 345K abonați și a avut un Short cu 171.029 de vizionări (S31), o săptămână cu 133.472 (S37) și un video cu 341.000 (S39)."
  ],
  "notes": [
-  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
+  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
   "Vizualizările sunt cele din ziua raportului: un video recent are mai puține vizualizări decât unul vechi. În S30 raportul nu are date pe Shorts pentru DENT ESTET și Regina Maria.",
   "Dental Blue nu are canal YouTube; Elidadent are un canal abandonat (0 videoclipuri). Community posts nu sunt numărate.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
-  "S29–S41 au fost recitite cu skill-ul actualizat sau din blocuri citite pe 12–15 octombrie, deci vizualizările lor sunt comparabile între ele; au avut însă timp diferit să acumuleze (săptămânile recente mai puțin).",
+  "S27–S41 au fost recitite cu skill-ul actualizat sau din blocuri citite pe 12–15 octombrie, deci vizualizările lor sunt comparabile între ele; au avut însă timp diferit să acumuleze (săptămânile recente mai puțin).",
   "S41 (5–11 octombrie) a fost citită pe 12 octombrie, fără cheia API (din paginile publice YouTube); abonații Elidadent nu au putut fi citiți. Vizualizările din S41 au avut mai puțin timp să acumuleze decât cele din S36–S40.",
   "S32–S35 (august): linkurile din bloc sunt videoclipuri obișnuite (nu Shorts) și nu au duratele. La Dr. Ardeleanu, S32 și S35 au vizionări foarte mici (62 și 194) la 2 și 4 videoclipuri.",
   "Abonații sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
-  "S29–S31 (iulie) vin dintr-un bloc citit pe 15 octombrie. În S31, DENT ESTET are 474.613 de vizualizări, din care 407.134 la un singur video viral („Începe tratamentul ortodontic cu ALIGN SMILE…”, publicat pe 27 iulie): cifra nu e comparabilă cu săptămânile obișnuite. Blocul include și S27–S28 (iunie), pe care nu le-am încărcat în site. Abonații din iulie rămân cifrele din rapoartele vechi."
+  "S27–S31 (iulie) vin dintr-un bloc citit pe 15 octombrie. În S31, DENT ESTET are 474.613 de vizualizări, din care 407.134 la un singur video viral („Începe tratamentul ortodontic cu ALIGN SMILE…”, publicat pe 27 iulie): cifra nu e comparabilă cu săptămânile obișnuite. Abonații din iulie rămân cifrele din rapoartele vechi.",
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie."
  ],
  "data": {
   "DrA": {
@@ -445,6 +456,38 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/shorts/ztt5VfAJPHY"
     },
     "topval": 1387
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 3,
+    "views": 823,
+    "top": {
+     "title": "Poți merge la dentist în timpul sarcinii?",
+     "value": 453,
+     "q": "",
+     "url": "https://www.youtube.com/watch?v=-zStj2hXPXI"
+    },
+    "topval": 453,
+    "subs": null
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 4,
+    "views": 1915,
+    "top": {
+     "title": "Copiii nu se nasc cu frica de dentist",
+     "value": 1555,
+     "q": "",
+     "url": "https://www.youtube.com/watch?v=hOu77LRNgBI"
+    },
+    "topval": 1555,
+    "subs": null
    }
   },
   "DE": {
@@ -695,6 +738,40 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/shorts/x5la6ODBHLY"
     },
     "topval": 7901
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {
+     "posts": "40 de videoclipuri într-o singură săptămână: neobișnuit (2–13 în rest); cifră din API, neverificată pe canal"
+    },
+    "posts": 40,
+    "views": 2412,
+    "top": {
+     "title": "Efectele uzurii dentare asupra esteticii faci…",
+     "value": 1010,
+     "q": "",
+     "url": "https://www.youtube.com/watch?v=nHB1Doa2sqM"
+    },
+    "topval": 1010,
+    "subs": null
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 5,
+    "views": 162,
+    "top": {
+     "title": "Aparat dentar invizibil: Tot ce trebuie să șt…",
+     "value": 73,
+     "q": "",
+     "url": "https://www.youtube.com/watch?v=j1Gg3RcCxio"
+    },
+    "topval": 73,
+    "subs": null
    }
   },
   "RM": {
@@ -944,6 +1021,38 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/shorts/sVG6FiwoOS4"
     },
     "topval": 1216
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 2,
+    "views": 265,
+    "top": {
+     "title": "De ce nu primesc direct lucrarea finală după…",
+     "value": 157,
+     "q": "",
+     "url": "https://www.youtube.com/watch?v=KzP1ZYrxgTE"
+    },
+    "topval": 157,
+    "subs": null
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 1,
+    "views": 57,
+    "top": {
+     "title": "Adevărul dureros despre fumat și parodontoză…",
+     "value": 57,
+     "q": "",
+     "url": "https://www.youtube.com/watch?v=S2P3is1W8FM"
+    },
+    "topval": 57,
+    "subs": null
    }
   },
   "Life": {
@@ -1193,6 +1302,38 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/shorts/ZU_f-LI_lSI"
     },
     "topval": 718
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 1,
+    "views": 267,
+    "top": {
+     "title": "Te speli pe dinți zilnic și totuși gingiil…",
+     "value": 267,
+     "q": "",
+     "url": "https://www.youtube.com/watch?v=9ojenle-Qx0"
+    },
+    "topval": 267,
+    "subs": null
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 0,
+    "views": 0,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null,
+    "subs": null
    }
   },
   "Eli": {
@@ -1442,6 +1583,38 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 0,
+    "views": 0,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null,
+    "subs": null
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 0,
+    "views": 0,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null,
+    "subs": null
    }
   }
  }

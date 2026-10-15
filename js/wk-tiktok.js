@@ -1,7 +1,17 @@
-// Date reale din rapoartele KPI Tier 1 (S29–S40), pe săptămână.
+// Date reale din rapoartele KPI Tier 1 (S27–S41), pe săptămână.
 window.WEEKLY_CONFIG = {
  "channel": "TikTok",
  "weeks": [
+  {
+   "id": "S27",
+   "range": "29 iun–5 iul",
+   "month": "Iulie"
+  },
+  {
+   "id": "S28",
+   "range": "6–12 iul",
+   "month": "Iulie"
+  },
   {
    "id": "S29",
    "range": "13–19 iul",
@@ -182,20 +192,21 @@ window.WEEKLY_CONFIG = {
  "topLabel": "Vizualizări",
  "take": [
   "DENT ESTET ne depășește la urmăritori: 8.610 față de 6.799 la noi. De la prima cifră (S29), ei au crescut cu 2.759 (+47,2%), noi cu 88 (+1,3%). Life are 7.028, Regina Maria 5.561, Elidadent 1.913, Dental Blue 886.",
-  "Ritmul nostru e variabil. Videouri pe săptămână (S29–S40): 2 → 3 → 6 → 2 → 5 → 5 → 4 → 4 → 5 → 2 → 5 → 7. Media e 4,2, față de 6,4 la DENT ESTET, 5,4 la Life, 2,9 la Regina Maria și 2,4 la Elidadent. Cea mai bună săptămână a noastră e S40 (7 videouri). S41 nu intră aici: a fost citită fără login, deci cifrele sunt minime.",
-  "Vizualizări totale pe săptămână (S29–S40): suntem peste DENT ESTET în 8 din 12 săptămâni, peste Regina Maria în 8, peste Life în 5 și peste Elidadent în 10. În ultimele 9 săptămâni: noi 2.396 → 5.803 → 4.497 → 4.692 → 4.401 → 5.130 → 1.732 → 4.701 → 6.266; DENT ESTET 3.411 → 4.084 → 2.844 → 2.012 → 7.298 → 2.138 → 2.746 → 2.073 → 3.688. Cea mai bună săptămână a noastră e S31 (6.567). În S41 (≥, fără login) avem 2.217, față de 2.929 la DENT ESTET și 3.161 la Regina Maria.",
-  "Media pe videoclip (S29–S40): noi 866–1828 vizualizări, DENT ESTET 305–828, Regina Maria 212–2398. În S41 (≥) media noastră e 739, a Elidadent 1051, a Regina Maria 790, a DENT ESTET 293.",
-  "Vârfurile izolate nu sunt tendință: Life 60.400 în S35, Elidadent 20.800 în S38, Life 18.500 în S32, Elidadent 15.700 în S33, Life 11.200 în S36. Cel mai bun video al nostru din S29–S41 are 2.529 de vizualizări (S29)."
+  "Ritmul nostru e variabil. Videouri pe săptămână (S27–S40): 4 → 4 → 2 → 3 → 6 → 2 → 5 → 5 → 4 → 4 → 5 → 2 → 5 → 7. Media e 4,1, față de 6,4 la DENT ESTET, 5,2 la Life, 2,6 la Regina Maria și 2,6 la Elidadent. Cea mai bună săptămână a noastră e S40 (7 videouri). S41 nu intră aici: a fost citită fără login, deci cifrele sunt minime.",
+  "Vizualizări totale pe săptămână (S27–S40): suntem peste DENT ESTET în 8 din 14 săptămâni, peste Regina Maria în 10, peste Life în 7 și peste Elidadent în 12. În ultimele 9 săptămâni: noi 2.396 → 5.803 → 4.497 → 4.692 → 4.401 → 5.130 → 1.732 → 4.701 → 6.266; DENT ESTET 3.411 → 4.084 → 2.844 → 2.012 → 7.298 → 2.138 → 2.746 → 2.073 → 3.688. Cea mai bună săptămână a noastră e S31 (6.567). În S41 (≥, fără login) avem 2.217, față de 2.929 la DENT ESTET și 3.161 la Regina Maria.",
+  "Media pe videoclip (S27–S40): noi 866–1828 vizualizări, DENT ESTET 305–1887, Regina Maria 212–2398. În S41 (≥) media noastră e 739, a Elidadent 1051, a Regina Maria 790, a DENT ESTET 293.",
+  "Vârfurile izolate nu sunt tendință: Life 60.400 în S35, Elidadent 20.800 în S38, Life 18.500 în S32, Elidadent 15.700 în S33, Life 11.200 în S36. Cel mai bun video al nostru din S27–S41 are 2.529 de vizualizări (S29)."
  ],
  "notes": [
-  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
+  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
   "Dental Blue nu a postat nimic în S36–S40 și a postat doar 3 videoclipuri în celelalte săptămâni; Dental Safari nu are cont TikTok.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S41 (5–11 octombrie) a fost citită pe 12 octombrie fără cont TikTok autentificat: unele postări sunt ascunse vizitatorilor nelogați, deci numărul de postări și totalul de vizualizări sunt valori minime („≥”) la toate conturile și nu se compară direct cu S36–S40. Urmăritorii sunt afișați exact.",
   "S32–S35 (august) vin dintr-un bloc citit pe 14 octombrie: titlurile videoclipurilor de top lipsesc („neprecizat”), linkurile sunt complete. Vârfurile de peste 10.000 de vizualizări sunt rotunjite de TikTok (≈). La Dental Blue, două din linkurile de top sunt postări foto, nu video.",
-  "Vizualizările totale pe cont există din S29 (iulie, citite pe 14 octombrie; august–septembrie pe 12–14 octombrie). Blocul de iulie include și S27–S28 (iunie), pe care nu le-am încărcat în site.",
-  "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni (S29–S40); doar S34 lipsea din rapoarte și are citirea de la rulare. S41 e citirea de la rulare."
+  "Vizualizările totale pe cont există din S27 (iulie, citite pe 14 octombrie; august–septembrie pe 12–14 octombrie).",
+  "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni (S27–S40); doar S34 lipsea din rapoarte și are citirea de la rulare. S41 e citirea de la rulare.",
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie."
  ],
  "data": {
   "DrA": {
@@ -448,6 +459,38 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7693569974773812502"
     },
     "topval": 962
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 4,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 2316,
+     "q": "",
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7657151403344792854"
+    },
+    "topval": 2316,
+    "followers": null,
+    "views": 5637
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 4,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1663,
+     "q": "",
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7660495103508679958"
+    },
+    "topval": 1663,
+    "followers": null,
+    "views": 5739
    }
   },
   "DE": {
@@ -677,6 +720,38 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7693158476939283734"
     },
     "topval": 476
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 4,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 6214,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7657090334668721430"
+    },
+    "topval": 6214,
+    "followers": null,
+    "views": 7549
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 8,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1033,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7660102397414346006"
+    },
+    "topval": 1033,
+    "followers": null,
+    "views": 5760
    }
   },
   "RM": {
@@ -910,6 +985,38 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7694303661874515222"
     },
     "topval": 1165
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 0,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null,
+    "followers": null,
+    "views": 0
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 1,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1116,
+     "q": "",
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7659494761916796162"
+    },
+    "topval": 1116,
+    "followers": null,
+    "views": 1116
    }
   },
   "Life": {
@@ -1153,6 +1260,38 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@lifedentalspa/video/7693786316923817248"
     },
     "topval": 1046
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 5,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 692,
+     "q": "",
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7658589985574096160"
+    },
+    "topval": 692,
+    "followers": null,
+    "views": 2226
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 3,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 875,
+     "q": "",
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7659275466620063008"
+    },
+    "topval": 875,
+    "followers": null,
+    "views": 1541
    }
   },
   "Eli": {
@@ -1392,6 +1531,38 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@elidadent/video/7693232300917673238"
     },
     "topval": 1196
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 3,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1814,
+     "q": "",
+     "url": "https://www.tiktok.com/@elidadent/video/7657983161975966998"
+    },
+    "topval": 1814,
+    "followers": null,
+    "views": 3875
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 4,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 2023,
+     "q": "",
+     "url": "https://www.tiktok.com/@elidadent/video/7660531282253712662"
+    },
+    "topval": 2023,
+    "followers": null,
+    "views": 4848
    }
   },
   "DB": {
@@ -1625,6 +1796,38 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 2,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 2679,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentalbluechain/video/7659146519467134216"
+    },
+    "topval": 2679,
+    "followers": null,
+    "views": 3356
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 0,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null,
+    "followers": null,
+    "views": 0
    }
   }
  }

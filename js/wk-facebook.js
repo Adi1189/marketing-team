@@ -1,7 +1,17 @@
-// Date reale din rapoartele KPI Tier 1 (S29–S40), pe săptămână.
+// Date reale din rapoartele KPI Tier 1 (S27–S41), pe săptămână.
 window.WEEKLY_CONFIG = {
  "channel": "Facebook",
  "weeks": [
+  {
+   "id": "S27",
+   "range": "29 iun–5 iul",
+   "month": "Iulie"
+  },
+  {
+   "id": "S28",
+   "range": "6–12 iul",
+   "month": "Iulie"
+  },
   {
    "id": "S29",
    "range": "13–19 iul",
@@ -199,21 +209,22 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Toate cele 13 săptămâni (S29–S41) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile, deci frecvența, engagementul mediu și rata de engagement se pot calcula pentru tot intervalul.",
-  "Postări pe săptămână (S29–S41): noi 7 → 6 → 6 → 7 → 6 → 7 → 8 → 5 → 10 → 13 → 10 → 8 → 9; DENT ESTET 10 → 12 → 17 → 16 → 16 → 16 → 14 → 19 → 17 → 18 → 17 → 18 → 15. Media: 7,8 la noi, 15,8 la DENT ESTET, 8,9 la Regina Maria, 6,8 la Life. Cel mai mare ritm al nostru: 13 postări (S38).",
-  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S29–S41: 12,3 → 13,7 → 21,5 → 38,3 → 29,2 → 28,0 → 26,1 → 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6. Vârful e în S39 (43,7, postarea de top: 140 din 437). În S40 avem 13,9, iar în S41 27,6.",
+  "Toate cele 15 săptămâni (S27–S41) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile, deci frecvența, engagementul mediu și rata de engagement se pot calcula pentru tot intervalul.",
+  "Postări pe săptămână (S27–S41): noi 8 → 8 → 7 → 6 → 6 → 7 → 6 → 7 → 8 → 5 → 10 → 13 → 10 → 8 → 9; DENT ESTET 14 → 10 → 10 → 12 → 17 → 16 → 16 → 16 → 14 → 19 → 17 → 18 → 17 → 18 → 15. Media: 7,9 la noi, 15,3 la DENT ESTET, 9,1 la Regina Maria, 6,7 la Life. Cel mai mare ritm al nostru: 13 postări (S38).",
+  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S27–S41: 17,9 → 11,0 → 12,3 → 13,7 → 21,5 → 38,3 → 29,2 → 28,0 → 26,1 → 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6. Vârful e în S39 (43,7, postarea de top: 140 din 437). În S40 avem 13,9, iar în S41 27,6.",
   "Pe urmăritor, rata noastră (engagement mediu împărțit la urmăritori) a fost 0,24% → 0,08% → 0,15% în S39–S41, față de 0,09% → 0,09% → 0,07% la DENT ESTET și 0,03% → 0,03% → 0,02% la Regina Maria. Elidadent (1,30% în S41) și Dental Blue pornesc de la pagini mici (4,7K și 6,3K), deci nu sunt comparabile direct cu noi."
  ],
  "notes": [
-  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
-  "Engagement = reacții + comentarii + distribuiri. Toate săptămânile S29–S41 au inventar complet de postări, citit în octombrie cu skill-ul actualizat.",
+  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
+  "Engagement = reacții + comentarii + distribuiri. Toate săptămânile S27–S41 au inventar complet de postări, citit în octombrie cu skill-ul actualizat.",
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S36–S40 au fost recitite cu skill-ul actualizat: inventar complet, cu reacții, comentarii și distribuiri citite pentru toate conturile. Unele cifre ies mai mari decât în raportul vechi, de exemplu Regina Maria: 145 → 284 în S40 și 105 → 246 în S39, deci aceste săptămâni nu sunt comparabile direct cu S29–S35 la acel cont.",
   "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Acel raport compară cu un S40 „calculat din feed” (11 postări, 32,7), care nu se potrivește cu citirea completă a S40 de aici (8 postări, 13,9) și pare să includă și postări din S39 (140 și 89). Am păstrat citirea completă a S40; merită verificat dacă S40 are 8 sau 11 postări.",
   "S32–S35 (august) au fost recitite cu inventar complet; raportul dă doar valoarea postării de top, fără titlu și fără link, deci acolo titlul apare „neprecizat”, iar linkul „–”.",
   "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
-  "S29–S31 (iulie) au fost recitite cu inventar complet, la fel ca august; blocul nu are titluri și linkuri, deci titlul apare „neprecizat”, iar linkul „–”. Blocul include și S27–S28 (iunie), pe care nu le-am încărcat în site. Urmăritorii din iulie rămân cifrele din rapoartele vechi, citite în acele săptămâni."
+  "S27–S31 (iulie) au fost recitite cu inventar complet, la fel ca august; blocul nu are titluri și linkuri, deci titlul apare „neprecizat”, iar linkul „–”. Urmăritorii din iulie rămân cifrele din rapoartele vechi, citite în acele săptămâni.",
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie."
  ],
  "data": {
   "DrA": {
@@ -501,6 +512,40 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/4392264901085415/"
     },
     "topval": 53
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 35,
+     "q": "",
+     "url": null
+    },
+    "topval": 35,
+    "posts": 8,
+    "eng_sum": 143,
+    "eng_n": 8
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 17,
+     "q": "",
+     "url": null
+    },
+    "topval": 17,
+    "posts": 8,
+    "eng_sum": 88,
+    "eng_n": 8
    }
   },
   "DE": {
@@ -763,6 +808,40 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/4586622198283571/"
     },
     "topval": 114
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 40,
+     "q": "",
+     "url": null
+    },
+    "topval": 40,
+    "posts": 14,
+    "eng_sum": 344,
+    "eng_n": 14
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 43,
+     "q": "",
+     "url": null
+    },
+    "topval": 43,
+    "posts": 10,
+    "eng_sum": 257,
+    "eng_n": 10
    }
   },
   "RM": {
@@ -1025,6 +1104,40 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/2621948774911864/"
     },
     "topval": 27
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 464,
+     "q": "",
+     "url": null
+    },
+    "topval": 464,
+    "posts": 11,
+    "eng_sum": 974,
+    "eng_n": 11
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 614,
+     "q": "",
+     "url": null
+    },
+    "topval": 614,
+    "posts": 10,
+    "eng_sum": 830,
+    "eng_n": 10
    }
   },
   "Life": {
@@ -1287,6 +1400,40 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/1113287494741624/"
     },
     "topval": 13
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 20,
+     "q": "",
+     "url": null
+    },
+    "topval": 20,
+    "posts": 6,
+    "eng_sum": 81,
+    "eng_n": 6
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 36,
+     "q": "",
+     "url": null
+    },
+    "topval": 36,
+    "posts": 6,
+    "eng_sum": 117,
+    "eng_n": 6
    }
   },
   "Eli": {
@@ -1549,6 +1696,40 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/nextstory.romania/posts/pfbid02uaZUwK5N8M4sAnw4SxJg82Kp4zHT81Ar5RspCRV1iVEmjLCDRNHo3KLQTwBFTVgFl"
     },
     "topval": 162
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 72,
+     "q": "",
+     "url": null
+    },
+    "topval": 72,
+    "posts": 5,
+    "eng_sum": 137,
+    "eng_n": 5
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 38,
+     "q": "",
+     "url": null
+    },
+    "topval": 38,
+    "posts": 8,
+    "eng_sum": 140,
+    "eng_n": 8
    }
   },
   "DB": {
@@ -1811,6 +1992,40 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Jh1QRJVToQTWVefQe3dtJwHMzRGhWKWMLin7dhnekDVrPJbQTvLSwBt3iSfW3vEjl&id=100057645392894"
     },
     "topval": 37
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 768,
+     "q": "",
+     "url": null
+    },
+    "topval": 768,
+    "posts": 10,
+    "eng_sum": 1017,
+    "eng_n": 10
+   },
+   "S28": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 53,
+     "q": "",
+     "url": null
+    },
+    "topval": 53,
+    "posts": 6,
+    "eng_sum": 108,
+    "eng_n": 6
    }
   }
  }

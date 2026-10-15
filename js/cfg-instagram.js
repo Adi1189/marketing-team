@@ -1,5 +1,5 @@
-// Date reale din rapoartele KPI Tier 1 (12 săptămâni, S29–S40), grupate pe luni cum apar în rapoarte.
-// Iulie = S29–S31 · August = S32–S35 · Septembrie = S36–S40.
+// Date reale din rapoartele KPI Tier 1 (S27–S41), grupate pe luni.
+// Iulie = S27–S31 · August = S32–S35 · Septembrie = S36–S40 · Octombrie = S41–S44.
 window.REPORT_CONFIG = {
  "channel": "Instagram",
  "demo": false,
@@ -61,10 +61,9 @@ window.REPORT_CONFIG = {
   "showMonth": true
  },
  "notes": [
-  "Perioadele sunt grupate ca în rapoartele KPI: iulie = S29–S31, august = S32–S35, septembrie = S36–S40.",
-  "Raportul pentru S29 (13–19 iulie) lipsește, deci iulie are doar S30 și S31.",
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31 (5 săptămâni), august = S32–S35 (4), septembrie = S36–S40 (5), octombrie = S41–S44 (4). O săptămână intră în luna în care cad cele mai multe zile ale ei; excepție, S40 (28 sep–4 oct), pe care o păstrăm în septembrie, ca în rapoartele tale.",
   "Engagement = like-uri + comentarii (Instagram nu arată distribuirile). În S31, S32, S34 și S35 raportul dă doar like-uri, de aceea cifrele din iulie și august sunt minime („≥”).",
-  "Iulie, august și septembrie (S29–S40) au inventar complet de postări și engagement citit în toate săptămânile; unde unele like-uri sunt ascunse, cifra e marcată „≥”.",
+  "Iulie, august și septembrie (S27–S40) au inventar complet de postări și engagement citit în toate săptămânile; unde unele like-uri sunt ascunse, cifra e marcată „≥”.",
   "Urmăritorii vin doar din câteva rapoarte (S28, S32, S35, S36, S38, S40); pentru fiecare lună e ultima cifră disponibilă.",
   "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
@@ -76,16 +75,16 @@ window.REPORT_CONFIG = {
  ],
  "data": {
   "2026-07": {
-   "posts": 19,
-   "eng_sum": 823,
-   "eng_n": 19,
+   "posts": 31,
+   "eng_sum": 1455,
+   "eng_n": 31,
    "leads": 1264,
    "q": {
     "followers": ""
    },
    "note": {
-    "posts": "3 din 3 săpt. (S29–S31)",
-    "avgeng": "3 din 3 săpt.",
+    "posts": "5 din 5 săpt. (S27–S31)",
+    "avgeng": "5 din 5 săpt.",
     "followers": "la S31",
     "leads": "Facebook + Instagram, împreună · noi (unice): 836"
    },
@@ -96,11 +95,11 @@ window.REPORT_CONFIG = {
    "topPosts": {
     "DrA": {
      "title": "",
-     "value": 79,
+     "value": 91,
      "q": "",
-     "week": "S30",
-     "range": "20–26 iul",
-     "url": "https://www.instagram.com/reel/DbFmZlrDCHC/"
+     "week": "S27",
+     "range": "29 iun–5 iul",
+     "url": "https://www.instagram.com/reel/DaSOG7Yiy21/"
     },
     "DE": {
      "title": "",
@@ -128,19 +127,19 @@ window.REPORT_CONFIG = {
     },
     "Eli": {
      "title": "",
-     "value": 22,
+     "value": 85,
      "q": "",
-     "week": "S31",
-     "range": "27 iul–2 aug",
-     "url": "https://www.instagram.com/reel/DbajCJ8Eu2t/"
+     "week": "S28",
+     "range": "6–12 iul",
+     "url": "https://www.instagram.com/reel/DanFB0Hoz9j/"
     },
     "DB": {
      "title": "",
-     "value": 13,
+     "value": 109,
      "q": "",
-     "week": "S30",
-     "range": "20–26 iul",
-     "url": "https://www.instagram.com/reel/DbLxwV8APSI/"
+     "week": "S27",
+     "range": "29 iun–5 iul",
+     "url": "https://www.instagram.com/reel/DabM1uwsw7-/"
     }
    }
   },
@@ -430,7 +429,7 @@ window.REPORT_CONFIG = {
   ],
   "notes": [
    "Engagement = like-uri + comentarii (Instagram nu arată distribuirile). Unde raportul dă doar like-uri, cifra e minimă („≥”).",
-   "Iulie, august și septembrie (S29–S40) au inventar complet de postări și engagement citit în toate săptămânile.",
+   "Iulie, august și septembrie (S27–S40) au inventar complet de postări și engagement citit în toate săptămânile.",
    "Urmăritorii apar doar în câteva rapoarte, iar unele conturi au cifre rotunjite. Elidadent și Dental Blue au conturi mici: nu se compară direct cu noi.",
    "Life Dental Spa are cifre de engagement foarte mici: 27 la 6 postări în S39 și 30 la 7 în S40."
   ],
@@ -438,16 +437,15 @@ window.REPORT_CONFIG = {
    "DrA": {
     "2026-07": {
      "q": {
-      "posts": "",
       "avgeng": "",
       "topval": "",
       "followers": ""
      },
-     "posts": 19,
-     "eng_sum": 823,
-     "eng_n": 19,
+     "posts": 31,
+     "eng_sum": 1455,
+     "eng_n": 31,
      "followers": 4272,
-     "topval": 79
+     "topval": 91
     },
     "2026-08": {
      "q": {
@@ -492,14 +490,13 @@ window.REPORT_CONFIG = {
    "DE": {
     "2026-07": {
      "q": {
-      "posts": "",
-      "avgeng": "",
+      "avgeng": "≥",
       "topval": "",
       "followers": ""
      },
-     "posts": 40,
-     "eng_sum": 1659,
-     "eng_n": 40,
+     "posts": 66,
+     "eng_sum": 2490,
+     "eng_n": 65,
      "followers": 7673,
      "topval": 194
     },
@@ -546,14 +543,13 @@ window.REPORT_CONFIG = {
    "RM": {
     "2026-07": {
      "q": {
-      "posts": "",
       "avgeng": "",
       "topval": "",
       "followers": ""
      },
-     "posts": 22,
-     "eng_sum": 1497,
-     "eng_n": 22,
+     "posts": 37,
+     "eng_sum": 2093,
+     "eng_n": 37,
      "followers": 13400,
      "topval": 476
     },
@@ -600,14 +596,13 @@ window.REPORT_CONFIG = {
    "Life": {
     "2026-07": {
      "q": {
-      "posts": "",
       "avgeng": "",
       "topval": "",
       "followers": ""
      },
-     "posts": 20,
-     "eng_sum": 270,
-     "eng_n": 20,
+     "posts": 29,
+     "eng_sum": 364,
+     "eng_n": 29,
      "followers": 12600,
      "topval": 65
     },
@@ -654,16 +649,15 @@ window.REPORT_CONFIG = {
    "Eli": {
     "2026-07": {
      "q": {
-      "posts": "",
       "avgeng": "",
       "topval": "",
       "followers": ""
      },
-     "posts": 15,
-     "eng_sum": 151,
-     "eng_n": 15,
+     "posts": 27,
+     "eng_sum": 354,
+     "eng_n": 27,
      "followers": 474,
-     "topval": 22
+     "topval": 85
     },
     "2026-08": {
      "q": {
@@ -708,16 +702,15 @@ window.REPORT_CONFIG = {
    "DB": {
     "2026-07": {
      "q": {
-      "posts": "",
       "avgeng": "",
       "topval": "",
       "followers": ""
      },
-     "posts": 10,
-     "eng_sum": 67,
-     "eng_n": 10,
+     "posts": 18,
+     "eng_sum": 294,
+     "eng_n": 18,
      "followers": 373,
-     "topval": 13
+     "topval": 109
     },
     "2026-08": {
      "q": {

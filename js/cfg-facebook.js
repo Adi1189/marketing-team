@@ -1,5 +1,5 @@
-// Date reale din rapoartele KPI Tier 1 (12 săptămâni, S29–S40), grupate pe luni cum apar în rapoarte.
-// Iulie = S29–S31 · August = S32–S35 · Septembrie = S36–S40.
+// Date reale din rapoartele KPI Tier 1 (S27–S41), grupate pe luni.
+// Iulie = S27–S31 · August = S32–S35 · Septembrie = S36–S40 · Octombrie = S41–S44.
 window.REPORT_CONFIG = {
  "channel": "Facebook",
  "demo": false,
@@ -61,8 +61,8 @@ window.REPORT_CONFIG = {
   "showMonth": true
  },
  "notes": [
-  "Perioadele sunt grupate ca în rapoartele KPI: iulie = S29–S31, august = S32–S35, septembrie = S36–S40.",
-  "Iulie, august și septembrie (S29–S40) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile.",
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31 (5 săptămâni), august = S32–S35 (4), septembrie = S36–S40 (5), octombrie = S41–S44 (4). O săptămână intră în luna în care cad cele mai multe zile ale ei; excepție, S40 (28 sep–4 oct), pe care o păstrăm în septembrie, ca în rapoartele tale.",
+  "Iulie, august și septembrie (S27–S40) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile.",
   "Engagement = reacții + comentarii + distribuiri.",
   "Urmăritorii sunt rotunjiți la mii în rapoarte (≈17.000), așa că o creștere lunară nu se poate vedea.",
   "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
@@ -74,17 +74,17 @@ window.REPORT_CONFIG = {
  ],
  "data": {
   "2026-07": {
-   "posts": 19,
-   "eng_sum": 297,
-   "eng_n": 19,
+   "posts": 35,
+   "eng_sum": 528,
+   "eng_n": 35,
    "followers": 17000,
    "leads": 1264,
    "q": {
     "followers": "≈"
    },
    "note": {
-    "posts": "3 din 3 săpt. (S29–S31)",
-    "avgeng": "3 din 3 săpt.",
+    "posts": "5 din 5 săpt. (S27–S31)",
+    "avgeng": "5 din 5 săpt.",
     "followers": "la S31 · rotunjit",
     "leads": "Facebook + Instagram, împreună · noi (unice): 836"
    },
@@ -110,10 +110,10 @@ window.REPORT_CONFIG = {
     },
     "RM": {
      "title": "",
-     "value": 493,
+     "value": 614,
      "q": "",
-     "week": "S29",
-     "range": "13–19 iul",
+     "week": "S28",
+     "range": "6–12 iul",
      "url": null
     },
     "Life": {
@@ -126,18 +126,18 @@ window.REPORT_CONFIG = {
     },
     "Eli": {
      "title": "",
-     "value": 48,
+     "value": 72,
      "q": "",
-     "week": "S29",
-     "range": "13–19 iul",
+     "week": "S27",
+     "range": "29 iun–5 iul",
      "url": null
     },
     "DB": {
      "title": "",
-     "value": 24,
+     "value": 768,
      "q": "",
-     "week": "S30",
-     "range": "20–26 iul",
+     "week": "S27",
+     "range": "29 iun–5 iul",
      "url": null
     }
    }
@@ -423,7 +423,7 @@ window.REPORT_CONFIG = {
    }
   ],
   "notes": [
-   "Iulie, august și septembrie (S29–S40) au inventar complet de postări pe toate paginile, deci postările și engagementul mediu apar pentru toate cele trei luni.",
+   "Iulie, august și septembrie (S27–S40) au inventar complet de postări pe toate paginile, deci postările și engagementul mediu apar pentru toate cele trei luni.",
    "Elidadent și Dental Blue pornesc de la pagini mici (4,7K și 6,3K urmăritori): cifrele lor nu se compară direct cu ale noastre.",
    "Life Dental Spa are în S40 un carusel politic (newsjacking) cu 711 interacțiuni, care urcă mult engagementul lor mediu.",
    "Life Dental Spa are urmăritorii exacți (rotunjiți la mii) din S40: 83.000."
@@ -434,14 +434,13 @@ window.REPORT_CONFIG = {
      "q": {
       "followers": "≈",
       "topval": "",
-      "posts": "",
       "avgeng": ""
      },
      "followers": 17000,
      "topval": 46,
-     "posts": 19,
-     "eng_sum": 297,
-     "eng_n": 19
+     "posts": 35,
+     "eng_sum": 528,
+     "eng_n": 35
     },
     "2026-08": {
      "q": {
@@ -488,14 +487,13 @@ window.REPORT_CONFIG = {
      "q": {
       "followers": "≈",
       "topval": "",
-      "posts": "",
       "avgeng": ""
      },
      "followers": 45000,
      "topval": 312,
-     "posts": 39,
-     "eng_sum": 1173,
-     "eng_n": 39
+     "posts": 63,
+     "eng_sum": 1774,
+     "eng_n": 63
     },
     "2026-08": {
      "q": {
@@ -542,14 +540,13 @@ window.REPORT_CONFIG = {
      "q": {
       "followers": "≈",
       "topval": "",
-      "posts": "",
       "avgeng": ""
      },
      "followers": 84000,
-     "topval": 493,
-     "posts": 29,
-     "eng_sum": 1900,
-     "eng_n": 29
+     "topval": 614,
+     "posts": 50,
+     "eng_sum": 3704,
+     "eng_n": 50
     },
     "2026-08": {
      "q": {
@@ -596,14 +593,13 @@ window.REPORT_CONFIG = {
      "q": {
       "followers": "≈",
       "topval": "",
-      "posts": "",
       "avgeng": ""
      },
      "followers": 81000,
      "topval": 60,
-     "posts": 20,
-     "eng_sum": 542,
-     "eng_n": 20
+     "posts": 32,
+     "eng_sum": 740,
+     "eng_n": 32
     },
     "2026-08": {
      "q": {
@@ -653,14 +649,13 @@ window.REPORT_CONFIG = {
      "q": {
       "followers": "≈",
       "topval": "",
-      "posts": "",
       "avgeng": ""
      },
      "followers": 4600,
-     "topval": 48,
-     "posts": 14,
-     "eng_sum": 305,
-     "eng_n": 14
+     "topval": 72,
+     "posts": 27,
+     "eng_sum": 582,
+     "eng_n": 27
     },
     "2026-08": {
      "q": {
@@ -707,14 +702,13 @@ window.REPORT_CONFIG = {
      "q": {
       "followers": "≈",
       "topval": "",
-      "posts": "",
       "avgeng": ""
      },
      "followers": 6200,
-     "topval": 24,
-     "posts": 17,
-     "eng_sum": 188,
-     "eng_n": 17
+     "topval": 768,
+     "posts": 33,
+     "eng_sum": 1313,
+     "eng_n": 33
     },
     "2026-08": {
      "q": {

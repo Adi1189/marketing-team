@@ -1,5 +1,5 @@
-// Date reale din rapoartele KPI Tier 1 (12 săptămâni, S29–S40), grupate pe luni cum apar în rapoarte.
-// Iulie = S29–S31 · August = S32–S35 · Septembrie = S36–S40.
+// Date reale din rapoartele KPI Tier 1 (S27–S41), grupate pe luni.
+// Iulie = S27–S31 · August = S32–S35 · Septembrie = S36–S40 · Octombrie = S41–S44.
 window.REPORT_CONFIG = {
  "channel": "YouTube",
  "demo": false,
@@ -52,28 +52,28 @@ window.REPORT_CONFIG = {
   "showMonth": true
  },
  "notes": [
-  "Perioadele sunt grupate ca în rapoartele KPI: iulie = S29–S31, august = S32–S35, septembrie = S36–S40.",
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31 (5 săptămâni), august = S32–S35 (4), septembrie = S36–S40 (5), octombrie = S41–S44 (4). O săptămână intră în luna în care cad cele mai multe zile ale ei; excepție, S40 (28 sep–4 oct), pe care o păstrăm în septembrie, ca în rapoartele tale.",
   "Vizualizările sunt cele din ziua raportului, pentru videoclipurile publicate în acea săptămână. Un video recent are mai puține vizualizări decât unul vechi, deci ultimele zile din fiecare săptămână sunt dezavantajate.",
   "Community posts nu sunt numărate.",
   "Cifrele sunt exacte pentru canalul nostru, în toate cele 12 săptămâni.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
   "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte.",
-  "Iulie, august și septembrie (S29–S40) au fost recitite cu skill-ul actualizat, cu vizualizările citite pe 12–15 octombrie.",
+  "Iulie, august și septembrie (S27–S40) au fost recitite cu skill-ul actualizat, cu vizualizările citite pe 12–15 octombrie.",
   "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
   "Abonații pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
   "În iulie, DENT ESTET are 476.760 de vizualizări, din care 407.134 la un singur video viral (publicat pe 27 iulie, S31): cifra nu se compară cu luna august (4.179), iar variația apare ca o scădere de 99%, care nu e reală."
  ],
  "data": {
   "2026-07": {
-   "posts": 13,
-   "views": 7998,
+   "posts": 20,
+   "views": 10736,
    "leads": null,
    "q": {
     "subs": ""
    },
    "note": {
-    "posts": "3 din 3 săpt. (S29–S31)",
+    "posts": "5 din 5 săpt. (S27–S31)",
     "views": "vizionări citite pe 15 oct",
     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
     "subs": "la S31"
@@ -374,8 +374,8 @@ window.REPORT_CONFIG = {
       "topval": "",
       "subs": ""
      },
-     "posts": 13,
-     "views": 7998,
+     "posts": 20,
+     "views": 10736,
      "topval": 1747,
      "subs": 923
     },
@@ -418,8 +418,8 @@ window.REPORT_CONFIG = {
       "topval": "",
       "subs": "≈"
      },
-     "posts": 22,
-     "views": 476760,
+     "posts": 67,
+     "views": 479334,
      "topval": 407134,
      "subs": 1330
     },
@@ -462,8 +462,8 @@ window.REPORT_CONFIG = {
       "topval": "",
       "subs": "≈"
      },
-     "posts": 9,
-     "views": 3138,
+     "posts": 12,
+     "views": 3460,
      "topval": 1023,
      "subs": 9320
     },
@@ -506,8 +506,8 @@ window.REPORT_CONFIG = {
       "topval": "",
       "subs": "≈"
      },
-     "posts": 19,
-     "views": 7055,
+     "posts": 20,
+     "views": 7322,
      "topval": 1507,
      "subs": 1990
     },

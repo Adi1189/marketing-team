@@ -1,7 +1,17 @@
-// Date reale din rapoartele KPI Tier 1 (S29–S40), pe săptămână.
+// Date reale din rapoartele KPI Tier 1 (S27–S41), pe săptămână.
 window.WEEKLY_CONFIG = {
  "channel": "Instagram",
  "weeks": [
+  {
+   "id": "S27",
+   "range": "29 iun–5 iul",
+   "month": "Iulie"
+  },
+  {
+   "id": "S28",
+   "range": "6–12 iul",
+   "month": "Iulie"
+  },
   {
    "id": "S29",
    "range": "13–19 iul",
@@ -199,22 +209,23 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 13 săptămâni: 7,5 postări pe săptămână la noi, 7,1 la Regina Maria, 6,6 la Life și 16,2 la DENT ESTET. Vârful nostru a fost 12 în S38. În S41 am avut 8 postări, față de 17 la DENT ESTET.",
-  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 13 din 13 săptămâni cu cifre (0,42–1,43% față de 0,21–0,67%), peste Regina Maria în 12 și peste Life în 13. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 13 săptămâni (S29, S35, S40).",
-  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 13 cu cifre e S40 (19,3), cea mai bună e S33 (66,0). În S40 a fost 19,3, iar în S41 26,2.",
+  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 15 săptămâni: 7,3 postări pe săptămână la noi, 7,1 la Regina Maria, 6,3 la Life și 15,8 la DENT ESTET. Vârful nostru a fost 12 în S38. În S41 am avut 8 postări, față de 17 la DENT ESTET.",
+  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 14 din 14 săptămâni cu cifre (0,42–1,43% față de 0,21–0,67%), peste Regina Maria în 13 și peste Life în 14. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 14 săptămâni (S29, S35, S40).",
+  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 15 cu cifre e S40 (19,3), cea mai bună e S33 (66,0). În S40 a fost 19,3, iar în S41 26,2.",
   "Urmăritori, de la prima cifră (S28) la S41: DENT ESTET +1.283 (+16,7%), noi +328 (+7,7%). Life +4,8% și Regina Maria +1,5%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+7,8%) și Dental Blue (+9,9%) pornesc de la baze foarte mici.",
   "Cele mai mari vârfuri ale pieței: Regina Maria 630 (S41); Regina Maria 476 (S29); Elidadent 389 (S38). La noi, cele mai bune trei săptămâni după postarea de top: 151 (S32); 136 (S34); 95 (S33)."
  ],
  "notes": [
-  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
+  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
   "Engagement = like-uri + comentarii (Instagram nu arată distribuirile); unde raportul dă doar like-uri, cifra e minimă („≥”). Urmăritorii apar doar în câteva rapoarte (se păstrează ultima cifră cunoscută).",
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
-  "S29–S41 au fost recitite cu skill-ul actualizat sau dintr-un bloc cu like-uri citite pe 12–14 octombrie. Engagementul acestor săptămâni e mult sub cel din rapoartele vechi (de exemplu S38 la noi: 374 față de 699, S39: 224 față de 568), deci nu se compară cu cifrele vechi.",
+  "S27–S41 au fost recitite cu skill-ul actualizat sau dintr-un bloc cu like-uri citite pe 12–14 octombrie. Engagementul acestor săptămâni e mult sub cel din rapoartele vechi (de exemplu S38 la noi: 374 față de 699, S39: 224 față de 568), deci nu se compară cu cifrele vechi.",
   "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Regina Maria are în S41 un reel în colaborare cu 630 de interacțiuni; fără el media ei ar fi 17,0. Raportul nu are variația față de S40 (nu a măsurat acea săptămână), dar aici S40 există și e folosit pentru variație.",
   "S32–S35 (august) au inventar complet, dar blocul nu are titlurile postărilor de top, deci titlul apare „neprecizat”, iar linkul e cel din bloc. Like-urile au fost citite pe 12–13 octombrie, deci sunt mai mari decât ar fi fost la sfârșitul acelor săptămâni. La noi, în S34, 6 din 7 postări au engagement citit („≥”).",
   "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
-  "S29–S31 (iulie) au inventar complet, dar blocul nu are titlurile postărilor de top, deci titlul apare „neprecizat”, iar linkurile sunt complete. Like-urile au fost citite pe 14 octombrie, deci sunt mai mari decât ar fi fost la sfârșitul acelor săptămâni. Blocul include și S27–S28 (iunie), pe care nu le-am încărcat în site. Urmăritorii din iulie rămân cifrele din rapoartele vechi (S29–S31 păstrează ultima cifră cunoscută, din S28)."
+  "S27–S31 (iulie) au inventar complet, dar blocul nu are titlurile postărilor de top, deci titlul apare „neprecizat”, iar linkurile sunt complete. Like-urile au fost citite pe 14 octombrie, deci sunt mai mari decât ar fi fost la sfârșitul acelor săptămâni. Urmăritorii din iulie rămân cifrele din rapoartele vechi (S29–S31 păstrează ultima cifră cunoscută, din S28).",
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie."
  ],
  "data": {
   "DrA": {
@@ -497,6 +508,41 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/reel/DeKC2_mEVrO/"
     },
     "topval": 61
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 91,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DaSOG7Yiy21/"
+    },
+    "topval": 91,
+    "posts": 7,
+    "eng_sum": 367,
+    "eng_n": 7
+   },
+   "S28": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "followers": 4272,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 75,
+     "q": "",
+     "url": "https://www.instagram.com/reel/Damz_37lAT7/"
+    },
+    "topval": 75,
+    "posts": 5,
+    "eng_sum": 265,
+    "eng_n": 5
    }
   },
   "DE": {
@@ -751,6 +797,44 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/reel/DeKJTlkjRgp/"
     },
     "topval": 141
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 134,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DaPUuw1E6Bi/"
+    },
+    "topval": 134,
+    "posts": 14,
+    "eng_sum": 530,
+    "eng_n": 14
+   },
+   "S28": {
+    "q": {
+     "topval": "",
+     "avgeng": "≥",
+     "followers": ""
+    },
+    "note": {
+     "avgeng": "11 din 12 postări au engagement citit"
+    },
+    "followers": 7673,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 45,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DakWraUAYKk/"
+    },
+    "topval": 45,
+    "posts": 12,
+    "eng_sum": 301,
+    "eng_n": 11
    }
   },
   "RM": {
@@ -1016,6 +1100,41 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/reel/DeQnpcGIpL5/"
     },
     "topval": 630
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 273,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DaUkD2wsGtE/"
+    },
+    "topval": 273,
+    "posts": 8,
+    "eng_sum": 422,
+    "eng_n": 8
+   },
+   "S28": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {},
+    "followers": 13400,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 49,
+     "q": "",
+     "url": "https://www.instagram.com/p/Daiain0CCl_/"
+    },
+    "topval": 49,
+    "posts": 7,
+    "eng_sum": 174,
+    "eng_n": 7
    }
   },
   "Life": {
@@ -1275,6 +1394,41 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/reel/DeTb9aFjCaL/"
     },
     "topval": 10
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 38,
+     "q": "",
+     "url": "https://www.instagram.com/p/DaPUqwDmqxd/"
+    },
+    "topval": 38,
+    "posts": 5,
+    "eng_sum": 68,
+    "eng_n": 5
+   },
+   "S28": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {},
+    "followers": 12600,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 12,
+     "q": "",
+     "url": "https://www.instagram.com/p/DapDdnaDU1t/"
+    },
+    "topval": 12,
+    "posts": 4,
+    "eng_sum": 26,
+    "eng_n": 4
    }
   },
   "Eli": {
@@ -1526,6 +1680,41 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/p/DePDFYxDQAy/"
     },
     "topval": 22
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 37,
+     "q": "",
+     "url": "https://www.instagram.com/p/DaPpeKIjdSt/"
+    },
+    "topval": 37,
+    "posts": 6,
+    "eng_sum": 94,
+    "eng_n": 6
+   },
+   "S28": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "followers": 474,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 85,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DanFB0Hoz9j/"
+    },
+    "topval": 85,
+    "posts": 6,
+    "eng_sum": 109,
+    "eng_n": 6
    }
   },
   "DB": {
@@ -1781,6 +1970,41 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null
+   },
+   "S27": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "followers": null,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 109,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DabM1uwsw7-/"
+    },
+    "topval": 109,
+    "posts": 5,
+    "eng_sum": 192,
+    "eng_n": 5
+   },
+   "S28": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "followers": 373,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 26,
+     "q": "",
+     "url": "https://www.instagram.com/p/DaoI-GYjPK8/"
+    },
+    "topval": 26,
+    "posts": 3,
+    "eng_sum": 35,
+    "eng_n": 3
    }
   }
  }

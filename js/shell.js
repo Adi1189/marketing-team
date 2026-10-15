@@ -48,7 +48,7 @@
   }
   function noticeText() {
     if (!tabObj().week) return 'Raportul săptămânal există doar pentru Facebook, Instagram, TikTok și YouTube. Alege unul dintre ele sau treci pe Month.';
-    return 'Nu există rapoarte săptămânale pentru ' + MONTHS[state.month - 1] + ' ' + YEAR + '. Avem săptămânile S29–S40 (iulie–septembrie).';
+    return 'Nu există rapoarte săptămânale pentru ' + MONTHS[state.month - 1] + ' ' + YEAR + '. Avem săptămânile S27–S41 (iulie–octombrie).';
   }
 
   // ----- hash: #t=facebook&m=9
