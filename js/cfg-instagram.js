@@ -64,28 +64,29 @@ window.REPORT_CONFIG = {
   "Perioadele sunt grupate ca în rapoartele KPI: iulie = S29–S31, august = S32–S35, septembrie = S36–S40.",
   "Raportul pentru S29 (13–19 iulie) lipsește, deci iulie are doar S30 și S31.",
   "Engagement = like-uri + comentarii (Instagram nu arată distribuirile). În S31, S32, S34 și S35 raportul dă doar like-uri, de aceea cifrele din iulie și august sunt minime („≥”).",
-  "Septembrie (S36–S40) are inventar complet de postări, cu engagement citit în toate cele 5 săptămâni; unde unele like-uri sunt ascunse, cifra e marcată „≥”.",
+  "Iulie, august și septembrie (S29–S40) au inventar complet de postări și engagement citit în toate săptămânile; unde unele like-uri sunt ascunse, cifra e marcată „≥”.",
   "Urmăritorii vin doar din câteva rapoarte (S28, S32, S35, S36, S38, S40); pentru fiecare lună e ultima cifră disponibilă.",
   "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
   "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte.",
-  "Septembrie e citit cu skill-ul actualizat și nu se compară direct cu iulie–august, care vin din rapoartele vechi: engagementul nou e mult mai mic (de exemplu S38–S39 la noi: 374 și 224, față de 699 și 568 în rapoartele vechi).",
-  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie."
+  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Pentru iulie și august, blocul nu are titlurile postărilor de top, deci în „Top postarea lunii” titlul apare „fără descriere în raport”; linkurile sunt complete. Like-urile din iulie–august au fost citite pe 12–14 octombrie.",
+  "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
+  "Toate cele trei luni (iulie–septembrie) sunt citite cu metoda nouă, cu like-urile citite pe 12–14 octombrie; engagementul e mult sub cel din rapoartele vechi (de exemplu S38–S39 la noi: 374 și 224, față de 699 și 568), deci nu se compară cu cifrele vechi."
  ],
  "data": {
   "2026-07": {
-   "posts": 12,
-   "eng_sum": 396,
-   "eng_n": 11,
+   "posts": 19,
+   "eng_sum": 823,
+   "eng_n": 19,
    "leads": 1264,
    "q": {
-    "posts": "≥",
-    "avgeng": "≥"
+    "followers": ""
    },
    "note": {
-    "posts": "2 din 3 săpt. (lipsește S29)",
-    "avgeng": "2 din 3 săpt.; unele săpt. doar like-uri",
-    "followers": "la S28 (6–12 iul)",
+    "posts": "3 din 3 săpt. (S29–S31)",
+    "avgeng": "3 din 3 săpt.",
+    "followers": "la S31",
     "leads": "Facebook + Instagram, împreună · noi (unice): 836"
    },
    "followers": 4272,
@@ -94,118 +95,120 @@ window.REPORT_CONFIG = {
    },
    "topPosts": {
     "DrA": {
-     "title": "Carusel masterclass Zucchelli (likes)",
-     "value": 73,
-     "q": "≥",
-     "week": "S31",
-     "range": "27 iul–2 aug",
-     "url": null
+     "title": "",
+     "value": 79,
+     "q": "",
+     "week": "S30",
+     "range": "20–26 iul",
+     "url": "https://www.instagram.com/reel/DbFmZlrDCHC/"
     },
     "DE": {
-     "title": "Before&After fondatoare Oana Taban (299/8)",
-     "value": 307,
-     "q": "≥",
+     "title": "",
+     "value": 194,
+     "q": "",
      "week": "S30",
      "range": "20–26 iul",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbKjDRwjY59/"
     },
     "RM": {
-     "title": "Colab influencer pe contul creatoarei (likes)",
-     "value": 84,
-     "q": "≥",
-     "week": "S31",
-     "range": "27 iul–2 aug",
-     "url": null
+     "title": "",
+     "value": 476,
+     "q": "",
+     "week": "S29",
+     "range": "13–19 iul",
+     "url": "https://www.instagram.com/reel/Da-PMgtI65Z/"
     },
     "Life": {
-     "title": "Din tabelul raportului (likes)",
-     "value": 36,
-     "q": "≥",
+     "title": "",
+     "value": 65,
+     "q": "",
      "week": "S31",
      "range": "27 iul–2 aug",
-     "url": null
+     "url": "https://www.instagram.com/p/Dbc-gvJldWz/"
     },
     "Eli": {
-     "title": "Reel examen radiologic kids (likes)",
-     "value": 20,
-     "q": "≥",
+     "title": "",
+     "value": 22,
+     "q": "",
      "week": "S31",
      "range": "27 iul–2 aug",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbajCJ8Eu2t/"
     },
     "DB": {
-     "title": "Retratament endodontic (10/3)",
+     "title": "",
      "value": 13,
-     "q": "≥",
+     "q": "",
      "week": "S30",
      "range": "20–26 iul",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbLxwV8APSI/"
     }
    }
   },
   "2026-08": {
-   "posts": 27,
-   "eng_sum": 1156,
-   "eng_n": 26,
+   "posts": 26,
+   "eng_sum": 1372,
+   "eng_n": 25,
    "leads": 1366,
    "q": {
-    "avgeng": "≥"
+    "posts": "",
+    "avgeng": "≥",
+    "followers": ""
    },
    "note": {
-    "posts": "4 din 4 săpt.",
-    "avgeng": "4 din 4 săpt.; unele săpt. doar like-uri",
-    "followers": "la S35 (24–30 aug)",
+    "posts": "4 din 4 săpt. (S32–S35)",
+    "avgeng": "4 din 4 săpt.",
+    "followers": "la S35",
     "leads": "Facebook + Instagram, împreună · noi (unice): 832"
    },
    "followers": 4441,
    "topPosts": {
     "DrA": {
-     "title": "Reel extindere Slobozia (129/15)",
-     "value": 144,
+     "title": "",
+     "value": 151,
      "q": "",
      "week": "S32",
      "range": "3–9 aug",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbpdpKBD73U/"
     },
     "DE": {
-     "title": "Postare Genesys Arad (likes)",
-     "value": 109,
-     "q": "≥",
-     "week": "S34",
-     "range": "17–23 aug",
-     "url": null
+     "title": "",
+     "value": 256,
+     "q": "",
+     "week": "S32",
+     "range": "3–9 aug",
+     "url": "https://www.instagram.com/reel/DbsBaqvCP3x/"
     },
     "RM": {
-     "title": "Colab ana_maria_guran (likes)",
-     "value": 171,
-     "q": "≥",
+     "title": "",
+     "value": 175,
+     "q": "",
      "week": "S32",
      "range": "3–9 aug",
-     "url": null
+     "url": "https://www.instagram.com/reel/Dbm9eJmoZZQ/"
     },
     "Life": {
-     "title": "Carusel „fren lingual” (likes)",
-     "value": 76,
-     "q": "≥",
+     "title": "",
+     "value": 82,
+     "q": "",
      "week": "S35",
      "range": "24–30 aug",
-     "url": null
+     "url": "https://www.instagram.com/p/DcdNKC8MTtE/"
     },
     "Eli": {
-     "title": "Raportat 1–15 like-uri / postare",
-     "value": 15,
-     "q": "≥",
-     "week": "S32",
-     "range": "3–9 aug",
-     "url": null
+     "title": "",
+     "value": 30,
+     "q": "",
+     "week": "S34",
+     "range": "17–23 aug",
+     "url": "https://www.instagram.com/reel/DcOK-cZARjK/"
     },
     "DB": {
-     "title": "Reel Zumba (likes)",
-     "value": 102,
-     "q": "≥",
+     "title": "",
+     "value": 150,
+     "q": "",
      "week": "S32",
      "range": "3–9 aug",
-     "url": null
+     "url": "https://www.instagram.com/reel/Dbx3oeLtI74/"
     }
    }
   },
@@ -217,15 +220,15 @@ window.REPORT_CONFIG = {
    "q": {
     "posts": "",
     "avgeng": "≥",
-    "followers": "≈"
+    "followers": ""
    },
    "note": {
     "posts": "5 din 5 săpt. (S36–S40)",
     "avgeng": "5 din 5 săpt.",
-    "followers": "valoare de la data rulării",
+    "followers": "la S40",
     "leads": "Facebook + Instagram, împreună · noi (unice): 827"
    },
-   "followers": 4585,
+   "followers": 4559,
    "topPosts": {
     "DrA": {
      "title": "CARE Forum continuă, cu energie… (carusel)",
@@ -427,7 +430,7 @@ window.REPORT_CONFIG = {
   ],
   "notes": [
    "Engagement = like-uri + comentarii (Instagram nu arată distribuirile). Unde raportul dă doar like-uri, cifra e minimă („≥”).",
-   "Septembrie (S36–S40) are inventar complet de postări și engagement citit în toate cele 5 săptămâni.",
+   "Iulie, august și septembrie (S29–S40) au inventar complet de postări și engagement citit în toate săptămânile.",
    "Urmăritorii apar doar în câteva rapoarte, iar unele conturi au cifre rotunjite. Elidadent și Dental Blue au conturi mici: nu se compară direct cu noi.",
    "Life Dental Spa are cifre de engagement foarte mici: 27 la 6 postări în S39 și 30 la 7 în S40."
   ],
@@ -435,38 +438,41 @@ window.REPORT_CONFIG = {
    "DrA": {
     "2026-07": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
-      "topval": "≥"
+      "posts": "",
+      "avgeng": "",
+      "topval": "",
+      "followers": ""
      },
-     "posts": 12,
-     "eng_sum": 396,
-     "eng_n": 11,
+     "posts": 19,
+     "eng_sum": 823,
+     "eng_n": 19,
      "followers": 4272,
-     "topval": 73
+     "topval": 79
     },
     "2026-08": {
      "q": {
+      "posts": "",
       "avgeng": "≥",
+      "followers": "",
       "topval": ""
      },
-     "posts": 27,
-     "eng_sum": 1156,
-     "eng_n": 26,
+     "posts": 26,
+     "eng_sum": 1372,
+     "eng_n": 25,
      "followers": 4441,
-     "topval": 144
+     "topval": 151
     },
     "2026-09": {
      "q": {
       "posts": "",
       "avgeng": "≥",
-      "followers": "≈",
+      "followers": "",
       "topval": ""
      },
      "posts": 44,
      "eng_sum": 1168,
      "eng_n": 43,
-     "followers": 4585,
+     "followers": 4559,
      "topval": 65
     },
     "2026-10": {
@@ -486,38 +492,41 @@ window.REPORT_CONFIG = {
    "DE": {
     "2026-07": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
-      "topval": ""
+      "posts": "",
+      "avgeng": "",
+      "topval": "",
+      "followers": ""
      },
-     "posts": 21,
-     "eng_sum": 881,
-     "eng_n": 21,
+     "posts": 40,
+     "eng_sum": 1659,
+     "eng_n": 40,
      "followers": 7673,
-     "topval": 307
+     "topval": 194
     },
     "2026-08": {
      "q": {
-      "avgeng": "≥",
-      "topval": "≥"
+      "posts": "",
+      "avgeng": "",
+      "followers": "",
+      "topval": ""
      },
-     "posts": 57,
-     "eng_sum": 1859,
-     "eng_n": 57,
+     "posts": 66,
+     "eng_sum": 3293,
+     "eng_n": 66,
      "followers": 8393,
-     "topval": 109
+     "topval": 256
     },
     "2026-09": {
      "q": {
       "posts": "",
       "avgeng": "",
-      "followers": "≈",
+      "followers": "",
       "topval": ""
      },
      "posts": 88,
      "eng_sum": 2140,
      "eng_n": 88,
-     "followers": 8944,
+     "followers": 8895,
      "topval": 82
     },
     "2026-10": {
@@ -537,26 +546,29 @@ window.REPORT_CONFIG = {
    "RM": {
     "2026-07": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
-      "topval": "≥"
+      "posts": "",
+      "avgeng": "",
+      "topval": "",
+      "followers": ""
      },
-     "posts": 12,
-     "eng_sum": 326,
-     "eng_n": 12,
+     "posts": 22,
+     "eng_sum": 1497,
+     "eng_n": 22,
      "followers": 13400,
-     "topval": 84
+     "topval": 476
     },
     "2026-08": {
      "q": {
-      "avgeng": "≥",
-      "topval": "≥"
+      "posts": "",
+      "avgeng": "",
+      "followers": "≈",
+      "topval": ""
      },
-     "posts": 27,
-     "eng_sum": 661,
-     "eng_n": 27,
+     "posts": 26,
+     "eng_sum": 976,
+     "eng_n": 26,
      "followers": 13500,
-     "topval": 171
+     "topval": 175
     },
     "2026-09": {
      "q": {
@@ -588,26 +600,29 @@ window.REPORT_CONFIG = {
    "Life": {
     "2026-07": {
      "q": {
-      "posts": "≥",
+      "posts": "",
       "avgeng": "",
-      "topval": "≥"
+      "topval": "",
+      "followers": ""
      },
-     "posts": 14,
-     "eng_sum": 62,
-     "eng_n": 6,
+     "posts": 20,
+     "eng_sum": 270,
+     "eng_n": 20,
      "followers": 12600,
-     "topval": 36
+     "topval": 65
     },
     "2026-08": {
      "q": {
-      "avgeng": "≥",
-      "topval": "≥"
+      "posts": "",
+      "avgeng": "",
+      "followers": "≈",
+      "topval": ""
      },
      "posts": 29,
-     "eng_sum": 300,
+     "eng_sum": 373,
      "eng_n": 29,
      "followers": 13000,
-     "topval": 76
+     "topval": 82
     },
     "2026-09": {
      "q": {
@@ -619,7 +634,7 @@ window.REPORT_CONFIG = {
      "posts": 32,
      "eng_sum": 151,
      "eng_n": 32,
-     "followers": 13200,
+     "followers": 13100,
      "topval": 13
     },
     "2026-10": {
@@ -639,38 +654,41 @@ window.REPORT_CONFIG = {
    "Eli": {
     "2026-07": {
      "q": {
-      "posts": "≥",
-      "avgeng": "≥",
-      "topval": "≥"
+      "posts": "",
+      "avgeng": "",
+      "topval": "",
+      "followers": ""
      },
-     "posts": 12,
-     "eng_sum": 116,
-     "eng_n": 12,
+     "posts": 15,
+     "eng_sum": 151,
+     "eng_n": 15,
      "followers": 474,
-     "topval": 20
+     "topval": 22
     },
     "2026-08": {
      "q": {
-      "avgeng": "≥",
-      "topval": "≥"
+      "posts": "",
+      "avgeng": "",
+      "followers": "",
+      "topval": ""
      },
-     "posts": 19,
-     "eng_sum": 153,
-     "eng_n": 19,
+     "posts": 21,
+     "eng_sum": 207,
+     "eng_n": 21,
      "followers": 488,
-     "topval": 15
+     "topval": 30
     },
     "2026-09": {
      "q": {
       "posts": "",
       "avgeng": "",
-      "followers": "≈",
+      "followers": "",
       "topval": ""
      },
      "posts": 28,
      "eng_sum": 727,
      "eng_n": 28,
-     "followers": 507,
+     "followers": 506,
      "topval": 389
     },
     "2026-10": {
@@ -690,38 +708,41 @@ window.REPORT_CONFIG = {
    "DB": {
     "2026-07": {
      "q": {
-      "posts": "≥",
+      "posts": "",
       "avgeng": "",
-      "topval": ""
+      "topval": "",
+      "followers": ""
      },
-     "posts": 4,
-     "eng_sum": 34,
-     "eng_n": 4,
+     "posts": 10,
+     "eng_sum": 67,
+     "eng_n": 10,
      "followers": 373,
      "topval": 13
     },
     "2026-08": {
      "q": {
-      "avgeng": "≥",
-      "topval": "≥"
+      "posts": "",
+      "avgeng": "",
+      "followers": "",
+      "topval": ""
      },
      "posts": 7,
-     "eng_sum": 187,
+     "eng_sum": 279,
      "eng_n": 7,
      "followers": 390,
-     "topval": 102
+     "topval": 150
     },
     "2026-09": {
      "q": {
       "posts": "",
       "avgeng": "",
-      "followers": "≈",
+      "followers": "",
       "topval": ""
      },
      "posts": 3,
      "eng_sum": 8,
      "eng_n": 3,
-     "followers": 405,
+     "followers": 399,
      "topval": 4
     },
     "2026-10": {

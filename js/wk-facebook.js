@@ -199,160 +199,176 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Doar ultimele 6 din cele 13 săptămâni (S36–S41, adică septembrie și prima săptămână din octombrie) au inventar complet de postări. Până în S35, rapoartele conțin un eșantion din feed (1–4 postări pe pagină), fără total săptămânal, deci frecvența, engagementul mediu și rata de engagement se pot calcula doar pentru S36–S41.",
-  "Postări pe săptămână (S36–S41): noi 5 → 10 → 13 → 10 → 8 → 9; DENT ESTET 19 → 17 → 18 → 17 → 18 → 15. Am urcat până la 13 în S38 și scădem de atunci, în timp ce DENT ESTET se ține între 15 și 19 postări.",
-  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S36–S41: 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6. Vârful e în S39 (43,7), cu urarea pentru Dr. Arina Lupu ca postare de top (140 din 437). În S40 scade la 13,9, iar în S41 revine la 27,6 (reelul „Nu există scurtături către succes”: 53).",
-  "Pe urmăritor stăm bine față de paginile mari. Rata noastră (engagement mediu împărțit la urmăritori) a fost 0,24% → 0,08% → 0,15% în S39–S41, față de 0,09% → 0,09% → 0,07% la DENT ESTET și 0,03% → 0,03% → 0,02% la Regina Maria. Elidadent are 1,30% în S41, dar include o postare în colaborare cu 107 distribuiri; Elidadent și Dental Blue pornesc de la pagini mici (4,7K și 6,3K), deci nu sunt comparabile direct cu noi."
+  "Toate cele 13 săptămâni (S29–S41) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile, deci frecvența, engagementul mediu și rata de engagement se pot calcula pentru tot intervalul.",
+  "Postări pe săptămână (S29–S41): noi 7 → 6 → 6 → 7 → 6 → 7 → 8 → 5 → 10 → 13 → 10 → 8 → 9; DENT ESTET 10 → 12 → 17 → 16 → 16 → 16 → 14 → 19 → 17 → 18 → 17 → 18 → 15. Media: 7,8 la noi, 15,8 la DENT ESTET, 8,9 la Regina Maria, 6,8 la Life. Cel mai mare ritm al nostru: 13 postări (S38).",
+  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S29–S41: 12,3 → 13,7 → 21,5 → 38,3 → 29,2 → 28,0 → 26,1 → 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6. Vârful e în S39 (43,7, postarea de top: 140 din 437). În S40 avem 13,9, iar în S41 27,6.",
+  "Pe urmăritor, rata noastră (engagement mediu împărțit la urmăritori) a fost 0,24% → 0,08% → 0,15% în S39–S41, față de 0,09% → 0,09% → 0,07% la DENT ESTET și 0,03% → 0,03% → 0,02% la Regina Maria. Elidadent (1,30% în S41) și Dental Blue pornesc de la pagini mici (4,7K și 6,3K), deci nu sunt comparabile direct cu noi."
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
-  "Engagement = reacții + comentarii + distribuiri. Doar S36–S40 au inventar complet de postări; în rest, rapoartele conțin doar un eșantion din feed (postările și engagementul mediu apar cu „–”). La top, în săptămânile fără inventar complet cifra e cea mai bună postare din eșantion (minimă).",
-  "Urmăritorii: S38–S40 sunt rotunjiți la mii, din pagină. La S36–S37 am valorile exacte, dar sunt cele de la data rulării, nu de la sfârșitul acelor săptămâni, deci apar cu „≈”. Pentru S29–S35 se păstrează ultima cifră cunoscută.",
+  "Engagement = reacții + comentarii + distribuiri. Toate săptămânile S29–S41 au inventar complet de postări, citit în octombrie cu skill-ul actualizat.",
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S36–S40 au fost recitite cu skill-ul actualizat: inventar complet, cu reacții, comentarii și distribuiri citite pentru toate conturile. Unele cifre ies mai mari decât în raportul vechi, de exemplu Regina Maria: 145 → 284 în S40 și 105 → 246 în S39, deci aceste săptămâni nu sunt comparabile direct cu S29–S35 la acel cont.",
-  "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Acel raport compară cu un S40 „calculat din feed” (11 postări, 32,7), care nu se potrivește cu citirea completă a S40 de aici (8 postări, 13,9) și pare să includă și postări din S39 (140 și 89). Am păstrat citirea completă a S40; merită verificat dacă S40 are 8 sau 11 postări."
+  "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Acel raport compară cu un S40 „calculat din feed” (11 postări, 32,7), care nu se potrivește cu citirea completă a S40 de aici (8 postări, 13,9) și pare să includă și postări din S39 (140 și 89). Am păstrat citirea completă a S40; merită verificat dacă S40 are 8 sau 11 postări.",
+  "S32–S35 (august) au fost recitite cu inventar complet; raportul dă doar valoarea postării de top, fără titlu și fără link, deci acolo titlul apare „neprecizat”, iar linkul „–”.",
+  "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
+  "S29–S31 (iulie) au fost recitite cu inventar complet, la fel ca august; blocul nu are titluri și linkuri, deci titlul apare „neprecizat”, iar linkul „–”. Blocul include și S27–S28 (iunie), pe care nu le-am încărcat în site. Urmăritorii din iulie rămân cifrele din rapoartele vechi, citite în acele săptămâni."
  ],
  "data": {
   "DrA": {
    "S29": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed",
-     "leads": "Puls are cifre începând cu S30"
+     "leads": "Puls are cifre începând cu S30",
+     "followers": "rotunjit la mii"
     },
     "followers": 17000,
     "top": {
-     "title": "",
-     "value": 11,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 17,
+     "q": "",
      "url": null
     },
-    "topval": 11
+    "topval": 17,
+    "posts": 7,
+    "eng_sum": 86,
+    "eng_n": 7
    },
    "S30": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed",
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "rotunjit la mii"
     },
     "followers": 17000,
     "top": {
-     "title": "",
-     "value": 20,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 23,
+     "q": "",
      "url": null
     },
-    "topval": 20,
-    "leads": 200
+    "topval": 23,
+    "leads": 200,
+    "posts": 6,
+    "eng_sum": 82,
+    "eng_n": 6
    },
    "S31": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed",
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "rotunjit la mii"
     },
     "followers": 17000,
     "top": {
-     "title": "",
-     "value": 52,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 46,
+     "q": "",
      "url": null
     },
-    "topval": 52,
-    "leads": 218
+    "topval": 46,
+    "leads": 218,
+    "posts": 6,
+    "eng_sum": 129,
+    "eng_n": 6
    },
    "S32": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed",
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "rotunjit la mii"
     },
     "followers": 17000,
     "top": {
-     "title": "",
-     "value": 24,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 119,
+     "q": "",
      "url": null
     },
-    "topval": 24,
-    "leads": 262
+    "topval": 119,
+    "leads": 262,
+    "posts": 7,
+    "eng_sum": 268,
+    "eng_n": 7
    },
    "S33": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed",
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "rotunjit la mii"
     },
     "followers": 17000,
     "top": {
-     "title": "",
-     "value": 56,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 58,
+     "q": "",
      "url": null
     },
-    "topval": 56,
-    "leads": 324
+    "topval": 58,
+    "leads": 324,
+    "posts": 6,
+    "eng_sum": 175,
+    "eng_n": 6
    },
    "S34": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed",
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "rotunjit la mii"
     },
     "followers": 17000,
     "top": {
-     "title": "Postare nouă oraș, 21 aug (49/11/3); ~13–15 postări în săptămână",
-     "value": 63,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 87,
+     "q": "",
      "url": null
     },
-    "topval": 63,
-    "leads": 333
+    "topval": 87,
+    "leads": 333,
+    "posts": 7,
+    "eng_sum": 196,
+    "eng_n": 7
    },
    "S35": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed",
-     "leads": "Facebook + Instagram, împreună"
+     "leads": "Facebook + Instagram, împreună",
+     "followers": "rotunjit la mii"
     },
     "followers": 17000,
     "top": {
-     "title": "Urare Dr. Irina Udrescu (31/16)",
-     "value": 47,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 49,
+     "q": "",
      "url": null
     },
-    "topval": 47,
-    "leads": 310
+    "topval": 49,
+    "leads": 310,
+    "posts": 8,
+    "eng_sum": 209,
+    "eng_n": 8
    },
    "S36": {
     "q": {
@@ -449,12 +465,12 @@ window.WEEKLY_CONFIG = {
     },
     "note": {
      "leads": "Facebook + Instagram, împreună",
-     "followers": "rotunjit la mii, din pagină"
+     "followers": "rotunjit la mii"
     },
     "posts": 8,
     "eng_sum": 111,
     "eng_n": 8,
-    "followers": 18000,
+    "followers": 17000,
     "top": {
      "title": "Hei, Leo! (reel)",
      "value": 39,
@@ -494,107 +510,119 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 45000,
     "top": {
-     "title": "cifre neextrase",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 119,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": 119,
+    "posts": 10,
+    "eng_sum": 299,
+    "eng_n": 10
    },
    "S30": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 45000,
     "top": {
-     "title": "",
-     "value": 2,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 31,
+     "q": "",
      "url": null
     },
-    "topval": 2
+    "topval": 31,
+    "posts": 12,
+    "eng_sum": 246,
+    "eng_n": 12
    },
    "S31": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 45000,
     "top": {
-     "title": "",
-     "value": 22,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 312,
+     "q": "",
      "url": null
     },
-    "topval": 22
+    "topval": 312,
+    "posts": 17,
+    "eng_sum": 628,
+    "eng_n": 17
    },
    "S32": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 46000,
     "top": {
-     "title": "",
-     "value": 15,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 94,
+     "q": "",
      "url": null
     },
-    "topval": 15
+    "topval": 94,
+    "posts": 16,
+    "eng_sum": 414,
+    "eng_n": 16
    },
    "S33": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 46000,
     "top": {
-     "title": "",
-     "value": 45,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 347,
+     "q": "",
      "url": null
     },
-    "topval": 45
+    "topval": 347,
+    "posts": 16,
+    "eng_sum": 701,
+    "eng_n": 16
    },
    "S34": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 46000,
     "top": {
-     "title": "Raportat ca 5–10 / postare",
-     "value": 10,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 243,
+     "q": "",
      "url": null
     },
-    "topval": 10
+    "topval": 243,
+    "posts": 16,
+    "eng_sum": 559,
+    "eng_n": 16
    },
    "S35": {
     "q": {
@@ -602,17 +630,19 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 46000,
     "top": {
-     "title": "cifre neextrase",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 40,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": 40,
+    "posts": 14,
+    "eng_sum": 255,
+    "eng_n": 14
    },
    "S36": {
     "q": {
@@ -700,7 +730,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "rotunjit la mii, din pagină"
+     "followers": "rotunjit la mii"
     },
     "posts": 18,
     "eng_sum": 776,
@@ -739,20 +769,22 @@ window.WEEKLY_CONFIG = {
    "S29": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 84000,
     "top": {
-     "title": "",
-     "value": 10,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 493,
+     "q": "",
      "url": null
     },
-    "topval": 10
+    "topval": 493,
+    "posts": 10,
+    "eng_sum": 1008,
+    "eng_n": 10
    },
    "S30": {
     "q": {
@@ -760,89 +792,99 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 84000,
     "top": {
-     "title": "cifre neextrase",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 237,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": 237,
+    "posts": 8,
+    "eng_sum": 672,
+    "eng_n": 8
    },
    "S31": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 84000,
     "top": {
-     "title": "",
-     "value": 23,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 48,
+     "q": "",
      "url": null
     },
-    "topval": 23
+    "topval": 48,
+    "posts": 11,
+    "eng_sum": 220,
+    "eng_n": 11
    },
    "S32": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 84000,
     "top": {
-     "title": "",
-     "value": 23,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 330,
+     "q": "",
      "url": null
     },
-    "topval": 23
+    "topval": 330,
+    "posts": 6,
+    "eng_sum": 563,
+    "eng_n": 6
    },
    "S33": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 84000,
     "top": {
-     "title": "Zi de chirurgie, cel mai viral post al pieței",
-     "value": 332,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 345,
+     "q": "",
      "url": null
     },
-    "topval": 332
+    "topval": 345,
+    "posts": 8,
+    "eng_sum": 578,
+    "eng_n": 8
    },
    "S34": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 84000,
     "top": {
-     "title": "Feed neîncărcat",
-     "value": 12,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 172,
+     "q": "",
      "url": null
     },
-    "topval": 12
+    "topval": 172,
+    "posts": 9,
+    "eng_sum": 398,
+    "eng_n": 9
    },
    "S35": {
     "q": {
@@ -850,17 +892,19 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 84000,
     "top": {
-     "title": "cifre neextrase",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 164,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": 164,
+    "posts": 9,
+    "eng_sum": 544,
+    "eng_n": 9
    },
    "S36": {
     "q": {
@@ -948,7 +992,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "rotunjit la mii, din pagină"
+     "followers": "rotunjit la mii"
     },
     "posts": 11,
     "eng_sum": 284,
@@ -987,20 +1031,22 @@ window.WEEKLY_CONFIG = {
    "S29": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 81000,
     "top": {
-     "title": "",
-     "value": 7,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 32,
+     "q": "",
      "url": null
     },
-    "topval": 7
+    "topval": 32,
+    "posts": 7,
+    "eng_sum": 150,
+    "eng_n": 7
    },
    "S30": {
     "q": {
@@ -1008,89 +1054,99 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 81000,
     "top": {
-     "title": "cifre neextrase",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 47,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": 47,
+    "posts": 6,
+    "eng_sum": 194,
+    "eng_n": 6
    },
    "S31": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 81000,
     "top": {
-     "title": "",
-     "value": 56,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 60,
+     "q": "",
      "url": null
     },
-    "topval": 56
+    "topval": 60,
+    "posts": 7,
+    "eng_sum": 198,
+    "eng_n": 7
    },
    "S32": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 81000,
     "top": {
-     "title": "",
-     "value": 10,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 52,
+     "q": "",
      "url": null
     },
-    "topval": 10
+    "topval": 52,
+    "posts": 7,
+    "eng_sum": 206,
+    "eng_n": 7
    },
    "S33": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 82000,
     "top": {
-     "title": "",
-     "value": 51,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 44,
+     "q": "",
      "url": null
     },
-    "topval": 51
+    "topval": 44,
+    "posts": 7,
+    "eng_sum": 183,
+    "eng_n": 7
    },
    "S34": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 82000,
     "top": {
-     "title": "",
-     "value": 2,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 42,
+     "q": "",
      "url": null
     },
-    "topval": 2
+    "topval": 42,
+    "posts": 7,
+    "eng_sum": 175,
+    "eng_n": 7
    },
    "S35": {
     "q": {
@@ -1098,17 +1154,19 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 82000,
     "top": {
-     "title": "cifre neextrase",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 34,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": 34,
+    "posts": 7,
+    "eng_sum": 127,
+    "eng_n": 7
    },
    "S36": {
     "q": {
@@ -1235,20 +1293,22 @@ window.WEEKLY_CONFIG = {
    "S29": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 4600,
     "top": {
-     "title": "",
-     "value": 27,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 48,
+     "q": "",
      "url": null
     },
-    "topval": 27
+    "topval": 48,
+    "posts": 4,
+    "eng_sum": 139,
+    "eng_n": 4
    },
    "S30": {
     "q": {
@@ -1256,89 +1316,99 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 4600,
     "top": {
-     "title": "cifre neextrase",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 33,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": 33,
+    "posts": 6,
+    "eng_sum": 125,
+    "eng_n": 6
    },
    "S31": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 4600,
     "top": {
-     "title": "",
-     "value": 11,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 14,
+     "q": "",
      "url": null
     },
-    "topval": 11
+    "topval": 14,
+    "posts": 4,
+    "eng_sum": 41,
+    "eng_n": 4
    },
    "S32": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 4600,
     "top": {
-     "title": "",
-     "value": 20,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 28,
+     "q": "",
      "url": null
     },
-    "topval": 20
+    "topval": 28,
+    "posts": 5,
+    "eng_sum": 86,
+    "eng_n": 5
    },
    "S33": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 4600,
     "top": {
-     "title": "",
-     "value": 55,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 47,
+     "q": "",
      "url": null
     },
-    "topval": 55
+    "topval": 47,
+    "posts": 5,
+    "eng_sum": 99,
+    "eng_n": 5
    },
    "S34": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 4600,
     "top": {
-     "title": "",
-     "value": 11,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 96,
+     "q": "",
      "url": null
     },
-    "topval": 11
+    "topval": 96,
+    "posts": 4,
+    "eng_sum": 177,
+    "eng_n": 4
    },
    "S35": {
     "q": {
@@ -1346,17 +1416,19 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 4600,
     "top": {
-     "title": "cifre neextrase",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 37,
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": 37,
+    "posts": 5,
+    "eng_sum": 117,
+    "eng_n": 5
    },
    "S36": {
     "q": {
@@ -1444,7 +1516,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "rotunjit la mii, din pagină"
+     "followers": "rotunjit la mii"
     },
     "posts": 9,
     "eng_sum": 159,
@@ -1483,128 +1555,142 @@ window.WEEKLY_CONFIG = {
    "S29": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 6200,
     "top": {
-     "title": "",
-     "value": 4,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 15,
+     "q": "",
      "url": null
     },
-    "topval": 4
+    "topval": 15,
+    "posts": 3,
+    "eng_sum": 29,
+    "eng_n": 3
    },
    "S30": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 6200,
     "top": {
-     "title": "",
-     "value": 15,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 24,
+     "q": "",
      "url": null
     },
-    "topval": 15
+    "topval": 24,
+    "posts": 8,
+    "eng_sum": 93,
+    "eng_n": 8
    },
    "S31": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 6200,
     "top": {
-     "title": "",
-     "value": 28,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 23,
+     "q": "",
      "url": null
     },
-    "topval": 28
+    "topval": 23,
+    "posts": 6,
+    "eng_sum": 66,
+    "eng_n": 6
    },
    "S32": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 6200,
     "top": {
-     "title": "",
-     "value": 23,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 40,
+     "q": "",
      "url": null
     },
-    "topval": 23
+    "topval": 40,
+    "posts": 7,
+    "eng_sum": 164,
+    "eng_n": 7
    },
    "S33": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 6200,
     "top": {
-     "title": "",
-     "value": 40,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 33,
+     "q": "",
      "url": null
     },
-    "topval": 40
+    "topval": 33,
+    "posts": 8,
+    "eng_sum": 204,
+    "eng_n": 8
    },
    "S34": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 6200,
     "top": {
-     "title": "",
-     "value": 13,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 35,
+     "q": "",
      "url": null
     },
-    "topval": 13
+    "topval": 35,
+    "posts": 4,
+    "eng_sum": 109,
+    "eng_n": 4
    },
    "S35": {
     "q": {
      "followers": "≈",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "posts": "doar eșantion din feed",
-     "avgeng": "doar eșantion din feed"
+     "followers": "rotunjit la mii"
     },
     "followers": 6300,
     "top": {
-     "title": "Doar distribuiri",
-     "value": 14,
-     "q": "≥",
+     "title": "titlu neprecizat în raport",
+     "value": 27,
+     "q": "",
      "url": null
     },
-    "topval": 14
+    "topval": 27,
+    "posts": 3,
+    "eng_sum": 57,
+    "eng_n": 3
    },
    "S36": {
     "q": {
@@ -1692,7 +1778,7 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "followers": "rotunjit la mii, din pagină"
+     "followers": "rotunjit la mii"
     },
     "posts": 3,
     "eng_sum": 39,

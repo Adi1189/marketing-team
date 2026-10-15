@@ -182,157 +182,119 @@ window.WEEKLY_CONFIG = {
  "topLabel": "Vizualizări",
  "take": [
   "DENT ESTET ne depășește la urmăritori: 8.610 față de 6.799 la noi. De la prima cifră (S29), ei au crescut cu 2.759 (+47,2%), noi cu 88 (+1,3%). Life are 7.028, Regina Maria 5.561, Elidadent 1.913, Dental Blue 886.",
-  "Ritmul nostru e variabil. Videouri pe săptămână (S29–S40): 2 → 3 → 6 → 2 → 5 → 5 → 4 → 4 → 5 → 2 → 5 → 7. Media e 4,2, față de 6,0 la DENT ESTET, 5,5 la Life, 2,9 la Regina Maria și 2,4 la Elidadent. Cea mai bună săptămână a noastră e S40 (7 videouri). S41 nu intră aici: a fost citită fără login, deci cifrele sunt minime.",
-  "Vizualizări totale pe săptămână (S36–S40): noi 4.401 → 5.130 → 1.732 → 4.701 → 6.266; DENT ESTET 7.298 → 2.138 → 2.746 → 2.073 → 3.688. Suntem peste DENT ESTET în 3 din 5 săptămâni, peste Regina Maria în 4, peste Life în 3 și peste Elidadent în 4. În S41 (≥, fără login) avem 2.217, față de 2.929 la DENT ESTET și 3.161 la Regina Maria.",
-  "Media pe videoclip (S36–S40): noi 866–1100 vizualizări, DENT ESTET 305–738, Regina Maria 212–1370. În S41 (≥) media noastră e 739, a Elidadent 1051, a Regina Maria 790, a DENT ESTET 293.",
-  "Două vârfuri izolate nu sunt tendință: Elidadent în S38 (20.800, ≈, cu Bianca Iotu) și Life în S36 (11.200, ≈, cu Gabriela Cristea). Cel mai bun video al nostru din S36–S41 are 1.776 de vizualizări (S36); în S41, videoclipul de la TEDx are 962."
+  "Ritmul nostru e variabil. Videouri pe săptămână (S29–S40): 2 → 3 → 6 → 2 → 5 → 5 → 4 → 4 → 5 → 2 → 5 → 7. Media e 4,2, față de 6,4 la DENT ESTET, 5,4 la Life, 2,9 la Regina Maria și 2,4 la Elidadent. Cea mai bună săptămână a noastră e S40 (7 videouri). S41 nu intră aici: a fost citită fără login, deci cifrele sunt minime.",
+  "Vizualizări totale pe săptămână (S29–S40): suntem peste DENT ESTET în 8 din 12 săptămâni, peste Regina Maria în 8, peste Life în 5 și peste Elidadent în 10. În ultimele 9 săptămâni: noi 2.396 → 5.803 → 4.497 → 4.692 → 4.401 → 5.130 → 1.732 → 4.701 → 6.266; DENT ESTET 3.411 → 4.084 → 2.844 → 2.012 → 7.298 → 2.138 → 2.746 → 2.073 → 3.688. Cea mai bună săptămână a noastră e S31 (6.567). În S41 (≥, fără login) avem 2.217, față de 2.929 la DENT ESTET și 3.161 la Regina Maria.",
+  "Media pe videoclip (S29–S40): noi 866–1828 vizualizări, DENT ESTET 305–828, Regina Maria 212–2398. În S41 (≥) media noastră e 739, a Elidadent 1051, a Regina Maria 790, a DENT ESTET 293.",
+  "Vârfurile izolate nu sunt tendință: Life 60.400 în S35, Elidadent 20.800 în S38, Life 18.500 în S32, Elidadent 15.700 în S33, Life 11.200 în S36. Cel mai bun video al nostru din S29–S41 are 2.529 de vizualizări (S29)."
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
-  "Vizualizările totale pe cont există din S36 (citite pe 12 octombrie). Pentru S29–S35, rapoartele vechi dau doar vizualizările celui mai vizionat video, deci acolo „Total vizualizări” și media apar cu „–”.",
   "Dental Blue nu a postat nimic în S36–S40 și a postat doar 3 videoclipuri în celelalte săptămâni; Dental Safari nu are cont TikTok.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
-  "Urmăritorii din S36–S40 sunt cei de la data rulării (nu de la sfârșitul săptămânilor), de aceea apar cu „≈”; pentru S29–S35 sunt cifrele din rapoartele vechi, iar în S34 păstrez ultima cifră cunoscută.",
-  "S41 (5–11 octombrie) a fost citită pe 12 octombrie fără cont TikTok autentificat: unele postări sunt ascunse vizitatorilor nelogați, deci numărul de postări și totalul de vizualizări sunt valori minime („≥”) la toate conturile și nu se compară direct cu S36–S40. Urmăritorii sunt afișați exact."
+  "S41 (5–11 octombrie) a fost citită pe 12 octombrie fără cont TikTok autentificat: unele postări sunt ascunse vizitatorilor nelogați, deci numărul de postări și totalul de vizualizări sunt valori minime („≥”) la toate conturile și nu se compară direct cu S36–S40. Urmăritorii sunt afișați exact.",
+  "S32–S35 (august) vin dintr-un bloc citit pe 14 octombrie: titlurile videoclipurilor de top lipsesc („neprecizat”), linkurile sunt complete. Vârfurile de peste 10.000 de vizualizări sunt rotunjite de TikTok (≈). La Dental Blue, două din linkurile de top sunt postări foto, nu video.",
+  "Vizualizările totale pe cont există din S29 (iulie, citite pe 14 octombrie; august–septembrie pe 12–14 octombrie). Blocul de iulie include și S27–S28 (iunie), pe care nu le-am încărcat în site.",
+  "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni (S29–S40); doar S34 lipsea din rapoarte și are citirea de la rulare. S41 e citirea de la rulare."
  ],
  "data": {
   "DrA": {
    "S29": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
      "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 2,
     "top": {
-     "title": "Comedie / sketch recenzii, 19 iul (1.625 views)",
-     "value": 1625,
+     "title": "titlu neprecizat în raport",
+     "value": 2529,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7664153989541498114"
     },
-    "topval": 1625,
-    "followers": 6711
+    "topval": 2529,
+    "followers": 6711,
+    "views": 3657
    },
    "S30": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
      "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 3,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 961,
+     "value": 1228,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7665714402473086230"
     },
-    "topval": 961,
-    "followers": 6732
+    "topval": 1228,
+    "followers": 6732,
+    "views": 3365
    },
    "S31": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
      "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 6,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 1142,
+     "value": 1442,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7667933531191938326"
     },
-    "topval": 1142,
-    "followers": 6746
+    "topval": 1442,
+    "followers": 6746,
+    "views": 6567
    },
    "S32": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
      "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 2,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 1071,
+     "value": 1374,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7670786498236566806"
     },
-    "topval": 1071,
-    "followers": 6749
+    "topval": 1374,
+    "followers": 6749,
+    "views": 2396
    },
    "S33": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
      "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 5,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 1237,
+     "value": 1814,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7673407421376761110"
     },
-    "topval": 1237,
-    "followers": 6751
+    "topval": 1814,
+    "followers": 6751,
+    "views": 5803
    },
    "S34": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
-     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-     "followers": "ultima cifră: S33"
-    },
-    "posts": 5,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 964,
-     "q": "",
-     "url": null
-    },
-    "topval": 964,
-    "followers": 6751
-   },
-   "S35": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
-     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
-    },
-    "posts": 4,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 1324,
-     "q": "",
-     "url": null
-    },
-    "topval": 1324,
-    "followers": 6779
-   },
-   "S36": {
     "q": {
      "topval": "",
      "followers": "≈"
@@ -340,6 +302,44 @@ window.WEEKLY_CONFIG = {
     "note": {
      "leads": "Puls are leaduri doar pentru Facebook + Instagram",
      "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+    },
+    "posts": 5,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1110,
+     "q": "",
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7675320098764360983"
+    },
+    "topval": 1110,
+    "followers": 6800,
+    "views": 4497
+   },
+   "S35": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {
+     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
+    },
+    "posts": 4,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1742,
+     "q": "",
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7677980517555293462"
+    },
+    "topval": 1742,
+    "followers": 6779,
+    "views": 4692
+   },
+   "S36": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {
+     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 4,
     "top": {
@@ -349,17 +349,16 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7681621165898468610"
     },
     "topval": 1776,
-    "followers": 6799,
+    "followers": 6793,
     "views": 4401
    },
    "S37": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
     "note": {
-     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 5,
     "top": {
@@ -369,17 +368,16 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7683466345090010390"
     },
     "topval": 1372,
-    "followers": 6799,
+    "followers": 6793,
     "views": 5130
    },
    "S38": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
     "note": {
-     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 2,
     "top": {
@@ -395,11 +393,10 @@ window.WEEKLY_CONFIG = {
    "S39": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
     "note": {
-     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 5,
     "top": {
@@ -409,17 +406,16 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7688294775279095062"
     },
     "topval": 1464,
-    "followers": 6799,
+    "followers": 6800,
     "views": 4701
    },
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
     "note": {
-     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+     "leads": "Puls are leaduri doar pentru Facebook + Instagram"
     },
     "posts": 7,
     "top": {
@@ -429,7 +425,7 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7690948766622371094"
     },
     "topval": 1432,
-    "followers": 6799,
+    "followers": 6800,
     "views": 6266
    },
    "S41": {
@@ -457,132 +453,90 @@ window.WEEKLY_CONFIG = {
   "DE": {
    "S29": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 1,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 313,
-     "q": "",
-     "url": null
-    },
-    "topval": 313,
-    "followers": 5851
-   },
-   "S30": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 5,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 863,
-     "q": "",
-     "url": null
-    },
-    "topval": 863,
-    "followers": 6057
-   },
-   "S31": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 7,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 1048,
-     "q": "",
-     "url": null
-    },
-    "topval": 1048,
-    "followers": 6156
-   },
-   "S32": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 5,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 1008,
-     "q": "",
-     "url": null
-    },
-    "topval": 1008,
-    "followers": 6628
-   },
-   "S33": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 6,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 938,
-     "q": "",
-     "url": null
-    },
-    "topval": 938,
-    "followers": 7183
-   },
-   "S34": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
-     "followers": "ultima cifră: S33"
-    },
-    "posts": 7,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 632,
-     "q": "",
-     "url": null
-    },
-    "topval": 632,
-    "followers": 7183
-   },
-   "S35": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 4,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 875,
+     "value": 1005,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7660101925244898582"
     },
-    "topval": 875,
-    "followers": 7990
+    "topval": 1005,
+    "followers": 5851,
+    "views": 3310
    },
-   "S36": {
+   "S30": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 6,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 942,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7664988147104763158"
+    },
+    "topval": 942,
+    "followers": 6057,
+    "views": 4070
+   },
+   "S31": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 8,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1152,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7667174077785902338"
+    },
+    "topval": 1152,
+    "followers": 6156,
+    "views": 3998
+   },
+   "S32": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 5,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1099,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7671336994064108822"
+    },
+    "topval": 1099,
+    "followers": 6628,
+    "views": 3411
+   },
+   "S33": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 6,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 998,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7673525738145975574"
+    },
+    "topval": 998,
+    "followers": 7183,
+    "views": 4084
+   },
+   "S34": {
     "q": {
      "topval": "",
      "followers": "≈"
@@ -590,6 +544,40 @@ window.WEEKLY_CONFIG = {
     "note": {
      "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
+    "posts": 7,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 689,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7675637856538266902"
+    },
+    "topval": 689,
+    "followers": 8635,
+    "views": 2844
+   },
+   "S35": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 4,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 902,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7677849742365281558"
+    },
+    "topval": 902,
+    "followers": 7990,
+    "views": 2012
+   },
+   "S36": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
     "posts": 11,
     "top": {
      "title": "Sensibilitatea la rece înseamnă automat o carie? (Dr. Daria Dăngeanu)",
@@ -598,17 +586,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7681602284584717590"
     },
     "topval": 911,
-    "followers": 8610,
+    "followers": 8054,
     "views": 7298
    },
    "S37": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 7,
     "top": {
      "title": "Dr. Daria Dăngeanu explică de ce aciditatea băuturilor poate conta la fel de mult ca zahărul",
@@ -617,17 +603,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7683881377095421186"
     },
     "topval": 338,
-    "followers": 8610,
+    "followers": 8185,
     "views": 2138
    },
    "S38": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 8,
     "top": {
      "title": "„Aici sunt înțeleasă, sunt ascultată.” - Maia Morgenstern Când ne încredințăm sănătatea unui medic, avem nevoi…",
@@ -636,17 +620,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7686784651930930455"
     },
     "topval": 522,
-    "followers": 8610,
+    "followers": 8308,
     "views": 2746
    },
    "S39": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 6,
     "top": {
      "title": "Ai auzit de tomografia computerizată dentară (CBCT) și vrei să afli ce rol poate avea în tratamentele de canal…",
@@ -655,17 +637,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7688338113097256214"
     },
     "topval": 404,
-    "followers": 8610,
+    "followers": 8403,
     "views": 2073
    },
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 5,
     "top": {
      "title": "În tratamentul bolii parodontale, există zone în care instrumentele clasice ajung mai greu. Laserul poate acți…",
@@ -674,7 +654,7 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7692016899873443094"
     },
     "topval": 874,
-    "followers": 8610,
+    "followers": 8511,
     "views": 3688
    },
    "S41": {
@@ -702,130 +682,124 @@ window.WEEKLY_CONFIG = {
   "RM": {
    "S29": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 1,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 955,
+     "value": 1070,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7662693662677028118"
     },
-    "topval": 955,
-    "followers": 5492
+    "topval": 1070,
+    "followers": 5492,
+    "views": 1070
    },
    "S30": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 4,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 2510,
+     "value": 2908,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7665788228313615638"
     },
-    "topval": 2510,
-    "followers": 5503
+    "topval": 2908,
+    "followers": 5503,
+    "views": 8441
    },
    "S31": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 3,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 2642,
+     "value": 3421,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7667218784473632022"
     },
-    "topval": 2642,
-    "followers": 5511
+    "topval": 3421,
+    "followers": 5511,
+    "views": 7195
    },
    "S32": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 2,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 901,
+     "value": 958,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7670581287626853654"
     },
-    "topval": 901,
-    "followers": 5517
+    "topval": 958,
+    "followers": 5517,
+    "views": 1639
    },
    "S33": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 5,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 1079,
+     "value": 1201,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7673896507929595158"
     },
-    "topval": 1079,
-    "followers": 5522
+    "topval": 1201,
+    "followers": 5522,
+    "views": 3446
    },
    "S34": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
-     "followers": "ultima cifră: S33"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 3,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 1242,
+     "value": 1428,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7675445197618072854"
     },
-    "topval": 1242,
-    "followers": 5522
+    "topval": 1428,
+    "followers": 5560,
+    "views": 3619
    },
    "S35": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 4,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 1208,
+     "value": 1664,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7679510942287285526"
     },
-    "topval": 1208,
-    "followers": 5528
+    "topval": 1664,
+    "followers": 5528,
+    "views": 5623
    },
    "S36": {
     "q": {
@@ -868,11 +842,9 @@ window.WEEKLY_CONFIG = {
    "S38": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 5,
     "top": {
      "title": "Un implant nu înseamnă doar înlocuirea unui dinte, ci reconstruirea unei părți din zâmbetul tău astfel încât r…",
@@ -881,17 +853,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7686142160327986454"
     },
     "topval": 1695,
-    "followers": 5561,
+    "followers": 5553,
     "views": 4435
    },
    "S39": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 1,
     "top": {
      "title": "Un dinte lipsă nu lasă doar un loc liber. Lasă loc pentru schimbări. Când un dinte este pierdut, întregul sist…",
@@ -900,17 +870,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7689489224923417878"
     },
     "topval": 212,
-    "followers": 5561,
+    "followers": 5555,
     "views": 212
    },
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 3,
     "top": {
      "title": "De Ziua Mondială a Zâmbetului, îți urăm să ai cât mai multe motive să zâmbești alături de cei dragi 🤝 Tu bucu…",
@@ -919,7 +887,7 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7692013929706442006"
     },
     "topval": 1067,
-    "followers": 5561,
+    "followers": 5560,
     "views": 1948
    },
    "S41": {
@@ -947,130 +915,132 @@ window.WEEKLY_CONFIG = {
   "Life": {
    "S29": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 7,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 507,
+     "value": 670,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7663728454688328993"
     },
-    "topval": 507,
-    "followers": 6863
+    "topval": 670,
+    "followers": 6863,
+    "views": 3173
    },
    "S30": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 7,
+    "note": {},
+    "posts": 6,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 4124,
+     "value": 4434,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7665228250133581088"
     },
-    "topval": 4124,
-    "followers": 6868
+    "topval": 4434,
+    "followers": 6868,
+    "views": 10036
    },
    "S31": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 6,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 4871,
+     "value": 8061,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7669377215842340129"
     },
-    "topval": 4871,
-    "followers": 6874
+    "topval": 8061,
+    "followers": 6874,
+    "views": 10861
    },
    "S32": {
     "q": {
-     "topval": ""
+     "topval": "≈",
+     "followers": "",
+     "views": "≈"
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
+     "views": "aproximativ (cifre rotunjite în pagină)"
     },
     "posts": 7,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 12800,
-     "q": "",
-     "url": null
+     "value": 18500,
+     "q": "≈",
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7670800356628090134"
     },
-    "topval": 12800,
-    "followers": 6893
+    "topval": 18500,
+    "followers": 6893,
+    "views": 22680
    },
    "S33": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 6,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 1097,
+     "value": 1197,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7674161378537508129"
     },
-    "topval": 1097,
-    "followers": 6895
+    "topval": 1197,
+    "followers": 6895,
+    "views": 5131
    },
    "S34": {
     "q": {
-     "topval": ""
+     "topval": "≈",
+     "followers": "≈",
+     "views": "≈"
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
-     "followers": "ultima cifră: S33"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
+     "views": "aproximativ (cifre rotunjite în pagină)"
     },
     "posts": 5,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 7534,
-     "q": "",
-     "url": null
+     "value": 10000,
+     "q": "≈",
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7676414963572935968"
     },
-    "topval": 7534,
-    "followers": 6895
+    "topval": 10000,
+    "followers": 7027,
+    "views": 15618
    },
    "S35": {
     "q": {
-     "topval": ""
+     "topval": "≈",
+     "followers": "",
+     "views": "≈"
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
+     "views": "aproximativ (cifre rotunjite în pagină)"
     },
     "posts": 5,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 37500,
-     "q": "",
-     "url": null
+     "value": 60400,
+     "q": "≈",
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7679017688722705697"
     },
-    "topval": 37500,
-    "followers": 6974
+    "topval": 60400,
+    "followers": 6974,
+    "views": 63891
    },
    "S36": {
     "q": {
@@ -1115,11 +1085,9 @@ window.WEEKLY_CONFIG = {
    "S38": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 5,
     "top": {
      "title": "Te speli corect pe dinți de două ori pe zi și, totuși, observi depuneri de tartru? Acest lucru se poate întâmp…",
@@ -1128,17 +1096,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@lifedentalspa/video/7686009034268331297"
     },
     "topval": 893,
-    "followers": 7028,
+    "followers": 7024,
     "views": 3276
    },
    "S39": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 3,
     "top": {
      "title": "Frica de dentist se poate forma încă din copilărie, mai ales atunci când primele experiențe stomatologice sunt…",
@@ -1147,17 +1113,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@lifedentalspa/video/7688293518036503840"
     },
     "topval": 967,
-    "followers": 7028,
+    "followers": 7021,
     "views": 1941
    },
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 5,
     "top": {
      "title": "Ți-e teamă de dentist? Poate te îngrijorează ideea de durere sau ai avut în trecut o experiență neplăcută, iar…",
@@ -1166,7 +1130,7 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@lifedentalspa/video/7690897542409702689"
     },
     "topval": 899,
-    "followers": 7028,
+    "followers": 7023,
     "views": 3127
    },
    "S41": {
@@ -1194,130 +1158,127 @@ window.WEEKLY_CONFIG = {
   "Eli": {
    "S29": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 2,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 546,
+     "value": 678,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@elidadent/video/7662824916709936406"
     },
-    "topval": 546,
-    "followers": 1898
+    "topval": 678,
+    "followers": 1898,
+    "views": 1265
    },
    "S30": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 3,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 866,
+     "value": 997,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@elidadent/video/7665774779302972694"
     },
-    "topval": 866,
-    "followers": 1897
+    "topval": 997,
+    "followers": 1897,
+    "views": 2190
    },
    "S31": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 0,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "fără videoclipuri",
      "value": null,
      "q": "",
      "url": null
     },
     "topval": null,
-    "followers": 1896
+    "followers": 1896,
+    "views": 0
    },
    "S32": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 1,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 975,
+     "value": 1093,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@elidadent/video/7669847444326206742"
     },
-    "topval": 975,
-    "followers": 1897
+    "topval": 1093,
+    "followers": 1897,
+    "views": 1093
    },
    "S33": {
     "q": {
-     "topval": ""
+     "topval": "≈",
+     "followers": "",
+     "views": "≈"
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
+     "views": "aproximativ (cifre rotunjite în pagină)"
     },
     "posts": 3,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 10500,
-     "q": "",
-     "url": null
+     "value": 15700,
+     "q": "≈",
+     "url": "https://www.tiktok.com/@elidadent/video/7673926290721852694"
     },
-    "topval": 10500,
-    "followers": 1900
+    "topval": 15700,
+    "followers": 1900,
+    "views": 16742
    },
    "S34": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
-     "followers": "ultima cifră: S33"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 2,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 1369,
+     "value": 1952,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@elidadent/video/7676481520583888150"
     },
-    "topval": 1369,
-    "followers": 1900
+    "topval": 1952,
+    "followers": 1913,
+    "views": 3413
    },
    "S35": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 2,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 456,
+     "value": 551,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@elidadent/video/7678401667196275990"
     },
-    "topval": 456,
-    "followers": 1897
+    "topval": 551,
+    "followers": 1897,
+    "views": 978
    },
    "S36": {
     "q": {
@@ -1360,11 +1321,10 @@ window.WEEKLY_CONFIG = {
    "S38": {
     "q": {
      "topval": "≈",
-     "followers": "≈",
+     "followers": "",
      "views": "≈"
     },
     "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
      "views": "aproximativ (cifre rotunjite în pagină)"
     },
     "posts": 6,
@@ -1375,17 +1335,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@elidadent/video/7686182757097164054"
     },
     "topval": 20800,
-    "followers": 1913,
+    "followers": 1912,
     "views": 25930
    },
    "S39": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 2,
     "top": {
      "title": "Când filmezi cu Bianca de la Insula Iubirii, e clar că nu ai cum să te plictisești. 😂🎬 Am filmat, am râs și…",
@@ -1394,17 +1352,15 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@elidadent/video/7688038687363419414"
     },
     "topval": 1289,
-    "followers": 1913,
+    "followers": 1912,
     "views": 1724
    },
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 3,
     "top": {
      "title": "Totul despre lucrarea provizorie 🦷 Ce rol are, cât timp se poartă și de ce este atât de importantă? Vezi ce s…",
@@ -1441,132 +1397,90 @@ window.WEEKLY_CONFIG = {
   "DB": {
    "S29": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 0,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": null,
-     "q": "",
-     "url": null
-    },
-    "topval": null,
-    "followers": 882
-   },
-   "S30": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 0,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": null,
-     "q": "",
-     "url": null
-    },
-    "topval": null,
-    "followers": 883
-   },
-   "S31": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 1,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 159,
+     "value": 70,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@dentalbluechain/photo/7662125418270493960"
     },
-    "topval": 159,
-    "followers": 885
+    "topval": 70,
+    "followers": 882,
+    "views": 70
+   },
+   "S30": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 1,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 1070,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentalbluechain/photo/7666729531251658005"
+    },
+    "topval": 1070,
+    "followers": 883,
+    "views": 1070
+   },
+   "S31": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 1,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 214,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentalbluechain/video/7668604868386475272"
+    },
+    "topval": 214,
+    "followers": 885,
+    "views": 214
    },
    "S32": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 0,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": null,
-     "q": "",
-     "url": null
-    },
-    "topval": null,
-    "followers": 883
-   },
-   "S33": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
+    "note": {},
     "posts": 2,
     "top": {
      "title": "titlu neprecizat în raport",
-     "value": 217,
+     "value": 1052,
      "q": "",
-     "url": null
+     "url": "https://www.tiktok.com/@dentalbluechain/photo/7670631193733352712"
     },
-    "topval": 217,
-    "followers": 883
+    "topval": 1052,
+    "followers": 883,
+    "views": 1901
+   },
+   "S33": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 3,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 944,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentalbluechain/photo/7672664000974294290"
+    },
+    "topval": 944,
+    "followers": 883,
+    "views": 1274
    },
    "S34": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula",
-     "followers": "ultima cifră: S33"
-    },
-    "posts": 0,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": null,
-     "q": "",
-     "url": null
-    },
-    "topval": null,
-    "followers": 883
-   },
-   "S35": {
-    "q": {
-     "topval": ""
-    },
-    "note": {
-     "views": "raportul dă doar topul",
-     "avgviews": "nu se poate calcula"
-    },
-    "posts": 0,
-    "top": {
-     "title": "titlu neprecizat în raport",
-     "value": null,
-     "q": "",
-     "url": null
-    },
-    "topval": null,
-    "followers": 884
-   },
-   "S36": {
     "q": {
      "topval": "",
      "followers": "≈"
@@ -1583,6 +1497,40 @@ window.WEEKLY_CONFIG = {
     },
     "topval": null,
     "followers": 886,
+    "views": 0
+   },
+   "S35": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 0,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null,
+    "followers": 884,
+    "views": 0
+   },
+   "S36": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {},
+    "posts": 0,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null,
+    "followers": 885,
     "views": 0
    },
    "S37": {
@@ -1626,11 +1574,9 @@ window.WEEKLY_CONFIG = {
    "S39": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 0,
     "top": {
      "title": "fără videoclipuri",
@@ -1645,11 +1591,9 @@ window.WEEKLY_CONFIG = {
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 0,
     "top": {
      "title": "fără videoclipuri",

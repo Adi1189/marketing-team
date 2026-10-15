@@ -59,56 +59,57 @@ window.REPORT_CONFIG = {
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
   "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte.",
-  "Abonații vin din rapoarte: pentru septembrie sunt cei de la data rulării (12 octombrie), exacți pentru noi și rotunjiți de API la concurenți. Pentru iulie–august e ultima cifră din rapoartele vechi.",
-  "Septembrie (S36–S40) a fost recitit cu skill-ul actualizat, cu vizualizările citite pe 12 octombrie. Iulie–august vin din rapoartele vechi, citite mai devreme, deci variația față de august poate fi influențată de data citirii.",
-  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie."
+  "Iulie, august și septembrie (S29–S40) au fost recitite cu skill-ul actualizat, cu vizualizările citite pe 12–15 octombrie.",
+  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Abonații pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
+  "În iulie, DENT ESTET are 476.760 de vizualizări, din care 407.134 la un singur video viral (publicat pe 27 iulie, S31): cifra nu se compară cu luna august (4.179), iar variația apare ca o scădere de 99%, care nu e reală."
  ],
  "data": {
   "2026-07": {
    "posts": 13,
-   "views": 7669,
+   "views": 7998,
    "leads": null,
    "q": {
     "subs": ""
    },
    "note": {
-    "posts": "3 din 3 săpt.",
-    "views": "vizionări din ziua raportului",
+    "posts": "3 din 3 săpt. (S29–S31)",
+    "views": "vizionări citite pe 15 oct",
     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-    "subs": "la S31, cifră exactă"
+    "subs": "la S31"
    },
    "topPosts": {
     "DrA": {
-     "title": "Short fațetări directe din compozit",
-     "value": 1717,
+     "title": "Fatetarii directe din compozit in cabinet?",
+     "value": 1747,
      "q": "",
      "week": "S30",
      "range": "20–26 iul",
-     "url": null
+     "url": "https://www.youtube.com/watch?v=csWwdWMIlqA"
     },
     "DE": {
-     "title": "Short albire personalizată",
-     "value": 269,
-     "q": "≥",
+     "title": "Începe tratamnetul ortodontic cu - ALIGN SMIL…",
+     "value": 407134,
+     "q": "",
      "week": "S31",
      "range": "27 iul–2 aug",
-     "url": null
+     "url": "https://www.youtube.com/watch?v=XUvOZmKAuJw"
     },
     "RM": {
-     "title": "Short „îți pui copilul în pericol”",
-     "value": 360,
-     "q": "≥",
-     "week": "S31",
-     "range": "27 iul–2 aug",
-     "url": null
+     "title": "Un copil uită repede cum arăta un instrument…",
+     "value": 1023,
+     "q": "",
+     "week": "S30",
+     "range": "20–26 iul",
+     "url": "https://www.youtube.com/watch?v=hg3JZCcTbhE"
     },
     "Life": {
-     "title": "Short „Nu vreau dinți falși”",
-     "value": 862,
-     "q": "≥",
-     "week": "S29",
-     "range": "13–19 iul",
-     "url": null
+     "title": "Respirația urât mirositoare revine imediat…",
+     "value": 1507,
+     "q": "",
+     "week": "S30",
+     "range": "20–26 iul",
+     "url": "https://www.youtube.com/watch?v=hY7nn2kdgQs"
     },
     "Eli": {
      "title": "",
@@ -123,49 +124,49 @@ window.REPORT_CONFIG = {
   },
   "2026-08": {
    "posts": 16,
-   "views": 3804,
+   "views": 4182,
    "leads": null,
    "q": {
     "subs": ""
    },
    "note": {
-    "posts": "4 din 4 săpt.",
-    "views": "vizionări din ziua raportului",
+    "posts": "4 din 4 săpt. (S32–S35)",
+    "views": "vizionări citite pe 14 oct",
     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-    "subs": "la S35, cifră exactă"
+    "subs": "la S35"
    },
    "topPosts": {
     "DrA": {
-     "title": "Short umor „întrebări nepotrivite”",
-     "value": 1279,
+     "title": "😂 Există întrebări care vin exact în momentul nepotrivit.",
+     "value": 1292,
      "q": "",
      "week": "S33",
      "range": "10–16 aug",
-     "url": null
+     "url": "https://www.youtube.com/watch?v=y8W7rYfrEoE"
     },
     "DE": {
-     "title": "Short sângerarea gingiilor",
-     "value": 969,
+     "title": "Sângerarea gingiilor la detartraj…",
+     "value": 973,
      "q": "",
      "week": "S34",
      "range": "17–23 aug",
-     "url": null
+     "url": "https://www.youtube.com/watch?v=78ydhsVMQEw"
     },
     "RM": {
-     "title": "Short sângerarea gingiilor",
-     "value": 1372,
+     "title": "Echipa Națională de Rugby a României…",
+     "value": 17390,
      "q": "",
-     "week": "S34",
-     "range": "17–23 aug",
-     "url": null
+     "week": "S32",
+     "range": "3–9 aug",
+     "url": "https://www.youtube.com/watch?v=X5YzwzWY8Ww"
     },
     "Life": {
-     "title": "Short „Ți-e teamă de dentist…”",
-     "value": 1861,
+     "title": "Gabriela Cristea și Tavi Clonda, împreună…",
+     "value": 1979,
      "q": "",
-     "week": "S33",
-     "range": "10–16 aug",
-     "url": null
+     "week": "S35",
+     "range": "24–30 aug",
+     "url": "https://www.youtube.com/watch?v=qTxG6MCPNPM"
     },
     "Eli": {
      "title": "",
@@ -183,13 +184,13 @@ window.REPORT_CONFIG = {
    "views": 9275,
    "leads": null,
    "q": {
-    "subs": "≈"
+    "subs": ""
    },
    "note": {
     "posts": "5 din 5 săpt.",
     "views": "vizionări citite pe 12 oct",
     "leads": "Puls are leaduri doar pentru Facebook + Instagram",
-    "subs": "valoare de la data rulării"
+    "subs": "la S40"
    },
    "topPosts": {
     "DrA": {
@@ -233,7 +234,7 @@ window.REPORT_CONFIG = {
      "url": null
     }
    },
-   "subs": 934
+   "subs": 932
   },
   "2026-10": {
    "posts": 7,
@@ -364,8 +365,7 @@ window.REPORT_CONFIG = {
   "notes": [
    "Dental Blue nu are canal YouTube. Elidadent are un canal abandonat (0 videoclipuri în toate cele 12 săptămâni).",
    "În S30 raportul nu are date pe Shorts pentru DENT ESTET și Regina Maria, deci iulie e minim pentru ei („≥”).",
-   "Vizualizările sunt cele din ziua raportului: videoclipurile recente au mai puține vizualizări decât cele vechi.",
-   "Abonații sunt cei de la data rulării: exacți pentru noi, rotunjiți de API („≈”) pentru DENT ESTET, Regina Maria și Life."
+   "Vizualizările sunt cele din ziua raportului: videoclipurile recente au mai puține vizualizări decât cele vechi."
   ],
   "data": {
    "DrA": {
@@ -375,29 +375,29 @@ window.REPORT_CONFIG = {
       "subs": ""
      },
      "posts": 13,
-     "views": 7669,
-     "topval": 1717,
+     "views": 7998,
+     "topval": 1747,
      "subs": 923
     },
     "2026-08": {
      "q": {
-      "topval": "",
-      "subs": ""
+      "subs": "",
+      "topval": ""
      },
      "posts": 16,
-     "views": 3804,
-     "topval": 1279,
+     "views": 4182,
+     "topval": 1292,
      "subs": 925
     },
     "2026-09": {
      "q": {
-      "subs": "≈",
+      "subs": "",
       "topval": ""
      },
      "posts": 33,
      "views": 9275,
      "topval": 1278,
-     "subs": 934
+     "subs": 932
     },
     "2026-10": {
      "posts": 7,
@@ -415,25 +415,22 @@ window.REPORT_CONFIG = {
    "DE": {
     "2026-07": {
      "q": {
-      "posts": "≥",
-      "views": "≥",
-      "avgviews": "≥",
-      "topval": "≥",
+      "topval": "",
       "subs": "≈"
      },
-     "posts": 14,
-     "views": 900,
-     "topval": 269,
+     "posts": 22,
+     "views": 476760,
+     "topval": 407134,
      "subs": 1330
     },
     "2026-08": {
      "q": {
-      "topval": "",
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
-     "posts": 20,
-     "views": 4032,
-     "topval": 969,
+     "posts": 21,
+     "views": 4179,
+     "topval": 973,
      "subs": 1340
     },
     "2026-09": {
@@ -462,25 +459,22 @@ window.REPORT_CONFIG = {
    "RM": {
     "2026-07": {
      "q": {
-      "posts": "≥",
-      "views": "≥",
-      "avgviews": "≥",
-      "topval": "≥",
+      "topval": "",
       "subs": "≈"
      },
-     "posts": 4,
-     "views": 950,
-     "topval": 360,
+     "posts": 9,
+     "views": 3138,
+     "topval": 1023,
      "subs": 9320
     },
     "2026-08": {
      "q": {
-      "topval": "",
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
      "posts": 18,
-     "views": 8078,
-     "topval": 1372,
+     "views": 39751,
+     "topval": 17390,
      "subs": 9330
     },
     "2026-09": {
@@ -509,23 +503,22 @@ window.REPORT_CONFIG = {
    "Life": {
     "2026-07": {
      "q": {
-      "posts": "≈",
       "topval": "",
       "subs": "≈"
      },
-     "posts": 13,
-     "views": 3395,
-     "topval": 862,
+     "posts": 19,
+     "views": 7055,
+     "topval": 1507,
      "subs": 1990
     },
     "2026-08": {
      "q": {
-      "topval": "",
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
      "posts": 22,
-     "views": 8666,
-     "topval": 1861,
+     "views": 11082,
+     "topval": 1979,
      "subs": 2000
     },
     "2026-09": {
@@ -554,19 +547,23 @@ window.REPORT_CONFIG = {
    "Eli": {
     "2026-07": {
      "q": {
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
      "posts": 0,
      "views": 0,
-     "subs": 1
+     "subs": 1,
+     "topval": null
     },
     "2026-08": {
      "q": {
-      "subs": "≈"
+      "subs": "≈",
+      "topval": ""
      },
      "posts": 0,
      "views": 0,
-     "subs": 1
+     "subs": 1,
+     "topval": null
     },
     "2026-09": {
      "q": {

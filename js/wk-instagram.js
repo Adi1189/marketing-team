@@ -199,20 +199,22 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 12 săptămâni: 7,6 postări pe săptămână la noi, 6,9 la Regina Maria, 6,7 la Life și 15,2 la DENT ESTET. Vârful nostru a fost 12 în S38. În S41 am avut 8 postări, față de 17 la DENT ESTET.",
-  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 11 din 12 săptămâni cu cifre (0,42–1,24% față de 0,21–1,12%), peste Regina Maria în 11 și peste Life în 11. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 12 săptămâni (S30, S35, S40).",
-  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 12 cu cifre e S40 (19,3), cea mai bună e S33 (54,2). În S40 a fost 19,3, iar în S41 26,2 (reelul de la TEDx: 61).",
+  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 13 săptămâni: 7,5 postări pe săptămână la noi, 7,1 la Regina Maria, 6,6 la Life și 16,2 la DENT ESTET. Vârful nostru a fost 12 în S38. În S41 am avut 8 postări, față de 17 la DENT ESTET.",
+  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 13 din 13 săptămâni cu cifre (0,42–1,43% față de 0,21–0,67%), peste Regina Maria în 12 și peste Life în 13. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 13 săptămâni (S29, S35, S40).",
+  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 13 cu cifre e S40 (19,3), cea mai bună e S33 (66,0). În S40 a fost 19,3, iar în S41 26,2.",
   "Urmăritori, de la prima cifră (S28) la S41: DENT ESTET +1.283 (+16,7%), noi +328 (+7,7%). Life +4,8% și Regina Maria +1,5%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+7,8%) și Dental Blue (+9,9%) pornesc de la baze foarte mici.",
-  "Ce a adus vârfuri: colaborări cu persoane publice (Elidadent × Bianca Iotu: 396; DENT ESTET × Maia Morgenstern: 208; Regina Maria × influenceri: 171 în vechile rapoarte, 630 în S41), campanii cu reducere (DENT ESTET, Align Smile Wallet: 380) și momentele de echipă. La noi, cele mai bune trei postări săptămânale: Reel extindere Slobozia (129/15) (144, S32); Reel update Brăila, 21 aug (likes) (97, S34); Reel umor „întrebări nepotrivite”, 13 aug (84/4) (88, S33)."
+  "Cele mai mari vârfuri ale pieței: Regina Maria 630 (S41); Regina Maria 476 (S29); Elidadent 389 (S38). La noi, cele mai bune trei săptămâni după postarea de top: 151 (S32); 136 (S34); 95 (S33)."
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S29–S40, ISO).",
-  "Raportul pentru S29 lipsește.",
   "Engagement = like-uri + comentarii (Instagram nu arată distribuirile); unde raportul dă doar like-uri, cifra e minimă („≥”). Urmăritorii apar doar în câteva rapoarte (se păstrează ultima cifră cunoscută).",
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
-  "S36–S40 au fost recitite cu skill-ul actualizat. Engagementul din aceste săptămâni e mult sub cel din rapoartele vechi (de exemplu S38 la noi: 374 față de 699, S39: 224 față de 568), deci nu se compară direct cu S30–S35. Urmăritorii din S36–S40 sunt cei de la data rulării, nu de la sfârșitul săptămânilor.",
-  "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Regina Maria are în S41 un reel în colaborare cu 630 de interacțiuni; fără el media ei ar fi 17,0. Raportul nu are variația față de S40 (nu a măsurat acea săptămână), dar aici S40 există și e folosit pentru variație."
+  "S29–S41 au fost recitite cu skill-ul actualizat sau dintr-un bloc cu like-uri citite pe 12–14 octombrie. Engagementul acestor săptămâni e mult sub cel din rapoartele vechi (de exemplu S38 la noi: 374 față de 699, S39: 224 față de 568), deci nu se compară cu cifrele vechi.",
+  "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Regina Maria are în S41 un reel în colaborare cu 630 de interacțiuni; fără el media ei ar fi 17,0. Raportul nu are variația față de S40 (nu a măsurat acea săptămână), dar aici S40 există și e folosit pentru variație.",
+  "S32–S35 (august) au inventar complet, dar blocul nu are titlurile postărilor de top, deci titlul apare „neprecizat”, iar linkul e cel din bloc. Like-urile au fost citite pe 12–13 octombrie, deci sunt mai mari decât ar fi fost la sfârșitul acelor săptămâni. La noi, în S34, 6 din 7 postări au engagement citit („≥”).",
+  "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
+  "S29–S31 (iulie) au inventar complet, dar blocul nu are titlurile postărilor de top, deci titlul apare „neprecizat”, iar linkurile sunt complete. Like-urile au fost citite pe 14 octombrie, deci sunt mai mari decât ar fi fost la sfârșitul acelor săptămâni. Blocul include și S27–S28 (iunie), pe care nu le-am încărcat în site. Urmăritorii din iulie rămân cifrele din rapoartele vechi (S29–S31 păstrează ultima cifră cunoscută, din S28)."
  ],
  "data": {
   "DrA": {
@@ -221,165 +223,161 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "raport lipsă",
-     "avgeng": "raportul nu dă engagement",
      "followers": "ultima cifră: S28",
      "leads": "Puls are cifre începând cu S30"
     },
     "followers": 4272,
     "top": {
-     "title": "raport lipsă",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 71,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/Da-CA_GosAS/"
     },
-    "topval": null
+    "topval": 71,
+    "posts": 7,
+    "eng_sum": 244,
+    "eng_n": 7
    },
    "S30": {
     "q": {
-     "avgeng": "",
      "topval": ""
     },
     "note": {
      "followers": "ultima cifră: S28",
      "leads": "Facebook + Instagram, împreună"
     },
-    "posts": 4,
-    "eng_sum": 118,
-    "eng_n": 4,
+    "posts": 5,
+    "eng_sum": 258,
+    "eng_n": 5,
     "followers": 4272,
     "top": {
-     "title": "Reel pasta de dinți, 22 iul (51/6)",
-     "value": 57,
+     "title": "titlu neprecizat în raport",
+     "value": 79,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbFmZlrDCHC/"
     },
-    "topval": 57,
+    "topval": 79,
     "leads": 200
    },
    "S31": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "avgeng": "doar like-uri",
      "followers": "ultima cifră: S28",
      "leads": "Facebook + Instagram, împreună"
     },
-    "posts": 8,
-    "eng_sum": 278,
+    "posts": 7,
+    "eng_sum": 321,
     "eng_n": 7,
     "followers": 4272,
     "top": {
-     "title": "Carusel masterclass Zucchelli (likes)",
+     "title": "titlu neprecizat în raport",
      "value": 73,
-     "q": "≥",
-     "url": null
+     "q": "",
+     "url": "https://www.instagram.com/p/DbVME3JnDx3/"
     },
     "topval": 73,
     "leads": 218
    },
    "S32": {
     "q": {
-     "avgeng": "≥",
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
     "note": {
-     "avgeng": "doar like-uri",
      "leads": "Facebook + Instagram, împreună"
     },
     "posts": 6,
-    "eng_sum": 292,
+    "eng_sum": 359,
     "eng_n": 6,
     "followers": 4359,
     "top": {
-     "title": "Reel extindere Slobozia (129/15)",
-     "value": 144,
+     "title": "titlu neprecizat în raport",
+     "value": 151,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbpdpKBD73U/"
     },
-    "topval": 144,
+    "topval": 151,
     "leads": 262
    },
    "S33": {
-    "q": {
-     "avgeng": "",
-     "topval": ""
-    },
-    "note": {
-     "followers": "ultima cifră: S32",
-     "leads": "Facebook + Instagram, împreună"
-    },
-    "posts": 6,
-    "eng_sum": 325,
-    "eng_n": 6,
-    "followers": 4359,
-    "top": {
-     "title": "Reel umor „întrebări nepotrivite”, 13 aug (84/4)",
-     "value": 88,
-     "q": "",
-     "url": null
-    },
-    "topval": 88,
-    "leads": 324
-   },
-   "S34": {
-    "q": {
-     "avgeng": "≥",
-     "topval": "≥"
-    },
-    "note": {
-     "avgeng": "doar like-uri",
-     "followers": "ultima cifră: S32",
-     "leads": "Facebook + Instagram, împreună"
-    },
-    "posts": 7,
-    "eng_sum": 249,
-    "eng_n": 6,
-    "followers": 4359,
-    "top": {
-     "title": "Reel update Brăila, 21 aug (likes)",
-     "value": 97,
-     "q": "≥",
-     "url": null
-    },
-    "topval": 97,
-    "leads": 333
-   },
-   "S35": {
-    "q": {
-     "avgeng": "≥",
-     "topval": "≥"
-    },
-    "note": {
-     "avgeng": "doar like-uri",
-     "leads": "Facebook + Instagram, împreună"
-    },
-    "posts": 8,
-    "eng_sum": 290,
-    "eng_n": 8,
-    "followers": 4441,
-    "top": {
-     "title": "Reel „Ghid chirurgical” (72/8)",
-     "value": 80,
-     "q": "≥",
-     "url": null
-    },
-    "topval": 80,
-    "leads": 310
-   },
-   "S36": {
     "q": {
      "topval": "",
      "followers": "≈"
     },
     "note": {
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
+     "leads": "Facebook + Instagram, împreună"
+    },
+    "posts": 5,
+    "eng_sum": 330,
+    "eng_n": 5,
+    "followers": 4619,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 95,
+     "q": "",
+     "url": "https://www.instagram.com/reel/Db-JgWZjVs1/"
+    },
+    "topval": 95,
+    "leads": 324
+   },
+   "S34": {
+    "q": {
+     "topval": "",
+     "followers": "≈",
+     "avgeng": "≥"
+    },
+    "note": {
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
      "leads": "Facebook + Instagram, împreună",
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+     "avgeng": "6 din 7 postări au engagement citit"
+    },
+    "posts": 7,
+    "eng_sum": 311,
+    "eng_n": 6,
+    "followers": 4619,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 136,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DcTIBoGlQBX/"
+    },
+    "topval": 136,
+    "leads": 333
+   },
+   "S35": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {
+     "leads": "Facebook + Instagram, împreună"
+    },
+    "posts": 8,
+    "eng_sum": 372,
+    "eng_n": 8,
+    "followers": 4441,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 87,
+     "q": "",
+     "url": "https://www.instagram.com/reel/Dcd3GhiAtZN/"
+    },
+    "topval": 87,
+    "leads": 310
+   },
+   "S36": {
+    "q": {
+     "topval": "",
+     "followers": ""
+    },
+    "note": {
+     "leads": "Facebook + Instagram, împreună"
     },
     "posts": 6,
-    "followers": 4600,
+    "followers": 4461,
     "top": {
      "title": "Fiecare zâmbet are o poveste, iar povestea mea a… (reel colaborativ @drvirginiaardeleanu)",
      "value": 61,
@@ -416,18 +414,17 @@ window.WEEKLY_CONFIG = {
    "S38": {
     "q": {
      "topval": "",
-     "followers": "≈",
+     "followers": "",
      "avgeng": "≥"
     },
     "note": {
      "leads": "Facebook + Instagram, împreună",
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii",
      "avgeng": "11 din 12 postări au engagement citit"
     },
     "posts": 12,
     "eng_sum": 374,
     "eng_n": 11,
-    "followers": 4600,
+    "followers": 4505,
     "top": {
      "title": "CARE Forum continuă, cu energie… (carusel)",
      "value": 65,
@@ -462,16 +459,15 @@ window.WEEKLY_CONFIG = {
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
     "note": {
-     "leads": "Facebook + Instagram, împreună",
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
+     "leads": "Facebook + Instagram, împreună"
     },
     "posts": 7,
     "eng_sum": 135,
     "eng_n": 7,
-    "followers": 4585,
+    "followers": 4559,
     "top": {
      "title": "Când pacientul uită pentru o secundă de ce a venit la dentist (reel)",
      "value": 38,
@@ -509,140 +505,133 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "raport lipsă",
-     "avgeng": "raportul nu dă engagement",
      "followers": "ultima cifră: S28"
     },
     "followers": 7673,
     "top": {
-     "title": "raport lipsă",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 175,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DauOQ5QCJpf/"
     },
-    "topval": null
+    "topval": 175,
+    "posts": 11,
+    "eng_sum": 500,
+    "eng_n": 11
    },
    "S30": {
     "q": {
-     "avgeng": "",
      "topval": ""
     },
     "note": {
      "followers": "ultima cifră: S28"
     },
-    "posts": 7,
-    "eng_sum": 599,
-    "eng_n": 7,
+    "posts": 12,
+    "eng_sum": 552,
+    "eng_n": 12,
     "followers": 7673,
     "top": {
-     "title": "Before&After fondatoare Oana Taban (299/8)",
-     "value": 307,
+     "title": "titlu neprecizat în raport",
+     "value": 194,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbKjDRwjY59/"
     },
-    "topval": 307
+    "topval": 194
    },
    "S31": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "avgeng": "doar like-uri",
      "followers": "ultima cifră: S28"
     },
-    "posts": 14,
-    "eng_sum": 282,
-    "eng_n": 14,
+    "posts": 17,
+    "eng_sum": 607,
+    "eng_n": 17,
     "followers": 7673,
     "top": {
-     "title": "Carusel The Amazing Smile (likes)",
-     "value": 57,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 112,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DbTWE_gFZAV/"
     },
-    "topval": 57
+    "topval": 112
    },
    "S32": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "avgeng": "doar like-uri"
-    },
-    "posts": 16,
-    "eng_sum": 528,
-    "eng_n": 16,
+    "note": {},
+    "posts": 18,
+    "eng_sum": 979,
+    "eng_n": 18,
     "followers": 8143,
     "top": {
-     "title": "DE4TEENS testimonial (likes)",
-     "value": 71,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 256,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DbsBaqvCP3x/"
     },
-    "topval": 71
+    "topval": 256
    },
    "S33": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S32"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
-    "posts": 15,
-    "eng_sum": 385,
-    "eng_n": 15,
-    "followers": 8143,
+    "posts": 17,
+    "eng_sum": 775,
+    "eng_n": 17,
+    "followers": 8969,
     "top": {
-     "title": "Interviu People of DENT ESTET (52/7)",
-     "value": 59,
+     "title": "titlu neprecizat în raport",
+     "value": 228,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/Db7eFijAWUB/"
     },
-    "topval": 59
+    "topval": 228
    },
    "S34": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri",
-     "followers": "ultima cifră: S32"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
-    "posts": 10,
-    "eng_sum": 271,
-    "eng_n": 10,
-    "followers": 8143,
+    "posts": 16,
+    "eng_sum": 705,
+    "eng_n": 16,
+    "followers": 8969,
     "top": {
-     "title": "Postare Genesys Arad (likes)",
-     "value": 109,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 251,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DcNfrrxAbAt/"
     },
-    "topval": 109
+    "topval": 251
    },
    "S35": {
     "q": {
-     "avgeng": "≥",
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "avgeng": "doar like-uri"
-    },
-    "posts": 16,
-    "eng_sum": 675,
-    "eng_n": 16,
+    "note": {},
+    "posts": 15,
+    "eng_sum": 834,
+    "eng_n": 15,
     "followers": 8393,
     "top": {
-     "title": "raportul nu dă topul",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 151,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DcgYPVkDT2n/"
     },
-    "topval": null
+    "topval": 151
    },
    "S36": {
     "q": {
@@ -727,15 +716,13 @@ window.WEEKLY_CONFIG = {
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 19,
     "eng_sum": 543,
     "eng_n": 19,
-    "followers": 8944,
+    "followers": 8895,
     "top": {
      "title": "De mai bine de 5 ani, facem Ploieștiul să zâmbească (carusel)",
      "value": 81,
@@ -772,140 +759,137 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "raport lipsă",
-     "avgeng": "raportul nu dă engagement",
      "followers": "ultima cifră: S28"
     },
     "followers": 13400,
     "top": {
-     "title": "raport lipsă",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 476,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/Da-PMgtI65Z/"
     },
-    "topval": null
+    "topval": 476,
+    "posts": 9,
+    "eng_sum": 889,
+    "eng_n": 9
    },
    "S30": {
     "q": {
-     "avgeng": "",
      "topval": ""
     },
     "note": {
      "followers": "ultima cifră: S28"
     },
-    "posts": 5,
-    "eng_sum": 116,
-    "eng_n": 5,
+    "posts": 6,
+    "eng_sum": 375,
+    "eng_n": 6,
     "followers": 13400,
     "top": {
-     "title": "Reel mit alignere",
-     "value": 41,
+     "title": "titlu neprecizat în raport",
+     "value": 218,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbJYC5mOUzM/"
     },
-    "topval": 41
+    "topval": 218
    },
    "S31": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "avgeng": "doar like-uri",
      "followers": "ultima cifră: S28"
     },
     "posts": 7,
-    "eng_sum": 210,
+    "eng_sum": 233,
     "eng_n": 7,
     "followers": 13400,
     "top": {
-     "title": "Colab influencer pe contul creatoarei (likes)",
-     "value": 84,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 100,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DbSPocMIdPM/"
     },
-    "topval": 84
+    "topval": 100
    },
    "S32": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri"
-    },
-    "posts": 8,
-    "eng_sum": 296,
-    "eng_n": 8,
-    "followers": 13500,
-    "top": {
-     "title": "Colab ana_maria_guran (likes)",
-     "value": 171,
-     "q": "≥",
-     "url": null
-    },
-    "topval": 171
-   },
-   "S33": {
-    "q": {
-     "avgeng": "",
-     "topval": ""
-    },
-    "note": {
-     "followers": "ultima cifră: S32"
-    },
-    "posts": 6,
-    "eng_sum": 93,
-    "eng_n": 6,
-    "followers": 13500,
-    "top": {
-     "title": "Reel implantologie Iași (24/1)",
-     "value": 25,
-     "q": "",
-     "url": null
-    },
-    "topval": 25
-   },
-   "S34": {
-    "q": {
-     "avgeng": "≥",
-     "topval": "≥"
-    },
-    "note": {
-     "avgeng": "doar like-uri",
-     "followers": "ultima cifră: S32"
+     "followers": "rotunjit în pagină"
     },
     "posts": 7,
-    "eng_sum": 144,
+    "eng_sum": 306,
     "eng_n": 7,
     "followers": 13500,
     "top": {
-     "title": "Reel Academia (likes)",
-     "value": 32,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 175,
+     "q": "",
+     "url": "https://www.instagram.com/reel/Dbm9eJmoZZQ/"
     },
-    "topval": 32
+    "topval": 175
+   },
+   "S33": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "rotunjit în pagină · valoare de la data rulării"
+    },
+    "posts": 6,
+    "eng_sum": 110,
+    "eng_n": 6,
+    "followers": 13600,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 28,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DcGr7L1oY9L/"
+    },
+    "topval": 28
+   },
+   "S34": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "rotunjit în pagină · valoare de la data rulării"
+    },
+    "posts": 7,
+    "eng_sum": 256,
+    "eng_n": 7,
+    "followers": 13600,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 95,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DcWZvAPouk4/"
+    },
+    "topval": 95
    },
    "S35": {
     "q": {
-     "avgeng": "≥",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri"
+     "followers": "rotunjit în pagină"
     },
     "posts": 6,
-    "eng_sum": 128,
+    "eng_sum": 304,
     "eng_n": 6,
     "followers": 13500,
     "top": {
-     "title": "raportul nu dă topul",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 155,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DcofbMVIoDX/"
     },
-    "topval": null
+    "topval": 155
    },
    "S36": {
     "q": {
@@ -998,8 +982,8 @@ window.WEEKLY_CONFIG = {
      "avgeng": "≥"
     },
     "note": {
-     "followers": "rotunjit în pagină · valoare de la data rulării",
-     "avgeng": "8 din 9 postări au engagement citit"
+     "avgeng": "8 din 9 postări au engagement citit",
+     "followers": "rotunjit în pagină"
     },
     "posts": 9,
     "eng_sum": 249,
@@ -1040,137 +1024,137 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "raport lipsă",
-     "avgeng": "raportul nu dă engagement",
      "followers": "ultima cifră: S28"
     },
     "followers": 12600,
     "top": {
-     "title": "raport lipsă",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 23,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/Da1_b2eihTX/"
     },
-    "topval": null
+    "topval": 23,
+    "posts": 7,
+    "eng_sum": 60,
+    "eng_n": 7
    },
    "S30": {
     "q": {
-     "avgeng": "",
      "topval": ""
     },
     "note": {
      "followers": "ultima cifră: S28"
     },
     "posts": 6,
-    "eng_sum": 62,
+    "eng_sum": 78,
     "eng_n": 6,
     "followers": 12600,
     "top": {
-     "title": "Serie interviuri medici (21/4)",
-     "value": 25,
+     "title": "titlu neprecizat în raport",
+     "value": 28,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbKmiFuijBg/"
     },
-    "topval": 25
+    "topval": 28
    },
    "S31": {
     "q": {
-     "topval": "≥"
-    },
-    "note": {
-     "avgeng": "raportul nu dă engagement",
-     "followers": "ultima cifră: S28"
-    },
-    "posts": 8,
-    "followers": 12600,
-    "top": {
-     "title": "Din tabelul raportului (likes)",
-     "value": 36,
-     "q": "≥",
-     "url": null
-    },
-    "topval": 36
-   },
-   "S32": {
-    "q": {
-     "avgeng": "≥",
-     "topval": "≥"
-    },
-    "note": {
-     "avgeng": "doar like-uri"
-    },
-    "posts": 7,
-    "eng_sum": 74,
-    "eng_n": 7,
-    "followers": 12800,
-    "top": {
-     "title": "Mențiune Gabriela Cristea (likes)",
-     "value": 11,
-     "q": "≥",
-     "url": null
-    },
-    "topval": 11
-   },
-   "S33": {
-    "q": {
-     "avgeng": "",
      "topval": ""
     },
     "note": {
-     "followers": "ultima cifră: S32"
+     "followers": "ultima cifră: S28"
     },
     "posts": 7,
-    "eng_sum": 39,
+    "followers": 12600,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 65,
+     "q": "",
+     "url": "https://www.instagram.com/p/Dbc-gvJldWz/"
+    },
+    "topval": 65,
+    "eng_sum": 132,
+    "eng_n": 7
+   },
+   "S32": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "rotunjit în pagină"
+    },
+    "posts": 7,
+    "eng_sum": 98,
     "eng_n": 7,
     "followers": 12800,
     "top": {
-     "title": "",
-     "value": 9,
+     "title": "titlu neprecizat în raport",
+     "value": 44,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/p/Dbpi5XVjAeX/"
     },
-    "topval": 9
+    "topval": 44
+   },
+   "S33": {
+    "q": {
+     "topval": "",
+     "followers": "≈"
+    },
+    "note": {
+     "followers": "rotunjit în pagină · valoare de la data rulării"
+    },
+    "posts": 7,
+    "eng_sum": 51,
+    "eng_n": 7,
+    "followers": 13200,
+    "top": {
+     "title": "titlu neprecizat în raport",
+     "value": 11,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DcFwZvkiHBT/"
+    },
+    "topval": 11
    },
    "S34": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri",
-     "followers": "ultima cifră: S32"
+     "followers": "rotunjit în pagină · valoare de la data rulării"
     },
     "posts": 7,
-    "eng_sum": 39,
+    "eng_sum": 58,
     "eng_n": 7,
-    "followers": 12800,
+    "followers": 13200,
     "top": {
-     "title": "Colab @bygabrielacristea (likes)",
-     "value": 12,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 17,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DcSu8_HtPCz/"
     },
-    "topval": 12
+    "topval": 17
    },
    "S35": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri"
+     "followers": "rotunjit în pagină"
     },
     "posts": 8,
-    "eng_sum": 148,
+    "eng_sum": 166,
     "eng_n": 8,
     "followers": 13000,
     "top": {
-     "title": "Carusel „fren lingual” (likes)",
-     "value": 76,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 82,
+     "q": "",
+     "url": "https://www.instagram.com/p/DcdNKC8MTtE/"
     },
-    "topval": 76
+    "topval": 82
    },
    "S36": {
     "q": {
@@ -1258,10 +1242,10 @@ window.WEEKLY_CONFIG = {
      "followers": "≈"
     },
     "note": {
-     "followers": "rotunjit în pagină · valoare de la data rulării"
+     "followers": "rotunjit în pagină"
     },
     "posts": 7,
-    "followers": 13200,
+    "followers": 13100,
     "top": {
      "title": "Guvernele se schimbă. Scuzele pentru dentist rămân surprinzător de stabile.",
      "value": 9,
@@ -1299,140 +1283,133 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "raport lipsă",
-     "avgeng": "raportul nu dă engagement",
      "followers": "ultima cifră: S28"
     },
     "followers": 474,
     "top": {
-     "title": "raport lipsă",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 11,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/p/Dazf6aBEzge/"
     },
-    "topval": null
+    "topval": 11,
+    "posts": 4,
+    "eng_sum": 29,
+    "eng_n": 4
    },
    "S30": {
     "q": {
-     "avgeng": "",
      "topval": ""
     },
     "note": {
      "followers": "ultima cifră: S28"
     },
     "posts": 6,
-    "eng_sum": 61,
+    "eng_sum": 63,
     "eng_n": 6,
     "followers": 474,
     "top": {
-     "title": "Promo finanțare BT (14/2)",
-     "value": 16,
+     "title": "titlu neprecizat în raport",
+     "value": 15,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbLh56UEWlS/"
     },
-    "topval": 16
+    "topval": 15
    },
    "S31": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": ""
     },
     "note": {
-     "avgeng": "doar like-uri",
      "followers": "ultima cifră: S28"
     },
-    "posts": 6,
-    "eng_sum": 55,
-    "eng_n": 6,
+    "posts": 5,
+    "eng_sum": 59,
+    "eng_n": 5,
     "followers": 474,
     "top": {
-     "title": "Reel examen radiologic kids (likes)",
-     "value": 20,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 22,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DbajCJ8Eu2t/"
     },
-    "topval": 20
+    "topval": 22
    },
    "S32": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "avgeng": "doar like-uri"
-    },
+    "note": {},
     "posts": 5,
-    "eng_sum": 25,
+    "eng_sum": 31,
     "eng_n": 5,
     "followers": 479,
     "top": {
-     "title": "Raportat 1–15 like-uri / postare",
+     "title": "titlu neprecizat în raport",
      "value": 15,
-     "q": "≥",
-     "url": null
+     "q": "",
+     "url": "https://www.instagram.com/reel/DbnacDUjOEV/"
     },
     "topval": 15
    },
    "S33": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S32"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
-    "posts": 5,
-    "eng_sum": 54,
-    "eng_n": 5,
-    "followers": 479,
+    "posts": 6,
+    "eng_sum": 58,
+    "eng_n": 6,
+    "followers": 512,
     "top": {
-     "title": "Dilemă canal vs extracție (10/3)",
-     "value": 14,
+     "title": "titlu neprecizat în raport",
+     "value": 12,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/p/Db7lECfjY7O/"
     },
-    "topval": 14
+    "topval": 12
    },
    "S34": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri",
-     "followers": "ultima cifră: S32"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
-    "posts": 4,
-    "eng_sum": 26,
-    "eng_n": 4,
-    "followers": 479,
+    "posts": 5,
+    "eng_sum": 65,
+    "eng_n": 5,
+    "followers": 512,
     "top": {
-     "title": "Reel eMAG / feed (likes)",
-     "value": 9,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 30,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DcOK-cZARjK/"
     },
-    "topval": 9
+    "topval": 30
    },
    "S35": {
     "q": {
-     "avgeng": "≥",
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "avgeng": "doar like-uri"
-    },
+    "note": {},
     "posts": 5,
-    "eng_sum": 48,
+    "eng_sum": 53,
     "eng_n": 5,
     "followers": 488,
     "top": {
-     "title": "raportul nu dă topul",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 14,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DcaxZnMCU4F/"
     },
-    "topval": null
+    "topval": 14
    },
    "S36": {
     "q": {
@@ -1517,15 +1494,13 @@ window.WEEKLY_CONFIG = {
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 7,
     "eng_sum": 60,
     "eng_n": 7,
-    "followers": 507,
+    "followers": 506,
     "top": {
      "title": "Te-a durut un dinte, iar apoi durerea a dispărut? (reel)",
      "value": 16,
@@ -1559,36 +1534,36 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "posts": "raport lipsă",
-     "avgeng": "raportul nu dă engagement",
      "followers": "ultima cifră: S28"
     },
     "followers": 373,
     "top": {
-     "title": "raport lipsă",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 9,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/Da5isV6lI_u/"
     },
-    "topval": null
+    "topval": 9,
+    "posts": 3,
+    "eng_sum": 14,
+    "eng_n": 3
    },
    "S30": {
     "q": {
-     "avgeng": "",
      "topval": ""
     },
     "note": {
      "followers": "ultima cifră: S28"
     },
     "posts": 4,
-    "eng_sum": 34,
+    "eng_sum": 40,
     "eng_n": 4,
     "followers": 373,
     "top": {
-     "title": "Retratament endodontic (10/3)",
+     "title": "titlu neprecizat în raport",
      "value": 13,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DbLxwV8APSI/"
     },
     "topval": 13
    },
@@ -1597,86 +1572,85 @@ window.WEEKLY_CONFIG = {
      "topval": ""
     },
     "note": {
-     "avgeng": "raportul nu dă engagement",
      "followers": "ultima cifră: S28"
     },
-    "posts": 0,
+    "posts": 3,
     "followers": 373,
     "top": {
-     "title": "fără postări",
-     "value": null,
+     "title": "titlu neprecizat în raport",
+     "value": 7,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/Dbd9YCGlNaO/"
     },
-    "topval": null
+    "topval": 7,
+    "eng_sum": 13,
+    "eng_n": 3
    },
    "S32": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": ""
     },
-    "note": {
-     "avgeng": "doar like-uri"
-    },
+    "note": {},
     "posts": 4,
-    "eng_sum": 166,
+    "eng_sum": 252,
     "eng_n": 4,
     "followers": 381,
     "top": {
-     "title": "Reel Zumba (likes)",
-     "value": 102,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 150,
+     "q": "",
+     "url": "https://www.instagram.com/reel/Dbx3oeLtI74/"
     },
-    "topval": 102
+    "topval": 150
    },
    "S33": {
     "q": {
-     "avgeng": "",
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "followers": "ultima cifră: S32"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 2,
-    "eng_sum": 17,
+    "eng_sum": 20,
     "eng_n": 2,
-    "followers": 381,
+    "followers": 414,
     "top": {
-     "title": "Reel „Zi de chirurgie”",
-     "value": 15,
+     "title": "titlu neprecizat în raport",
+     "value": 17,
      "q": "",
-     "url": null
+     "url": "https://www.instagram.com/reel/DcBx16osPt6/"
     },
-    "topval": 15
+    "topval": 17
    },
    "S34": {
     "q": {
-     "avgeng": "≥",
-     "topval": "≥"
+     "topval": "",
+     "followers": "≈"
     },
     "note": {
-     "avgeng": "doar like-uri",
-     "followers": "ultima cifră: S32"
+     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
     },
     "posts": 1,
-    "eng_sum": 4,
+    "eng_sum": 7,
     "eng_n": 1,
-    "followers": 381,
+    "followers": 414,
     "top": {
-     "title": "Singura postare (likes)",
-     "value": 4,
-     "q": "≥",
-     "url": null
+     "title": "titlu neprecizat în raport",
+     "value": 7,
+     "q": "",
+     "url": "https://www.instagram.com/reel/DcUFvQUAtYF/"
     },
-    "topval": 4
+    "topval": 7
    },
    "S35": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": ""
     },
     "note": {
-     "avgeng": "raportul nu dă engagement"
+     "posts": "nicio postare în săptămână"
     },
     "posts": 0,
     "followers": 390,
@@ -1686,7 +1660,9 @@ window.WEEKLY_CONFIG = {
      "q": "",
      "url": null
     },
-    "topval": null
+    "topval": null,
+    "eng_sum": null,
+    "eng_n": 0
    },
    "S36": {
     "q": {
@@ -1753,15 +1729,13 @@ window.WEEKLY_CONFIG = {
    "S39": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 1,
     "eng_sum": 3,
     "eng_n": 1,
-    "followers": 405,
+    "followers": 394,
     "top": {
      "title": "Dental Blue Slobozia reunited",
      "value": 3,
@@ -1773,15 +1747,13 @@ window.WEEKLY_CONFIG = {
    "S40": {
     "q": {
      "topval": "",
-     "followers": "≈"
+     "followers": ""
     },
-    "note": {
-     "followers": "valoare de la data rulării, nu de la sfârșitul săptămânii"
-    },
+    "note": {},
     "posts": 1,
     "eng_sum": 4,
     "eng_n": 1,
-    "followers": 405,
+    "followers": 399,
     "top": {
      "title": "Working Dentist Day",
      "value": 4,
