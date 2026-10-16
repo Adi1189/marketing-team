@@ -3,10 +3,9 @@
   var W = window.WEEKLY_CONFIG; if (!W) return;
   var WEEKS = W.weeks, BR = W.cmp.brands, D = W.data;
   var ENG = (CFG.channel === 'Facebook' || CFG.channel === 'Instagram');
-  var FK = CFG.channel === 'YouTube' ? 'subs' : 'followers';
+  var FK = CFG.channel === 'YouTube' ? 'subs' : 'followers';   // câmpul cu urmăritori/abonați, pentru clasament
   var COL = { DrA: '#7b1c16', DE: '#1f6f8b', RM: '#c9a227', Life: '#4f8a3c', Eli: '#8a5aa8', DB: '#e07b39' };
   var on = { DrA: true, DE: true, RM: true, Life: true, Eli: false, DB: false };
-  var onF = { DrA: true, DE: true, RM: true, Life: true, Eli: true, DB: true };
   function fnum(v, d) { return v == null ? '–' : v.toLocaleString('ro-RO', { minimumFractionDigits: d || 0, maximumFractionDigits: d || 0 }); }
   function row(b, w) { return (D[b] && D[b][w]) || null; }
   // metrica săptămânală: engagement mediu pe postare (FB, IG) sau vizualizări pe săptămână (TikTok, YouTube)
@@ -105,48 +104,7 @@
     return '<h3 class="panel__title">' + title + '</h3><p class="note" style="margin-top:0">' + hint + '</p>' + card(s) + (notes.length ? '<p class="note">' + notes.join(' ') + '</p>' : '');
   }
 
-  // ---- 3. creșterea urmăritorilor față de S29
-  function followHtml() {
-    var base = 'S29', ws = WEEKS.filter(function (w) { return +w.id.slice(1) >= 29; });
-    function val(b, w) {
-      var r = row(b, w.id); if (!r || r[FK] == null) return null;
-      var n = (r.note && r.note[FK]) || ''; if (w.id !== 'S41' && (n.indexOf('data rulării') > -1 || n.indexOf('preluat') > -1)) return null;   // citiri de la rulare: nu sunt din săptămâna respectivă
-      return r[FK];
-    }
-    var ids = BR.filter(function (b) { return onF[b.id]; }).map(function (b) { return b.id; });
-    var ser = {}, lo = 0, hi = 0;
-    BR.forEach(function (b) {
-      var b0 = val(b.id, ws[0]); if (!b0 || b0 < 10) return;
-      ser[b.id] = ws.map(function (w) { var v = val(b.id, w); return v == null ? null : (v / b0 - 1) * 100; });
-      if (onF[b.id]) ser[b.id].forEach(function (v) { if (v != null) { lo = Math.min(lo, v); hi = Math.max(hi, v); } });
-    });
-    var step = 62, n = ws.length, Wd = n * step + 90, H = 270, top = 24, bot = 36, plotH = H - top - bot, span = (hi - lo) || 1; hi += span * 0.12; lo -= span * 0.05;
-    function y(v) { return top + plotH - (v - lo) / (hi - lo) * plotH; }
-    function x(i) { return 14 + (i + 0.5) * step; }
-    var s = '<svg width="' + Wd + '" height="' + H + '" viewBox="0 0 ' + Wd + ' ' + H + '">';
-    [0, 0.25, 0.5, 0.75, 1].forEach(function (f) { var v = lo + (hi - lo) * f, yy = y(v); s += '<line x1="8" x2="' + (Wd - 80) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="12" y="' + (yy - 3) + '" font-size="10" fill="#8a7a6c">' + fnum(v, Math.abs(hi - lo) < 4 ? 1 : 0) + '%</text>'; });
-    var yz = y(0); s += '<line x1="8" x2="' + (Wd - 80) + '" y1="' + yz + '" y2="' + yz + '" stroke="#bfa98a" stroke-dasharray="3 3"/>';
-    ws.forEach(function (w, i) { s += '<text x="' + x(i) + '" y="' + (H - 12) + '" text-anchor="middle" font-size="11" fill="#8a7a6c">' + w.id + '</text>'; });
-    var ends = [];
-    ids.filter(function (b) { return ser[b]; }).slice().reverse().forEach(function (b) {
-      var d = '', prev = false, lastI = -1, lastV = null;
-      ser[b].forEach(function (v, i) { if (v == null) { return; } d += (prev ? 'L' : 'M') + x(i) + ',' + y(v); prev = true; lastI = i; lastV = v; });
-      if (lastV != null) ends.push({ b: b, i: lastI, v: lastV, y: y(lastV) });
-      s += '<path d="' + d + '" fill="none" stroke="' + COL[b] + '" stroke-width="' + (b === 'DrA' ? 3.6 : 2.2) + '" stroke-linejoin="round" stroke-linecap="round"/>';
-      ser[b].forEach(function (v, i) { if (v != null) s += '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="' + (b === 'DrA' ? 3.8 : 2.8) + '" fill="' + COL[b] + '"/>'; });
-    });
-    ends.sort(function (a, c) { return a.y - c.y; });
-    for (var k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 14) ends[k].y = ends[k - 1].y + 14;
-    ends.forEach(function (e) { s += '<text x="' + (x(e.i) + 10) + '" y="' + (e.y + 4) + '" font-size="12" font-weight="800" fill="' + COL[e.b] + '">' + (e.v > 0 ? '+' : '') + fnum(e.v, 1) + '%</text>'; });
-    s += '</svg>';
-    var note = 'Punctul de plecare e S29 (iulie). Folosim doar citirile făcute în săptămâna respectivă; unde raportul nu avea cifra, punctul lipsește, iar linia unește punctele vecine.' +
-      (CFG.channel === 'Facebook' ? ' Facebook arată urmăritorii rotunjiți la mii, deci micile salturi sunt rotunjiri, nu creștere reală.' : '') +
-      (CFG.channel === 'Instagram' ? ' La Instagram, S29–S31 păstrează cifra din S28, deci creșterea din iulie e subestimată.' : '') +
-      ' Un cont mic pare să crească repede în procente, chiar dacă adaugă puțini oameni.';
-    return '<h3 class="panel__title">Creșterea ' + (CFG.channel === 'YouTube' ? 'abonaților' : 'urmăritorilor') + ' față de S29</h3><p class="note" style="margin-top:0">Cu cât a crescut fiecare cont, în procente, de la începutul lui iulie. Linia groasă suntem noi.</p>' + legend(onF, 'onF') + card(s) + '<p class="note">' + note + '</p>';
-  }
-
-  // ---- 4. tabel colorat săptămână × cont
+  // ---- 3. tabel colorat săptămână × cont
   function heatHtml() {
     var title = ENG ? 'Engagement mediu pe postare, săptămână de săptămână' : 'Vizualizări medii pe video, săptămână de săptămână';
     var pw = periodWeeks().map(function (w) { return w.id; });
@@ -168,13 +126,13 @@
 
   function ensure() {
     var anchor = document.getElementById('cmp-panel'); if (!anchor || document.getElementById('sc-line')) return;
-    ['sc-line', 'sc-rank', 'sc-follow', 'sc-heat'].slice().reverse().forEach(function (id) {
+    ['sc-line', 'sc-rank', 'sc-heat'].slice().reverse().forEach(function (id) {
       var d = document.createElement('div'); d.className = 'panel'; d.id = id; anchor.parentNode.insertBefore(d, anchor.nextSibling);
     });
   }
   function bindLegends() {
     document.querySelectorAll('.legend').forEach(function (lg) {
-      var map = lg.getAttribute('data-lg') === 'on' ? on : onF;
+      var map = on;
       lg.querySelectorAll('.lg').forEach(function (b) { b.onclick = function () { map[b.getAttribute('data-b')] = !map[b.getAttribute('data-b')]; renderSocial(); }; });
     });
   }
@@ -182,7 +140,6 @@
     ensure();
     document.getElementById('sc-line').innerHTML = linePanelHtml();
     document.getElementById('sc-rank').innerHTML = rankHtml();
-    document.getElementById('sc-follow').innerHTML = followHtml();
     document.getElementById('sc-heat').innerHTML = heatHtml();
     bindLegends();
   }
