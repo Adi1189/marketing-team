@@ -211,7 +211,7 @@ window.WEEKLY_CONFIG = {
  "take": [
   "Toate cele 15 săptămâni (S27–S41) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile, deci frecvența, engagementul mediu și rata de engagement se pot calcula pentru tot intervalul.",
   "Postări pe săptămână (S27–S41): noi 8 → 8 → 7 → 6 → 6 → 7 → 6 → 7 → 8 → 5 → 10 → 13 → 10 → 8 → 9; DENT ESTET 14 → 10 → 10 → 12 → 17 → 16 → 16 → 16 → 14 → 19 → 17 → 18 → 17 → 18 → 15. Media: 7,9 la noi, 15,3 la DENT ESTET, 9,1 la Regina Maria, 6,7 la Life. Cel mai mare ritm al nostru: 13 postări (S38).",
-  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S27–S41: 17,9 → 11,0 → 12,3 → 13,7 → 21,5 → 38,3 → 29,2 → 28,0 → 26,1 → 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6. Vârful e în S39 (43,7, postarea de top: 140 din 437). În S40 avem 13,9, iar în S41 27,6.",
+  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S27–S41: 24,4 → 13,0 → 16,4 → 17,3 → 25,0 → 38,4 → 29,2 → 28,1 → 26,1 → 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6. Vârful e în S39 (43,7, postarea de top: 140 din 437). În S40 avem 13,9, iar în S41 27,6.",
   "Pe urmăritor, rata noastră (engagement mediu împărțit la urmăritori) a fost 0,24% → 0,08% → 0,15% în S39–S41, față de 0,09% → 0,09% → 0,07% la DENT ESTET și 0,03% → 0,03% → 0,02% la Regina Maria. Elidadent (1,30% în S41) și Dental Blue pornesc de la pagini mici (4,7K și 6,3K), deci nu sunt comparabile direct cu noi."
  ],
  "notes": [
@@ -221,10 +221,9 @@ window.WEEKLY_CONFIG = {
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S36–S40 au fost recitite cu skill-ul actualizat: inventar complet, cu reacții, comentarii și distribuiri citite pentru toate conturile. Unele cifre ies mai mari decât în raportul vechi, de exemplu Regina Maria: 145 → 284 în S40 și 105 → 246 în S39, deci aceste săptămâni nu sunt comparabile direct cu S29–S35 la acel cont.",
   "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Acel raport compară cu un S40 „calculat din feed” (11 postări, 32,7), care nu se potrivește cu citirea completă a S40 de aici (8 postări, 13,9) și pare să includă și postări din S39 (140 și 89). Am păstrat citirea completă a S40; merită verificat dacă S40 are 8 sau 11 postări.",
-  "S32–S35 (august) au fost recitite cu inventar complet; raportul dă doar valoarea postării de top, fără titlu și fără link, deci acolo titlul apare „neprecizat”, iar linkul „–”.",
   "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
-  "S27–S31 (iulie) au fost recitite cu inventar complet, la fel ca august; blocul nu are titluri și linkuri, deci titlul apare „neprecizat”, iar linkul „–”. Urmăritorii din iulie rămân cifrele din rapoartele vechi, citite în acele săptămâni.",
-  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie."
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie.",
+  "Iulie și august (S27–S35) au fost recitite cu titluri și linkuri la postările de top, pe 15 octombrie. Cifrele sunt mai mari decât în citirea veche (de exemplu Dental Blue S27: 1.017 → 1.227, Elidadent S31: 41 → 117), pentru că noua citire e mai completă sau mai târzie. Urmăritorii rămân cifrele din rapoartele vechi, citite în acele săptămâni."
  ],
  "data": {
   "DrA": {
@@ -239,14 +238,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 17,
+     "title": "Te întorci acasă vara aceasta?",
+     "value": 22,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid02iUSYtvD1xnaErwvcSeNznf2bkvJARhcHW9CfQcE4a4HsV8VC3aTGfN57b6JvY3a7l"
     },
-    "topval": 17,
+    "topval": 22,
     "posts": 7,
-    "eng_sum": 86,
+    "eng_sum": 115,
     "eng_n": 7
    },
    "S30": {
@@ -260,15 +259,15 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 23,
+     "title": "Doi medici pot avea aceeași pregătire, aceeași experiență și…",
+     "value": 26,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/4243797905930293"
     },
-    "topval": 23,
+    "topval": 26,
     "leads": 200,
     "posts": 6,
-    "eng_sum": 82,
+    "eng_sum": 104,
     "eng_n": 6
    },
    "S31": {
@@ -282,15 +281,15 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 46,
+     "title": "Investim constant în pregătirea echipei noastre (masterclass Zucchelli)",
+     "value": 51,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid02cNVRnqUMH1HN8NqsmJrkgwZz3kFwsy5iza6pLCGcK4yzAbWWuShKLPKNFNM91vnnl"
     },
-    "topval": 46,
+    "topval": 51,
     "leads": 218,
     "posts": 6,
-    "eng_sum": 129,
+    "eng_sum": 150,
     "eng_n": 6
    },
    "S32": {
@@ -304,15 +303,15 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 119,
+     "title": "Slobozia, suntem gata! Clinica noastră es…",
+     "value": 120,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/2116789552205727"
     },
-    "topval": 119,
+    "topval": 120,
     "leads": 262,
     "posts": 7,
-    "eng_sum": 268,
+    "eng_sum": 269,
     "eng_n": 7
    },
    "S33": {
@@ -326,10 +325,10 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Poți fi mamă, antreprenor și femeia care își ur…",
      "value": 58,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/2047934745851867"
     },
     "topval": 58,
     "leads": 324,
@@ -348,15 +347,15 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 87,
+     "title": "Un nou oraș. O nouă comunitate. Aceleași standarde pe care le construim de aproape 10 ani",
+     "value": 88,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1413661114192887"
     },
-    "topval": 87,
+    "topval": 88,
     "leads": 333,
     "posts": 7,
-    "eng_sum": 196,
+    "eng_sum": 197,
     "eng_n": 7
    },
    "S35": {
@@ -370,10 +369,10 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "La mulți ani, doamna Dr. Irina Udrescu!",
      "value": 49,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid0Qwb156mdM2dEoLVuuz8MSt8ijpy1eCGqqFwF47Dub8ZS7ahhPTdcirxdLJ4CGdFkl"
     },
     "topval": 49,
     "leads": 310,
@@ -515,36 +514,42 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 35,
+     "title": "În ultimii ani, pacienții s-au schimbat.",
+     "value": 43,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/27697530209880658"
     },
-    "topval": 35,
+    "topval": 43,
     "posts": 8,
-    "eng_sum": 143,
+    "eng_sum": 195,
     "eng_n": 8
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 17000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 17,
+     "title": "O transformare care vorbește de la sine.",
+     "value": 22,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid0u6H5zz4JUKxQL7sWfbnPvbJFgZUkXUoc3uNNNVMJZQAvxqveY4s9uxR8SvbrYiZ4l"
     },
-    "topval": 17,
+    "topval": 22,
     "posts": 8,
-    "eng_sum": 88,
+    "eng_sum": 104,
     "eng_n": 8
    }
   },
@@ -559,14 +564,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 45000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 119,
+     "title": "Uneori, un dinte este prea afectat pentru a mai putea fi restaurat…",
+     "value": 139,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1381808847199906"
     },
-    "topval": 119,
+    "topval": 139,
     "posts": 10,
-    "eng_sum": 299,
+    "eng_sum": 330,
     "eng_n": 10
    },
    "S30": {
@@ -579,14 +584,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 45000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 31,
+     "title": "Proteză mobilă sau dinți ficși pe implanturi?",
+     "value": 50,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1727896971787187"
     },
-    "topval": 31,
+    "topval": 50,
     "posts": 12,
-    "eng_sum": 246,
+    "eng_sum": 282,
     "eng_n": 12
    },
    "S31": {
@@ -599,14 +604,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 45000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 312,
+     "title": "The Amazing Smile Collection | Before & After P…",
+     "value": 352,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/dentestet.ro/posts/pfbid02bbiSGyfrVBkYUwVUT9U6nbdGGgYXDm7kP6br2DJNvAitnPesNoUcUBNtFnLUUx99l"
     },
-    "topval": 312,
+    "topval": 352,
     "posts": 17,
-    "eng_sum": 628,
+    "eng_sum": 703,
     "eng_n": 17
    },
    "S32": {
@@ -619,14 +624,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 46000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 94,
+     "title": "Sângerarea la periaj reprezintă primul semnal că tartrul și bacteriile au început deja…",
+     "value": 97,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1385290723532845"
     },
-    "topval": 94,
+    "topval": 97,
     "posts": 16,
-    "eng_sum": 414,
+    "eng_sum": 419,
     "eng_n": 16
    },
    "S33": {
@@ -639,14 +644,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 46000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 347,
+     "title": "Gingiile inflamate nu sunt doar o problemă a dinților.",
+     "value": 358,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/931947872550133"
     },
-    "topval": 347,
+    "topval": 358,
     "posts": 16,
-    "eng_sum": 701,
+    "eng_sum": 764,
     "eng_n": 16
    },
    "S34": {
@@ -659,14 +664,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 46000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 243,
+     "title": "Schimbările care se văd pot începe cu ceva ... aproape invizibil.",
+     "value": 245,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/dentestet.ro/posts/pfbid0CN4dwH97qbQt3yrzqDBApS9yCrCqEcdeVAMBgiZNtK1yVBLZtZvMpAmtBgdaw9Yrl"
     },
-    "topval": 243,
+    "topval": 245,
     "posts": 16,
-    "eng_sum": 559,
+    "eng_sum": 646,
     "eng_n": 16
    },
    "S35": {
@@ -679,14 +684,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 46000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 40,
+     "title": "La DENT ESTET Craiova, tratamentele de estetică pornesc de la o analiză atentă a dinților",
+     "value": 66,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/2157094378559619"
     },
-    "topval": 40,
+    "topval": 66,
     "posts": 14,
-    "eng_sum": 255,
+    "eng_sum": 325,
     "eng_n": 14
    },
    "S36": {
@@ -811,36 +816,42 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 45000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 40,
+     "title": "Ce se întâmplă cu dintele tău după un tratament de canal?",
+     "value": 47,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/2846896632336984"
     },
-    "topval": 40,
+    "topval": 47,
     "posts": 14,
-    "eng_sum": 344,
+    "eng_sum": 383,
     "eng_n": 14
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 45000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 43,
+     "title": "În estetica dentară modernă, naturalețea este cel mai frumos rezultat…",
+     "value": 48,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/4180702915566964"
     },
-    "topval": 43,
+    "topval": 48,
     "posts": 10,
-    "eng_sum": 257,
+    "eng_sum": 287,
     "eng_n": 10
    }
   },
@@ -855,14 +866,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 493,
+     "title": "Nu este vorba doar despre dinți. Este despre cum t…",
+     "value": 513,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/ReginaMariaDentalClinics/posts/pfbid02HqY4HDFoBFuFGv7FitbK6fE6nbqD61ioaP9S7MgYT4mcZq1fXDq9kBPzWudq63Gwl"
     },
-    "topval": 493,
+    "topval": 513,
     "posts": 10,
-    "eng_sum": 1008,
+    "eng_sum": 1064,
     "eng_n": 10
    },
    "S30": {
@@ -875,14 +886,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 237,
+     "title": "Implantul nu se câștigă în ziua operației. Se câșt…",
+     "value": 253,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1541591254098511"
     },
-    "topval": 237,
+    "topval": 253,
     "posts": 8,
-    "eng_sum": 672,
+    "eng_sum": 741,
     "eng_n": 8
    },
    "S31": {
@@ -895,14 +906,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 48,
+     "title": "Astăzi am sărbătorit-o pe colega noastră, Dr. Bian…",
+     "value": 49,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/ReginaMariaDentalClinics/posts/pfbid0bnransZ2cQkBX6Tt5QMVF9XNJeWKSyg5SejjvvK5JFxb6wFGQHs2QVLfr7aTTu6Al"
     },
-    "topval": 48,
+    "topval": 49,
     "posts": 11,
-    "eng_sum": 220,
+    "eng_sum": 232,
     "eng_n": 11
    },
    "S32": {
@@ -915,14 +926,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 330,
+     "title": "Într-o zi de chirurgie nu este vorba doar despre intervenții. Este despre oameni…",
+     "value": 332,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/ReginaMariaDentalClinics/posts/pfbid0ipY8Efcp4CVh4vdT1zATktVseJz9w5z1RLXEqB5Lo2LdhXpd94wRccPuYJEDb616l"
     },
-    "topval": 330,
+    "topval": 332,
     "posts": 6,
-    "eng_sum": 563,
+    "eng_sum": 569,
     "eng_n": 6
    },
    "S33": {
@@ -935,14 +946,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 345,
+     "title": "Sângerarea gingiilor nu ar trebui ignorată, mai ales atunci când apare constant…",
+     "value": 355,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1365257195234621"
     },
-    "topval": 345,
+    "topval": 355,
     "posts": 8,
-    "eng_sum": 578,
+    "eng_sum": 587,
     "eng_n": 8
    },
    "S34": {
@@ -955,14 +966,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 172,
+     "title": "Când alegi medicul stomatolog al copilului, alegi și felul în care va privi vizi…",
+     "value": 174,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/ReginaMariaDentalClinics/posts/pfbid021BTsReWYf9LeudiSBE7zJ4sGCCkhuzFDsqtjoQTYF5b8WtJHAPP5aKDPZByp44s1l"
     },
-    "topval": 172,
+    "topval": 174,
     "posts": 9,
-    "eng_sum": 398,
+    "eng_sum": 402,
     "eng_n": 9
    },
    "S35": {
@@ -975,14 +986,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 164,
+     "title": "Boala parodontală poate evolua mult timp fără semne evidente, de aceea consultul…",
+     "value": 166,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1809265790065082"
     },
-    "topval": 164,
+    "topval": 166,
     "posts": 9,
-    "eng_sum": 544,
+    "eng_sum": 547,
     "eng_n": 9
    },
    "S36": {
@@ -1107,36 +1118,42 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 464,
+     "title": "„De ce nu ați făcut tot tratamentul de la început?”…",
+     "value": 484,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/ReginaMariaDentalClinics/posts/pfbid0vpYzrm2yTisVp2MoFQ2eMUgtu4mUnSD5dbTxtMUWDBsamzQBPCzmyMFXRcGvuo5l"
     },
-    "topval": 464,
+    "topval": 484,
     "posts": 11,
-    "eng_sum": 974,
+    "eng_sum": 1040,
     "eng_n": 11
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 84000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 614,
+     "title": "La Regina Maria Dental Clinics Victoriei, fiecare …",
+     "value": 640,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/ReginaMariaDentalClinics/posts/pfbid035uUEYSxipo9nvk2ovRQytXh2aw5XgFfm6zNciMsreo72gLaL9BWu5BwX3WJBjCupl"
     },
-    "topval": 614,
+    "topval": 640,
     "posts": 10,
-    "eng_sum": 830,
+    "eng_sum": 873,
     "eng_n": 10
    }
   },
@@ -1151,14 +1168,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 81000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 32,
+     "title": "Ți-e mai frică de injecția cu anestezic decât de …",
+     "value": 34,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/3275576072625069"
     },
-    "topval": 32,
+    "topval": 34,
     "posts": 7,
-    "eng_sum": 150,
+    "eng_sum": 165,
     "eng_n": 7
    },
    "S30": {
@@ -1171,14 +1188,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 81000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 47,
+     "title": "Crezi că parodontoza se tratează cu un simplu det…",
+     "value": 50,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1388252406545793"
     },
-    "topval": 47,
+    "topval": 50,
     "posts": 6,
-    "eng_sum": 194,
+    "eng_sum": 208,
     "eng_n": 6
    },
    "S31": {
@@ -1191,14 +1208,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 81000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 60,
+     "title": "Astăzi este despre recunoștință.",
+     "value": 63,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid02nUBhCykmxts44Lks15Hge1XbaMjQhJe8skc3BtLQS7XTPkEBwEA1nisGa29iWffFl"
     },
-    "topval": 60,
+    "topval": 63,
     "posts": 7,
-    "eng_sum": 198,
+    "eng_sum": 211,
     "eng_n": 7
    },
    "S32": {
@@ -1211,14 +1228,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 81000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 52,
+     "title": "Întâlnire cu Gabriela Cristea și Tavi Clonda la Life Dental Spa!",
+     "value": 53,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1554270816180397"
     },
-    "topval": 52,
+    "topval": 53,
     "posts": 7,
-    "eng_sum": 206,
+    "eng_sum": 207,
     "eng_n": 7
    },
    "S33": {
@@ -1231,10 +1248,10 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 82000,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "De ce aleg unii pacienți tratamentul cariilor cu laser?",
      "value": 44,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1071368542238118"
     },
     "topval": 44,
     "posts": 7,
@@ -1251,14 +1268,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 82000,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "De peste 5 ani, Gabriela Cristea alege Life Dental Spa pentru zâmbetul ei și al…",
      "value": 42,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1644926493868819"
     },
     "topval": 42,
     "posts": 7,
-    "eng_sum": 175,
+    "eng_sum": 176,
     "eng_n": 7
    },
    "S35": {
@@ -1271,14 +1288,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 82000,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Gabriela Cristea și Tavi Clonda, împreună cu întreaga familie, aleg Life Dental…",
      "value": 34,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1056477637112556"
     },
     "topval": 34,
     "posts": 7,
-    "eng_sum": 127,
+    "eng_sum": 129,
     "eng_n": 7
    },
    "S36": {
@@ -1403,36 +1420,42 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 81000,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Ai pierdut un dinte și crezi că nu este o problemă…?",
      "value": 20,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1652428586057588"
     },
     "topval": 20,
     "posts": 6,
-    "eng_sum": 81,
+    "eng_sum": 85,
     "eng_n": 6
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 81000,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 36,
+     "title": "Aflați în video cum contracarăm efectele unei rad…",
+     "value": 42,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/2211830632926265"
     },
-    "topval": 36,
+    "topval": 42,
     "posts": 6,
-    "eng_sum": 117,
+    "eng_sum": 128,
     "eng_n": 6
    }
   },
@@ -1447,14 +1470,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 48,
+     "title": "FALS. Faptul că nu te doare după inserarea unui im…",
+     "value": 60,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/2501256023650599"
     },
-    "topval": 48,
+    "topval": 60,
     "posts": 4,
-    "eng_sum": 139,
+    "eng_sum": 171,
     "eng_n": 4
    },
    "S30": {
@@ -1467,14 +1490,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 33,
+     "title": "Cea mai fierbinte veste a verii pentru pacienții …",
+     "value": 49,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/997778533299922"
     },
-    "topval": 33,
+    "topval": 49,
     "posts": 6,
-    "eng_sum": 125,
+    "eng_sum": 175,
     "eng_n": 6
    },
    "S31": {
@@ -1487,15 +1510,15 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 14,
+     "title": "„Aveți garanție la lucrările dentare?” Este una d…",
+     "value": 56,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1391160696291107"
     },
-    "topval": 14,
-    "posts": 4,
-    "eng_sum": 41,
-    "eng_n": 4
+    "topval": 56,
+    "posts": 5,
+    "eng_sum": 117,
+    "eng_n": 5
    },
    "S32": {
     "q": {
@@ -1507,14 +1530,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 28,
+     "title": "Cum poți economisi bani la dentist?",
+     "value": 27,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1589219872588440"
     },
-    "topval": 28,
+    "topval": 27,
     "posts": 5,
-    "eng_sum": 86,
+    "eng_sum": 85,
     "eng_n": 5
    },
    "S33": {
@@ -1527,14 +1550,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 47,
+     "title": "La mulți ani, Ana Maria Badea, Asistent Medical!",
+     "value": 48,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid025nUxPAqWXENMt264P73N7CM8v5s7WxsKMB4zggU5wSK9UurCZSzV8Yu7WdKAdWJ2l&id=100038889943740"
     },
-    "topval": 47,
+    "topval": 48,
     "posts": 5,
-    "eng_sum": 99,
+    "eng_sum": 100,
     "eng_n": 5
    },
    "S34": {
@@ -1547,10 +1570,10 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Avem o campanie activă alături de eMAG!",
      "value": 96,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1035209452632681"
     },
     "topval": 96,
     "posts": 4,
@@ -1567,14 +1590,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "La Elidadent avem o campanie activă alături de eMAG și Banca Transilvania!",
      "value": 37,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1783997632847929"
     },
     "topval": 37,
     "posts": 5,
-    "eng_sum": 117,
+    "eng_sum": 119,
     "eng_n": 5
    },
    "S36": {
@@ -1699,36 +1722,42 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 72,
+     "title": "Cunoaște echipa din spatele fiecărui zâmbet!",
+     "value": 76,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZGBiDU3YP4JdeaMnHLTKr1syk4aQ4SbTpMeCaMAY5RWQYgmZ5LcUnLcdEc487Ussl&id=100038889943740"
     },
-    "topval": 72,
+    "topval": 76,
     "posts": 5,
-    "eng_sum": 137,
+    "eng_sum": 142,
     "eng_n": 5
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 4600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Postare fără text (doar media)",
      "value": 38,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=1869753577664289&id=100038889943740"
     },
     "topval": 38,
     "posts": 8,
-    "eng_sum": 140,
+    "eng_sum": 143,
     "eng_n": 8
    }
   },
@@ -1743,14 +1772,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 6200,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 15,
+     "title": "Afacerile și relațiile importante se con…",
+     "value": 52,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02bZkRPL5umzeZBqk2GDnRwEzCuJjwywfa7RFMgfUxFQjUNSh7abAsPrdsb3kbUX7Ul&id=100057645392894"
     },
-    "topval": 15,
+    "topval": 52,
     "posts": 3,
-    "eng_sum": 29,
+    "eng_sum": 95,
     "eng_n": 3
    },
    "S30": {
@@ -1763,14 +1792,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 6200,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 24,
+     "title": "Asa sunt zilele noastre vara asta, pline de si D…",
+     "value": 42,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02bwGEN28QpkFGa2hNCsgJXeyPpgLJ7s6SJVtoKdkNE7KuULvqti7BgEfNbQbCK148l&id=100057645392894"
     },
-    "topval": 24,
+    "topval": 42,
     "posts": 8,
-    "eng_sum": 93,
+    "eng_sum": 226,
     "eng_n": 8
    },
    "S31": {
@@ -1783,14 +1812,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 6200,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 23,
+     "title": "Zi de pedodontie Dental Blue Slobozia …",
+     "value": 26,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0fH7UJygY7SEnxBx84QwUVGv6j17fxXPBiskwjh7vNePyBUyabzDUBhzHB1dj2aQ7l&id=100057645392894"
     },
-    "topval": 23,
+    "topval": 26,
     "posts": 6,
-    "eng_sum": 66,
+    "eng_sum": 125,
     "eng_n": 6
    },
    "S32": {
@@ -1803,10 +1832,10 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 6200,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Sa dansam putin de dimineata si sa Zambim cu DentalBlue!",
      "value": 40,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1590538972691705"
     },
     "topval": 40,
     "posts": 7,
@@ -1823,10 +1852,10 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 6200,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Concediul începe cu un zâmbet fără griji!",
      "value": 33,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02SHtaWReyPyC5NWdozUQbShakdwMsvKxmhUsvqzJXA7rt18Uyy1UgJ96LErtdm2rRl&id=100057645392894"
     },
     "topval": 33,
     "posts": 8,
@@ -1843,14 +1872,14 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 6200,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Dental Blue Ialomița 16 ani de experiență în estetică dentară și implantologie",
      "value": 35,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02dLjZNSoPE8m86JeaFyH22bNKJ82Qg31SALcDbJHaWUzPRwJtyp31Gr9DKKZkxsGwl&id=100057645392894"
     },
     "topval": 35,
     "posts": 4,
-    "eng_sum": 109,
+    "eng_sum": 108,
     "eng_n": 4
    },
    "S35": {
@@ -1863,10 +1892,10 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 6300,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Zi de pedodontie!",
      "value": 27,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02iZ8wnsJRizgvN42dWABkR81rQNqJennawUGRZabmz3FrmAaSXki4wuJmcYbr9KAtl&id=100057645392894"
     },
     "topval": 27,
     "posts": 3,
@@ -1995,36 +2024,42 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 6200,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 768,
+     "title": "Salutare, Slobozia! Andrei Osanu vine astăzi la Fr…",
+     "value": 855,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/reel/1791279998976626"
     },
-    "topval": 768,
+    "topval": 855,
     "posts": 10,
-    "eng_sum": 1017,
+    "eng_sum": 1227,
     "eng_n": 10
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
+    "followers": 6200,
     "top": {
-     "title": "titlu neprecizat în raport",
-     "value": 53,
+     "title": "La mulți ani Dr. Mihnea!",
+     "value": 57,
      "q": "",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02qGFbrW9DpjCowuGLm2w9HMqZh7MMy2JiKktFu16XPSfmucmWwiNy8C7G8ZfpciTAl&id=100057645392894"
     },
-    "topval": 53,
+    "topval": 57,
     "posts": 6,
-    "eng_sum": 108,
+    "eng_sum": 183,
     "eng_n": 6
    }
   }

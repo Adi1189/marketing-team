@@ -55,12 +55,11 @@ window.REPORT_CONFIG = {
   "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31 (5 săptămâni), august = S32–S35 (4), septembrie = S36–S40 (5), octombrie = S41–S44 (4). O săptămână intră în luna în care cad cele mai multe zile ale ei; excepție, S40 (28 sep–4 oct), pe care o păstrăm în septembrie, ca în rapoartele tale.",
   "Numărul de videouri vine din paginile de profil TikTok și e complet pentru toate cele 12 săptămâni.",
   "Pentru iulie, august și septembrie (S27–S40) avem vizualizările totale ale fiecărui cont, citite pe 12–14 octombrie.",
-  "Pentru top postare: la iulie, august și septembrie avem linkul fiecărui cont; titlul lipsește din blocurile de iulie și august.",
+  "Pentru top postare: la iulie, august și septembrie avem titlul și linkul fiecărui cont (titlurile din iulie–august sunt citite din descrierile videoclipurilor).",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
   "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte.",
   "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
-  "Pentru august, blocul nu are titlurile videoclipurilor de top: în „Top postarea lunii” titlul apare „fără descriere în raport”, iar linkurile funcționează. La Dental Blue, două linkuri sunt postări foto.",
   "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni; pentru fiecare lună e cifra din ultima ei săptămână (iulie: S31, august: S35, septembrie: S40)."
  ],
  "data": {
@@ -79,7 +78,7 @@ window.REPORT_CONFIG = {
    },
    "topPosts": {
     "DrA": {
-     "title": "",
+     "title": "⭐ „Ce îmi oferiți ca să șterg review-ul?” Negocierea a început... și a degenerat rapid. 😂",
      "value": 2529,
      "q": "",
      "week": "S29",
@@ -87,7 +86,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7664153989541498114"
     },
     "DE": {
-     "title": "",
+     "title": "🩵 Ce se întâmplă cu dintele tău după un tratament de canal? Atunci când nervul este îndepărtat, spațiul din interiorul rădăcinii trebuie perfect sigilat...",
      "value": 6214,
      "q": "",
      "week": "S27",
@@ -95,7 +94,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7657090334668721430"
     },
     "RM": {
-     "title": "",
+     "title": "„Alignerele lasă triunghiuri negre între dinți.” Ai auzit afirmația asta?",
      "value": 3421,
      "q": "",
      "week": "S31",
@@ -103,7 +102,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7667218784473632022"
     },
     "Life": {
-     "title": "",
+     "title": "🔴 Proteza dentară se mișcă atunci când mănânci sau vorbești? ❌",
      "value": 8061,
      "q": "",
      "week": "S31",
@@ -111,7 +110,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@lifedentalspa/video/7669377215842340129"
     },
     "Eli": {
-     "title": "",
+     "title": "Alex Stamate, am rămas fără anestezie fix când ai venit. 🤭",
      "value": 2023,
      "q": "",
      "week": "S28",
@@ -119,7 +118,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@elidadent/video/7660531282253712662"
     },
     "DB": {
-     "title": "",
+     "title": "🎉 Freeland 2026 🦷 Dental Blue Team 👯 Andrei Osanu Zumba, pacientul și colaboratorul nostru",
      "value": 2679,
      "q": "",
      "week": "S27",
@@ -145,7 +144,7 @@ window.REPORT_CONFIG = {
    },
    "topPosts": {
     "DrA": {
-     "title": "",
+     "title": "😂 Există întrebări care vin exact în momentul nepotrivit. Mai ales la dentist. Cu gura deschisă.",
      "value": 1814,
      "q": "",
      "week": "S33",
@@ -153,7 +152,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7673407421376761110"
     },
     "DE": {
-     "title": "",
+     "title": "Un implant dentar în zona estetică trebuie să se integreze firesc în zâmbet. Dr. Adelin Radu explică la B1.ro de ce...",
      "value": 1099,
      "q": "",
      "week": "S32",
@@ -161,7 +160,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7671336994064108822"
     },
     "RM": {
-     "title": "",
+     "title": "Copilul tău fuge de dentist? 🏃 Nu ești singurul părinte în situația asta. Sfatul Dr. Iuliei Burcă, medic specialist pedodont.",
      "value": 1664,
      "q": "",
      "week": "S35",
@@ -169,7 +168,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7679510942287285526"
     },
     "Life": {
-     "title": "",
+     "title": "Gabriela Cristea și Tavi Clonda, împreună cu întreaga familie, aleg Life Dental Spa.",
      "value": 60400,
      "q": "≈",
      "week": "S35",
@@ -177,7 +176,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@lifedentalspa/video/7679017688722705697"
     },
     "Eli": {
-     "title": "",
+     "title": "🦷 Importanța examenului radiologic: caz real al unui pacient de 13 ani, venit pentru o urgență stomatologică.",
      "value": 15700,
      "q": "≈",
      "week": "S33",
@@ -185,7 +184,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@elidadent/video/7673926290721852694"
     },
     "DB": {
-     "title": "",
+     "title": "Pacient cu boală parodontală avansată: extracția tuturor dinților compromiși, 12 implanturi dentare și lucrare provizorie fixă în aceeași etapă (postare foto)",
      "value": 1052,
      "q": "",
      "week": "S32",

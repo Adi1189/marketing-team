@@ -69,13 +69,13 @@ window.REPORT_CONFIG = {
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
   "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte.",
   "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
-  "Pentru iulie și august, raportul dă doar valoarea postării de top (fără titlu și link), deci în „Top postarea lunii” titlul apare „fără descriere în raport” și linkul „–”.",
-  "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină."
+  "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
+  "Iulie și august au titluri și linkuri la postările de top, citite pe 15 octombrie; cifrele sunt mai mari decât în citirea veche, deci lunile se compară între ele fără rezerve."
  ],
  "data": {
   "2026-07": {
    "posts": 35,
-   "eng_sum": 528,
+   "eng_sum": 668,
    "eng_n": 35,
    "followers": 17000,
    "leads": 1264,
@@ -93,58 +93,58 @@ window.REPORT_CONFIG = {
    },
    "topPosts": {
     "DrA": {
-     "title": "",
-     "value": 46,
+     "title": "Investim constant în pregătirea echipei noastre (masterclass Zucchelli)",
+     "value": 51,
      "q": "",
      "week": "S31",
      "range": "27 iul–2 aug",
-     "url": null
+     "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid02cNVRnqUMH1HN8NqsmJrkgwZz3kFwsy5iza6pLCGcK4yzAbWWuShKLPKNFNM91vnnl"
     },
     "DE": {
-     "title": "",
-     "value": 312,
+     "title": "The Amazing Smile Collection | Before & After P…",
+     "value": 352,
      "q": "",
      "week": "S31",
      "range": "27 iul–2 aug",
-     "url": null
+     "url": "https://www.facebook.com/dentestet.ro/posts/pfbid02bbiSGyfrVBkYUwVUT9U6nbdGGgYXDm7kP6br2DJNvAitnPesNoUcUBNtFnLUUx99l"
     },
     "RM": {
-     "title": "",
-     "value": 614,
+     "title": "La Regina Maria Dental Clinics Victoriei, fiecare …",
+     "value": 640,
      "q": "",
      "week": "S28",
      "range": "6–12 iul",
-     "url": null
+     "url": "https://www.facebook.com/ReginaMariaDentalClinics/posts/pfbid035uUEYSxipo9nvk2ovRQytXh2aw5XgFfm6zNciMsreo72gLaL9BWu5BwX3WJBjCupl"
     },
     "Life": {
-     "title": "",
-     "value": 60,
+     "title": "Astăzi este despre recunoștință.",
+     "value": 63,
      "q": "",
      "week": "S31",
      "range": "27 iul–2 aug",
-     "url": null
+     "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid02nUBhCykmxts44Lks15Hge1XbaMjQhJe8skc3BtLQS7XTPkEBwEA1nisGa29iWffFl"
     },
     "Eli": {
-     "title": "",
-     "value": 72,
+     "title": "Cunoaște echipa din spatele fiecărui zâmbet!",
+     "value": 76,
      "q": "",
      "week": "S27",
      "range": "29 iun–5 iul",
-     "url": null
+     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZGBiDU3YP4JdeaMnHLTKr1syk4aQ4SbTpMeCaMAY5RWQYgmZ5LcUnLcdEc487Ussl&id=100038889943740"
     },
     "DB": {
-     "title": "",
-     "value": 768,
+     "title": "Salutare, Slobozia! Andrei Osanu vine astăzi la Fr…",
+     "value": 855,
      "q": "",
      "week": "S27",
      "range": "29 iun–5 iul",
-     "url": null
+     "url": "https://www.facebook.com/reel/1791279998976626"
     }
    }
   },
   "2026-08": {
    "posts": 28,
-   "eng_sum": 848,
+   "eng_sum": 850,
    "eng_n": 28,
    "followers": 17000,
    "leads": 1366,
@@ -159,52 +159,52 @@ window.REPORT_CONFIG = {
    },
    "topPosts": {
     "DrA": {
-     "title": "",
-     "value": 119,
+     "title": "Slobozia, suntem gata! Clinica noastră es…",
+     "value": 120,
      "q": "",
      "week": "S32",
      "range": "3–9 aug",
-     "url": null
+     "url": "https://www.facebook.com/reel/2116789552205727"
     },
     "DE": {
-     "title": "",
-     "value": 347,
+     "title": "Gingiile inflamate nu sunt doar o problemă a dinților.",
+     "value": 358,
      "q": "",
      "week": "S33",
      "range": "10–16 aug",
-     "url": null
+     "url": "https://www.facebook.com/reel/931947872550133"
     },
     "RM": {
-     "title": "",
-     "value": 345,
+     "title": "Sângerarea gingiilor nu ar trebui ignorată, mai ales atunci când apare constant…",
+     "value": 355,
      "q": "",
      "week": "S33",
      "range": "10–16 aug",
-     "url": null
+     "url": "https://www.facebook.com/reel/1365257195234621"
     },
     "Life": {
-     "title": "",
-     "value": 52,
+     "title": "Întâlnire cu Gabriela Cristea și Tavi Clonda la Life Dental Spa!",
+     "value": 53,
      "q": "",
      "week": "S32",
      "range": "3–9 aug",
-     "url": null
+     "url": "https://www.facebook.com/reel/1554270816180397"
     },
     "Eli": {
-     "title": "",
+     "title": "Avem o campanie activă alături de eMAG!",
      "value": 96,
      "q": "",
      "week": "S34",
      "range": "17–23 aug",
-     "url": null
+     "url": "https://www.facebook.com/reel/1035209452632681"
     },
     "DB": {
-     "title": "",
+     "title": "Sa dansam putin de dimineata si sa Zambim cu DentalBlue!",
      "value": 40,
      "q": "",
      "week": "S32",
      "range": "3–9 aug",
-     "url": null
+     "url": "https://www.facebook.com/reel/1590538972691705"
     }
    }
   },
@@ -437,9 +437,9 @@ window.REPORT_CONFIG = {
       "avgeng": ""
      },
      "followers": 17000,
-     "topval": 46,
+     "topval": 51,
      "posts": 35,
-     "eng_sum": 528,
+     "eng_sum": 668,
      "eng_n": 35
     },
     "2026-08": {
@@ -450,9 +450,9 @@ window.REPORT_CONFIG = {
       "topval": ""
      },
      "followers": 17000,
-     "topval": 119,
+     "topval": 120,
      "posts": 28,
-     "eng_sum": 848,
+     "eng_sum": 850,
      "eng_n": 28
     },
     "2026-09": {
@@ -490,9 +490,9 @@ window.REPORT_CONFIG = {
       "avgeng": ""
      },
      "followers": 45000,
-     "topval": 312,
+     "topval": 352,
      "posts": 63,
-     "eng_sum": 1774,
+     "eng_sum": 1985,
      "eng_n": 63
     },
     "2026-08": {
@@ -503,9 +503,9 @@ window.REPORT_CONFIG = {
       "topval": ""
      },
      "followers": 46000,
-     "topval": 347,
+     "topval": 358,
      "posts": 62,
-     "eng_sum": 1929,
+     "eng_sum": 2154,
      "eng_n": 62
     },
     "2026-09": {
@@ -543,9 +543,9 @@ window.REPORT_CONFIG = {
       "avgeng": ""
      },
      "followers": 84000,
-     "topval": 614,
+     "topval": 640,
      "posts": 50,
-     "eng_sum": 3704,
+     "eng_sum": 3950,
      "eng_n": 50
     },
     "2026-08": {
@@ -556,9 +556,9 @@ window.REPORT_CONFIG = {
       "topval": ""
      },
      "followers": 84000,
-     "topval": 345,
+     "topval": 355,
      "posts": 32,
-     "eng_sum": 2083,
+     "eng_sum": 2105,
      "eng_n": 32
     },
     "2026-09": {
@@ -596,9 +596,9 @@ window.REPORT_CONFIG = {
       "avgeng": ""
      },
      "followers": 81000,
-     "topval": 60,
+     "topval": 63,
      "posts": 32,
-     "eng_sum": 740,
+     "eng_sum": 797,
      "eng_n": 32
     },
     "2026-08": {
@@ -609,9 +609,9 @@ window.REPORT_CONFIG = {
       "topval": ""
      },
      "followers": 82000,
-     "topval": 52,
+     "topval": 53,
      "posts": 28,
-     "eng_sum": 691,
+     "eng_sum": 695,
      "eng_n": 28
     },
     "2026-09": {
@@ -652,10 +652,10 @@ window.REPORT_CONFIG = {
       "avgeng": ""
      },
      "followers": 4600,
-     "topval": 72,
-     "posts": 27,
-     "eng_sum": 582,
-     "eng_n": 27
+     "topval": 76,
+     "posts": 28,
+     "eng_sum": 748,
+     "eng_n": 28
     },
     "2026-08": {
      "q": {
@@ -667,7 +667,7 @@ window.REPORT_CONFIG = {
      "followers": 4600,
      "topval": 96,
      "posts": 19,
-     "eng_sum": 479,
+     "eng_sum": 481,
      "eng_n": 19
     },
     "2026-09": {
@@ -705,9 +705,9 @@ window.REPORT_CONFIG = {
       "avgeng": ""
      },
      "followers": 6200,
-     "topval": 768,
+     "topval": 855,
      "posts": 33,
-     "eng_sum": 1313,
+     "eng_sum": 1856,
      "eng_n": 33
     },
     "2026-08": {
@@ -720,7 +720,7 @@ window.REPORT_CONFIG = {
      "followers": 6300,
      "topval": 40,
      "posts": 22,
-     "eng_sum": 534,
+     "eng_sum": 533,
      "eng_n": 22
     },
     "2026-09": {

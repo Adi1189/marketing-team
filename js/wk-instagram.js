@@ -210,7 +210,7 @@ window.WEEKLY_CONFIG = {
  "topLabel": "Engagement",
  "take": [
   "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 15 săptămâni: 7,3 postări pe săptămână la noi, 7,1 la Regina Maria, 6,3 la Life și 15,8 la DENT ESTET. Vârful nostru a fost 12 în S38. În S41 am avut 8 postări, față de 17 la DENT ESTET.",
-  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 14 din 14 săptămâni cu cifre (0,42–1,43% față de 0,21–0,67%), peste Regina Maria în 13 și peste Life în 14. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 14 săptămâni (S29, S35, S40).",
+  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 15 din 15 săptămâni cu cifre (0,42–1,43% față de 0,21–0,67%), peste Regina Maria în 14 și peste Life în 15. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 15 săptămâni (S29, S35, S40).",
   "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 15 cu cifre e S40 (19,3), cea mai bună e S33 (66,0). În S40 a fost 19,3, iar în S41 26,2.",
   "Urmăritori, de la prima cifră (S28) la S41: DENT ESTET +1.283 (+16,7%), noi +328 (+7,7%). Life +4,8% și Regina Maria +1,5%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+7,8%) și Dental Blue (+9,9%) pornesc de la baze foarte mici.",
   "Cele mai mari vârfuri ale pieței: Regina Maria 630 (S41); Regina Maria 476 (S29); Elidadent 389 (S38). La noi, cele mai bune trei săptămâni după postarea de top: 151 (S32); 136 (S34); 95 (S33)."
@@ -222,10 +222,10 @@ window.WEEKLY_CONFIG = {
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S27–S41 au fost recitite cu skill-ul actualizat sau dintr-un bloc cu like-uri citite pe 12–14 octombrie. Engagementul acestor săptămâni e mult sub cel din rapoartele vechi (de exemplu S38 la noi: 374 față de 699, S39: 224 față de 568), deci nu se compară cu cifrele vechi.",
   "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Regina Maria are în S41 un reel în colaborare cu 630 de interacțiuni; fără el media ei ar fi 17,0. Raportul nu are variația față de S40 (nu a măsurat acea săptămână), dar aici S40 există și e folosit pentru variație.",
-  "S32–S35 (august) au inventar complet, dar blocul nu are titlurile postărilor de top, deci titlul apare „neprecizat”, iar linkul e cel din bloc. Like-urile au fost citite pe 12–13 octombrie, deci sunt mai mari decât ar fi fost la sfârșitul acelor săptămâni. La noi, în S34, 6 din 7 postări au engagement citit („≥”).",
   "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
-  "S27–S31 (iulie) au inventar complet, dar blocul nu are titlurile postărilor de top, deci titlul apare „neprecizat”, iar linkurile sunt complete. Like-urile au fost citite pe 14 octombrie, deci sunt mai mari decât ar fi fost la sfârșitul acelor săptămâni. Urmăritorii din iulie rămân cifrele din rapoartele vechi (S29–S31 păstrează ultima cifră cunoscută, din S28).",
-  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie."
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie.",
+  "Titlurile postărilor de top din iulie și august (S27–S35) sunt citite din descrierile postărilor, pe 15 octombrie; la colaborări apare contul partener, iar la Dental Blue unele sunt postări foto.",
+  "S32–S35 (august) au inventar complet; blocul avea linkurile postărilor de top, iar titlurile le-am completat din descrieri. Like-urile au fost citite pe 12–13 octombrie, deci sunt mai mari decât ar fi fost la sfârșitul săptămânilor."
  ],
  "data": {
   "DrA": {
@@ -239,7 +239,7 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 4272,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "⭐ Cum ar fi dacă review-urile s-ar putea negocia? 😅",
      "value": 71,
      "q": "",
      "url": "https://www.instagram.com/reel/Da-CA_GosAS/"
@@ -262,7 +262,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 5,
     "followers": 4272,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 Tu după ce criteriu alegi pasta de dinți?",
      "value": 79,
      "q": "",
      "url": "https://www.instagram.com/reel/DbFmZlrDCHC/"
@@ -283,7 +283,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 7,
     "followers": 4272,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🏆 Investim constant în pregătirea echipei noastre, iar pacienții sunt beneficiarii direcți ai fiecărui curs... (masterclass Zucchelli)",
      "value": 73,
      "q": "",
      "url": "https://www.instagram.com/p/DbVME3JnDx3/"
@@ -304,7 +304,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 6,
     "followers": 4359,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🔥 Slobozia, suntem gata! (colaborare @dr.claudiafratila)",
      "value": 151,
      "q": "",
      "url": "https://www.instagram.com/reel/DbpdpKBD73U/"
@@ -326,7 +326,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 5,
     "followers": 4619,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "😂 Există întrebări care vin exact în momentul nepotrivit. (colaborare)",
      "value": 95,
      "q": "",
      "url": "https://www.instagram.com/reel/Db-JgWZjVs1/"
@@ -350,7 +350,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 6,
     "followers": 4619,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "📍 Un nou oraș. O nouă comunitate. Aceleași standarde pe care le construim de aproape 10 ani. (colaborare)",
      "value": 136,
      "q": "",
      "url": "https://www.instagram.com/reel/DcTIBoGlQBX/"
@@ -371,7 +371,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 8,
     "followers": 4441,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 4 implanturi convenționale + 2 implanturi pterigoidiene. De ce această combinație?",
      "value": 87,
      "q": "",
      "url": "https://www.instagram.com/reel/Dcd3GhiAtZN/"
@@ -511,12 +511,15 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S28 (nu există raport pentru această săptămână)"
+    },
+    "followers": 4272,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "În implantologie, performanța nu se măsoară doar prin complexitatea cazurilor pe care le rezolvi. 🦷 (colaborare @straumannro)",
      "value": 91,
      "q": "",
      "url": "https://www.instagram.com/reel/DaSOG7Yiy21/"
@@ -534,7 +537,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "followers": 4272,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "💙 Împreună pentru comunitate | Update caz umanitar (colaborare)",
      "value": 75,
      "q": "",
      "url": "https://www.instagram.com/reel/Damz_37lAT7/"
@@ -555,7 +558,7 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 7673,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Performanța se construiește prin atenție la fiecare detaliu.",
      "value": 175,
      "q": "",
      "url": "https://www.instagram.com/reel/DauOQ5QCJpf/"
@@ -577,7 +580,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 12,
     "followers": 7673,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Uneori, încrederea începe cu un zâmbet.",
      "value": 194,
      "q": "",
      "url": "https://www.instagram.com/reel/DbKjDRwjY59/"
@@ -596,7 +599,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 17,
     "followers": 7673,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Prelungim durata de viață a implantului dentar pentru ca tu să te bucuri de un zâmbet complet. 💙",
      "value": 112,
      "q": "",
      "url": "https://www.instagram.com/reel/DbTWE_gFZAV/"
@@ -614,7 +617,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 18,
     "followers": 8143,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Sângerarea la periaj reprezintă primul semnal că tartrul și bacteriile au început deja să afecteze gingia. (colaborare @medlife_romania)",
      "value": 256,
      "q": "",
      "url": "https://www.instagram.com/reel/DbsBaqvCP3x/"
@@ -634,7 +637,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 17,
     "followers": 8969,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Inflamația cronică din boala parodontală poate ajunge, prin sânge, să afecteze și sistemul cardiovascular. (colaborare @medlife_romania)",
      "value": 228,
      "q": "",
      "url": "https://www.instagram.com/reel/Db7eFijAWUB/"
@@ -654,7 +657,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 16,
     "followers": 8969,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Parodontoză ținută sub control = parodontolog + igienă zilnică. (colaborare @medlife_romania)",
      "value": 251,
      "q": "",
      "url": "https://www.instagram.com/reel/DcNfrrxAbAt/"
@@ -672,7 +675,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 15,
     "followers": 8393,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🩵 Fațete sau coroane dentare? Cum știi ce ți se potrivește?",
      "value": 151,
      "q": "",
      "url": "https://www.instagram.com/reel/DcgYPVkDT2n/"
@@ -800,12 +803,15 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S28 (nu există raport pentru această săptămână)"
+    },
+    "followers": 7673,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Ce se întâmplă cu dintele tău după un tratament de canal?",
      "value": 134,
      "q": "",
      "url": "https://www.instagram.com/reel/DaPUuw1E6Bi/"
@@ -826,7 +832,7 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 7673,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Un tratament necesar nu ar trebui amânat din motive financiare.",
      "value": 45,
      "q": "",
      "url": "https://www.instagram.com/reel/DakWraUAYKk/"
@@ -847,7 +853,7 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 13400,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷✨ Un zâmbet sănătos începe cu o vizită la medicul potrivit!",
      "value": 476,
      "q": "",
      "url": "https://www.instagram.com/reel/Da-PMgtI65Z/"
@@ -869,7 +875,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 6,
     "followers": 13400,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "„De ce se pierde un implant dentar?” Este una dintre cele mai frecvente întrebări pe care le primim.",
      "value": 218,
      "q": "",
      "url": "https://www.instagram.com/reel/DbJYC5mOUzM/"
@@ -888,7 +894,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 7,
     "followers": 13400,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Ne programăm revizia la mașină fără să stăm pe gânduri... (reel colaborativ @mihaelabrazdes)",
      "value": 100,
      "q": "",
      "url": "https://www.instagram.com/reel/DbSPocMIdPM/"
@@ -908,7 +914,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 7,
     "followers": 13500,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Hey! Azi vă iau cu mine într-o aventură. La DENTIST! 😂🔥 (colaborare @ana_maria_guran)",
      "value": 175,
      "q": "",
      "url": "https://www.instagram.com/reel/Dbm9eJmoZZQ/"
@@ -928,7 +934,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 6,
     "followers": 13600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Sângerarea gingiilor nu ar trebui ignorată, mai ales atunci când apare constant ⬇️",
      "value": 28,
      "q": "",
      "url": "https://www.instagram.com/reel/DcGr7L1oY9L/"
@@ -948,7 +954,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 7,
     "followers": 13600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "La Academia Spațială, nu ne așteptăm ca cei mici să vină deja curajoși, cuminți sau fără emoții. Îi lăsăm să fie ei înșiși.",
      "value": 95,
      "q": "",
      "url": "https://www.instagram.com/reel/DcWZvAPouk4/"
@@ -968,7 +974,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 6,
     "followers": 13500,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Copilul tău fuge de dentist? 🏃 Nu ești singurul părinte în situația asta. (colaborare @iulia.burca)",
      "value": 155,
      "q": "",
      "url": "https://www.instagram.com/reel/DcofbMVIoDX/"
@@ -1103,12 +1109,15 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S28 (nu există raport pentru această săptămână)"
+    },
+    "followers": 13400,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Îmi place să am grijă de mine, iar asta nu înseamnă doar skincare sau makeup... (colaborare @izabela.tiu)",
      "value": 273,
      "q": "",
      "url": "https://www.instagram.com/reel/DaUkD2wsGtE/"
@@ -1126,7 +1135,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "followers": 13400,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Dr. Laura Apostol crede că educația este primul pas către un tratament reușit... (colaborare @vorbeste_lumea_oficial)",
      "value": 49,
      "q": "",
      "url": "https://www.instagram.com/p/Daiain0CCl_/"
@@ -1147,7 +1156,7 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 12600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "„Nu vreau dinți falși.” Este una dintre cele mai frecvente temeri pe care le auzim de la pacienți.",
      "value": 23,
      "q": "",
      "url": "https://www.instagram.com/reel/Da1_b2eihTX/"
@@ -1169,7 +1178,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 6,
     "followers": 12600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Dr. Cristina Obreja îi invită pe medicii Life Dental Spa să răspundă unor întrebări mai puțin obișnuite...",
      "value": 28,
      "q": "",
      "url": "https://www.instagram.com/reel/DbKmiFuijBg/"
@@ -1186,7 +1195,7 @@ window.WEEKLY_CONFIG = {
     "posts": 7,
     "followers": 12600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🎂 Astăzi este despre recunoștință. O celebrăm pe Dr. Cristina Obreja, co-fondatoarea Life Dental Spa.",
      "value": 65,
      "q": "",
      "url": "https://www.instagram.com/p/Dbc-gvJldWz/"
@@ -1208,7 +1217,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 7,
     "followers": 12800,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Dinții nu sunt doar structuri dure care ne ajută să mestecăm. Ei sunt țesuturi vii, conectate la sistemul nervos prin nervul trigemen...",
      "value": 44,
      "q": "",
      "url": "https://www.instagram.com/p/Dbpi5XVjAeX/"
@@ -1228,7 +1237,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 7,
     "followers": 13200,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Știai că tratamentul cariilor poate fi realizat și cu ajutorul laserului dentar?",
      "value": 11,
      "q": "",
      "url": "https://www.instagram.com/reel/DcFwZvkiHBT/"
@@ -1248,7 +1257,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 7,
     "followers": 13200,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🤍 De peste 5 ani, @bygabrielacristea alege Life Dental Spa pentru zâmbetul ei și al întregii familii. (colaborare)",
      "value": 17,
      "q": "",
      "url": "https://www.instagram.com/reel/DcSu8_HtPCz/"
@@ -1268,7 +1277,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 8,
     "followers": 13000,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Știai că un fren lingual scurt poate influența mai mult decât vorbirea? 👅 (colaborare @dramandahsohl)",
      "value": 82,
      "q": "",
      "url": "https://www.instagram.com/p/DcdNKC8MTtE/"
@@ -1397,12 +1406,15 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S28 (nu există raport pentru această săptămână)"
+    },
+    "followers": 12600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Majoritatea oamenilor cred că apariția cariilor este cauzată doar de zahăr, lipsa periajului dentar...",
      "value": 38,
      "q": "",
      "url": "https://www.instagram.com/p/DaPUqwDmqxd/"
@@ -1420,7 +1432,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "followers": 12600,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 Schimbă-ți zâmbetul, schimbă-ți viața - la Life Dental Spa!",
      "value": 12,
      "q": "",
      "url": "https://www.instagram.com/p/DapDdnaDU1t/"
@@ -1441,7 +1453,7 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 474,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🎉 La mulți ani, Dr. Ruxandra Niculescu, Medic Specialist Parodontologie!",
      "value": 11,
      "q": "",
      "url": "https://www.instagram.com/p/Dazf6aBEzge/"
@@ -1463,7 +1475,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 6,
     "followers": 474,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Răspunsul ei ne-a luat complet prin surprindere. 🤣 Stai până la final...",
      "value": 15,
      "q": "",
      "url": "https://www.instagram.com/reel/DbLh56UEWlS/"
@@ -1482,7 +1494,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 5,
     "followers": 474,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 Importanța examenului radiologic",
      "value": 22,
      "q": "",
      "url": "https://www.instagram.com/reel/DbajCJ8Eu2t/"
@@ -1500,7 +1512,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 5,
     "followers": 479,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "💰 Cum poți economisi bani la dentist? 🦷",
      "value": 15,
      "q": "",
      "url": "https://www.instagram.com/reel/DbnacDUjOEV/"
@@ -1520,7 +1532,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 6,
     "followers": 512,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🎉 La mulți ani, Ana Maria Badea, Asistent Medical!",
      "value": 12,
      "q": "",
      "url": "https://www.instagram.com/p/Db7lECfjY7O/"
@@ -1540,7 +1552,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 5,
     "followers": 512,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🎒 Avem o campanie activă alături de eMAG!",
      "value": 30,
      "q": "",
      "url": "https://www.instagram.com/reel/DcOK-cZARjK/"
@@ -1558,7 +1570,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 5,
     "followers": 488,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Când asistenta îți spune să lași problemele afară și tu o iei prea literal. 😂🦷",
      "value": 14,
      "q": "",
      "url": "https://www.instagram.com/reel/DcaxZnMCU4F/"
@@ -1683,12 +1695,15 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S28 (nu există raport pentru această săptămână)"
+    },
+    "followers": 474,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Stomatologia înseamnă uneori răbdare, încredere în medic și o colaborare continuă între pacient și echipa medicală.",
      "value": 37,
      "q": "",
      "url": "https://www.instagram.com/p/DaPpeKIjdSt/"
@@ -1706,7 +1721,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "followers": 474,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Cu sau fără anestezie pentru Alex Stamate?",
      "value": 85,
      "q": "",
      "url": "https://www.instagram.com/reel/DanFB0Hoz9j/"
@@ -1727,7 +1742,7 @@ window.WEEKLY_CONFIG = {
     },
     "followers": 373,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 Poți avea un chist mare la rădăcina dintelui... și să nu simți absolut nimic.",
      "value": 9,
      "q": "",
      "url": "https://www.instagram.com/reel/Da5isV6lI_u/"
@@ -1749,7 +1764,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 4,
     "followers": 373,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 De multe ori, pacienții vin pentru estetică. Și descoperă că adevărata problemă era funcțională.",
      "value": 13,
      "q": "",
      "url": "https://www.instagram.com/reel/DbLxwV8APSI/"
@@ -1766,7 +1781,7 @@ window.WEEKLY_CONFIG = {
     "posts": 3,
     "followers": 373,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 Unii pacienți observă ceva ciudat după tratamentul ortodontic.",
      "value": 7,
      "q": "",
      "url": "https://www.instagram.com/reel/Dbd9YCGlNaO/"
@@ -1786,7 +1801,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 4,
     "followers": 381,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🎶 „Drumurile noastre poate se vor întâlni vreodată...” (reel în colaborare cu @andreiosanuzumba)",
      "value": 150,
      "q": "",
      "url": "https://www.instagram.com/reel/Dbx3oeLtI74/"
@@ -1806,7 +1821,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 2,
     "followers": 414,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Zi de chirurgie 😷🦷🤩 (Dental Blue București)",
      "value": 17,
      "q": "",
      "url": "https://www.instagram.com/reel/DcBx16osPt6/"
@@ -1826,7 +1841,7 @@ window.WEEKLY_CONFIG = {
     "eng_n": 1,
     "followers": 414,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Reel fără descriere",
      "value": 7,
      "q": "",
      "url": "https://www.instagram.com/reel/DcUFvQUAtYF/"
@@ -1973,12 +1988,15 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
-    "followers": null,
+    "note": {
+     "followers": "preluat din S28 (nu există raport pentru această săptămână)"
+    },
+    "followers": 373,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Reel în colaborare cu @andreiosanuzumba (fără text în descriere)",
      "value": 109,
      "q": "",
      "url": "https://www.instagram.com/reel/DabM1uwsw7-/"
@@ -1996,7 +2014,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "followers": 373,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Totul pe grabă, doar 2 ore de tratament, apoi trebuie să plece din Ro...",
      "value": 26,
      "q": "",
      "url": "https://www.instagram.com/p/DaoI-GYjPK8/"

@@ -69,7 +69,7 @@ window.REPORT_CONFIG = {
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
   "Top postarea lunii = cea mai bună dintre topurile săptămânale ale lunii (rapoartele dau câte un top pe săptămână). „≥” apare când o săptămână din lună nu are cifre sau cifra e doar un eșantion. Linkurile postărilor nu sunt în rapoarte.",
   "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
-  "Pentru iulie și august, blocul nu are titlurile postărilor de top, deci în „Top postarea lunii” titlul apare „fără descriere în raport”; linkurile sunt complete. Like-urile din iulie–august au fost citite pe 12–14 octombrie.",
+  "Titlurile postărilor de top din iulie și august sunt citite din descrierile postărilor, pe 15 octombrie (la colaborări apare contul partener); linkurile sunt complete. Like-urile din iulie–august au fost citite pe 12–14 octombrie.",
   "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
   "Toate cele trei luni (iulie–septembrie) sunt citite cu metoda nouă, cu like-urile citite pe 12–14 octombrie; engagementul e mult sub cel din rapoartele vechi (de exemplu S38–S39 la noi: 374 și 224, față de 699 și 568), deci nu se compară cu cifrele vechi."
  ],
@@ -94,7 +94,7 @@ window.REPORT_CONFIG = {
    },
    "topPosts": {
     "DrA": {
-     "title": "",
+     "title": "În implantologie, performanța nu se măsoară doar prin complexitatea cazurilor pe care le rezolvi. 🦷 (colaborare @straumannro)",
      "value": 91,
      "q": "",
      "week": "S27",
@@ -102,7 +102,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/DaSOG7Yiy21/"
     },
     "DE": {
-     "title": "",
+     "title": "Uneori, încrederea începe cu un zâmbet.",
      "value": 194,
      "q": "",
      "week": "S30",
@@ -110,7 +110,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/DbKjDRwjY59/"
     },
     "RM": {
-     "title": "",
+     "title": "🦷✨ Un zâmbet sănătos începe cu o vizită la medicul potrivit!",
      "value": 476,
      "q": "",
      "week": "S29",
@@ -118,7 +118,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/Da-PMgtI65Z/"
     },
     "Life": {
-     "title": "",
+     "title": "🎂 Astăzi este despre recunoștință. O celebrăm pe Dr. Cristina Obreja, co-fondatoarea Life Dental Spa.",
      "value": 65,
      "q": "",
      "week": "S31",
@@ -126,7 +126,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/p/Dbc-gvJldWz/"
     },
     "Eli": {
-     "title": "",
+     "title": "Cu sau fără anestezie pentru Alex Stamate?",
      "value": 85,
      "q": "",
      "week": "S28",
@@ -134,7 +134,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/DanFB0Hoz9j/"
     },
     "DB": {
-     "title": "",
+     "title": "Reel în colaborare cu @andreiosanuzumba (fără text în descriere)",
      "value": 109,
      "q": "",
      "week": "S27",
@@ -162,7 +162,7 @@ window.REPORT_CONFIG = {
    "followers": 4441,
    "topPosts": {
     "DrA": {
-     "title": "",
+     "title": "🔥 Slobozia, suntem gata! (colaborare @dr.claudiafratila)",
      "value": 151,
      "q": "",
      "week": "S32",
@@ -170,7 +170,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/DbpdpKBD73U/"
     },
     "DE": {
-     "title": "",
+     "title": "Sângerarea la periaj reprezintă primul semnal că tartrul și bacteriile au început deja să afecteze gingia. (colaborare @medlife_romania)",
      "value": 256,
      "q": "",
      "week": "S32",
@@ -178,7 +178,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/DbsBaqvCP3x/"
     },
     "RM": {
-     "title": "",
+     "title": "Hey! Azi vă iau cu mine într-o aventură. La DENTIST! 😂🔥 (colaborare @ana_maria_guran)",
      "value": 175,
      "q": "",
      "week": "S32",
@@ -186,7 +186,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/Dbm9eJmoZZQ/"
     },
     "Life": {
-     "title": "",
+     "title": "Știai că un fren lingual scurt poate influența mai mult decât vorbirea? 👅 (colaborare @dramandahsohl)",
      "value": 82,
      "q": "",
      "week": "S35",
@@ -194,7 +194,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/p/DcdNKC8MTtE/"
     },
     "Eli": {
-     "title": "",
+     "title": "🎒 Avem o campanie activă alături de eMAG!",
      "value": 30,
      "q": "",
      "week": "S34",
@@ -202,7 +202,7 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/DcOK-cZARjK/"
     },
     "DB": {
-     "title": "",
+     "title": "🎶 „Drumurile noastre poate se vor întâlni vreodată...” (reel în colaborare cu @andreiosanuzumba)",
      "value": 150,
      "q": "",
      "week": "S32",

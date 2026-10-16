@@ -459,9 +459,12 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 3,
     "views": 823,
     "top": {
@@ -471,13 +474,16 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/watch?v=-zStj2hXPXI"
     },
     "topval": 453,
-    "subs": null
+    "subs": 918
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 4,
     "views": 1915,
     "top": {
@@ -487,7 +493,7 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/watch?v=hOu77LRNgBI"
     },
     "topval": 1555,
-    "subs": null
+    "subs": 918
    }
   },
   "DE": {
@@ -741,10 +747,12 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
     "note": {
-     "posts": "40 de videoclipuri într-o singură săptămână: neobișnuit (2–13 în rest); cifră din API, neverificată pe canal"
+     "posts": "40 de videoclipuri într-o singură săptămână: neobișnuit (2–13 în rest); cifră din API, neverificată pe canal",
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
     },
     "posts": 40,
     "views": 2412,
@@ -755,13 +763,16 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/watch?v=nHB1Doa2sqM"
     },
     "topval": 1010,
-    "subs": null
+    "subs": 1330
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 5,
     "views": 162,
     "top": {
@@ -771,7 +782,7 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/watch?v=j1Gg3RcCxio"
     },
     "topval": 73,
-    "subs": null
+    "subs": 1330
    }
   },
   "RM": {
@@ -1024,9 +1035,12 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 2,
     "views": 265,
     "top": {
@@ -1036,13 +1050,16 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/watch?v=KzP1ZYrxgTE"
     },
     "topval": 157,
-    "subs": null
+    "subs": 9320
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 1,
     "views": 57,
     "top": {
@@ -1052,7 +1069,7 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/watch?v=S2P3is1W8FM"
     },
     "topval": 57,
-    "subs": null
+    "subs": 9320
    }
   },
   "Life": {
@@ -1305,9 +1322,12 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 1,
     "views": 267,
     "top": {
@@ -1317,13 +1337,16 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.youtube.com/watch?v=9ojenle-Qx0"
     },
     "topval": 267,
-    "subs": null
+    "subs": 1990
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 0,
     "views": 0,
     "top": {
@@ -1333,7 +1356,7 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null,
-    "subs": null
+    "subs": 1990
    }
   },
   "Eli": {
@@ -1586,9 +1609,12 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 0,
     "views": 0,
     "top": {
@@ -1598,13 +1624,16 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null,
-    "subs": null
+    "subs": 1
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "subs": "≈"
     },
-    "note": {},
+    "note": {
+     "subs": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 0,
     "views": 0,
     "top": {
@@ -1614,7 +1643,7 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null,
-    "subs": null
+    "subs": 1
    }
   }
  }

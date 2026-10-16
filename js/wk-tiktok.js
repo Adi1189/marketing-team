@@ -203,10 +203,11 @@ window.WEEKLY_CONFIG = {
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S41 (5–11 octombrie) a fost citită pe 12 octombrie fără cont TikTok autentificat: unele postări sunt ascunse vizitatorilor nelogați, deci numărul de postări și totalul de vizualizări sunt valori minime („≥”) la toate conturile și nu se compară direct cu S36–S40. Urmăritorii sunt afișați exact.",
-  "S32–S35 (august) vin dintr-un bloc citit pe 14 octombrie: titlurile videoclipurilor de top lipsesc („neprecizat”), linkurile sunt complete. Vârfurile de peste 10.000 de vizualizări sunt rotunjite de TikTok (≈). La Dental Blue, două din linkurile de top sunt postări foto, nu video.",
   "Vizualizările totale pe cont există din S27 (iulie, citite pe 14 octombrie; august–septembrie pe 12–14 octombrie).",
   "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni (S27–S40); doar S34 lipsea din rapoarte și are citirea de la rulare. S41 e citirea de la rulare.",
-  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie."
+  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie.",
+  "Titlurile postărilor de top din iulie și august (S27–S35) sunt citite din descrierile postărilor, pe 15 octombrie; la colaborări apare contul partener, iar la Dental Blue unele sunt postări foto.",
+  "S32–S35 (august) au inventar complet; blocul avea linkurile postărilor de top, iar titlurile le-am completat din descrieri. Vârfurile de peste 10.000 de vizualizări sunt rotunjite de TikTok (≈), iar urmăritorii sunt cifrele din rapoartele vechi."
  ],
  "data": {
   "DrA": {
@@ -220,7 +221,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 2,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "⭐ „Ce îmi oferiți ca să șterg review-ul?” Negocierea a început... și a degenerat rapid. 😂",
      "value": 2529,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7664153989541498114"
@@ -239,7 +240,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 3,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 „Nu i-am spus ce îmi doresc. I-am spus câți bani am.” Replica care spune totul.",
      "value": 1228,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7665714402473086230"
@@ -258,7 +259,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 6,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "✨ Work in progress... iar rezultatul începe deja să vorbească de la sine.",
      "value": 1442,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7667933531191938326"
@@ -277,7 +278,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 2,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🪥 Crezi că o periuță mai dură îți curăță dinții mai bine? S-ar putea să faci una dintre cele mai frecvente greșeli! 😯",
      "value": 1374,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7670786498236566806"
@@ -296,7 +297,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 5,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "😂 Există întrebări care vin exact în momentul nepotrivit. Mai ales la dentist. Cu gura deschisă.",
      "value": 1814,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7673407421376761110"
@@ -316,7 +317,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 5,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Ce se întâmplă dacă rămâne acolo? Ai măsele de minte care te deranjează sau stau strâmb? 🦷",
      "value": 1110,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7675320098764360983"
@@ -335,7 +336,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 De ce ai avea nevoie de implanturi pterigoidiene? Planul de tratament a inclus 6 implanturi: 4 convenționale și 2 pterigoidiene.",
      "value": 1742,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7677980517555293462"
@@ -462,34 +463,40 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "📍 Slatina, venim! 🎉 Clinica Dr. Ardeleanu cu numărul 10 intră oficial în povestea noastră.",
      "value": 2316,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7657151403344792854"
     },
     "topval": 2316,
-    "followers": null,
+    "followers": 6711,
     "views": 5637
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Parteneriat Clinicile Dr. Ardeleanu & Straumann: încredere în stomatologie",
      "value": 1663,
      "q": "",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7660495103508679958"
     },
     "topval": 1663,
-    "followers": null,
+    "followers": 6711,
     "views": 5739
    }
   },
@@ -502,7 +509,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Tehnologia nu înlocuiește medicul. Îl ajută să ia decizii mai precise.",
      "value": 1005,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7660101925244898582"
@@ -519,7 +526,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 6,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Implant cu încărcare imediată. Dar ce înseamnă, de fapt? Dr. Alexandru Georgescu explică, în emisiunea Sănătate cu stil...",
      "value": 942,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7664988147104763158"
@@ -536,7 +543,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 8,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Ai un implant dentar? Salvează acest videoclip. 📌",
      "value": 1152,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7667174077785902338"
@@ -553,7 +560,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 5,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Un implant dentar în zona estetică trebuie să se integreze firesc în zâmbet. Dr. Adelin Radu explică la B1.ro de ce...",
      "value": 1099,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7671336994064108822"
@@ -570,7 +577,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 6,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Dinții de lapte se schimbă, dar rolul lor este extrem de important.",
      "value": 998,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7673525738145975574"
@@ -589,7 +596,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 7,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Contează ora la care este programată o intervenție chirurgicală?",
      "value": 689,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7675637856538266902"
@@ -606,7 +613,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Teama de intervenție apare, de multe ori, din întrebările despre ce urmează după.",
      "value": 902,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7677849742365281558"
@@ -723,34 +730,40 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🩵 Ce se întâmplă cu dintele tău după un tratament de canal? Atunci când nervul este îndepărtat, spațiul din interiorul rădăcinii trebuie perfect sigilat...",
      "value": 6214,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7657090334668721430"
     },
     "topval": 6214,
-    "followers": null,
+    "followers": 5851,
     "views": 7549
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 8,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Crezi că aparatul dentar este doar pentru copii și adolescenți? ✨ Dr. Marius Ion explică de ce tratamentele ortodontice pot fi realizate și la vârsta adultă...",
      "value": 1033,
      "q": "",
      "url": "https://www.tiktok.com/@dentestetclinic/video/7660102397414346006"
     },
     "topval": 1033,
-    "followers": null,
+    "followers": 5851,
     "views": 5760
    }
   },
@@ -763,7 +776,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 1,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Realitatea fumatului și a zâmbetului tău: ce poți face acum?",
      "value": 1070,
      "q": "",
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7662693662677028118"
@@ -780,7 +793,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Cum îți dai seama că un implant dentar are nevoie de evaluare? 🤔",
      "value": 2908,
      "q": "",
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7665788228313615638"
@@ -797,7 +810,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 3,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "„Alignerele lasă triunghiuri negre între dinți.” Ai auzit afirmația asta?",
      "value": 3421,
      "q": "",
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7667218784473632022"
@@ -814,7 +827,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 2,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Sporturile de contact îți testează limitele. Dantura nu ar trebui să fie una dintre ele 🏉🦷",
      "value": 958,
      "q": "",
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7670581287626853654"
@@ -831,7 +844,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 5,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Când a ajuns la noi, pacienta noastră avea multe emoții și o singură dorință: să poată zâmbi din nou fără să-i fie rușine.",
      "value": 1201,
      "q": "",
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7673896507929595158"
@@ -850,7 +863,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 3,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Dușul bucal va avea mereu un loc special în inima stomatologilor. De ce? 👀",
      "value": 1428,
      "q": "",
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7675445197618072854"
@@ -867,7 +880,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Copilul tău fuge de dentist? 🏃 Nu ești singurul părinte în situația asta. Sfatul Dr. Iuliei Burcă, medic specialist pedodont.",
      "value": 1664,
      "q": "",
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7679510942287285526"
@@ -988,9 +1001,12 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 0,
     "top": {
      "title": "fără videoclipuri",
@@ -999,23 +1015,26 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null,
-    "followers": null,
+    "followers": 5492,
     "views": 0
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 1,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Emilia Popescu a hotărât să renunțe la fumat în timpul consultației cu Dr. Leahu?! 🤔",
      "value": 1116,
      "q": "",
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7659494761916796162"
     },
     "topval": 1116,
-    "followers": null,
+    "followers": 5492,
     "views": 1116
    }
   },
@@ -1028,7 +1047,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 7,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🔴 Ți-e mai frică de injecția cu anestezic decât de tratamentul în sine?",
      "value": 670,
      "q": "",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7663728454688328993"
@@ -1045,7 +1064,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 6,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🔴 Ți s-a recomandat o coroană dentară și nu știi ce material să alegi?",
      "value": 4434,
      "q": "",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7665228250133581088"
@@ -1062,7 +1081,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 6,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🔴 Proteza dentară se mișcă atunci când mănânci sau vorbești? ❌",
      "value": 8061,
      "q": "",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7669377215842340129"
@@ -1082,7 +1101,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 7,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Întâlnire cu Gabriela Cristea și Tavi Clonda la Life Dental Spa! Gabriela a revenit pentru controlul fațetelor dentare...",
      "value": 18500,
      "q": "≈",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7670800356628090134"
@@ -1099,7 +1118,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 6,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🔴 Ai pierdut un dinte și crezi că nu este o problemă atât de mare?",
      "value": 1197,
      "q": "",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7674161378537508129"
@@ -1120,7 +1139,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 5,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🤍 De peste 5 ani, Gabriela Cristea alege Life Dental Spa pentru zâmbetul ei și al întregii familii.",
      "value": 10000,
      "q": "≈",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7676414963572935968"
@@ -1140,7 +1159,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 5,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Gabriela Cristea și Tavi Clonda, împreună cu întreaga familie, aleg Life Dental Spa.",
      "value": 60400,
      "q": "≈",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7679017688722705697"
@@ -1263,34 +1282,40 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 5,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🗓️ Programează-te la Life Dental Spa și vei experimenta tratamente stomatologice minim invazive și eficiente!",
      "value": 692,
      "q": "",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7658589985574096160"
     },
     "topval": 692,
-    "followers": null,
+    "followers": 6863,
     "views": 2226
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 3,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "😬 Îți este teamă de freză și tot amâni tratamentul cariilor? 🦷",
      "value": 875,
      "q": "",
      "url": "https://www.tiktok.com/@lifedentalspa/video/7659275466620063008"
     },
     "topval": 875,
-    "followers": null,
+    "followers": 6863,
     "views": 1541
    }
   },
@@ -1303,7 +1328,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 2,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Ca răspuns pentru @Cici",
      "value": 678,
      "q": "",
      "url": "https://www.tiktok.com/@elidadent/video/7662824916709936406"
@@ -1320,7 +1345,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 3,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🔥 Cea mai fierbinte veste a verii pentru pacienții Elidadent! Până la finalul lunii septembrie îți poți începe tratamentul dentar și îl poți plăti în rate...",
      "value": 997,
      "q": "",
      "url": "https://www.tiktok.com/@elidadent/video/7665774779302972694"
@@ -1354,7 +1379,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 1,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 2 semne că ai putea avea nevoie de un tratament de canal.",
      "value": 1093,
      "q": "",
      "url": "https://www.tiktok.com/@elidadent/video/7669847444326206742"
@@ -1374,7 +1399,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 3,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 Importanța examenului radiologic: caz real al unui pacient de 13 ani, venit pentru o urgență stomatologică.",
      "value": 15700,
      "q": "≈",
      "url": "https://www.tiktok.com/@elidadent/video/7673926290721852694"
@@ -1393,7 +1418,7 @@ window.WEEKLY_CONFIG = {
     },
     "posts": 2,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "O zi ca oricare alta la Elidadent 😅",
      "value": 1952,
      "q": "",
      "url": "https://www.tiktok.com/@elidadent/video/7676481520583888150"
@@ -1410,7 +1435,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 2,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Nimeni nu îți spune partea asta despre durere: uneori, cel mai greu este să alegi între salvarea dintelui și extracție.",
      "value": 551,
      "q": "",
      "url": "https://www.tiktok.com/@elidadent/video/7678401667196275990"
@@ -1534,34 +1559,40 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 3,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 Ai un dinte lipsă și nu știi care este cea mai potrivită soluție pentru tine? Dr. Ștefanos Zografos ne explică...",
      "value": 1814,
      "q": "",
      "url": "https://www.tiktok.com/@elidadent/video/7657983161975966998"
     },
     "topval": 1814,
-    "followers": null,
+    "followers": 1898,
     "views": 3875
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 4,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Alex Stamate, am rămas fără anestezie fix când ai venit. 🤭",
      "value": 2023,
      "q": "",
      "url": "https://www.tiktok.com/@elidadent/video/7660531282253712662"
     },
     "topval": 2023,
-    "followers": null,
+    "followers": 1898,
     "views": 4848
    }
   },
@@ -1574,7 +1605,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 1,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🦷 Reabilitare orală complexă pe implanturi, cu lucrări provizorii fixe în aceeași etapă de tratament. (postare foto)",
      "value": 70,
      "q": "",
      "url": "https://www.tiktok.com/@dentalbluechain/photo/7662125418270493960"
@@ -1591,7 +1622,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 1,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "💫 Fiecare zâmbet spune o poveste. ✨ Astăzi vă prezentăm transformarea unei paciente... (postare foto)",
      "value": 1070,
      "q": "",
      "url": "https://www.tiktok.com/@dentalbluechain/photo/7666729531251658005"
@@ -1608,7 +1639,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 1,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Videoclip fără descriere (sunet original)",
      "value": 214,
      "q": "",
      "url": "https://www.tiktok.com/@dentalbluechain/video/7668604868386475272"
@@ -1625,7 +1656,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 2,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Pacient cu boală parodontală avansată: extracția tuturor dinților compromiși, 12 implanturi dentare și lucrare provizorie fixă în aceeași etapă (postare foto)",
      "value": 1052,
      "q": "",
      "url": "https://www.tiktok.com/@dentalbluechain/photo/7670631193733352712"
@@ -1642,7 +1673,7 @@ window.WEEKLY_CONFIG = {
     "note": {},
     "posts": 3,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "Un nou zâmbet în doar 48 de ore. ✨ De la o situație dentară complexă la lucrări provizorii fixe pe implanturi (postare foto)",
      "value": 944,
      "q": "",
      "url": "https://www.tiktok.com/@dentalbluechain/photo/7672664000974294290"
@@ -1799,25 +1830,31 @@ window.WEEKLY_CONFIG = {
    },
    "S27": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 2,
     "top": {
-     "title": "titlu neprecizat în raport",
+     "title": "🎉 Freeland 2026 🦷 Dental Blue Team 👯 Andrei Osanu Zumba, pacientul și colaboratorul nostru",
      "value": 2679,
      "q": "",
      "url": "https://www.tiktok.com/@dentalbluechain/video/7659146519467134216"
     },
     "topval": 2679,
-    "followers": null,
+    "followers": 882,
     "views": 3356
    },
    "S28": {
     "q": {
-     "topval": ""
+     "topval": "",
+     "followers": "≈"
     },
-    "note": {},
+    "note": {
+     "followers": "preluat din S29 (nu există raport pentru această săptămână)"
+    },
     "posts": 0,
     "top": {
      "title": "fără videoclipuri",
@@ -1826,7 +1863,7 @@ window.WEEKLY_CONFIG = {
      "url": null
     },
     "topval": null,
-    "followers": null,
+    "followers": 882,
     "views": 0
    }
   }
