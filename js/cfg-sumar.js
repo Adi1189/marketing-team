@@ -63,14 +63,14 @@ window.REPORT_CONFIG = {
    "leads": 1264,
    "convrate": 53,
    "p0": 1656,
-   "reviews": 182,
+   "reviews": 161,
    "q": {},
    "note": {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.737 pacienți unici · 56% recurenți",
     "p0": "+49% față de iul 2025 · medie 12 luni: 1.316",
-    "reviews": "defalcarea pe clinici urmează",
+    "reviews": "cifră exactă din Google Business Profile, pe clinici (în tabelul de jos)",
     "newleads": "33,9% din leadurile primite sunt telefoane deja văzute"
    },
    "newrate": 44,
@@ -78,7 +78,7 @@ window.REPORT_CONFIG = {
     "leads": -9,
     "p0": 9,
     "newleads": -9,
-    "reviews": 54.2
+    "reviews": 41.2
    },
    "p0table": {
     "clusters": [
@@ -274,7 +274,7 @@ window.REPORT_CONFIG = {
     }
    },
    "reviews_by": {
-    "total": 182,
+    "total": 161,
     "clusters": [
      {
       "id": "c1",
@@ -282,19 +282,23 @@ window.REPORT_CONFIG = {
       "rows": [
        {
         "n": "Oltenița",
-        "v": null
+        "v": 5
        },
        {
         "n": "Giurgiu",
-        "v": null
+        "v": 22
        },
        {
         "n": "Slobozia",
-        "v": null
+        "v": 19
        },
        {
         "n": "Călărași",
-        "v": null
+        "v": 32
+       },
+       {
+        "n": "Brăila",
+        "v": 1
        }
       ]
      },
@@ -304,19 +308,19 @@ window.REPORT_CONFIG = {
       "rows": [
        {
         "n": "Dorobanți",
-        "v": null
+        "v": 15
        },
        {
         "n": "Cotroceni",
-        "v": null
+        "v": 6
        },
        {
         "n": "Târgoviște",
-        "v": null
+        "v": 22
        },
        {
         "n": "Focșani",
-        "v": null
+        "v": 39
        }
       ]
      }
@@ -327,14 +331,14 @@ window.REPORT_CONFIG = {
    "leads": 1366,
    "convrate": 54,
    "p0": 1611,
-   "reviews": 195,
+   "reviews": 175,
    "q": {},
    "note": {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.467 pacienți unici · 54% recurenți",
     "p0": "+30% față de aug 2025 · medie 12 luni: 1.347",
-    "reviews": "defalcarea pe clinici urmează",
+    "reviews": "cifră exactă din Google Business Profile, pe clinici (în tabelul de jos)",
     "newleads": "39,1% din leadurile primite sunt telefoane deja văzute"
    },
    "newrate": 46,
@@ -532,7 +536,7 @@ window.REPORT_CONFIG = {
     }
    },
    "reviews_by": {
-    "total": 195,
+    "total": 175,
     "clusters": [
      {
       "id": "c1",
@@ -540,19 +544,23 @@ window.REPORT_CONFIG = {
       "rows": [
        {
         "n": "Oltenița",
-        "v": null
+        "v": 6
        },
        {
         "n": "Giurgiu",
-        "v": null
+        "v": 26
        },
        {
         "n": "Slobozia",
-        "v": null
+        "v": 25
        },
        {
         "n": "Călărași",
-        "v": null
+        "v": 25
+       },
+       {
+        "n": "Brăila",
+        "v": 0
        }
       ]
      },
@@ -562,19 +570,19 @@ window.REPORT_CONFIG = {
       "rows": [
        {
         "n": "Dorobanți",
-        "v": null
+        "v": 16
        },
        {
         "n": "Cotroceni",
-        "v": null
+        "v": 6
        },
        {
         "n": "Târgoviște",
-        "v": null
+        "v": 36
        },
        {
         "n": "Focșani",
-        "v": null
+        "v": 35
        }
       ]
      }
@@ -585,14 +593,14 @@ window.REPORT_CONFIG = {
    "leads": 1311,
    "convrate": 50,
    "p0": 1427,
-   "reviews": 250,
+   "reviews": 236,
    "q": {},
    "note": {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.779 pacienți unici · 62% recurenți",
     "p0": "+20% față de sep 2025 · medie 12 luni: 1.367",
-    "reviews": "defalcarea pe clinici urmează",
+    "reviews": "cifră exactă din Google Business Profile, pe clinici (în tabelul de jos)",
     "newleads": "36,9% din leadurile primite sunt telefoane deja văzute"
    },
    "p0table": {
@@ -723,7 +731,7 @@ window.REPORT_CONFIG = {
     }
    },
    "reviews_by": {
-    "total": 250,
+    "total": 236,
     "clusters": [
      {
       "id": "c1",
@@ -731,19 +739,23 @@ window.REPORT_CONFIG = {
       "rows": [
        {
         "n": "Oltenița",
-        "v": null
+        "v": 6
        },
        {
         "n": "Giurgiu",
-        "v": null
+        "v": 28
        },
        {
         "n": "Slobozia",
-        "v": null
+        "v": 18
        },
        {
         "n": "Călărași",
-        "v": null
+        "v": 25
+       },
+       {
+        "n": "Brăila",
+        "v": 0
        }
       ]
      },
@@ -753,19 +765,19 @@ window.REPORT_CONFIG = {
       "rows": [
        {
         "n": "Dorobanți",
-        "v": null
+        "v": 27
        },
        {
         "n": "Cotroceni",
-        "v": null
+        "v": 12
        },
        {
         "n": "Târgoviște",
-        "v": null
+        "v": 78
        },
        {
         "n": "Focșani",
-        "v": null
+        "v": 42
        }
       ]
      }

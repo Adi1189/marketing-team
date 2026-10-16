@@ -12,12 +12,14 @@
     { id: 'youtube',    label: 'YouTube',    month: 'lunare-youtube.html',    week: 'saptamanale-youtube.html' },
     { id: 'newsletter', label: 'Newsletter', month: 'lunare-newsletter.html', week: null },
     { id: 'seo',        label: 'SEO',        month: 'lunare-seo.html',        week: null },
-    { id: 'geo',        label: 'GEO',        month: 'lunare-geo.html',        week: null }
+    { id: 'geo',        label: 'GEO',        month: 'lunare-geo.html',        week: null },
+    { id: 'recenzii',   label: 'Recenzii',   month: 'lunare-recenzii.html',   week: null }
   ];
 
   // Pornim mereu pe Month. Luna aleasă se vede în toate modurile; la Week apare în plus rândul cu săptămânile lunii.
-  var state = { tab: 'sumar', month: 9, mode: 'month', week: null };
-  var avail = {};        // tab -> luni (2026) cu date
+  var state = { tab: 'sumar', month: 9, year: YEAR, mode: 'month', week: null };
+  var keysOf = {};       // tab -> toate lunile cu date (AAAA-LL)
+  var avail = {};        // tab -> luni cu date, în anul ales
   var weeksInfo = null;  // lista de săptămâni, din pagina săptămânală încărcată
   var loaded = { tab: null, kind: null };
   var wantLatest = false;   // la intrarea în Week deschidem cea mai recentă săptămână
@@ -29,6 +31,11 @@
     frame: document.getElementById('shell-frame'), notice: document.getElementById('shell-notice')
   };
 
+  function monthsOf(tab, y) { return (keysOf[tab] || []).filter(function (k) { return +k.slice(0, 4) === y; }).map(function (k) { return +k.slice(5); }); }
+  function yearsOf(tab) {
+    var ys = {}; (keysOf[tab] || []).forEach(function (k) { ys[k.slice(0, 4)] = true; });
+    var l = Object.keys(ys).map(Number).sort(); return l.length ? l : [state.year];
+  }
   function tabObj() { return TABS.filter(function (t) { return t.id === state.tab; })[0]; }
   function mk(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
@@ -48,7 +55,7 @@
   }
   function noticeText() {
     if (!tabObj().week) return 'Raportul săptămânal există doar pentru Facebook, Instagram, TikTok și YouTube. Alege unul dintre ele sau treci pe Month.';
-    return 'Nu există rapoarte săptămânale pentru ' + MONTHS[state.month - 1] + ' ' + YEAR + '. Avem săptămânile S27–S41 (iulie–octombrie).';
+    return 'Nu există rapoarte săptămânale pentru ' + MONTHS[state.month - 1] + ' ' + state.year + '. Avem săptămânile S27–S41 (iulie–octombrie).';
   }
 
   // ----- hash: #t=facebook&m=9
@@ -56,15 +63,16 @@
     var h = new URLSearchParams(location.hash.replace(/^#/, ''));
     var t = h.get('t'); if (t && TABS.some(function (x) { return x.id === t; })) state.tab = t;
     var m = parseInt(h.get('m'), 10); if (m >= 1 && m <= 12) state.month = m;
+    var y = parseInt(h.get('y'), 10); if (y >= 2017 && y <= 2100) state.year = y;
   }
   function writeHash() {
-    var q = 't=' + state.tab + '&m=' + state.month;
+    var q = 't=' + state.tab + '&m=' + state.month + (state.year !== YEAR ? '&y=' + state.year : '');
     try { history.replaceState(null, '', '#' + q); } catch (e) { location.hash = q; }
   }
 
   // dacă luna aleasă nu are date în tab-ul curent, sărim la ultima lună cu date
   function snapMonth() {
-    var ms = avail[state.tab];
+    var ms = monthsOf(state.tab, state.year); avail[state.tab] = ms;
     if (state.mode !== 'week' && ms && ms.length && ms.indexOf(state.month) === -1) { state.month = Math.max.apply(null, ms); return true; }
     return false;
   }
@@ -87,7 +95,7 @@
 
   // ----- iframe
   function post(msg) { if (el.frame.contentWindow) el.frame.contentWindow.postMessage(msg, '*'); }
-  function sendPeriod() { post({ type: 'period', year: YEAR, month: state.month, mode: state.mode === 'ytd' ? 'ytd' : 'month' }); }
+  function sendPeriod() { post({ type: 'period', year: state.year, month: state.month, mode: state.mode === 'ytd' ? 'ytd' : 'month' }); }
   function sendWeek() { if (state.week != null) post({ type: 'week', idx: state.week }); }
   function wantedKind() { return state.mode === 'week' && tabObj().week ? 'week' : 'month'; }
   function loadFrame() {
@@ -96,7 +104,7 @@
     loaded = { tab: state.tab, kind: kind };
     el.frame.src = kind === 'week'
       ? t.week + '?embed=1' + (state.week != null ? '&w=' + state.week : '')
-      : t.month + '?embed=1&y=' + YEAR + '&m=' + state.month + '&mode=' + (state.mode === 'ytd' ? 'ytd' : 'month');
+      : t.month + '?embed=1&y=' + state.year + '&m=' + state.month + '&mode=' + (state.mode === 'ytd' ? 'ytd' : 'month');
   }
 
   function centerActive(container, sel) {
@@ -109,8 +117,8 @@
   function render() {
     var v = view();
     var wk = v === 'week' && weeksInfo && state.week != null ? weeksInfo[state.week] : null;
-    el.title.textContent = (v === 'week' ? (wk ? wk.id : 'Săptămânal') : SHORT[state.month - 1] + ' ' + YEAR) + ' ' + TITLE + ' – Dr. Ardeleanu';
-    el.actual.textContent = 'Actual ' + (v === 'week' ? (wk ? wk.id : '') : SHORT[state.month - 1].toUpperCase() + ' ' + YEAR);
+    el.title.textContent = (v === 'week' ? (wk ? wk.id : 'Săptămânal') : SHORT[state.month - 1] + ' ' + state.year) + ' ' + TITLE + ' – Dr. Ardeleanu';
+    el.actual.textContent = 'Actual ' + (v === 'week' ? (wk ? wk.id : '') : SHORT[state.month - 1].toUpperCase() + ' ' + state.year);
     document.title = TITLE + ' · Marketing Team';
 
     el.toggle.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-mode') === state.mode)); });
@@ -118,12 +126,17 @@
     // perioadă: an + luni (mereu); la Week, dedesubt, săptămânile lunii
     el.period.innerHTML = '';
     el.period.appendChild(mk('span', 'period__label', 'Perioadă'));
-    var yw = mk('div', 'period__years'); var yb = mk('button', 'chip chip--year is-active', String(YEAR)); yb.type = 'button'; yw.appendChild(yb);
+    var yw = mk('div', 'period__years');
+    (state.mode === 'week' ? [state.year] : yearsOf(state.tab)).forEach(function (y) {
+      var yb = mk('button', 'chip chip--year' + (y === state.year ? ' is-active' : ''), String(y)); yb.type = 'button';
+      yb.addEventListener('click', function () { if (y === state.year) return; state.year = y; snapMonth(); sendPeriod(); render(); writeHash(); });
+      yw.appendChild(yb);
+    });
     el.period.appendChild(yw); el.period.appendChild(mk('span', 'period__sep'));
-    var mw = mk('div', 'period__months'); var av = avail[state.tab];
+    var mw = mk('div', 'period__months'); var av = monthsOf(state.tab, state.year);
     MONTHS.forEach(function (name, i) {
       var m = i + 1;
-      var b = mk('button', 'chip chip--month' + (m === state.month ? ' is-active' : '') + (state.mode !== 'week' && av && av.indexOf(m) === -1 ? ' is-empty' : ''), name + ' ' + YEAR);
+      var b = mk('button', 'chip chip--month' + (m === state.month ? ' is-active' : '') + (state.mode !== 'week' && av && av.indexOf(m) === -1 ? ' is-empty' : ''), name + ' ' + state.year);
       b.type = 'button';
       b.addEventListener('click', function () { chooseMonth(m); });
       mw.appendChild(b);
@@ -179,6 +192,7 @@
       state.mode = m;
       // Week pornește din orice tab: dacă tab-ul nu are raport săptămânal, mergem pe Facebook
       if (m === 'week' && !tabObj().week) state.tab = 'facebook';
+      if (m === 'week') state.year = YEAR;           // rapoartele săptămânale există doar pentru 2026
       if (m === 'week' && !(state.mode === m && before === 'week')) { wantLatest = !goLatestWeek(); }
       if (m === 'week' && weeksInfo) {
         snapWeekMonth();
@@ -195,9 +209,10 @@
     var d = e.data || {};
     if (d.type === 'height') { el.frame.style.height = Math.max(d.value, 320) + 'px'; return; }
     if (d.type === 'ready' && d.kind === 'month') {
-      var ms = (d.months || []).filter(function (k) { return k.indexOf(YEAR + '-') === 0; }).map(function (k) { return +k.slice(5); });
-      avail[state.tab] = ms;
-      if (snapMonth()) { sendPeriod(); writeHash(); }
+      keysOf[state.tab] = d.months || [];
+      var ys = yearsOf(state.tab), moved = false;
+      if (ys.indexOf(state.year) === -1) { state.year = Math.max.apply(null, ys); moved = true; }
+      if (snapMonth() || moved) { sendPeriod(); writeHash(); }
       render();
     }
     if (d.type === 'ready' && d.kind === 'week') {

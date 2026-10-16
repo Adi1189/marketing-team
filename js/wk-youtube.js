@@ -195,16 +195,11 @@ window.WEEKLY_CONFIG = {
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
-  "Vizualizările sunt cele din ziua raportului: un video recent are mai puține vizualizări decât unul vechi. În S30 raportul nu are date pe Shorts pentru DENT ESTET și Regina Maria.",
   "Dental Blue nu are canal YouTube; Elidadent are un canal abandonat (0 videoclipuri). Community posts nu sunt numărate.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
-  "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S27–S41 au fost recitite cu skill-ul actualizat sau din blocuri citite pe 12–15 octombrie, deci vizualizările lor sunt comparabile între ele; au avut însă timp diferit să acumuleze (săptămânile recente mai puțin).",
-  "S41 (5–11 octombrie) a fost citită pe 12 octombrie, fără cheia API (din paginile publice YouTube); abonații Elidadent nu au putut fi citiți. Vizualizările din S41 au avut mai puțin timp să acumuleze decât cele din S36–S40.",
-  "S32–S35 (august): linkurile din bloc sunt videoclipuri obișnuite (nu Shorts) și nu au duratele. La Dr. Ardeleanu, S32 și S35 au vizionări foarte mici (62 și 194) la 2 și 4 videoclipuri.",
   "Abonații sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
-  "S27–S31 (iulie) vin dintr-un bloc citit pe 15 octombrie. În S31, DENT ESTET are 474.613 de vizualizări, din care 407.134 la un singur video viral („Începe tratamentul ortodontic cu ALIGN SMILE…”, publicat pe 27 iulie): cifra nu e comparabilă cu săptămânile obișnuite. Abonații din iulie rămân cifrele din rapoartele vechi.",
-  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie."
+  "S27–S31 (iulie) vin dintr-un bloc citit pe 15 octombrie. În S31, DENT ESTET are 474.613 de vizualizări, din care 407.134 la un singur video viral („Începe tratamentul ortodontic cu ALIGN SMILE…”, publicat pe 27 iulie): cifra nu e comparabilă cu săptămânile obișnuite. Abonații din iulie rămân cifrele din rapoartele vechi."
  ],
  "data": {
   "DrA": {

@@ -38,7 +38,7 @@ function esc(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').
 function fmt(k, v) {
   if (v == null) return '–';
   if (k.type === 'pct') return nf(v, k.decimals != null ? k.decimals : 2) + '%';
-  if (k.type === 'dec' || k.type === 'num1') return nf(v, 1);
+  if (k.type === 'dec' || k.type === 'num1') return nf(v, k.decimals != null ? k.decimals : 1);
   return v.toLocaleString('ro-RO');
 }
 
@@ -50,7 +50,7 @@ function delta(k, cur, prev, qc, qp) {
   if (k.type === 'pct') {
     d = cur - prev; text = (d > 0 ? '+' : '') + nf(d, k.decimals != null ? k.decimals : 2) + '%';
   } else if (k.type === 'dec') {
-    d = cur - prev; text = (d > 0 ? '+' : '') + nf(d, 1);
+    d = cur - prev; text = (d > 0 ? '+' : '') + nf(d, k.decimals != null ? k.decimals : 1);
   } else {
     if (prev === 0) return { text: '–', cls: '' };
     d = (cur - prev) / prev * 100;
@@ -303,10 +303,10 @@ function renderCompare() {
   var s0 = firstMonthOfYear(y);
   var span = m === s0 ? SHORT[m - 1] : SHORT[s0 - 1] + '–' + SHORT[m - 1];
   document.getElementById('cmp-title').textContent =
-    'Comparație cu concurenții · ' + (isYtd ? span + ' ' + y : MONTHS[m - 1] + ' ' + y);
+    (C.title || 'Comparație cu concurenții') + ' · ' + (isYtd ? span + ' ' + y : MONTHS[m - 1] + ' ' + y);
 
   var cols = C.kpis.filter(function (k) { return !k.hidden; });
-  document.getElementById('cmp-head').innerHTML = '<th>Cont</th>' + cols.map(function (k) {
+  document.getElementById('cmp-head').innerHTML = '<th>' + (C.firstCol || 'Cont') + '</th>' + cols.map(function (k) {
     return '<th title="' + esc(k.hint || '') + '">' + k.label + '</th>';
   }).join('');
 

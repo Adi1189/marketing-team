@@ -200,14 +200,7 @@ window.WEEKLY_CONFIG = {
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
   "Dental Blue nu a postat nimic în S36–S40 și a postat doar 3 videoclipuri în celelalte săptămâni; Dental Safari nu are cont TikTok.",
-  "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
-  "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
-  "S41 (5–11 octombrie) a fost citită pe 12 octombrie fără cont TikTok autentificat: unele postări sunt ascunse vizitatorilor nelogați, deci numărul de postări și totalul de vizualizări sunt valori minime („≥”) la toate conturile și nu se compară direct cu S36–S40. Urmăritorii sunt afișați exact.",
-  "Vizualizările totale pe cont există din S27 (iulie, citite pe 14 octombrie; august–septembrie pe 12–14 octombrie).",
-  "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni (S27–S40); doar S34 lipsea din rapoarte și are citirea de la rulare. S41 e citirea de la rulare.",
-  "Lunile se formează din săptămâni ISO întregi: iulie = S27–S31, august = S32–S35, septembrie = S36–S40, octombrie = S41–S44. S27 (29 iunie–5 iulie) intră în iulie, pentru că 5 din cele 7 zile ale ei sunt în iulie.",
-  "Titlurile postărilor de top din iulie și august (S27–S35) sunt citite din descrierile postărilor, pe 15 octombrie; la colaborări apare contul partener, iar la Dental Blue unele sunt postări foto.",
-  "S32–S35 (august) au inventar complet; blocul avea linkurile postărilor de top, iar titlurile le-am completat din descrieri. Vârfurile de peste 10.000 de vizualizări sunt rotunjite de TikTok (≈), iar urmăritorii sunt cifrele din rapoartele vechi."
+  "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri."
  ],
  "data": {
   "DrA": {

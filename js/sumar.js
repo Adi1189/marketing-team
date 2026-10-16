@@ -57,7 +57,7 @@ function reviewsPanel(rec, isYtd) {
   var tot = '<div class="net"><div class="net__row"><div><strong>Total recenzii Google (rețea)</strong><span class="cell__note">toate clinicile, luna aleasă</span></div>' +
             '<div class="net__val"><strong>' + R.total.toLocaleString('ro-RO') + '</strong></div><div></div></div></div>';
   return '<h3 class="panel__title">' + title + '</h3><div class="clusters">' + blocks + '</div>' + tot +
-         '<p class="note">Defalcarea pe clinici urmează. Brăila nu e în lista de clinici pentru recenzii.</p>';
+         '<p class="note">Recenzii Google noi pe clinică în lună, citite din Google Business Profile (cifre exacte, ora României). Mai multe în tab-ul „Recenzii”: evoluție pe luni, pe clinici și pe ani. Nu sunt incluse recenziile fără dată sau cele șterse ulterior.</p>';
 }
 
 
