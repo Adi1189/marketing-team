@@ -425,5 +425,29 @@ window.REPORT_CONFIG = {
    "g": "1/5 · 0× #1",
    "topName": "Sonydent"
   }
+ ],
+ "trendSummary": [
+  {
+   "date": "31 iulie",
+   "queries": 56,
+   "appearances": 36,
+   "pos1": 21,
+   "set": "7 întrebări · 4 orașe"
+  },
+  {
+   "date": "8 septembrie",
+   "queries": 56,
+   "appearances": 41,
+   "pos1": 22,
+   "set": "aceleași 7 întrebări · 4 orașe"
+  },
+  {
+   "date": "5 octombrie",
+   "queries": 60,
+   "appearances": 52,
+   "pos1": 35,
+   "set": "5 întrebări noi · 6 orașe",
+   "newSet": true
+  }
  ]
 };

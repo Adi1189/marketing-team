@@ -486,3 +486,12 @@ html.embed .page { padding: 22px 28px 40px; max-width: none; }
 html.embed .section-title { font-size: 0; margin: 0 0 14px; }
 html.embed .section-sub { display: none; }
 @media (max-width: 640px) { html.embed .page { padding: 16px 12px 32px; } }
+
+/* ---- grafice (social, GEO): legendă și carduri ---- */
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 10px}
+.lg{display:inline-flex;align-items:center;gap:6px;border:1px solid #e6d3b3;background:#fff;border-radius:999px;padding:4px 11px;font:600 12px Poppins,sans-serif;color:#5a1a14;cursor:pointer}
+.lg i{display:inline-block;width:10px;height:10px;border-radius:50%}
+.lg.is-off{opacity:.42}
+.chartcard{background:#fff;border:1px solid #f1e4cc;border-radius:12px}
+td[style*="color:#fff"] .pos--top{color:#fff}
+td[style*="rgba(201,162,39"] .pos--low{color:#5a4208}
