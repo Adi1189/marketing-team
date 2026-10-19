@@ -57,7 +57,7 @@ window.REPORT_CONFIG = {
   "Cifrele sunt exacte pentru canalul nostru, în toate cele 12 săptămâni.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "Iulie, august și septembrie (S27–S40) au fost recitite cu skill-ul actualizat, cu vizualizările citite pe 12–15 octombrie.",
-  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Octombrie e în curs: are S41–S42 (5–18 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
   "Abonații pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
   "În iulie, DENT ESTET are 476.760 de vizualizări, din care 407.134 la un singur video viral (publicat pe 27 iulie, S31): cifra nu se compară cu luna august (4.179), iar variația apare ca o scădere de 99%, care nu e reală."
  ],
@@ -234,8 +234,8 @@ window.REPORT_CONFIG = {
    "subs": 932
   },
   "2026-10": {
-   "posts": 7,
-   "views": 1803,
+   "posts": 15,
+   "views": 3359,
    "leads": null,
    "q": {
     "posts": "≥",
@@ -243,12 +243,12 @@ window.REPORT_CONFIG = {
     "subs": ""
    },
    "note": {
-    "posts": "luna în curs: doar S41 (5–11 oct)",
-    "views": "doar S41 · citit pe 12 oct",
+    "posts": "luna în curs: S41–S42 (5–18 oct)",
+    "views": "S41–S42 · citit pe 19 oct",
     "leads": "luna în curs",
-    "subs": "la S41"
+    "subs": "la S42"
    },
-   "subs": 934,
+   "subs": 936,
    "nocmp": true,
    "topPosts": {
     "DrA": {
@@ -397,9 +397,9 @@ window.REPORT_CONFIG = {
      "subs": 932
     },
     "2026-10": {
-     "posts": 7,
-     "views": 1803,
-     "subs": 934,
+     "posts": 15,
+     "views": 3359,
+     "subs": 936,
      "topval": 1387,
      "q": {
       "posts": "≥",
@@ -441,8 +441,8 @@ window.REPORT_CONFIG = {
      "subs": 1350
     },
     "2026-10": {
-     "posts": 14,
-     "views": 9815,
+     "posts": 29,
+     "views": 11551,
      "subs": 1350,
      "topval": 7901,
      "q": {
@@ -485,8 +485,8 @@ window.REPORT_CONFIG = {
      "subs": 9330
     },
     "2026-10": {
-     "posts": 7,
-     "views": 3816,
+     "posts": 10,
+     "views": 4085,
      "subs": 9330,
      "topval": 1216,
      "q": {
@@ -529,8 +529,8 @@ window.REPORT_CONFIG = {
      "subs": 2000
     },
     "2026-10": {
-     "posts": 4,
-     "views": 1675,
+     "posts": 7,
+     "views": 2238,
      "subs": 2000,
      "topval": 718,
      "q": {
@@ -575,7 +575,7 @@ window.REPORT_CONFIG = {
     "2026-10": {
      "posts": 0,
      "views": 0,
-     "subs": null,
+     "subs": 1,
      "topval": null,
      "q": {
       "posts": "≥",

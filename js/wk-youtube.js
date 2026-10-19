@@ -76,6 +76,11 @@ window.WEEKLY_CONFIG = {
    "id": "S41",
    "range": "5–11 oct",
    "month": "Octombrie"
+  },
+  {
+   "id": "S42",
+   "range": "12–18 oct",
+   "month": "Octombrie"
   }
  ],
  "kpis": [
@@ -187,10 +192,10 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Vizualizări",
  "take": [
-  "Ritmul nostru e peste al Regina Maria, apropiat de al Life și sub al DENT ESTET. Media pe săptămânile cu număr exact: 5,1 videouri la noi, 9,9 la DENT ESTET, 4,5 la Life și 3,6 la Regina Maria. S39 e cea mai bună săptămână a noastră (11 Shorts), urmată de S40 și S37, cu câte 8. În S41 am avut 7 Shorts, față de 14 la DENT ESTET.",
-  "Performanța noastră e foarte inegală. Vizionările per video sunt între 140 și 694 în 12 săptămâni, dar sub 60 în S32 (31), S35 (48), S36 (18). Vizionările sunt citite la data rulării, deci săptămânile recente au avut mai puțin timp să acumuleze.",
-  "Pe vizionări per video suntem peste DENT ESTET în 9 din 15 săptămâni, peste Life în 8 din 14, dar sub Regina Maria în 8 din 14. DENT ESTET publică mult (2–14 videouri pe săptămână în săptămânile cu număr exact), cu 32–701 vizionări pe video (Fără S31, unde totalul lor e dominat de un singur video viral). în S27 au avut 40 videoclipuri, o săptămână neobișnuită. Cele mai mari vârfuri: DENT ESTET 407.134 (S31); Regina Maria 17.390 (S32); DENT ESTET 7.901 (S41).",
-  "S41: 7 Shorts, 1.803 vizionări (S40: 8 Shorts, 3.973), cel mai bun video 1.387. Abonații noștri: 934, față de 1.350 la DENT ESTET și 9.330 la Regina Maria.",
+  "Ritmul nostru e peste al Regina Maria, apropiat de al Life și sub al DENT ESTET. Media pe săptămânile cu număr exact: 5,2 videouri la noi, 10,2 la DENT ESTET, 4,4 la Life și 3,6 la Regina Maria. S39 e cea mai bună săptămână a noastră (11 Shorts), urmată de S42 și S40, cu câte 8. În S42 am avut 8 Shorts, față de 15 la DENT ESTET.",
+  "Performanța noastră e foarte inegală. Vizionările per video sunt între 140 și 694 în 13 săptămâni, dar sub 60 în S32 (31), S35 (48), S36 (18). Vizionările sunt citite la data rulării, deci săptămânile recente au avut mai puțin timp să acumuleze.",
+  "Pe vizionări per video suntem peste DENT ESTET în 10 din 16 săptămâni, peste Life în 9 din 15, dar sub Regina Maria în 8 din 15. DENT ESTET publică mult (2–15 videouri pe săptămână în săptămânile cu număr exact), cu 32–701 vizionări pe video (fără S31, unde totalul lor e dominat de un singur video viral). În S27 au avut 40 de videoclipuri, o săptămână neobișnuită. Cele mai mari vârfuri: DENT ESTET 407.134 (S31); Regina Maria 17.390 (S32); DENT ESTET 7.901 (S41).",
+  "S42: 8 videouri, 1.556 vizionări (S41: 7 videouri, 1.803), cel mai bun video 977. Abonații noștri: 936, față de 1.350 la DENT ESTET și 9.330 la Regina Maria.",
   "Dentalist nu e în comparație, dar domină YouTube. Canalul personal al Dr. Alexandra Mircea are 345K abonați și a avut un Short cu 171.029 de vizionări (S31), o săptămână cu 133.472 (S37) și un video cu 341.000 (S39)."
  ],
  "notes": [
@@ -199,7 +204,8 @@ window.WEEKLY_CONFIG = {
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "S27–S41 au fost recitite cu skill-ul actualizat sau din blocuri citite pe 12–15 octombrie, deci vizualizările lor sunt comparabile între ele; au avut însă timp diferit să acumuleze (săptămânile recente mai puțin).",
   "Abonații sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
-  "S27–S31 (iulie) vin dintr-un bloc citit pe 15 octombrie. În S31, DENT ESTET are 474.613 de vizualizări, din care 407.134 la un singur video viral („Începe tratamentul ortodontic cu ALIGN SMILE…”, publicat pe 27 iulie): cifra nu e comparabilă cu săptămânile obișnuite. Abonații din iulie rămân cifrele din rapoartele vechi."
+  "S27–S31 (iulie) vin dintr-un bloc citit pe 15 octombrie. În S31, DENT ESTET are 474.613 de vizualizări, din care 407.134 la un singur video viral („Începe tratamentul ortodontic cu ALIGN SMILE…”, publicat pe 27 iulie): cifra nu e comparabilă cu săptămânile obișnuite. Abonații din iulie rămân cifrele din rapoartele vechi.",
+  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, din YouTube Data API. Elidadent nu are videoclipuri."
  ],
  "data": {
   "DrA": {
@@ -489,6 +495,23 @@ window.WEEKLY_CONFIG = {
     },
     "topval": 1555,
     "subs": 918
+   },
+   "S42": {
+    "q": {
+     "subs": "",
+     "topval": ""
+    },
+    "note": {},
+    "posts": 8,
+    "views": 1556,
+    "subs": 936,
+    "top": {
+     "title": "Parcă sunt dinții mei dintotdeauna…",
+     "value": 977,
+     "q": "",
+     "url": "https://www.youtube.com/shorts/rfEqY3tbzR0"
+    },
+    "topval": 977
    }
   },
   "DE": {
@@ -778,6 +801,25 @@ window.WEEKLY_CONFIG = {
     },
     "topval": 73,
     "subs": 1330
+   },
+   "S42": {
+    "q": {
+     "subs": "≈",
+     "topval": ""
+    },
+    "note": {
+     "subs": "rotunjit de YouTube"
+    },
+    "posts": 15,
+    "views": 1736,
+    "subs": 1350,
+    "top": {
+     "title": "Cum poate influența tratamentul ortodontic profilul facial?",
+     "value": 314,
+     "q": "",
+     "url": "https://www.youtube.com/shorts/ZbRaOwPNx-A"
+    },
+    "topval": 314
    }
   },
   "RM": {
@@ -1065,6 +1107,25 @@ window.WEEKLY_CONFIG = {
     },
     "topval": 57,
     "subs": 9320
+   },
+   "S42": {
+    "q": {
+     "subs": "≈",
+     "topval": ""
+    },
+    "note": {
+     "subs": "rotunjit de YouTube"
+    },
+    "posts": 3,
+    "views": 269,
+    "subs": 9330,
+    "top": {
+     "title": "Pentru cine lucrează pe mare, timpul nu stă niciodată prea mult într-un singur loc",
+     "value": 127,
+     "q": "",
+     "url": "https://www.youtube.com/shorts/y1xmZJmTozA"
+    },
+    "topval": 127
    }
   },
   "Life": {
@@ -1352,6 +1413,25 @@ window.WEEKLY_CONFIG = {
     },
     "topval": null,
     "subs": 1990
+   },
+   "S42": {
+    "q": {
+     "subs": "≈",
+     "topval": ""
+    },
+    "note": {
+     "subs": "rotunjit de YouTube"
+    },
+    "posts": 3,
+    "views": 563,
+    "subs": 2000,
+    "top": {
+     "title": "Ți-e teamă de dentist? Poate ai avut în trecut o experiență neplăcută",
+     "value": 228,
+     "q": "",
+     "url": "https://www.youtube.com/shorts/ZRX63Mcp1rM"
+    },
+    "topval": 228
    }
   },
   "Eli": {
@@ -1639,6 +1719,23 @@ window.WEEKLY_CONFIG = {
     },
     "topval": null,
     "subs": 1
+   },
+   "S42": {
+    "q": {
+     "subs": "",
+     "topval": ""
+    },
+    "note": {},
+    "posts": 0,
+    "views": 0,
+    "subs": 1,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null
    }
   }
  }

@@ -76,6 +76,11 @@ window.WEEKLY_CONFIG = {
    "id": "S41",
    "range": "5–11 oct",
    "month": "Octombrie"
+  },
+  {
+   "id": "S42",
+   "range": "12–18 oct",
+   "month": "Octombrie"
   }
  ],
  "kpis": [
@@ -191,16 +196,17 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Vizualizări",
  "take": [
-  "DENT ESTET ne depășește la urmăritori: 8.610 față de 6.799 la noi. De la prima cifră (S29), ei au crescut cu 2.759 (+47,2%), noi cu 88 (+1,3%). Life are 7.028, Regina Maria 5.561, Elidadent 1.913, Dental Blue 886.",
-  "Ritmul nostru e variabil. Videouri pe săptămână (S27–S40): 4 → 4 → 2 → 3 → 6 → 2 → 5 → 5 → 4 → 4 → 5 → 2 → 5 → 7. Media e 4,1, față de 6,4 la DENT ESTET, 5,2 la Life, 2,6 la Regina Maria și 2,6 la Elidadent. Cea mai bună săptămână a noastră e S40 (7 videouri). S41 nu intră aici: a fost citită fără login, deci cifrele sunt minime.",
-  "Vizualizări totale pe săptămână (S27–S40): suntem peste DENT ESTET în 8 din 14 săptămâni, peste Regina Maria în 10, peste Life în 7 și peste Elidadent în 12. În ultimele 9 săptămâni: noi 2.396 → 5.803 → 4.497 → 4.692 → 4.401 → 5.130 → 1.732 → 4.701 → 6.266; DENT ESTET 3.411 → 4.084 → 2.844 → 2.012 → 7.298 → 2.138 → 2.746 → 2.073 → 3.688. Cea mai bună săptămână a noastră e S31 (6.567). În S41 (≥, fără login) avem 2.217, față de 2.929 la DENT ESTET și 3.161 la Regina Maria.",
-  "Media pe videoclip (S27–S40): noi 866–1828 vizualizări, DENT ESTET 305–1887, Regina Maria 212–2398. În S41 (≥) media noastră e 739, a Elidadent 1051, a Regina Maria 790, a DENT ESTET 293.",
-  "Vârfurile izolate nu sunt tendință: Life 60.400 în S35, Elidadent 20.800 în S38, Life 18.500 în S32, Elidadent 15.700 în S33, Life 11.200 în S36. Cel mai bun video al nostru din S27–S41 are 2.529 de vizualizări (S29)."
+  "DENT ESTET ne depășește la urmăritori: 8.736 față de 6.803 la noi. De la prima cifră (S29), ei au crescut cu 2.885 (+49,3%), noi cu 92 (+1,4%). Life are 7.029, Regina Maria 5.563, Elidadent 1.915, Dental Blue 886.",
+  "Ritmul nostru e variabil. Videouri pe săptămână (S27–S42): 4 → 4 → 2 → 3 → 6 → 2 → 5 → 5 → 4 → 4 → 5 → 2 → 5 → 7 → 5. Media e 4,2, față de 6,7 la DENT ESTET, 5,2 la Life, 2,5 la Regina Maria și 2,5 la Elidadent. Cea mai bună săptămână a noastră e S40 (7 videouri). S41 nu intră aici: a fost citită fără login, deci cifrele sunt minime.",
+  "Vizualizări totale pe săptămână (S27–S42): suntem peste DENT ESTET în 9 din 15 săptămâni, peste Regina Maria în 11, peste Life în 8 și peste Elidadent în 13. În ultimele 9 săptămâni: noi 5.803 → 4.497 → 4.692 → 4.401 → 5.130 → 1.732 → 4.701 → 6.266 → 5.558; DENT ESTET 4.084 → 2.844 → 2.012 → 7.298 → 2.138 → 2.746 → 2.073 → 3.688 → 4.247. Cea mai bună săptămână a noastră e S31 (6.567). În S42 avem 5.558, față de 4.247 la DENT ESTET și 821 la Regina Maria.",
+  "Media pe videoclip (S27–S42): noi 866–1828 vizualizări, DENT ESTET 305–1887, Regina Maria 212–2398. În S42 media noastră e 1112, a Elidadent 62, a Regina Maria 821, a DENT ESTET 354.",
+  "Vârfurile izolate nu sunt tendință: Life 60.400 în S35, Elidadent 20.800 în S38, Life 18.500 în S32, Elidadent 15.700 în S33, Life 11.200 în S36. Cel mai bun video al nostru din S27–S42 are 2.529 de vizualizări (S29)."
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
   "Dental Blue nu a postat nimic în S36–S40 și a postat doar 3 videoclipuri în celelalte săptămâni; Dental Safari nu are cont TikTok.",
-  "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri."
+  "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
+  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, cu cifrele citite din pagina fiecărui video. S41 rămâne citit fără cont autentificat (valori minime), deci variația S42 față de S41 nu se calculează la postări și vizualizări."
  ],
  "data": {
   "DrA": {
@@ -491,6 +497,22 @@ window.WEEKLY_CONFIG = {
     "topval": 1663,
     "followers": 6711,
     "views": 5739
+   },
+   "S42": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 5,
+    "views": 5558,
+    "followers": 6803,
+    "top": {
+     "title": "Ce este de făcut…",
+     "value": 1425,
+     "q": "",
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7696065418598927638"
+    },
+    "topval": 1425
    }
   },
   "DE": {
@@ -758,6 +780,22 @@ window.WEEKLY_CONFIG = {
     "topval": 1033,
     "followers": 5851,
     "views": 5760
+   },
+   "S42": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 12,
+    "views": 4247,
+    "followers": 8736,
+    "top": {
+     "title": "Beneficiezi de avantaje pentru tratamente ortodontice…",
+     "value": 595,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7695656641131203862"
+    },
+    "topval": 595
    }
   },
   "RM": {
@@ -1029,6 +1067,22 @@ window.WEEKLY_CONFIG = {
     "topval": 1116,
     "followers": 5492,
     "views": 1116
+   },
+   "S42": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 1,
+    "views": 821,
+    "followers": 5563,
+    "top": {
+     "title": "Pentru cine lucrează pe mare… (Petre Drăgoi)",
+     "value": 821,
+     "q": "",
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7696585122665090326"
+    },
+    "topval": 821
    }
   },
   "Life": {
@@ -1310,6 +1364,22 @@ window.WEEKLY_CONFIG = {
     "topval": 875,
     "followers": 6863,
     "views": 1541
+   },
+   "S42": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 5,
+    "views": 2094,
+    "followers": 7029,
+    "top": {
+     "title": "POV: după mult timp, mușți dintr-un măr…",
+     "value": 529,
+     "q": "",
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7695709324353604897"
+    },
+    "topval": 529
    }
   },
   "Eli": {
@@ -1587,6 +1657,22 @@ window.WEEKLY_CONFIG = {
     "topval": 2023,
     "followers": 1898,
     "views": 4848
+   },
+   "S42": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 1,
+    "views": 62,
+    "followers": 1915,
+    "top": {
+     "title": "Bianca de la Insula…",
+     "value": 62,
+     "q": "",
+     "url": "https://www.tiktok.com/@elidadent/video/7695787699738971415"
+    },
+    "topval": 62
    }
   },
   "DB": {
@@ -1858,6 +1944,22 @@ window.WEEKLY_CONFIG = {
     "topval": null,
     "followers": 882,
     "views": 0
+   },
+   "S42": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 0,
+    "views": 0,
+    "followers": 886,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null
    }
   }
  }

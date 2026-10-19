@@ -65,7 +65,7 @@ window.REPORT_CONFIG = {
   "Engagement = reacții + comentarii + distribuiri.",
   "Urmăritorii sunt rotunjiți la mii în rapoarte (≈17.000), așa că o creștere lunară nu se poate vedea.",
   "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
-  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Octombrie e în curs: are S41–S42 (5–18 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
   "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină."
  ],
  "data": {
@@ -271,9 +271,9 @@ window.REPORT_CONFIG = {
    }
   },
   "2026-10": {
-   "posts": 9,
-   "eng_sum": 248,
-   "eng_n": 9,
+   "posts": 16,
+   "eng_sum": 417,
+   "eng_n": 16,
    "followers": 18000,
    "leads": null,
    "q": {
@@ -282,20 +282,20 @@ window.REPORT_CONFIG = {
     "followers": "≈"
    },
    "note": {
-    "posts": "luna în curs: doar S41 (5–11 oct)",
-    "avgeng": "doar S41",
-    "followers": "la S41 · rotunjit",
+    "posts": "luna în curs: S41–S42 (5–18 oct)",
+    "avgeng": "S41–S42",
+    "followers": "la S42 · rotunjit",
     "leads": "luna în curs"
    },
    "nocmp": true,
    "topPosts": {
     "DrA": {
-     "title": "„Nu există scurtături către succes.” (reel)",
-     "value": 53,
+     "title": "3 ani de 5★ pentru Clinica Dentară Dr. Ardeleanu Slobozia!",
+     "value": 62,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.facebook.com/reel/4392264901085415/"
+     "week": "S42",
+     "range": "12–18 oct",
+     "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid033PgDg4b6eiJaVwPCCkCZ6uedCZBB4UUsMMLJZ1tWNYoiTzUq31XtYLSjEAPrxNjAl"
     },
     "DE": {
      "title": "Ai pierdut un singur dinte? Implant unidentar… (reel)",
@@ -314,12 +314,12 @@ window.REPORT_CONFIG = {
      "url": "https://www.facebook.com/reel/2621948774911864/"
     },
     "Life": {
-     "title": "Ce înseamnă să faci stomatologie altfel? (reel) — egalitate 13 cu o postare din 5 oct (9/0/4)",
-     "value": 13,
+     "title": "Un medic bun nu îți spune neapărat ce vrei să auzi…",
+     "value": 22,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.facebook.com/reel/1113287494741624/"
+     "week": "S42",
+     "range": "12–18 oct",
+     "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid0CVP8KoGRPyQFb7QqCFuu4TBdkZS2Mz4PTa1o2mBNP4hWyc6DTeWU7DJjfrgguXDfl"
     },
     "Eli": {
      "title": "Din Târgoviște, direct la Budapesta — stand expo (postare în colaborare cu Next Story)",
@@ -330,12 +330,12 @@ window.REPORT_CONFIG = {
      "url": "https://www.facebook.com/nextstory.romania/posts/pfbid02uaZUwK5N8M4sAnw4SxJg82Kp4zHT81Ar5RspCRV1iVEmjLCDRNHo3KLQTwBFTVgFl"
     },
     "DB": {
-     "title": "La mulți ani, as. Miha! (foto, echipă Slobozia)",
-     "value": 37,
+     "title": "Pacienții noștri ne recomandă! (reel)",
+     "value": 43,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Jh1QRJVToQTWVefQe3dtJwHMzRGhWKWMLin7dhnekDVrPJbQTvLSwBt3iSfW3vEjl&id=100057645392894"
+     "week": "S42",
+     "range": "12–18 oct",
+     "url": "https://www.facebook.com/reel/1577441317003769/"
     }
    }
   }
@@ -465,11 +465,11 @@ window.REPORT_CONFIG = {
      "topval": 140
     },
     "2026-10": {
-     "posts": 9,
-     "eng_sum": 248,
-     "eng_n": 9,
+     "posts": 16,
+     "eng_sum": 417,
+     "eng_n": 16,
      "followers": 18000,
-     "topval": 53,
+     "topval": 62,
      "q": {
       "posts": "≥",
       "avgeng": "",
@@ -518,9 +518,9 @@ window.REPORT_CONFIG = {
      "topval": 227
     },
     "2026-10": {
-     "posts": 15,
-     "eng_sum": 465,
-     "eng_n": 15,
+     "posts": 36,
+     "eng_sum": 848,
+     "eng_n": 36,
      "followers": 46000,
      "topval": 114,
      "q": {
@@ -571,9 +571,9 @@ window.REPORT_CONFIG = {
      "topval": 652
     },
     "2026-10": {
-     "posts": 10,
-     "eng_sum": 134,
-     "eng_n": 10,
+     "posts": 20,
+     "eng_sum": 235,
+     "eng_n": 20,
      "followers": 84000,
      "topval": 27,
      "q": {
@@ -627,11 +627,11 @@ window.REPORT_CONFIG = {
      }
     },
     "2026-10": {
-     "posts": 7,
-     "eng_sum": 66,
-     "eng_n": 7,
-     "followers": 83000,
-     "topval": 13,
+     "posts": 15,
+     "eng_sum": 174,
+     "eng_n": 15,
+     "followers": 84000,
+     "topval": 22,
      "q": {
       "posts": "≥",
       "avgeng": "",
@@ -680,9 +680,9 @@ window.REPORT_CONFIG = {
      "topval": 100
     },
     "2026-10": {
-     "posts": 8,
-     "eng_sum": 487,
-     "eng_n": 8,
+     "posts": 13,
+     "eng_sum": 587,
+     "eng_n": 13,
      "followers": 4700,
      "topval": 162,
      "q": {
@@ -733,11 +733,11 @@ window.REPORT_CONFIG = {
      "topval": 71
     },
     "2026-10": {
-     "posts": 5,
-     "eng_sum": 109,
-     "eng_n": 5,
+     "posts": 9,
+     "eng_sum": 190,
+     "eng_n": 9,
      "followers": 6300,
-     "topval": 37,
+     "topval": 43,
      "q": {
       "posts": "≥",
       "avgeng": "",

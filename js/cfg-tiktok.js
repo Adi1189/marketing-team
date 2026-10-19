@@ -57,7 +57,7 @@ window.REPORT_CONFIG = {
   "Pentru top postare: la iulie, august și septembrie avem titlul și linkul fiecărui cont (titlurile din iulie–august sunt citite din descrierile videoclipurilor).",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
-  "Octombrie e în curs: are doar S41 (5–11 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Octombrie e în curs: are S41–S42 (5–18 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
   "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni; pentru fiecare lună e cifra din ultima ei săptămână (iulie: S31, august: S35, septembrie: S40)."
  ],
  "data": {
@@ -259,8 +259,8 @@ window.REPORT_CONFIG = {
    "followers": 6800
   },
   "2026-10": {
-   "posts": 3,
-   "views": 2217,
+   "posts": 8,
+   "views": 7775,
    "leads": null,
    "q": {
     "posts": "≥",
@@ -268,29 +268,29 @@ window.REPORT_CONFIG = {
     "followers": ""
    },
    "note": {
-    "posts": "luna în curs: doar S41 (5–11 oct)",
-    "views": "doar S41 · citit fără login",
+    "posts": "luna în curs: S41–S42 (5–18 oct)",
+    "views": "S41–S42 · S41 citit fără login",
     "leads": "luna în curs",
-    "followers": "la S41"
+    "followers": "la S42"
    },
-   "followers": 6799,
+   "followers": 6803,
    "nocmp": true,
    "topPosts": {
     "DrA": {
-     "title": "„Nu există scurtături către succes.” La TEDx Tudor Vianu, Dr. Virginia Ardeleanu…",
-     "value": 962,
+     "title": "Ce este de făcut…",
+     "value": 1425,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7693569974773812502"
+     "week": "S42",
+     "range": "12–18 oct",
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7696065418598927638"
     },
     "DE": {
-     "title": "Așa arată o zi din viața noastră la DENT ESTET",
-     "value": 476,
+     "title": "Beneficiezi de avantaje pentru tratamente ortodontice…",
+     "value": 595,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.tiktok.com/@dentestetclinic/video/7693158476939283734"
+     "week": "S42",
+     "range": "12–18 oct",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7695656641131203862"
     },
     "RM": {
      "title": "Nu tratăm un dinte. Tratăm felul în care funcționează întreg…",
@@ -437,10 +437,10 @@ window.REPORT_CONFIG = {
      "views": 22230
     },
     "2026-10": {
-     "posts": 3,
-     "views": 2217,
-     "followers": 6799,
-     "topval": 962,
+     "posts": 8,
+     "views": 7775,
+     "followers": 6803,
+     "topval": 1425,
      "q": {
       "posts": "≥",
       "views": "≥",
@@ -483,10 +483,10 @@ window.REPORT_CONFIG = {
      "views": 17943
     },
     "2026-10": {
-     "posts": 10,
-     "views": 2929,
-     "followers": 8610,
-     "topval": 476,
+     "posts": 22,
+     "views": 7176,
+     "followers": 8736,
+     "topval": 595,
      "q": {
       "posts": "≥",
       "views": "≥",
@@ -529,9 +529,9 @@ window.REPORT_CONFIG = {
      "views": 11259
     },
     "2026-10": {
-     "posts": 4,
-     "views": 3161,
-     "followers": 5561,
+     "posts": 5,
+     "views": 3982,
+     "followers": 5563,
      "topval": 1165,
      "q": {
       "posts": "≥",
@@ -575,9 +575,9 @@ window.REPORT_CONFIG = {
      "views": 26405
     },
     "2026-10": {
-     "posts": 3,
-     "views": 1722,
-     "followers": 7028,
+     "posts": 8,
+     "views": 3816,
+     "followers": 7029,
      "topval": 1046,
      "q": {
       "posts": "≥",
@@ -621,9 +621,9 @@ window.REPORT_CONFIG = {
      "views": 33479
     },
     "2026-10": {
-     "posts": 2,
-     "views": 2102,
-     "followers": 1913,
+     "posts": 3,
+     "views": 2164,
+     "followers": 1915,
      "topval": 1196,
      "q": {
       "posts": "≥",
