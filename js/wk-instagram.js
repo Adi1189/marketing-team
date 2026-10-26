@@ -81,6 +81,11 @@ window.WEEKLY_CONFIG = {
    "id": "S42",
    "range": "12–18 oct",
    "month": "Octombrie"
+  },
+  {
+   "id": "S43",
+   "range": "19–25 oct",
+   "month": "Octombrie"
   }
  ],
  "kpis": [
@@ -214,10 +219,10 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 16 săptămâni: 7,3 postări pe săptămână la noi, 6,9 la Regina Maria, 6,4 la Life și 16,1 la DENT ESTET. Vârful nostru a fost 12 în S38. În S42 am avut 8 postări, față de 20 la DENT ESTET.",
-  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 16 din 16 săptămâni cu cifre (0,42–1,43% față de 0,12–0,67%), peste Regina Maria în 15 și peste Life în 16. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 16 săptămâni (S29, S35, S40).",
-  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 16 cu cifre e S40 (19,3), cea mai bună e S33 (66,0). În S41 a fost 26,2, iar în S42 28,1.",
-  "Urmăritori, de la prima cifră (S28) la S42: DENT ESTET +1.365 (+17,8%), noi +366 (+8,6%). Life +4,8% și Regina Maria +2,2%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+7,8%) și Dental Blue (+11,0%) pornesc de la baze foarte mici.",
+  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 17 săptămâni: 7,4 postări pe săptămână la noi, 6,8 la Regina Maria, 6,5 la Life și 16,2 la DENT ESTET. Vârful nostru a fost 12 în S38. În S43 am avut 9 postări, față de 19 la DENT ESTET.",
+  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 17 din 17 săptămâni cu cifre (0,42–1,43% față de 0,12–0,67%), peste Regina Maria în 16 și peste Life în 17. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 17 săptămâni (S29, S35, S40).",
+  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 17 cu cifre e S40 (19,3), cea mai bună e S33 (66,0). În S42 a fost 28,1, iar în S43 28,8.",
+  "Urmăritori, de la prima cifră (S28) la S43: DENT ESTET +1.516 (+19,8%), noi +396 (+9,3%). Life +5,6% și Regina Maria +2,2%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+8,0%) și Dental Blue (+14,2%) pornesc de la baze foarte mici.",
   "Cele mai mari vârfuri ale pieței: Regina Maria 630 (S41); Regina Maria 476 (S29); Elidadent 389 (S38). La noi, cele mai bune trei săptămâni după postarea de top: 151 (S32); 136 (S34); 95 (S33)."
  ],
  "notes": [
@@ -226,7 +231,8 @@ window.WEEKLY_CONFIG = {
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Regina Maria are în S41 un reel în colaborare cu 630 de interacțiuni; fără el media ei ar fi 17,0. Raportul nu are variația față de S40 (nu a măsurat acea săptămână), dar aici S40 există și e folosit pentru variație.",
   "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
-  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, din contul logat. La colaborări apare postarea contului partener (de exemplu reelul Fundației la noi: fără el, media noastră ar fi 24,7)."
+  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, din contul logat. La colaborări apare postarea contului partener (de exemplu reelul Fundației la noi: fără el, media noastră ar fi 24,7).",
+  "S43 (19–25 octombrie) vine din raportul rulat pe 26 octombrie, din contul logat; like-urile pot mai crește după citire. Dental Blue nu a postat."
  ],
  "data": {
   "DrA": {
@@ -568,6 +574,27 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/fundatia.ardeleanu/reel/Ded-KICCVXo/"
     },
     "topval": 52
+   },
+   "S43": {
+    "q": {
+     "followers": "",
+     "topval": ""
+    },
+    "note": {
+     "leads": "Puls: nu avem încă cifra pentru S43"
+    },
+    "leads": null,
+    "posts": 9,
+    "eng_sum": 259,
+    "eng_n": 9,
+    "followers": 4668,
+    "top": {
+     "title": "BRĂILA, SUNTEM GATA! 🤍",
+     "value": 88,
+     "q": "",
+     "url": "https://www.instagram.com/reel/Deq4KxfHGJE/"
+    },
+    "topval": 88
    }
   },
   "DE": {
@@ -881,6 +908,24 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/dent.estet/reel/DeY-KYjDU3q/"
     },
     "topval": 52
+   },
+   "S43": {
+    "q": {
+     "followers": "",
+     "topval": ""
+    },
+    "note": {},
+    "posts": 19,
+    "eng_sum": 356,
+    "eng_n": 19,
+    "followers": 9189,
+    "top": {
+     "title": "MediFest UMF Craiova – alături de viitoarea generație de medici stomatologi.",
+     "value": 48,
+     "q": "",
+     "url": "https://www.instagram.com/p/DeyhkcAlTCZ/"
+    },
+    "topval": 48
    }
   },
   "RM": {
@@ -1204,6 +1249,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/reginamariadentalclinics/reel/DecQfKMOYbQ/"
     },
     "topval": 40
+   },
+   "S43": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit în pagină"
+    },
+    "posts": 4,
+    "eng_sum": 86,
+    "eng_n": 4,
+    "followers": 13700,
+    "top": {
+     "title": "O perspectivă medicală completă se construiește prin dialog și colaborare (Congresul Clubului Regal).",
+     "value": 32,
+     "q": "",
+     "url": "https://www.instagram.com/p/Dewmx74iCSb/"
+    },
+    "topval": 32
    }
   },
   "Life": {
@@ -1521,6 +1586,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/lifedentalspa/p/DejDJTUsV5Q/"
     },
     "topval": 14
+   },
+   "S43": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit în pagină"
+    },
+    "posts": 7,
+    "eng_sum": 130,
+    "eng_n": 7,
+    "followers": 13300,
+    "top": {
+     "title": "Respirația neplăcută nu are întotdeauna o cauză dentară. Plot twist: sursa poate fi la nivelul amigdalelor.",
+     "value": 75,
+     "q": "",
+     "url": "https://www.instagram.com/reel/De1Cl_8G-vp/"
+    },
+    "topval": 75
    }
   },
   "Eli": {
@@ -1828,6 +1913,24 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/clinicaelidadent/p/Deg4Sf3G9CF/"
     },
     "topval": 9
+   },
+   "S43": {
+    "q": {
+     "followers": "",
+     "topval": ""
+    },
+    "note": {},
+    "posts": 6,
+    "eng_sum": 58,
+    "eng_n": 6,
+    "followers": 512,
+    "top": {
+     "title": "În rutina ta de îngrijire intră skincare-ul, părul, unghiile… dar când ai fost ultima dată la dentist?",
+     "value": 16,
+     "q": "",
+     "url": "https://www.instagram.com/reel/Deq7SQ7E5Ws/"
+    },
+    "topval": 16
    }
   },
   "DB": {
@@ -2139,6 +2242,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/dental_blue_international/reel/DebuObst3-s/"
     },
     "topval": 3
+   },
+   "S43": {
+    "q": {
+     "followers": "",
+     "topval": ""
+    },
+    "note": {
+     "posts": "nicio postare în săptămână"
+    },
+    "posts": 0,
+    "eng_sum": null,
+    "eng_n": 0,
+    "followers": 426,
+    "top": {
+     "title": "fără postări",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null
    }
   }
  }

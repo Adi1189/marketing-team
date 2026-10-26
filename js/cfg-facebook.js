@@ -65,7 +65,7 @@ window.REPORT_CONFIG = {
   "Engagement = reacții + comentarii + distribuiri.",
   "Urmăritorii sunt rotunjiți la mii în rapoarte (≈17.000), așa că o creștere lunară nu se poate vedea.",
   "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
-  "Octombrie e în curs: are S41–S42 (5–18 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Octombrie e în curs: are S41–S43 (5–25 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
   "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină."
  ],
  "data": {
@@ -271,9 +271,9 @@ window.REPORT_CONFIG = {
    }
   },
   "2026-10": {
-   "posts": 16,
-   "eng_sum": 417,
-   "eng_n": 16,
+   "posts": 25,
+   "eng_sum": 890,
+   "eng_n": 25,
    "followers": 18000,
    "leads": null,
    "q": {
@@ -282,44 +282,44 @@ window.REPORT_CONFIG = {
     "followers": "≈"
    },
    "note": {
-    "posts": "luna în curs: S41–S42 (5–18 oct)",
-    "avgeng": "S41–S42",
-    "followers": "la S42 · rotunjit",
+    "posts": "luna în curs: S41–S43 (5–25 oct)",
+    "avgeng": "S41–S43",
+    "followers": "la S43 · rotunjit",
     "leads": "luna în curs"
    },
    "nocmp": true,
    "topPosts": {
     "DrA": {
-     "title": "3 ani de 5★ pentru Clinica Dentară Dr. Ardeleanu Slobozia!",
-     "value": 62,
+     "title": "BRĂILA, SUNTEM GATA!",
+     "value": 298,
      "q": "≥",
-     "week": "S42",
-     "range": "12–18 oct",
-     "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid033PgDg4b6eiJaVwPCCkCZ6uedCZBB4UUsMMLJZ1tWNYoiTzUq31XtYLSjEAPrxNjAl"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.facebook.com/reel/969961646166252/"
     },
     "DE": {
-     "title": "Ai pierdut un singur dinte? Implant unidentar… (reel)",
-     "value": 114,
+     "title": "Dinți fici în doar 24 de ore! (protezare imediată pe implanturi)",
+     "value": 512,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.facebook.com/reel/4586622198283571/"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.facebook.com/dentestet.ro/posts/pfbid02jBws1zKgfDCsGgqv14nGpGbx2nn9J9aD3e1KRC23jjsw7h89E5PZfRxzzLT47gJNl"
     },
     "RM": {
-     "title": "„Nu există rețete universale…” — Hot Takes, pentru copii (reel)",
-     "value": 27,
+     "title": "A amânat tratamentul aproape doi ani (boală parodontală, Pitești)",
+     "value": 122,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.facebook.com/reel/2621948774911864/"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.facebook.com/reel/1441491151291803/"
     },
     "Life": {
-     "title": "Un medic bun nu îți spune neapărat ce vrei să auzi…",
-     "value": 22,
+     "title": "Ce putem face astăzi pentru a ne bucura de viață (Feminine Reset, Tenerife)",
+     "value": 117,
      "q": "≥",
-     "week": "S42",
-     "range": "12–18 oct",
-     "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid0CVP8KoGRPyQFb7QqCFuu4TBdkZS2Mz4PTa1o2mBNP4hWyc6DTeWU7DJjfrgguXDfl"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid0v7oZijLtBhLuWhnzGVdtMkSYr3Mk2QNGE2dmKVnu9BBSTmk7uEgpMUromHEFVFy4l"
     },
     "Eli": {
      "title": "Din Târgoviște, direct la Budapesta — stand expo (postare în colaborare cu Next Story)",
@@ -465,11 +465,11 @@ window.REPORT_CONFIG = {
      "topval": 140
     },
     "2026-10": {
-     "posts": 16,
-     "eng_sum": 417,
-     "eng_n": 16,
+     "posts": 25,
+     "eng_sum": 890,
+     "eng_n": 25,
      "followers": 18000,
-     "topval": 62,
+     "topval": 298,
      "q": {
       "posts": "≥",
       "avgeng": "",
@@ -518,11 +518,11 @@ window.REPORT_CONFIG = {
      "topval": 227
     },
     "2026-10": {
-     "posts": 36,
-     "eng_sum": 848,
-     "eng_n": 36,
+     "posts": 55,
+     "eng_sum": 1765,
+     "eng_n": 55,
      "followers": 46000,
-     "topval": 114,
+     "topval": 512,
      "q": {
       "posts": "≥",
       "avgeng": "",
@@ -571,11 +571,11 @@ window.REPORT_CONFIG = {
      "topval": 652
     },
     "2026-10": {
-     "posts": 20,
-     "eng_sum": 235,
-     "eng_n": 20,
+     "posts": 31,
+     "eng_sum": 503,
+     "eng_n": 31,
      "followers": 84000,
-     "topval": 27,
+     "topval": 122,
      "q": {
       "posts": "≥",
       "avgeng": "",
@@ -627,11 +627,11 @@ window.REPORT_CONFIG = {
      }
     },
     "2026-10": {
-     "posts": 15,
-     "eng_sum": 174,
-     "eng_n": 15,
+     "posts": 23,
+     "eng_sum": 350,
+     "eng_n": 23,
      "followers": 84000,
-     "topval": 22,
+     "topval": 117,
      "q": {
       "posts": "≥",
       "avgeng": "",
@@ -680,9 +680,9 @@ window.REPORT_CONFIG = {
      "topval": 100
     },
     "2026-10": {
-     "posts": 13,
-     "eng_sum": 587,
-     "eng_n": 13,
+     "posts": 19,
+     "eng_sum": 742,
+     "eng_n": 19,
      "followers": 4700,
      "topval": 162,
      "q": {
@@ -733,9 +733,9 @@ window.REPORT_CONFIG = {
      "topval": 71
     },
     "2026-10": {
-     "posts": 9,
-     "eng_sum": 190,
-     "eng_n": 9,
+     "posts": 12,
+     "eng_sum": 240,
+     "eng_n": 12,
      "followers": 6300,
      "topval": 43,
      "q": {

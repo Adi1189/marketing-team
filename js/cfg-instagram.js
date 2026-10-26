@@ -62,7 +62,7 @@ window.REPORT_CONFIG = {
  },
  "notes": [
   "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
-  "Octombrie e în curs: are S41–S42 (5–18 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Octombrie e în curs: are S41–S43 (5–25 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
   "Titlurile postărilor de top din iulie și august sunt citite din descrierile postărilor, pe 15 octombrie (la colaborări apare contul partener); linkurile sunt complete. Like-urile din iulie–august au fost citite pe 12–14 octombrie.",
   "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină."
  ],
@@ -273,9 +273,9 @@ window.REPORT_CONFIG = {
    }
   },
   "2026-10": {
-   "posts": 16,
-   "eng_sum": 435,
-   "eng_n": 16,
+   "posts": 25,
+   "eng_sum": 694,
+   "eng_n": 25,
    "leads": null,
    "q": {
     "posts": "≥",
@@ -283,21 +283,21 @@ window.REPORT_CONFIG = {
     "followers": ""
    },
    "note": {
-    "posts": "luna în curs: S41–S42 (5–18 oct)",
-    "avgeng": "S41–S42",
-    "followers": "la S42",
+    "posts": "luna în curs: S41–S43 (5–25 oct)",
+    "avgeng": "S41–S43",
+    "followers": "la S43",
     "leads": "luna în curs"
    },
-   "followers": 4638,
+   "followers": 4668,
    "nocmp": true,
    "topPosts": {
     "DrA": {
-     "title": "„Nu există scurtături către succes.” — TEDx Tudor Vianu",
-     "value": 61,
+     "title": "BRĂILA, SUNTEM GATA! 🤍",
+     "value": 88,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.instagram.com/reel/DeKC2_mEVrO/"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.instagram.com/reel/Deq4KxfHGJE/"
     },
     "DE": {
      "title": "Behind the scenes cu Dr. Adeli…",
@@ -316,12 +316,12 @@ window.REPORT_CONFIG = {
      "url": "https://www.instagram.com/reel/DeQnpcGIpL5/"
     },
     "Life": {
-     "title": "Un medic bun nu îți spune neapărat ce vrei să auzi…",
-     "value": 14,
+     "title": "Respirația neplăcută nu are întotdeauna o cauză dentară. Plot twist: sursa poate fi la nivelul amigdalelor.",
+     "value": 75,
      "q": "≥",
-     "week": "S42",
-     "range": "12–18 oct",
-     "url": "https://www.instagram.com/lifedentalspa/p/DejDJTUsV5Q/"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.instagram.com/reel/De1Cl_8G-vp/"
     },
     "Eli": {
      "title": "Din Târgoviște, direct la Budapesta",
@@ -467,11 +467,11 @@ window.REPORT_CONFIG = {
      "topval": 65
     },
     "2026-10": {
-     "posts": 16,
-     "eng_sum": 435,
-     "eng_n": 16,
-     "followers": 4638,
-     "topval": 61,
+     "posts": 25,
+     "eng_sum": 694,
+     "eng_n": 25,
+     "followers": 4668,
+     "topval": 88,
      "q": {
       "posts": "≥",
       "avgeng": "",
@@ -520,10 +520,10 @@ window.REPORT_CONFIG = {
      "topval": 82
     },
     "2026-10": {
-     "posts": 37,
-     "eng_sum": 641,
-     "eng_n": 36,
-     "followers": 9038,
+     "posts": 56,
+     "eng_sum": 997,
+     "eng_n": 55,
+     "followers": 9189,
      "topval": 141,
      "q": {
       "posts": "≥",
@@ -573,9 +573,9 @@ window.REPORT_CONFIG = {
      "topval": 112
     },
     "2026-10": {
-     "posts": 13,
-     "eng_sum": 862,
-     "eng_n": 13,
+     "posts": 17,
+     "eng_sum": 948,
+     "eng_n": 17,
      "followers": 13700,
      "topval": 630,
      "q": {
@@ -626,11 +626,11 @@ window.REPORT_CONFIG = {
      "topval": 13
     },
     "2026-10": {
-     "posts": 13,
-     "eng_sum": 85,
-     "eng_n": 13,
-     "followers": 13200,
-     "topval": 14,
+     "posts": 20,
+     "eng_sum": 215,
+     "eng_n": 20,
+     "followers": 13300,
+     "topval": 75,
      "q": {
       "posts": "≥",
       "avgeng": "",
@@ -679,10 +679,10 @@ window.REPORT_CONFIG = {
      "topval": 389
     },
     "2026-10": {
-     "posts": 12,
-     "eng_sum": 129,
-     "eng_n": 12,
-     "followers": 511,
+     "posts": 18,
+     "eng_sum": 187,
+     "eng_n": 18,
+     "followers": 512,
      "topval": 22,
      "q": {
       "posts": "≥",
@@ -735,7 +735,7 @@ window.REPORT_CONFIG = {
      "posts": 3,
      "eng_sum": 7,
      "eng_n": 3,
-     "followers": 414,
+     "followers": 426,
      "topval": 3,
      "q": {
       "posts": "≥",

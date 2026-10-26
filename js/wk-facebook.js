@@ -81,6 +81,11 @@ window.WEEKLY_CONFIG = {
    "id": "S42",
    "range": "12–18 oct",
    "month": "Octombrie"
+  },
+  {
+   "id": "S43",
+   "range": "19–25 oct",
+   "month": "Octombrie"
   }
  ],
  "kpis": [
@@ -214,10 +219,10 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Toate cele 16 săptămâni (S27–S42) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile, deci frecvența, engagementul mediu și rata de engagement se pot calcula pentru tot intervalul.",
-  "Postări pe săptămână (S27–S42): noi 8 → 8 → 7 → 6 → 6 → 7 → 6 → 7 → 8 → 5 → 10 → 13 → 10 → 8 → 9 → 7; DENT ESTET 14 → 10 → 10 → 12 → 17 → 16 → 16 → 16 → 14 → 19 → 17 → 18 → 17 → 18 → 15 → 21. Media: 7,8 la noi, 15,6 la DENT ESTET, 9,2 la Regina Maria, 6,8 la Life. Cel mai mare ritm al nostru: 13 postări (S38).",
-  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S27–S42: 24,4 → 13,0 → 16,4 → 17,3 → 25,0 → 38,4 → 29,2 → 28,1 → 26,1 → 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6 → 24,1. Vârful e în S39 (43,7, postarea de top: 140 din 437). În S41 avem 27,6, iar în S42 24,1.",
-  "Pe urmăritor, rata noastră (engagement mediu împărțit la urmăritori) a fost 0,08% → 0,15% → 0,13% în S40–S42, față de 0,09% → 0,07% → 0,04% la DENT ESTET și 0,03% → 0,02% → 0,01% la Regina Maria. Elidadent (0,43% în S42) și Dental Blue pornesc de la pagini mici (4,7K și 6,3K), deci nu sunt comparabile direct cu noi."
+  "Toate cele 17 săptămâni (S27–S43) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile, deci frecvența, engagementul mediu și rata de engagement se pot calcula pentru tot intervalul.",
+  "Postări pe săptămână (S27–S43): noi 8 → 8 → 7 → 6 → 6 → 7 → 6 → 7 → 8 → 5 → 10 → 13 → 10 → 8 → 9 → 7 → 9; DENT ESTET 14 → 10 → 10 → 12 → 17 → 16 → 16 → 16 → 14 → 19 → 17 → 18 → 17 → 18 → 15 → 21 → 19. Media: 7,9 la noi, 15,8 la DENT ESTET, 9,3 la Regina Maria, 6,8 la Life. Cel mai mare ritm al nostru: 13 postări (S38).",
+  "Engagementul nostru mediu pe postare (reacții, comentarii, distribuiri), S27–S43: 24,4 → 13,0 → 16,4 → 17,3 → 25,0 → 38,4 → 29,2 → 28,1 → 26,1 → 17,8 → 18,3 → 37,8 → 43,7 → 13,9 → 27,6 → 24,1 → 52,6. Vârful e în S43 (52,6, postarea de top: 298 din 473). În S42 avem 24,1, iar în S43 52,6.",
+  "Pe urmăritor, rata noastră (engagement mediu împărțit la urmăritori) a fost 0,15% → 0,13% → 0,29% în S41–S43, față de 0,07% → 0,04% → 0,10% la DENT ESTET și 0,02% → 0,01% → 0,03% la Regina Maria. Elidadent (0,55% în S43) și Dental Blue pornesc de la pagini mici (4,7K și 6,3K), deci nu sunt comparabile direct cu noi."
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
@@ -225,7 +230,8 @@ window.WEEKLY_CONFIG = {
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S36–S40 au fost recitite cu skill-ul actualizat: inventar complet, cu reacții, comentarii și distribuiri citite pentru toate conturile. Unele cifre ies mai mari decât în raportul vechi, de exemplu Regina Maria: 145 → 284 în S40 și 105 → 246 în S39, deci aceste săptămâni nu sunt comparabile direct cu S29–S35 la acel cont.",
-  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie; comentariile și distribuirile au fost numărate ca 0 când pagina nu afișa niciun număr."
+  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie; comentariile și distribuirile au fost numărate ca 0 când pagina nu afișa niciun număr.",
+  "S43 (19–25 octombrie) vine din raportul rulat pe 26 octombrie. Linkul postării de top a Dental Blue lipsește (formatul de link al paginii nu s-a putut citi)."
  ],
  "data": {
   "DrA": {
@@ -575,6 +581,28 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/Dr.Ardeleanu/posts/pfbid033PgDg4b6eiJaVwPCCkCZ6uedCZBB4UUsMMLJZ1tWNYoiTzUq31XtYLSjEAPrxNjAl"
     },
     "topval": 62
+   },
+   "S43": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "leads": "Puls: nu avem încă cifra pentru S43",
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "leads": null,
+    "posts": 9,
+    "eng_sum": 473,
+    "eng_n": 9,
+    "followers": 18000,
+    "top": {
+     "title": "BRĂILA, SUNTEM GATA!",
+     "value": 298,
+     "q": "",
+     "url": "https://www.facebook.com/reel/969961646166252/"
+    },
+    "topval": 298
    }
   },
   "DE": {
@@ -897,6 +925,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/dentestet.ro/posts/pfbid0Q9W6hkUEmmGY24uaEQ9rbLKnRTcaKN4Rn3Ru6vyYp1TjyRz4m4H6VNcCShVBK4Zgl"
     },
     "topval": 57
+   },
+   "S43": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 19,
+    "eng_sum": 917,
+    "eng_n": 19,
+    "followers": 46000,
+    "top": {
+     "title": "Dinți fici în doar 24 de ore! (protezare imediată pe implanturi)",
+     "value": 512,
+     "q": "",
+     "url": "https://www.facebook.com/dentestet.ro/posts/pfbid02jBws1zKgfDCsGgqv14nGpGbx2nn9J9aD3e1KRC23jjsw7h89E5PZfRxzzLT47gJNl"
+    },
+    "topval": 512
    }
   },
   "RM": {
@@ -1219,6 +1267,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/1060283366832687/"
     },
     "topval": 21
+   },
+   "S43": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 11,
+    "eng_sum": 268,
+    "eng_n": 11,
+    "followers": 84000,
+    "top": {
+     "title": "A amânat tratamentul aproape doi ani (boală parodontală, Pitești)",
+     "value": 122,
+     "q": "",
+     "url": "https://www.facebook.com/reel/1441491151291803/"
+    },
+    "topval": 122
    }
   },
   "Life": {
@@ -1541,6 +1609,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid0CVP8KoGRPyQFb7QqCFuu4TBdkZS2Mz4PTa1o2mBNP4hWyc6DTeWU7DJjfrgguXDfl"
     },
     "topval": 22
+   },
+   "S43": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 8,
+    "eng_sum": 176,
+    "eng_n": 8,
+    "followers": 84000,
+    "top": {
+     "title": "Ce putem face astăzi pentru a ne bucura de viață (Feminine Reset, Tenerife)",
+     "value": 117,
+     "q": "",
+     "url": "https://www.facebook.com/LifeDentalSpa/posts/pfbid0v7oZijLtBhLuWhnzGVdtMkSYr3Mk2QNGE2dmKVnu9BBSTmk7uEgpMUromHEFVFy4l"
+    },
+    "topval": 117
    }
   },
   "Eli": {
@@ -1863,6 +1951,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/1115898847973162/"
     },
     "topval": 39
+   },
+   "S43": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 6,
+    "eng_sum": 155,
+    "eng_n": 6,
+    "followers": 4700,
+    "top": {
+     "title": "Rutina de îngrijire (unghii, gene, epilat…) vs. ultima vizită la dentist",
+     "value": 69,
+     "q": "",
+     "url": "https://www.facebook.com/reel/1110992465020104/"
+    },
+    "topval": 69
    }
   },
   "DB": {
@@ -2185,6 +2293,26 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.facebook.com/reel/1577441317003769/"
     },
     "topval": 43
+   },
+   "S43": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {
+     "followers": "rotunjit la mii, din pagină"
+    },
+    "posts": 3,
+    "eng_sum": 50,
+    "eng_n": 3,
+    "followers": 6300,
+    "top": {
+     "title": "Zâmbet Sănătos 2026 – Movila (Fetești-Gară)",
+     "value": 21,
+     "q": "",
+     "url": null
+    },
+    "topval": 21
    }
   }
  }

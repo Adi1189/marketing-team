@@ -57,7 +57,7 @@ window.REPORT_CONFIG = {
   "Pentru top postare: la iulie, august și septembrie avem titlul și linkul fiecărui cont (titlurile din iulie–august sunt citite din descrierile videoclipurilor).",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
-  "Octombrie e în curs: are S41–S42 (5–18 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Octombrie e în curs: are S41–S43 (5–25 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
   "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni; pentru fiecare lună e cifra din ultima ei săptămână (iulie: S31, august: S35, septembrie: S40)."
  ],
  "data": {
@@ -259,8 +259,8 @@ window.REPORT_CONFIG = {
    "followers": 6800
   },
   "2026-10": {
-   "posts": 8,
-   "views": 7775,
+   "posts": 15,
+   "views": 13316,
    "leads": null,
    "q": {
     "posts": "≥",
@@ -268,12 +268,12 @@ window.REPORT_CONFIG = {
     "followers": ""
    },
    "note": {
-    "posts": "luna în curs: S41–S42 (5–18 oct)",
-    "views": "S41–S42 · S41 citit fără login",
+    "posts": "luna în curs: S41–S43 (5–25 oct)",
+    "views": "S41–S43",
     "leads": "luna în curs",
-    "followers": "la S42"
+    "followers": "la S43"
    },
-   "followers": 6803,
+   "followers": 6807,
    "nocmp": true,
    "topPosts": {
     "DrA": {
@@ -293,12 +293,12 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7695656641131203862"
     },
     "RM": {
-     "title": "Nu tratăm un dinte. Tratăm felul în care funcționează întreg…",
-     "value": 1165,
+     "title": "A amânat tratamentul aproape doi ani, pentru că îi era frică de stomatolog…",
+     "value": 1381,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7694303661874515222"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7699095060457082134"
     },
     "Life": {
      "title": "Ai nevoie de o soluție fixă pentru înlocuirea mai multor dinți…",
@@ -309,12 +309,12 @@ window.REPORT_CONFIG = {
      "url": "https://www.tiktok.com/@lifedentalspa/video/7693786316923817248"
     },
     "Eli": {
-     "title": "Amâni vizita la stomatolog din cauza costurilor? La Elidadent…",
-     "value": 1196,
+     "title": "Un zâmbet sănătos începe cu o igienizare profesională!",
+     "value": 1780,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.tiktok.com/@elidadent/video/7693232300917673238"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.tiktok.com/@elidadent/video/7699906316529143062"
     },
     "DB": {
      "title": "",
@@ -437,9 +437,9 @@ window.REPORT_CONFIG = {
      "views": 22230
     },
     "2026-10": {
-     "posts": 8,
-     "views": 7775,
-     "followers": 6803,
+     "posts": 15,
+     "views": 13316,
+     "followers": 6807,
      "topval": 1425,
      "q": {
       "posts": "≥",
@@ -483,9 +483,9 @@ window.REPORT_CONFIG = {
      "views": 17943
     },
     "2026-10": {
-     "posts": 22,
-     "views": 7176,
-     "followers": 8736,
+     "posts": 32,
+     "views": 10229,
+     "followers": 8954,
      "topval": 595,
      "q": {
       "posts": "≥",
@@ -529,10 +529,10 @@ window.REPORT_CONFIG = {
      "views": 11259
     },
     "2026-10": {
-     "posts": 5,
-     "views": 3982,
-     "followers": 5563,
-     "topval": 1165,
+     "posts": 7,
+     "views": 6268,
+     "followers": 5564,
+     "topval": 1381,
      "q": {
       "posts": "≥",
       "views": "≥",
@@ -575,9 +575,9 @@ window.REPORT_CONFIG = {
      "views": 26405
     },
     "2026-10": {
-     "posts": 8,
-     "views": 3816,
-     "followers": 7029,
+     "posts": 11,
+     "views": 4926,
+     "followers": 7024,
      "topval": 1046,
      "q": {
       "posts": "≥",
@@ -621,10 +621,10 @@ window.REPORT_CONFIG = {
      "views": 33479
     },
     "2026-10": {
-     "posts": 3,
-     "views": 2164,
-     "followers": 1915,
-     "topval": 1196,
+     "posts": 7,
+     "views": 5837,
+     "followers": 1917,
+     "topval": 1780,
      "q": {
       "posts": "≥",
       "views": "≥",
@@ -669,7 +669,7 @@ window.REPORT_CONFIG = {
     "2026-10": {
      "posts": 0,
      "views": 0,
-     "followers": 886,
+     "followers": 885,
      "topval": null,
      "q": {
       "posts": "≥",

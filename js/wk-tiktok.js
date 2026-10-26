@@ -81,6 +81,11 @@ window.WEEKLY_CONFIG = {
    "id": "S42",
    "range": "12–18 oct",
    "month": "Octombrie"
+  },
+  {
+   "id": "S43",
+   "range": "19–25 oct",
+   "month": "Octombrie"
   }
  ],
  "kpis": [
@@ -196,17 +201,18 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Vizualizări",
  "take": [
-  "DENT ESTET ne depășește la urmăritori: 8.736 față de 6.803 la noi. De la prima cifră (S29), ei au crescut cu 2.885 (+49,3%), noi cu 92 (+1,4%). Life are 7.029, Regina Maria 5.563, Elidadent 1.915, Dental Blue 886.",
-  "Ritmul nostru e variabil. Videouri pe săptămână (S27–S42): 4 → 4 → 2 → 3 → 6 → 2 → 5 → 5 → 4 → 4 → 5 → 2 → 5 → 7 → 5. Media e 4,2, față de 6,7 la DENT ESTET, 5,2 la Life, 2,5 la Regina Maria și 2,5 la Elidadent. Cea mai bună săptămână a noastră e S40 (7 videouri). S41 nu intră aici: a fost citită fără login, deci cifrele sunt minime.",
-  "Vizualizări totale pe săptămână (S27–S42): suntem peste DENT ESTET în 9 din 15 săptămâni, peste Regina Maria în 11, peste Life în 8 și peste Elidadent în 13. În ultimele 9 săptămâni: noi 5.803 → 4.497 → 4.692 → 4.401 → 5.130 → 1.732 → 4.701 → 6.266 → 5.558; DENT ESTET 4.084 → 2.844 → 2.012 → 7.298 → 2.138 → 2.746 → 2.073 → 3.688 → 4.247. Cea mai bună săptămână a noastră e S31 (6.567). În S42 avem 5.558, față de 4.247 la DENT ESTET și 821 la Regina Maria.",
-  "Media pe videoclip (S27–S42): noi 866–1828 vizualizări, DENT ESTET 305–1887, Regina Maria 212–2398. În S42 media noastră e 1112, a Elidadent 62, a Regina Maria 821, a DENT ESTET 354.",
-  "Vârfurile izolate nu sunt tendință: Life 60.400 în S35, Elidadent 20.800 în S38, Life 18.500 în S32, Elidadent 15.700 în S33, Life 11.200 în S36. Cel mai bun video al nostru din S27–S42 are 2.529 de vizualizări (S29)."
+  "DENT ESTET ne depășește la urmăritori: 8.954 față de 6.807 la noi. De la prima cifră (S29), ei au crescut cu 3.103 (+53,0%), noi cu 96 (+1,4%). Life are 7.024, Regina Maria 5.564, Elidadent 1.917, Dental Blue 885.",
+  "Ritmul nostru e variabil. Videouri pe săptămână (S27–S43): 4 → 4 → 2 → 3 → 6 → 2 → 5 → 5 → 4 → 4 → 5 → 2 → 5 → 7 → 5 → 7. Media e 4,4, față de 6,9 la DENT ESTET, 5,1 la Life, 2,4 la Regina Maria și 2,6 la Elidadent. Cea mai bună săptămână a noastră e S40 (7 videouri). S41 nu intră aici: a fost citită fără login, deci cifrele sunt minime.",
+  "Vizualizări totale pe săptămână (S27–S43): suntem peste DENT ESTET în 10 din 16 săptămâni, peste Regina Maria în 12, peste Life în 9 și peste Elidadent în 14. În ultimele 9 săptămâni: noi 4.497 → 4.692 → 4.401 → 5.130 → 1.732 → 4.701 → 6.266 → 5.558 → 5.541; DENT ESTET 2.844 → 2.012 → 7.298 → 2.138 → 2.746 → 2.073 → 3.688 → 4.247 → 3.053. Cea mai bună săptămână a noastră e S31 (6.567). În S43 avem 5.541, față de 3.053 la DENT ESTET și 2.286 la Regina Maria.",
+  "Media pe videoclip (S27–S43): noi 792–1828 vizualizări, DENT ESTET 305–1887, Regina Maria 212–2398. În S43 media noastră e 792, a Elidadent 918, a Regina Maria 1143, a DENT ESTET 305.",
+  "Vârfurile izolate nu sunt tendință: Life 60.400 în S35, Elidadent 20.800 în S38, Life 18.500 în S32, Elidadent 15.700 în S33, Life 11.200 în S36. Cel mai bun video al nostru din S27–S43 are 2.529 de vizualizări (S29)."
  ],
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
   "Dental Blue nu a postat nimic în S36–S40 și a postat doar 3 videoclipuri în celelalte săptămâni; Dental Safari nu are cont TikTok.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
-  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, cu cifrele citite din pagina fiecărui video. S41 rămâne citit fără cont autentificat (valori minime), deci variația S42 față de S41 nu se calculează la postări și vizualizări."
+  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, cu cifrele citite din pagina fiecărui video. S41 rămâne citit fără cont autentificat (valori minime), deci variația S42 față de S41 nu se calculează la postări și vizualizări.",
+  "S43 (19–25 octombrie) vine din raportul rulat pe 26 octombrie, cu cifrele citite din pagina fiecărui video, fără cont autentificat. Dental Blue nu a postat."
  ],
  "data": {
   "DrA": {
@@ -513,6 +519,22 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7696065418598927638"
     },
     "topval": 1425
+   },
+   "S43": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 7,
+    "views": 5541,
+    "followers": 6807,
+    "top": {
+     "title": "A venit doar să-i arate ceva amuzant… și a rămas să pregătească instrumentarul pentru sterilizare.",
+     "value": 1043,
+     "q": "",
+     "url": "https://www.tiktok.com/@dr.ardeleanu/video/7698350601532443926"
+    },
+    "topval": 1043
    }
   },
   "DE": {
@@ -796,6 +818,22 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@dentestetclinic/video/7695656641131203862"
     },
     "topval": 595
+   },
+   "S43": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 10,
+    "views": 3053,
+    "followers": 8954,
+    "top": {
+     "title": "Când poate fi inserat implantul după extracție? (Dr. Bogdan Bumbu)",
+     "value": 369,
+     "q": "",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7698263193977720066"
+    },
+    "topval": 369
    }
   },
   "RM": {
@@ -1083,6 +1121,22 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7696585122665090326"
     },
     "topval": 821
+   },
+   "S43": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 2,
+    "views": 2286,
+    "followers": 5564,
+    "top": {
+     "title": "A amânat tratamentul aproape doi ani, pentru că îi era frică de stomatolog…",
+     "value": 1381,
+     "q": "",
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7699095060457082134"
+    },
+    "topval": 1381
    }
   },
   "Life": {
@@ -1380,6 +1434,22 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@lifedentalspa/video/7695709324353604897"
     },
     "topval": 529
+   },
+   "S43": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 3,
+    "views": 1110,
+    "followers": 7024,
+    "top": {
+     "title": "Respirația neplăcută nu are întotdeauna o cauză dentară. Plot twist: uneori, sursa poate fi la nivelul amigdalelor.",
+     "value": 474,
+     "q": "",
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7699842251790306593"
+    },
+    "topval": 474
    }
   },
   "Eli": {
@@ -1673,6 +1743,22 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.tiktok.com/@elidadent/video/7695787699738971415"
     },
     "topval": 62
+   },
+   "S43": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 4,
+    "views": 3673,
+    "followers": 1917,
+    "top": {
+     "title": "Un zâmbet sănătos începe cu o igienizare profesională!",
+     "value": 1780,
+     "q": "",
+     "url": "https://www.tiktok.com/@elidadent/video/7699906316529143062"
+    },
+    "topval": 1780
    }
   },
   "DB": {
@@ -1953,6 +2039,22 @@ window.WEEKLY_CONFIG = {
     "posts": 0,
     "views": 0,
     "followers": 886,
+    "top": {
+     "title": "fără videoclipuri",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null
+   },
+   "S43": {
+    "q": {
+     "topval": ""
+    },
+    "note": {},
+    "posts": 0,
+    "views": 0,
+    "followers": 885,
     "top": {
      "title": "fără videoclipuri",
      "value": null,

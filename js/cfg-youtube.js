@@ -57,7 +57,7 @@ window.REPORT_CONFIG = {
   "Cifrele sunt exacte pentru canalul nostru, în toate cele 12 săptămâni.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "Iulie, august și septembrie (S27–S40) au fost recitite cu skill-ul actualizat, cu vizualizările citite pe 12–15 octombrie.",
-  "Octombrie e în curs: are S41–S42 (5–18 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
+  "Octombrie e în curs: are S41–S43 (5–25 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
   "Abonații pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
   "În iulie, DENT ESTET are 476.760 de vizualizări, din care 407.134 la un singur video viral (publicat pe 27 iulie, S31): cifra nu se compară cu luna august (4.179), iar variația apare ca o scădere de 99%, care nu e reală."
  ],
@@ -234,8 +234,8 @@ window.REPORT_CONFIG = {
    "subs": 932
   },
   "2026-10": {
-   "posts": 15,
-   "views": 3359,
+   "posts": 21,
+   "views": 5402,
    "leads": null,
    "q": {
     "posts": "≥",
@@ -243,21 +243,21 @@ window.REPORT_CONFIG = {
     "subs": ""
    },
    "note": {
-    "posts": "luna în curs: S41–S42 (5–18 oct)",
-    "views": "S41–S42 · citit pe 19 oct",
+    "posts": "luna în curs: S41–S43 (5–25 oct)",
+    "views": "S41–S43",
     "leads": "luna în curs",
-    "subs": "la S42"
+    "subs": "la S43"
    },
-   "subs": 936,
+   "subs": 937,
    "nocmp": true,
    "topPosts": {
     "DrA": {
-     "title": "Un zâmbet recâștigat. O stare care se vede",
-     "value": 1387,
+     "title": "CÂND STERILIZAREA TE ALEGE PE TINE",
+     "value": 1417,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.youtube.com/shorts/ztt5VfAJPHY"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.youtube.com/watch?v=4cwZsyJD1NU"
     },
     "DE": {
      "title": "Maia Morgenstern despre încredere și medicina dentară",
@@ -268,20 +268,20 @@ window.REPORT_CONFIG = {
      "url": "https://www.youtube.com/shorts/x5la6ODBHLY"
     },
     "RM": {
-     "title": "Aceste obiceiuri îți pot distruge dinții",
-     "value": 1216,
+     "title": "Când dinții încep să se miște: povestea unei reabilitări orale complexe",
+     "value": 7084,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.youtube.com/shorts/sVG6FiwoOS4"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.youtube.com/watch?v=nHyEvRUVLgs"
     },
     "Life": {
-     "title": "Prima vizită a copilului la dentist",
-     "value": 718,
+     "title": "🦷 Știai că o carie poate evolua fără să doară?",
+     "value": 939,
      "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.youtube.com/shorts/ZU_f-LI_lSI"
+     "week": "S43",
+     "range": "19–25 oct",
+     "url": "https://www.youtube.com/watch?v=BvtOJYrS428"
     },
     "Eli": {
      "title": "",
@@ -397,10 +397,10 @@ window.REPORT_CONFIG = {
      "subs": 932
     },
     "2026-10": {
-     "posts": 15,
-     "views": 3359,
-     "subs": 936,
-     "topval": 1387,
+     "posts": 21,
+     "views": 5402,
+     "subs": 937,
+     "topval": 1417,
      "q": {
       "posts": "≥",
       "views": "≥",
@@ -441,8 +441,8 @@ window.REPORT_CONFIG = {
      "subs": 1350
     },
     "2026-10": {
-     "posts": 29,
-     "views": 11551,
+     "posts": 41,
+     "views": 13895,
      "subs": 1350,
      "topval": 7901,
      "q": {
@@ -485,10 +485,10 @@ window.REPORT_CONFIG = {
      "subs": 9330
     },
     "2026-10": {
-     "posts": 10,
-     "views": 4085,
+     "posts": 15,
+     "views": 11562,
      "subs": 9330,
-     "topval": 1216,
+     "topval": 7084,
      "q": {
       "posts": "≥",
       "views": "≥",
@@ -529,10 +529,10 @@ window.REPORT_CONFIG = {
      "subs": 2000
     },
     "2026-10": {
-     "posts": 7,
-     "views": 2238,
+     "posts": 10,
+     "views": 4051,
      "subs": 2000,
-     "topval": 718,
+     "topval": 939,
      "q": {
       "posts": "≥",
       "views": "≥",
