@@ -1,8 +1,8 @@
-// Date reale din tabelul de newsletter (iun–sep 2026).
+// Date reale din tabelul de newsletter (iun–oct 2026).
 window.REPORT_CONFIG = {
  "channel": "Newsletter",
  "demo": false,
- "pillText": "Date reale · iun–sep 2026",
+ "pillText": "Date reale · iun–oct 2026",
  "kpis": [
   {
    "key": "subscribers",
@@ -35,10 +35,11 @@ window.REPORT_CONFIG = {
  ],
  "top": null,
  "notes": [
-  "Date reale din tabelul tău de newsletter, câte o trimitere pe lună: iunie COPIL, iulie ALBIRE, august EXTRACTIE, septembrie SCOALA.",
+  "Date reale din tabelul tău de newsletter, câte o trimitere pe lună: iunie COPIL, iulie ALBIRE, august EXTRACTIE, septembrie SCOALA, octombrie ALBIRE (același cod ca în iulie).",
   "Număr total de abonați = lista la momentul trimiterii. În iunie lista a crescut de la 11.136 la 21.900 (+10.764), de aceea variația iunie față de mai e foarte mare.",
   "Sub deschideri și click-uri apare procentul din emailurile livrate, iar sub lead-uri campania și procentul din click-uri; sunt cele din tabelul tău.",
-  "Variațiile de la iunie sunt față de rândul de mai din tabel; la lead-uri mai nu are cifră, deci apare „–”."
+  "Variațiile de la iunie sunt față de rândul de mai din tabel; la lead-uri mai nu are cifră, deci apare „–”.",
+  "Lead-urile sunt cele din coloana „Lead-uri (cod reducere)” din tabelul tău: 16 în octombrie. Lead-urile programate (14 în octombrie, 87,5% din lead-uri) nu intră în acest KPI."
  ],
  "data": {
   "2026-06": {
@@ -93,6 +94,19 @@ window.REPORT_CONFIG = {
     "opens": "21,9% din emailurile livrate",
     "clicks": "1,1% din emailurile livrate",
     "leads": "campania SCOALA · 1,6% din click-uri"
+   }
+  },
+  "2026-10": {
+   "subscribers": 23098,
+   "opens": 4428,
+   "clicks": 232,
+   "leads": 16,
+   "q": {},
+   "note": {
+    "opens": "19,7% din emailurile livrate",
+    "clicks": "1,0% din emailurile livrate",
+    "leads": "campania ALBIRE · 6,9% din click-uri",
+    "subscribers": "față de 23.211 în septembrie: −113"
    }
   }
  }

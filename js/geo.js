@@ -1,4 +1,4 @@
-// Pagina GEO: panouri suplimentare (pe oraș, aceeași întrebare în 3 măsurători, recenzii vs competiție, constatări).
+// Pagina GEO: panouri suplimentare (pe oraș, pe întrebare, rata pe lună, aceeași întrebare în 4 măsurători, constatări).
 // Rulează după report.js și se redesenează odată cu el.
 
 function posCell(v) {
@@ -7,14 +7,6 @@ function posCell(v) {
   if (v === 'jos') return '<span class="pos--low">jos</span>';
   if (v === 'prezent') return '<span class="pos--low">prezent</span>';
   return '<span class="' + (v === 1 ? 'pos--top' : '') + '">' + v + '</span>';
-}
-var RUN = 'run2';
-function applyRun() { if (CFG.runs && CFG.runs[RUN]) DATA['2026-10'] = CFG.runs[RUN]; }
-function runBar(isYtd) {
-  if (!CFG.runs || isYtd || state.year !== 2026 || state.month !== 10) return '';
-  return '<div class="legend" style="margin:0 0 12px;align-items:center"><span style="font:600 12px Poppins,sans-serif;color:#8a7a6c">Rularea din octombrie:</span>' + ['run1', 'run2'].map(function (id) {
-    return '<button type="button" class="lg' + (RUN === id ? '' : ' is-off') + '" data-run="' + id + '">' + esc(CFG.runs[id].label) + '</button>';
-  }).join('') + '</div>';
 }
 function cnt(a) { return a[0] + '/' + a[1] + ' · ' + a[2] + '× #1'; }
 
@@ -26,12 +18,12 @@ function citiesPanel(rec, isYtd) {
   var rows = rec.geotable.rows.map(function (r) {
     var tot = [r.cg[0] + r.g[0], r.cg[1] + r.g[1], r.cg[2] + r.g[2]];
     return '<tr><td class="left">' + esc(r.n) + '</td><td class="num">' + cnt(r.cg) + '</td><td class="num">' + cnt(r.g) +
-           '</td><td class="num"><strong>' + cnt(tot) + '</strong></td><td class="num">' + (r.reviews == null ? '<span class="muted">—</span>' : r.reviews.toLocaleString('ro-RO')) + '</td></tr>';
+           '</td><td class="num"><strong>' + cnt(tot) + '</strong></td></tr>';
   }).join('');
   return '<h3 class="panel__title">' + title + '</h3><div class="table-wrap"><table class="kpi cmp"><thead><tr><th>Oraș</th>' +
     '<th>ChatGPT<span class="th__hint">apariții / întrebări · de câte ori primii</span></th><th>Google AI Mode<span class="th__hint">apariții / întrebări · de câte ori primii</span></th>' +
-    '<th>Total<span class="th__hint">ambele motoare</span></th><th>Recenzii Google<span class="th__hint">totalul clinicii la acea dată</span></th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-    '<p class="note">„#1” = poziția 1 în răspuns. ' + (rec.measured === '30 octombrie' ? 'Run 2: Google AI Mode a rulat cu cont conectat (personalizat), ChatGPT fără cont; recenziile sunt cele afișate de ChatGPT în răspunsuri, nu verificate separat în Google Maps.' : 'Orașele măsurate diferă: 4 pe 31 iulie și 8 septembrie, 6 pe 5 octombrie (Călărași și Oltenița au intrat atunci).') + '</p>';
+    '<th>Total<span class="th__hint">ambele motoare</span></th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
+    '<p class="note">„#1” = poziția 1 în răspuns. Iulie și august au 4 orașe (Slobozia, Giurgiu, Târgoviște, Focșani); din septembrie sunt 6 (au intrat Călărași și Oltenița).' + (rec.measured === '30 octombrie' ? ' În octombrie, Google AI Mode a rulat cu cont conectat (personalizat), iar ChatGPT fără cont.' : '') + '</p>';
 }
 
 
@@ -52,7 +44,7 @@ function questionsPanel(rec, isYtd) {
     return '<td class="num"><strong>' + a + '/' + Q.questions.length + '</strong></td><td class="num"><strong>' + b + '/' + Q.questions.length + '</strong></td>';
   }).join('') + '</tr>';
   return '<h3 class="panel__title">' + title + ' · măsurătoarea din ' + rec.measured + '</h3><div class="table-wrap"><table class="kpi cmp qtable"><thead>' + head1 + head2 + '</thead><tbody>' + rows + total + '</tbody></table></div>' +
-    '<p class="note">Cifra = poziția în răspuns (1 = primul, în verde). „jos” = apărem, dar spre finalul listei. „prezent” = apărem doar într-un grup secundar. „—” = nu apărem. Întrebările diferă între măsurători: 7 întrebări pe 31 iulie și 8 septembrie, 5 întrebări pe 5 și 30 octombrie (aceleași în ambele rulări).</p>';
+    '<p class="note">Cifra = poziția în răspuns (1 = primul, în verde). „jos” = apărem, dar spre finalul listei. „prezent” = apărem doar într-un grup secundar. „—” = nu apărem. Întrebările diferă între luni: aceleași 7 întrebări în iulie și august, aceleași 5 întrebări în septembrie și octombrie.</p>';
 }
 
 // culoarea celulei după poziție: 1 = cel mai închis; „jos” = auriu; „—” = nu apărem; „n/m” = nemăsurat
@@ -89,38 +81,26 @@ function ratePanel() {
     '<p class="note" style="margin-top:0">Pentru fiecare măsurătoare: în câte din răspunsurile testate (ChatGPT și Google AI Mode la un loc) am fost numiți (bordo) și în câte am fost pe primul loc din listă (auriu).</p>' +
     '<div class="legend"><span class="lg" style="cursor:default"><i style="background:#7b1c16"></i>Apărem în răspuns</span><span class="lg" style="cursor:default"><i style="background:#c9a227"></i>Suntem pe locul 1</span></div>' +
     '<div class="chartcard" style="padding:12px;overflow-x:auto">' + s + '</div>' +
-    '<p class="note">Primele două măsurători au aceleași 7 întrebări și 4 orașe, deci se compară direct (64% → 73%). Cea din 5 octombrie are alt set de întrebări și 6 orașe (au intrat Călărași și Oltenița, unde apărem peste tot), deci creșterea până la 87% e în parte efectul setului nou. Cea din 30 octombrie (Run 2) are aceleași 5 întrebări și 6 orașe, dar Google AI Mode a rulat cu cont conectat (personalizat), deci cele 95% sunt un plafon: ChatGPT, fără cont, ne numește în 28 din 30 de răspunsuri (93%), față de 90% pe 5 octombrie.</p>';
+    '<p class="note">Iulie și august au aceleași 7 întrebări și 4 orașe, deci se compară direct (64% → 73%). Septembrie are alt set de întrebări și 6 orașe (au intrat Călărași și Oltenița, unde apărem peste tot), deci creșterea până la 87% e în parte efectul setului nou. Octombrie are aceleași 5 întrebări și 6 orașe ca septembrie, deci se compară direct cu el (87% → 95%), dar Google AI Mode a rulat cu cont conectat (personalizat): partea de pe Google e un plafon. ChatGPT, fără cont, a crescut de la 90% la 93%.</p>';
 }
 
 function trendPanel() {
-  var T = CFG.trend, D4 = CFG.trendDates || ['31 iul', '8 sep', '5 oct'], n = D4.length;
+  var T = CFG.trend, D4 = CFG.trendDates, n = D4.length;
   var rows = T.map(function (r) {
     return '<tr><td class="left">' + esc(r.n) + '</td>' + r.cg.map(function (v) { return '<td class="num" style="' + posStyle(v) + '">' + posCell(v) + '</td>'; }).join('') +
            r.g.map(function (v) { return '<td class="num" style="' + posStyle(v) + '">' + posCell(v) + '</td>'; }).join('') + '</tr>';
   }).join('');
-  var hd = D4.map(function (d, i) { return '<th>' + d + (i === n - 1 && n === 4 ? '<span class="th__hint">Google: cu cont</span>' : '') + '</th>'; }).join('');
+  var hd = D4.map(function (d) { return '<th>' + d[0] + '<span class="th__hint">' + d[1] + '</span></th>'; }).join('');
   return '<h3 class="panel__title">Aceeași întrebare în ' + n + ' măsurători · „Recomandă-mi un dentist bun în [oraș]”</h3><div class="table-wrap"><table class="kpi cmp"><thead>' +
     '<tr><th rowspan="2">Oraș</th><th colspan="' + n + '" class="grp">ChatGPT</th><th colspan="' + n + '" class="grp">Google AI Mode</th></tr>' +
     '<tr>' + hd + hd + '</tr></thead><tbody>' + rows + '</tbody></table></div>' +
     '<div class="legend" style="margin-top:10px"><span class="lg" style="cursor:default;background:rgba(123,28,22,.92);color:#fff">1 · primii</span><span class="lg" style="cursor:default;background:rgba(123,28,22,.58);color:#fff">2</span><span class="lg" style="cursor:default;background:rgba(123,28,22,.34)">3</span><span class="lg" style="cursor:default;background:rgba(201,162,39,.38)">jos în listă</span><span class="lg" style="cursor:default;background:#f1eae0">— nu apărem</span><span class="lg" style="cursor:default">n/m nemăsurat</span></div>' +
-    '<p class="note">Cifra = poziția în lista din răspuns (1 = primul); cu cât culoarea e mai închisă, cu atât poziția e mai bună. „jos” = apărem, dar spre finalul listei. „—” = nu apărem. „n/m” = oraș nemăsurat în acea rulare. La 30 oct, Google AI Mode a rulat cu cont conectat (personalizat), deci coloana aceea se citește ca un plafon, nu ca ce vede un pacient nou.</p>';
-}
-
-function comparePanel(rec) {
-  var LC = (rec && rec.localCompare) || CFG.localCompare;
-  var rows = LC.map(function (r) {
-    return '<tr><td class="left">' + esc(r.n) + '</td><td class="left">' + esc(r.status) + '</td><td class="num"><strong>' + r.ours + '</strong></td><td class="num">' + r.top + '<span class="cell__note">' + esc(r.topName) + '</span>' +
-           '</td><td class="num">' + r.rating + '</td><td class="num">' + r.cg + '</td><td class="num">' + r.g + '</td></tr>';
-  }).join('');
-  return '<h3 class="panel__title">Recenzii față de competiția locală · ' + ((rec && rec.measured) || '5 octombrie') + '</h3><div class="table-wrap"><table class="kpi cmp"><thead><tr><th>Oraș</th><th>Statut</th>' +
-    '<th>Recenziile noastre<span class="th__hint">pe Google</span></th><th>Cel mai mare concurent<span class="th__hint">recenzii · numele clinicii</span></th><th>Rating<span class="th__hint">al nostru</span></th>' +
-    '<th>ChatGPT<span class="th__hint">apariții din 5 · de câte ori primii</span></th><th>Google AI Mode<span class="th__hint">apariții din 5 · de câte ori primii</span></th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-    '<p class="note">Ratingul e la fel de bun peste tot (4,9–5,0); diferă volumul de recenzii față de cel mai puternic concurent local. Cifrele concurenților sunt din ce a afișat ChatGPT (~ = aproximativ). Pozițiile Google sunt orientative.</p>';
+    '<p class="note">Cifra = poziția în lista din răspuns (1 = primul); cu cât culoarea e mai închisă, cu atât poziția e mai bună. „jos” = apărem, dar spre finalul listei. „—” = nu apărem. „n/m” = oraș nemăsurat în acea rulare. În octombrie, Google AI Mode a rulat cu cont conectat (personalizat), deci coloana aceea se citește ca un plafon, nu ca ce vede un pacient nou.</p>';
 }
 
 function takePanel(rec) {
   var TK = (rec && rec.take) || CFG.take;
-  return '<h3 class="panel__title">Constatări din rapoartele GEO' + (rec && rec.label ? ' · ' + esc(rec.label) : '') + '</h3><ul class="notes notes--take">' +
+  return '<h3 class="panel__title">Constatări din rapoartele GEO' + (rec && rec.measured ? ' · ' + esc(rec.measured) : '') + '</h3><ul class="notes notes--take">' +
     TK.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>';
 }
 
@@ -131,11 +111,9 @@ function renderGeo() {
   document.getElementById('geo-questions').innerHTML = questionsPanel(rec, isYtd);
   document.getElementById('geo-rate').innerHTML = ratePanel();
   document.getElementById('geo-trend').innerHTML = trendPanel();
-  document.getElementById('geo-compare').innerHTML = comparePanel(rec);
   document.getElementById('geo-take').innerHTML = takePanel(rec);
-  var rb = document.getElementById('geo-run'); if (rb) { rb.innerHTML = runBar(isYtd); rb.querySelectorAll('[data-run]').forEach(function (b) { b.onclick = function () { RUN = b.getAttribute('data-run'); render(); }; }); }
 }
 
 var _renderBaseGeo = render;
-render = function () { applyRun(); _renderBaseGeo(); renderGeo(); };
-applyRun(); render();
+render = function () { _renderBaseGeo(); renderGeo(); };
+renderGeo();
