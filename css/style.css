@@ -495,3 +495,14 @@ html.embed .section-sub { display: none; }
 .chartcard{background:#fff;border:1px solid #f1e4cc;border-radius:12px}
 td[style*="color:#fff"] .pos--top{color:#fff}
 td[style*="rgba(201,162,39"] .pos--low{color:#5a4208}
+
+/* ---- SEO: detalii pe oraș (listă pliabilă) ---- */
+.cdet{border:1px solid #f1e4cc;border-radius:10px;margin:8px 0;background:#fff}
+.cdet>summary{cursor:pointer;padding:11px 14px;font-size:14px;color:#3a2a22;list-style:none}
+.cdet>summary::-webkit-details-marker{display:none}
+.cdet>summary::before{content:"▸";display:inline-block;margin-right:8px;color:#7b1c16;transition:transform .15s}
+.cdet[open]>summary::before{transform:rotate(90deg)}
+.cdet .table-wrap{padding:0 8px}
+.cdet .note{padding:0 14px}
+.cell--wrap{white-space:normal;min-width:220px;font-size:13px}
+.cdet>summary .cell__note{display:inline}
