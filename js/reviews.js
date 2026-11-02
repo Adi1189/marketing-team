@@ -86,7 +86,7 @@ function yearsPanel() {
   var svg = barsSvg(labels, vals, { step: 110, bw: 54, h: 250, fs: 12, proj: [false, false, false, false, false, true], every: 1 });
   var yoy = function (y) { var a = yearTotal(y), b = yearTotal(y - 1); return b ? (a / b - 1) * 100 : null; };
   var samePeriod = yearTotal(cur - 1, last);
-  var head = '<tr><th class="left">Clinică</th>' + yrs.map(function (y) { return '<th>' + y + '</th>'; }).join('') + '<th title="ian–sep ' + cur + ' față de ian–sep ' + (cur - 1) + '">Ian–' + MS3[last - 1].toLowerCase() + ' ' + cur + ' vs ' + (cur - 1) + '</th></tr>';
+  var head = '<tr><th class="left">Clinică</th>' + yrs.map(function (y) { return '<th>' + y + '</th>'; }).join('') + '<th title="ian–' + MS3[last - 1].toLowerCase() + ' ' + cur + ' față de ian–' + MS3[last - 1].toLowerCase() + ' ' + (cur - 1) + '">Ian–' + MS3[last - 1].toLowerCase() + ' ' + cur + ' vs ' + (cur - 1) + '</th></tr>';
   function ct(cid, y, upTo) { var t = 0; RMONTHS.forEach(function (k) { if (+k.slice(0, 4) === y && +k.slice(5) <= (upTo || 12)) t += cv(cid, k); }); return t; }
   var rows = CL.map(function (c) {
     var a = ct(c.id, cur, last), b = ct(c.id, cur - 1, last), d = b ? (a / b - 1) * 100 : null;
@@ -97,7 +97,7 @@ function yearsPanel() {
   var rowTot = '<tr class="row--tot"><td class="left"><strong>Total rețea</strong></td>' + yrs.map(function (y) { return '<td class="num"><strong>' + fn(yearTotal(y)) + '</strong></td>'; }).join('') +
     '<td class="num"><strong>' + (samePeriod ? '+' + ((yearTotal(cur) / samePeriod - 1) * 100).toFixed(1).replace('.', ',') + '%' : '–') + '</strong> <span class="cell__note">' + fn(yearTotal(cur)) + ' vs ' + fn(samePeriod) + '</span></td></tr>';
   return wrap('Pe ani · recenzii noi', 'Bara hașurată e o proiecție: dacă ritmul din primele ' + last + ' luni ale lui ' + cur + ' se menține tot anul. Nu e un rezultat, ci o estimare simplă.', svg,
-              'Ultima coloană compară același interval din ani diferiți (ian–' + MS3[last - 1].toLowerCase() + ' ' + cur + ' față de ian–' + MS3[last - 1].toLowerCase() + ' ' + (cur - 1) + '), ca să nu comparăm 9 luni cu 12.') +
+              'Ultima coloană compară același interval din ani diferiți (ian–' + MS3[last - 1].toLowerCase() + ' ' + cur + ' față de ian–' + MS3[last - 1].toLowerCase() + ' ' + (cur - 1) + '), ca să nu comparăm ' + last + ' luni cu 12.') +
          '<div class="table-wrap" style="margin-top:14px"><table class="kpi cmp"><thead>' + head + '</thead><tbody>' + rows + rowTot + '</tbody></table></div>';
 }
 
@@ -108,7 +108,7 @@ function profilePanel() {
     return '<tr><td class="left">' + esc(c.name) + '</td><td class="num"><strong>' + f2r(p.rating).replace(/0$/, '0') + '</strong></td><td class="num">' + fn(p.total) + '</td><td class="num">' + fn(api) + '</td><td class="num">' + (gap > 0 ? '+' + gap : gap) + '</td></tr>';
   }).join('');
   var tp = 0, ta = 0; CL.forEach(function (c) { tp += X.profile[c.id].total; RMONTHS.forEach(function (k) { ta += cv(c.id, k); }); });
-  return '<h3 class="panel__title">Profilul Google acum</h3><p class="note" style="margin-top:0">Nota și numărul total de recenzii afișate pe profilul fiecărei clinici (toți anii la un loc), la data raportului: ' + X.generated + '. Coloana „în raport” cuprinde doar recenziile din ianuarie 2022 – 30 octombrie 2026.</p>' +
+  return '<h3 class="panel__title">Profilul Google acum</h3><p class="note" style="margin-top:0">Nota și numărul total de recenzii afișate pe profilul fiecărei clinici (toți anii la un loc), la data raportului: ' + X.generated + '. Coloana „în raport” cuprinde doar recenziile din ianuarie 2022 – 31 octombrie 2026.</p>' +
     '<div class="table-wrap"><table class="kpi cmp"><thead><tr><th class="left">Clinică</th><th>Nota pe profil</th><th>Recenzii pe profil</th><th>Recenzii în raport</th><th>Diferență</th></tr></thead><tbody>' + rows +
     '<tr class="row--tot"><td class="left"><strong>Total rețea</strong></td><td class="num">–</td><td class="num"><strong>' + fn(tp) + '</strong></td><td class="num"><strong>' + fn(ta) + '</strong></td><td class="num"><strong>+' + (tp - ta) + '</strong></td></tr></tbody></table></div>' +
     '<p class="note">Diferența (' + (tp - ta) + ') se explică aproape complet prin recenziile de dinainte de ianuarie 2022, care nu sunt în raport: Giurgiu 23, Oltenița 37, Dorobanți 5. La Călărași raportul are o recenzie în plus față de profil. Notele de pe profil sunt rotunjite la o zecimală de Google.</p>';

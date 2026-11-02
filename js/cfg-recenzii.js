@@ -1,8 +1,8 @@
-// Recenzii Google (Google Business Profile, prin API), ianuarie 2022 – 30 octombrie 2026. Profil la 30.10.2026 14:50.
+// Recenzii Google (Google Business Profile, prin API), ianuarie 2022 – octombrie 2026. Profil la 02.11.2026 08:28.
 window.REPORT_CONFIG = {
  "channel": "Recenzii",
  "demo": false,
- "pillText": "Date exacte Google · ian 2022 – oct 2026 (oct în curs)",
+ "pillText": "Date exacte Google · ian 2022 – oct 2026",
  "kpis": [
   {
    "key": "total",
@@ -858,20 +858,15 @@ window.REPORT_CONFIG = {
      "s5pct": 2700
     },
     "2026-10": {
-     "total": 25,
-     "s5": 25,
+     "total": 26,
+     "s5": 26,
      "s4": 0,
      "s3": 0,
      "s2": 0,
      "s1": 0,
      "sub5": 0,
-     "stars": 125,
-     "s5pct": 2500,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "stars": 130,
+     "s5pct": 2600
     }
    },
    "calarasi": {
@@ -1511,12 +1506,7 @@ window.REPORT_CONFIG = {
      "s1": 0,
      "sub5": 1,
      "stars": 119,
-     "s5pct": 2300,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "s5pct": 2300
     }
    },
    "slobozia": {
@@ -2148,20 +2138,15 @@ window.REPORT_CONFIG = {
      "s5pct": 1800
     },
     "2026-10": {
-     "total": 22,
-     "s5": 21,
+     "total": 24,
+     "s5": 23,
      "s4": 0,
      "s3": 1,
      "s2": 0,
      "s1": 0,
      "sub5": 1,
-     "stars": 108,
-     "s5pct": 2100,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "stars": 118,
+     "s5pct": 2300
     }
    },
    "oltenita": {
@@ -2793,20 +2778,15 @@ window.REPORT_CONFIG = {
      "s5pct": 600
     },
     "2026-10": {
-     "total": 4,
-     "s5": 3,
+     "total": 5,
+     "s5": 4,
      "s4": 1,
      "s3": 0,
      "s2": 0,
      "s1": 0,
      "sub5": 1,
-     "stars": 19,
-     "s5pct": 300,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "stars": 24,
+     "s5pct": 400
     }
    },
    "targoviste": {
@@ -3446,12 +3426,7 @@ window.REPORT_CONFIG = {
      "s1": 0,
      "sub5": 2,
      "stars": 408,
-     "s5pct": 8000,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "s5pct": 8000
     }
    },
    "dorobanti": {
@@ -4083,20 +4058,15 @@ window.REPORT_CONFIG = {
      "s5pct": 2700
     },
     "2026-10": {
-     "total": 24,
-     "s5": 23,
+     "total": 27,
+     "s5": 26,
      "s4": 1,
      "s3": 0,
      "s2": 0,
      "s1": 0,
      "sub5": 1,
-     "stars": 119,
-     "s5pct": 2300,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "stars": 134,
+     "s5pct": 2600
     }
    },
    "cotroceni": {
@@ -4736,12 +4706,7 @@ window.REPORT_CONFIG = {
      "s1": 0,
      "sub5": 0,
      "stars": 35,
-     "s5pct": 700,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "s5pct": 700
     }
    },
    "focsani": {
@@ -5373,20 +5338,15 @@ window.REPORT_CONFIG = {
      "s5pct": 4200
     },
     "2026-10": {
-     "total": 44,
-     "s5": 42,
+     "total": 45,
+     "s5": 43,
      "s4": 1,
      "s3": 0,
      "s2": 0,
      "s1": 1,
      "sub5": 2,
-     "stars": 215,
-     "s5pct": 4200,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "stars": 220,
+     "s5pct": 4300
     }
    },
    "braila": {
@@ -6026,12 +5986,7 @@ window.REPORT_CONFIG = {
      "s1": 0,
      "sub5": 0,
      "stars": 0,
-     "s5pct": 0,
-     "q": {
-      "total": "≥",
-      "sub5": "≥",
-      "s1": "≥"
-     }
+     "s5pct": 0
     }
    }
   }
@@ -6041,7 +5996,7 @@ window.REPORT_CONFIG = {
   "Recenzii noi = câte recenzii au apărut în perioadă, la toate clinicile. Nota medie = media stelelor lor, nu nota de pe profil. Notele de pe profilul Google (cumulate din toți anii) sunt în tabelul „Profilul Google acum”.",
   "Pe luni cu foarte puține recenzii (ianuarie 2022 – august 2023) nota medie sare mult de la o singură recenzie; luni cu sute de recenzii (de exemplu iunie 2023, martie 2024) vin din campanii de colectare, nu din ritm obișnuit.",
   "Totalul din acest raport (2022–2026) e 4.919 de recenzii; raportul anual dă 4.920 pe aceiași ani, cu o recenzie în plus în 2023. Diferența e de o recenzie și nu schimbă nimic.",
-  "Raportul pentru octombrie cuprinde zilele 1–30 octombrie (generat pe 30.10.2026, 14:50): luna e în curs, deci cifrele de octombrie sunt minime („≥”) și nu se compară cu septembrie. Raportul lunar de până în septembrie a fost generat pe 16.10.2026."
+  "Raportul pentru octombrie cuprinde luna întreagă, 1–31 octombrie (generat pe 02.11.2026, 08:28), deci cifrele de octombrie sunt complete și se pot compara cu septembrie. Raportul lunar de până în septembrie a fost generat pe 16.10.2026."
  ],
  "data": {
   "2022-01": {
@@ -6672,28 +6627,20 @@ window.REPORT_CONFIG = {
    "s5pct": 23400
   },
   "2026-10": {
-   "total": 232,
-   "s5": 224,
+   "total": 240,
+   "s5": 232,
    "s4": 6,
    "s3": 1,
    "s2": 0,
    "s1": 1,
    "sub5": 8,
-   "stars": 1148,
-   "s5pct": 22400,
-   "q": {
-    "total": "≥",
-    "sub5": "≥",
-    "s1": "≥"
-   },
-   "note": {
-    "total": "1–30 oct (luna în curs)"
-   }
+   "stars": 1188,
+   "s5pct": 23200
   }
  }
 };
 window.REVIEWS_EXTRA = {
- "generated": "30.10.2026 14:50",
+ "generated": "02.11.2026 08:28",
  "clinics": [
   {
    "id": "giurgiu",
@@ -6735,27 +6682,27 @@ window.REVIEWS_EXTRA = {
  "profile": {
   "giurgiu": {
    "rating": 4.9,
-   "total": 1168
+   "total": 1169
   },
   "calarasi": {
    "rating": 4.9,
    "total": 956
   },
   "slobozia": {
-   "rating": 5.0,
-   "total": 873
+   "rating": 5,
+   "total": 875
   },
   "oltenita": {
    "rating": 4.9,
-   "total": 690
+   "total": 691
   },
   "targoviste": {
    "rating": 4.9,
    "total": 518
   },
   "dorobanti": {
-   "rating": 5.0,
-   "total": 431
+   "rating": 5,
+   "total": 434
   },
   "cotroceni": {
    "rating": 4.9,
@@ -6763,10 +6710,10 @@ window.REVIEWS_EXTRA = {
   },
   "focsani": {
    "rating": 4.9,
-   "total": 275
+   "total": 276
   },
   "braila": {
-   "rating": 5.0,
+   "rating": 5,
    "total": 1
   }
  },
