@@ -329,7 +329,7 @@ function renderCompare() {
 
 function renderMeta() {
   var pill = document.getElementById('demo-pill');
-  pill.textContent = CFG.demo ? 'Date demonstrative' : (CFG.pillText || 'Date reale · iul–sep 2026');
+  pill.textContent = CFG.demo ? 'Date demonstrative' : (CFG.pillText || 'Date reale · iul–oct 2026');
   pill.classList.toggle('pill--real', !CFG.demo);
 
   var panel = document.getElementById('notes-panel');

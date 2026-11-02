@@ -1,4 +1,4 @@
-// Date reale din rapoartele KPI Tier 1 (S27–S41), grupate pe luni.
+// Date reale din rapoartele KPI Tier 1 (S27–S44), grupate pe luni.
 // Iulie = S27–S31 · August = S32–S35 · Septembrie = S36–S40 · Octombrie = S41–S44.
 window.REPORT_CONFIG = {
  "channel": "YouTube",
@@ -54,11 +54,11 @@ window.REPORT_CONFIG = {
  "notes": [
   "Vizualizările sunt cele din ziua raportului, pentru videoclipurile publicate în acea săptămână. Un video recent are mai puține vizualizări decât unul vechi, deci ultimele zile din fiecare săptămână sunt dezavantajate.",
   "Community posts nu sunt numărate.",
-  "Cifrele sunt exacte pentru canalul nostru, în toate cele 12 săptămâni.",
+  "Cifrele sunt exacte pentru canalul nostru, în toate cele 18 săptămâni (S27–S44).",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "Iulie, august și septembrie (S27–S40) au fost recitite cu skill-ul actualizat, cu vizualizările citite pe 12–15 octombrie.",
-  "Octombrie e în curs: are S41–S43 (5–25 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
-  "Abonații pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
+  "Octombrie (S41–S44, 5 octombrie – 1 noiembrie) e calculat din cele patru săptămâni și e complet.",
+  "Abonații pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40, octombrie: S44), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",
   "În iulie, DENT ESTET are 476.760 de vizualizări, din care 407.134 la un singur video viral (publicat pe 27 iulie, S31): cifra nu se compară cu luna august (4.179), iar variația apare ca o scădere de 99%, care nu e reală."
  ],
  "data": {
@@ -234,27 +234,24 @@ window.REPORT_CONFIG = {
    "subs": 932
   },
   "2026-10": {
-   "posts": 21,
-   "views": 5402,
+   "posts": 26,
+   "views": 5763,
    "leads": null,
    "q": {
-    "posts": "≥",
-    "views": "≥",
+    "posts": "",
+    "views": "",
     "subs": ""
    },
    "note": {
-    "posts": "luna în curs: S41–S43 (5–25 oct)",
-    "views": "S41–S43",
-    "leads": "luna în curs",
-    "subs": "la S43"
+    "subs": "la S44",
+    "leads": "Puls: nu avem încă cifra pentru octombrie"
    },
-   "subs": 937,
-   "nocmp": true,
+   "subs": 940,
    "topPosts": {
     "DrA": {
      "title": "CÂND STERILIZAREA TE ALEGE PE TINE",
      "value": 1417,
-     "q": "≥",
+     "q": "",
      "week": "S43",
      "range": "19–25 oct",
      "url": "https://www.youtube.com/watch?v=4cwZsyJD1NU"
@@ -262,7 +259,7 @@ window.REPORT_CONFIG = {
     "DE": {
      "title": "Maia Morgenstern despre încredere și medicina dentară",
      "value": 7901,
-     "q": "≥",
+     "q": "",
      "week": "S41",
      "range": "5–11 oct",
      "url": "https://www.youtube.com/shorts/x5la6ODBHLY"
@@ -270,7 +267,7 @@ window.REPORT_CONFIG = {
     "RM": {
      "title": "Când dinții încep să se miște: povestea unei reabilitări orale complexe",
      "value": 7084,
-     "q": "≥",
+     "q": "",
      "week": "S43",
      "range": "19–25 oct",
      "url": "https://www.youtube.com/watch?v=nHyEvRUVLgs"
@@ -278,7 +275,7 @@ window.REPORT_CONFIG = {
     "Life": {
      "title": "🦷 Știai că o carie poate evolua fără să doară?",
      "value": 939,
-     "q": "≥",
+     "q": "",
      "week": "S43",
      "range": "19–25 oct",
      "url": "https://www.youtube.com/watch?v=BvtOJYrS428"
@@ -360,7 +357,7 @@ window.REPORT_CONFIG = {
    }
   ],
   "notes": [
-   "Dental Blue nu are canal YouTube. Elidadent are un canal abandonat (0 videoclipuri în toate cele 12 săptămâni).",
+   "Dental Blue nu are canal YouTube. Elidadent are un canal abandonat (0 videoclipuri în toate cele 18 săptămâni (S27–S44)).",
    "În S30 raportul nu are date pe Shorts pentru DENT ESTET și Regina Maria, deci iulie e minim pentru ei („≥”).",
    "Vizualizările sunt cele din ziua raportului: videoclipurile recente au mai puține vizualizări decât cele vechi."
   ],
@@ -397,15 +394,13 @@ window.REPORT_CONFIG = {
      "subs": 932
     },
     "2026-10": {
-     "posts": 21,
-     "views": 5402,
-     "subs": 937,
+     "posts": 26,
+     "views": 5763,
+     "subs": 940,
      "topval": 1417,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "subs": "",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -441,15 +436,13 @@ window.REPORT_CONFIG = {
      "subs": 1350
     },
     "2026-10": {
-     "posts": 41,
-     "views": 13895,
-     "subs": 1350,
+     "posts": 49,
+     "views": 14959,
+     "subs": 1360,
      "topval": 7901,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "subs": "≈",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -485,15 +478,13 @@ window.REPORT_CONFIG = {
      "subs": 9330
     },
     "2026-10": {
-     "posts": 15,
-     "views": 11562,
+     "posts": 18,
+     "views": 12814,
      "subs": 9330,
      "topval": 7084,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "subs": "≈",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -529,15 +520,13 @@ window.REPORT_CONFIG = {
      "subs": 2000
     },
     "2026-10": {
-     "posts": 10,
-     "views": 4051,
-     "subs": 2000,
+     "posts": 14,
+     "views": 5230,
+     "subs": 2010,
      "topval": 939,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "subs": "≈",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -578,8 +567,6 @@ window.REPORT_CONFIG = {
      "subs": 1,
      "topval": null,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "subs": "",
       "topval": ""
      }

@@ -72,7 +72,7 @@
     var title = (ENG ? 'Clasament pe rata de engagement' : 'Clasament · vizualizări medii pe video, ca % din urmăritori') + ' · ' + label;
     var hint = ENG ? 'Engagementul mediu pe postare împărțit la numărul de urmăritori. Așa putem compara un cont mic cu unul mare: arată cine își implică mai bine publicul, indiferent cât de mare e pagina.'
                    : 'Câte vizualizări are în medie un video, ca procent din urmăritorii contului. Arată cât de bine ajunge un video la publicul propriu, indiferent cât de mare e contul.';
-    if (!pw.length) return '<h3 class="panel__title">' + title + '</h3><p class="note">Nu există date săptămânale pentru perioada aleasă (avem săptămânile S27–S41, din iulie până în octombrie 2026).</p>';
+    if (!pw.length) return '<h3 class="panel__title">' + title + '</h3><p class="note">Nu există date săptămânale pentru perioada aleasă (avem săptămânile S27–S44, din iulie până în octombrie 2026).</p>';
     var items = [], excl = [], hasMin = false;
     BR.forEach(function (b) {
       var meds = WEEKS.map(function (w) { return perUnit(b.id, w.id); }).filter(function (v) { return v != null; }), md = median(meds);

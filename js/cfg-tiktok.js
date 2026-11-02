@@ -1,4 +1,4 @@
-// Date reale din rapoartele KPI Tier 1 (S27–S41), grupate pe luni.
+// Date reale din rapoartele KPI Tier 1 (S27–S44), grupate pe luni.
 // Iulie = S27–S31 · August = S32–S35 · Septembrie = S36–S40 · Octombrie = S41–S44.
 window.REPORT_CONFIG = {
  "channel": "TikTok",
@@ -52,13 +52,13 @@ window.REPORT_CONFIG = {
   "showMonth": true
  },
  "notes": [
-  "Numărul de videouri vine din paginile de profil TikTok și e complet pentru toate cele 12 săptămâni.",
+  "Numărul de videouri vine din paginile de profil TikTok și e complet pentru toate cele 18 săptămâni (S27–S44).",
   "Pentru iulie, august și septembrie (S27–S40) avem vizualizările totale ale fiecărui cont, citite pe 12–14 octombrie.",
   "Pentru top postare: la iulie, august și septembrie avem titlul și linkul fiecărui cont (titlurile din iulie–august sunt citite din descrierile videoclipurilor).",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
-  "Octombrie e în curs: are S41–S43 (5–25 octombrie), deci cifrele sunt minime („≥”) și nu se compară cu septembrie.",
-  "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni; pentru fiecare lună e cifra din ultima ei săptămână (iulie: S31, august: S35, septembrie: S40)."
+  "Octombrie (S41–S44, 5 octombrie – 1 noiembrie) e calculat din cele patru săptămâni și e complet. Atenție: S41 a fost citită fără cont autentificat, deci TikTok poate fi puțin subestimat în octombrie.",
+  "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni; pentru fiecare lună e cifra din ultima ei săptămână (iulie: S31, august: S35, septembrie: S40, octombrie: S44)."
  ],
  "data": {
   "2026-07": {
@@ -259,62 +259,61 @@ window.REPORT_CONFIG = {
    "followers": 6800
   },
   "2026-10": {
-   "posts": 15,
-   "views": 13316,
+   "posts": 20,
+   "views": 16380,
    "leads": null,
    "q": {
-    "posts": "≥",
-    "views": "≥",
+    "posts": "",
+    "views": "",
     "followers": ""
    },
    "note": {
-    "posts": "luna în curs: S41–S43 (5–25 oct)",
-    "views": "S41–S43",
-    "leads": "luna în curs",
-    "followers": "la S43"
+    "followers": "la S44",
+    "leads": "Puls: nu avem încă cifra pentru octombrie",
+    "posts": "S41 citită fără login",
+    "views": "S41 citită fără login"
    },
    "followers": 6807,
-   "nocmp": true,
    "topPosts": {
     "DrA": {
      "title": "Ce este de făcut…",
      "value": 1425,
-     "q": "≥",
+     "q": "",
      "week": "S42",
      "range": "12–18 oct",
      "url": "https://www.tiktok.com/@dr.ardeleanu/video/7696065418598927638"
     },
     "DE": {
-     "title": "Beneficiezi de avantaje pentru tratamente ortodontice…",
-     "value": 595,
-     "q": "≥",
-     "week": "S42",
-     "range": "12–18 oct",
-     "url": "https://www.tiktok.com/@dentestetclinic/video/7695656641131203862"
+     "title": "Pierderea unui dinte poate avea consecințe asupra masticației și sănătății orale",
+     "value": 727,
+     "q": "",
+     "week": "S44",
+     "range": "26 oct–1 nov",
+     "url": "https://www.tiktok.com/@dentestetclinic/video/7702408145188031766"
     },
     "RM": {
-     "title": "A amânat tratamentul aproape doi ani, pentru că îi era frică de stomatolog…",
-     "value": 1381,
-     "q": "≥",
-     "week": "S43",
-     "range": "19–25 oct",
-     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7699095060457082134"
+     "title": "Când cineva drag evită anumite alimente și nu mai zâmbește la fel de liber…",
+     "value": 1635,
+     "q": "",
+     "week": "S44",
+     "range": "26 oct–1 nov",
+     "url": "https://www.tiktok.com/@reginamariadentalclinics/video/7701775246151503126"
     },
     "Life": {
-     "title": "Ai nevoie de o soluție fixă pentru înlocuirea mai multor dinți…",
-     "value": 1046,
-     "q": "≥",
-     "week": "S41",
-     "range": "5–11 oct",
-     "url": "https://www.tiktok.com/@lifedentalspa/video/7693786316923817248"
+     "title": "POV: urmează un plan de tratament complex și răspunsul tău este „N-am niciun pic de emoții.”",
+     "value": 4390,
+     "q": "",
+     "week": "S44",
+     "range": "26 oct–1 nov",
+     "url": "https://www.tiktok.com/@lifedentalspa/video/7700922006753037601"
     },
     "Eli": {
-     "title": "Un zâmbet sănătos începe cu o igienizare profesională!",
-     "value": 1780,
-     "q": "≥",
-     "week": "S43",
-     "range": "19–25 oct",
-     "url": "https://www.tiktok.com/@elidadent/video/7699906316529143062"
+     "title": "Ce faci când pacientul întârzie și Halloween-ul bate la ușă? 🎃",
+     "value": 4526,
+     "q": "",
+     "week": "S44",
+     "range": "26 oct–1 nov",
+     "url": "https://www.tiktok.com/@elidadent/video/7702534316575755542"
     },
     "DB": {
      "title": "",
@@ -397,7 +396,7 @@ window.REPORT_CONFIG = {
    }
   ],
   "notes": [
-   "Dental Blue a postat doar 3 videoclipuri în 12 săptămâni. Dental Safari nu are cont TikTok, deci nu e în comparație.",
+   "Dental Blue a postat doar 10 videoclipuri în 18 săptămâni (S27–S44). Dental Safari nu are cont TikTok, deci nu e în comparație.",
    "„≥” la top înseamnă că raportul dă doar un minim (de exemplu „903+”).",
    "Vârfuri izolate (≈), nu tendință: Life 60.400 în august (S35) și 18.500 (S32), Elidadent 15.700 (S33) și 20.800 în septembrie (S38), Life 11.200 în septembrie (S36).",
    "Iulie, august și septembrie (S27–S40) au vizualizările totale ale fiecărui cont, citite pe 12–14 octombrie (cu „≈” unde pagina rotunjește)."
@@ -437,15 +436,13 @@ window.REPORT_CONFIG = {
      "views": 22230
     },
     "2026-10": {
-     "posts": 15,
-     "views": 13316,
+     "posts": 20,
+     "views": 16380,
      "followers": 6807,
      "topval": 1425,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "followers": "",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -483,15 +480,13 @@ window.REPORT_CONFIG = {
      "views": 17943
     },
     "2026-10": {
-     "posts": 32,
-     "views": 10229,
-     "followers": 8954,
-     "topval": 595,
+     "posts": 41,
+     "views": 14079,
+     "followers": 9373,
+     "topval": 727,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "followers": "",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -529,15 +524,13 @@ window.REPORT_CONFIG = {
      "views": 11259
     },
     "2026-10": {
-     "posts": 7,
-     "views": 6268,
-     "followers": 5564,
-     "topval": 1381,
+     "posts": 10,
+     "views": 9085,
+     "followers": 5573,
+     "topval": 1635,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "followers": "",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -575,15 +568,13 @@ window.REPORT_CONFIG = {
      "views": 26405
     },
     "2026-10": {
-     "posts": 11,
-     "views": 4926,
-     "followers": 7024,
-     "topval": 1046,
+     "posts": 15,
+     "views": 10115,
+     "followers": 7038,
+     "topval": 4390,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "followers": "",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -621,15 +612,13 @@ window.REPORT_CONFIG = {
      "views": 33479
     },
     "2026-10": {
-     "posts": 7,
-     "views": 5837,
-     "followers": 1917,
-     "topval": 1780,
+     "posts": 12,
+     "views": 14252,
+     "followers": 1928,
+     "topval": 4526,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "followers": "",
-      "topval": "≥"
+      "topval": ""
      }
     }
    },
@@ -672,8 +661,6 @@ window.REPORT_CONFIG = {
      "followers": 885,
      "topval": null,
      "q": {
-      "posts": "≥",
-      "views": "≥",
       "followers": "",
       "topval": ""
      }

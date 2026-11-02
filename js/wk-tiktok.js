@@ -216,7 +216,7 @@ window.WEEKLY_CONFIG = {
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S44, ISO).",
   "Dental Blue nu a postat nimic în S36–S40 și a postat doar 3 videoclipuri în celelalte săptămâni; Dental Safari nu are cont TikTok.",
   "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
-  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, cu cifrele citite din pagina fiecărui video. S41 rămâne citit fără cont autentificat (valori minime), deci variația S42 față de S41 nu se calculează la postări și vizualizări.",
+  "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, cu cifrele citite din pagina fiecărui video. S41 a fost citit fără cont autentificat, deci poate fi puțin subestimat; variația S42 față de S41 se calculează, dar poate ieși umflată.",
   "S43 (19–25 octombrie) vine din raportul rulat pe 26 octombrie, cu cifrele citite din pagina fiecărui video, fără cont autentificat. Dental Blue nu a postat.",
   "S44 (26 octombrie – 1 noiembrie) vine din raportul rulat pe 2 noiembrie, fără cont autentificat, cu vizualizările citite la acel moment. Dental Blue nu a postat."
  ],
@@ -453,8 +453,8 @@ window.WEEKLY_CONFIG = {
    },
    "S41": {
     "q": {
-     "posts": "≥",
-     "views": "≥",
+     "posts": "",
+     "views": "",
      "topval": ""
     },
     "note": {
@@ -769,8 +769,8 @@ window.WEEKLY_CONFIG = {
    },
    "S41": {
     "q": {
-     "posts": "≥",
-     "views": "≥",
+     "posts": "",
+     "views": "",
      "topval": ""
     },
     "note": {
@@ -1089,8 +1089,8 @@ window.WEEKLY_CONFIG = {
    },
    "S41": {
     "q": {
-     "posts": "≥",
-     "views": "≥",
+     "posts": "",
+     "views": "",
      "topval": ""
     },
     "note": {
@@ -1419,8 +1419,8 @@ window.WEEKLY_CONFIG = {
    },
    "S41": {
     "q": {
-     "posts": "≥",
-     "views": "≥",
+     "posts": "",
+     "views": "",
      "topval": ""
     },
     "note": {
@@ -1745,8 +1745,8 @@ window.WEEKLY_CONFIG = {
    },
    "S41": {
     "q": {
-     "posts": "≥",
-     "views": "≥",
+     "posts": "",
+     "views": "",
      "topval": ""
     },
     "note": {
@@ -2065,8 +2065,8 @@ window.WEEKLY_CONFIG = {
    },
    "S41": {
     "q": {
-     "posts": "≥",
-     "views": "≥",
+     "posts": "",
+     "views": "",
      "topval": ""
     },
     "note": {
