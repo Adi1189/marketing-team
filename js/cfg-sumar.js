@@ -7,14 +7,14 @@ window.REPORT_CONFIG = {
   {
    "key": "leads",
    "label": "Leaduri primite Facebook + Instagram",
-   "hint": "lead-urile primite în lună din campaniile Meta, inclusiv telefoanele care au mai sunat",
+   "hint": "lead-urile primite în lună din campaniile Facebook și Instagram",
    "type": "num",
    "additive": true
   },
   {
    "key": "newleads",
-   "label": "Leaduri noi (unice) Facebook + Instagram",
-   "hint": "telefoane la prima apariție, fără cele care au mai sunat; pe ele se calculează conversia",
+   "label": "Leaduri noi Facebook + Instagram",
+   "hint": "lead-uri noi; pe ele se calculează conversia",
    "type": "num",
    "additive": true
   },
@@ -22,7 +22,7 @@ window.REPORT_CONFIG = {
    "key": "convrate",
    "decimals": 0,
    "label": "Rata de conversie leaduri → pacienți",
-   "hint": "din 100 de leaduri noi (unice), câți au fost programați, în procente",
+   "hint": "lead-uri noi programate ÷ lead-uri noi, în procente",
    "type": "pct",
    "additive": false
   },
@@ -45,11 +45,11 @@ window.REPORT_CONFIG = {
  "top": null,
  "notes": [
   "Date reale din Puls pentru iulie–octombrie 2026 (Monthly brief → Pacienți; pentru iulie–septembrie și Marketing · Social Ads).",
-  "Leaduri primite = toate lead-urile din campaniile Facebook și Instagram din lună, inclusiv telefoanele care au mai sunat. Leaduri noi (unice) = telefoane la prima apariție în istoric. Diferența dintre ele e procentul de leaduri dublate.",
-  "Conversia = leaduri noi programate ÷ leaduri noi. Rata de pacienți noi = din pacienții unici ai lunii, ce procent sunt la prima vizită (restul sunt recurenți).",
+   "Leaduri primite = lead-urile primite în lună din campaniile Facebook și Instagram (definiția din Puls).",
+  "Conversia = lead-uri noi programate ÷ lead-uri noi (definiția din Puls). Rata de pacienți noi = din pacienții unici ai lunii, ce procent sunt la prima vizită (restul sunt recurenți).",
   "P0 = pacienți noi înregistrați în sistem în lună, suma tuturor clinicilor. La iulie, variațiile față de luna anterioară (−9% la leaduri primite și la leaduri noi, +9% la P0) sunt cele din Puls, pentru că iunie nu e în pagină.",
-  "Sursa leadurilor pe clinici e tabelul „FB_adds_campaigns” (canal Facebook + Instagram), cu cifre care pot diferi cu câteva procente de raportul Tableau. Suma clinicilor e puțin peste totalul rețelei, fiindcă același telefon poate apărea la mai multe clinici.",
-  "Octombrie: leadurile noi (unice) și leadurile pe clinici nu apar în pagina Puls folosită, deci lipsesc. Brăila nu e în lista de clinici pentru leaduri."
+  "Sursa leadurilor pe clinici e tabelul „FB_adds_campaigns” (canal Facebook + Instagram). Suma clinicilor e puțin peste totalul rețelei.",
+  "Octombrie: leadurile noi și leadurile pe clinici nu apar în pagina Puls folosită, deci lipsesc. Brăila nu e în lista de clinici pentru leaduri."
  ],
  "data": {
   "2026-07": {
@@ -61,8 +61,7 @@ window.REPORT_CONFIG = {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.737 pacienți unici · 56% recurenți",
-    "p0": "+49% față de iul 2025 · medie 12 luni: 1.316",
-    "newleads": "33,9% din leadurile primite sunt telefoane deja văzute"
+    "p0": "+49% față de iul 2025 · medie 12 luni: 1.316"
    },
    "newrate": 44,
    "vs": {
@@ -273,8 +272,7 @@ window.REPORT_CONFIG = {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.467 pacienți unici · 54% recurenți",
-    "p0": "+30% față de aug 2025 · medie 12 luni: 1.347",
-    "newleads": "39,1% din leadurile primite sunt telefoane deja văzute"
+    "p0": "+30% față de aug 2025 · medie 12 luni: 1.347"
    },
    "newrate": 46,
    "p0table": {
@@ -480,8 +478,7 @@ window.REPORT_CONFIG = {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.779 pacienți unici · 62% recurenți",
-    "p0": "+20% față de sep 2025 · medie 12 luni: 1.366",
-    "newleads": "36,9% din leadurile primite sunt telefoane deja văzute"
+    "p0": "+20% față de sep 2025 · medie 12 luni: 1.366"
    },
    "p0table": {
     "clusters": [

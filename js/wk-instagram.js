@@ -233,7 +233,7 @@ window.WEEKLY_CONFIG = {
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S44, ISO).",
   "Engagement = like-uri + comentarii (Instagram nu arată distribuirile); unde raportul dă doar like-uri, cifra e minimă („≥”). Urmăritorii apar doar în câteva rapoarte (se păstrează ultima cifră cunoscută).",
-  "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
+  "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Regina Maria are în S41 un reel în colaborare cu 630 de interacțiuni; fără el media ei ar fi 17,0. Raportul nu are variația față de S40 (nu a măsurat acea săptămână), dar aici S40 există și e folosit pentru variație.",
   "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
   "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, din contul logat. La colaborări apare postarea contului partener (de exemplu reelul Fundației la noi: fără el, media noastră ar fi 24,7).",

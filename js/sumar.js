@@ -66,7 +66,7 @@ function leadsPanel(rec, isYtd) {
   if (isYtd) return '<h3 class="panel__title">' + title + '</h3><p class="note">Tabelul pe clinici se vede doar la Month (alege „Month” sus, în dreapta).</p>';
   if (!rec || !rec.leadtable) return '<h3 class="panel__title">' + title + '</h3><p class="note">Nu există date pentru luna selectată (urmează).</p>';
   var T = rec.leadtable;
-  var head = '<thead><tr><th>Clinică</th>' + th('Leaduri noi', 'telefoane la prima apariție') + th('Conversie', 'programate ÷ noi') + '</tr></thead>';
+  var head = '<thead><tr><th>Clinică</th>' + th('Leaduri noi', 'lead-uri noi în lună') + th('Conversie', 'programate ÷ noi') + '</tr></thead>';
   var blocks = T.clusters.map(function (c) {
     var rows = c.rows.map(function (r) {
       var l = r.leads == null ? '—' : r.leads.toLocaleString('ro-RO');
@@ -77,10 +77,10 @@ function leadsPanel(rec, isYtd) {
            '<table class="kpi mini">' + head + '<tbody>' + rows + '</tbody></table></div>';
   }).join('');
   var n = T.network;
-  var net = '<div class="net"><div class="net__row"><div><strong>Total rețea</strong><span class="cell__note">leaduri noi (unice), Facebook + Instagram</span></div>' +
+  var net = '<div class="net"><div class="net__row"><div><strong>Total rețea</strong><span class="cell__note">leaduri noi, Facebook + Instagram</span></div>' +
             '<div class="net__val"><strong>' + n.leads.toLocaleString('ro-RO') + '</strong> · conversie <strong>' + n.conv + '%</strong></div><div></div></div></div>';
   return '<h3 class="panel__title">' + title + '</h3><div class="clusters">' + blocks + '</div>' + net +
-         '<p class="note">Leaduri noi = telefoane la prima apariție în istoric. Conversie = leaduri noi programate ÷ leaduri noi. Cotroceni nu are leaduri în sursă (0 în toate lunile), iar Brăila nu are încă. Suma clinicilor e puțin peste totalul rețelei, pentru că același telefon poate apărea la mai multe clinici.</p>';
+         '<p class="note">Conversie = lead-uri noi programate ÷ lead-uri noi (definiția din Puls). Cotroceni nu are leaduri în sursă (0 în toate lunile), iar Brăila nu are încă. Suma clinicilor e puțin peste totalul rețelei.</p>';
 }
 
 function renderExtra() {

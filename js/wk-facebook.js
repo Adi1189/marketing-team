@@ -232,7 +232,7 @@ window.WEEKLY_CONFIG = {
  "notes": [
   "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S44, ISO).",
   "Engagement = reacții + comentarii + distribuiri. Toate săptămânile S27–S41 au inventar complet de postări, citit în octombrie cu skill-ul actualizat.",
-  "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
+  "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în raport.",
   "S36–S40 au fost recitite cu skill-ul actualizat: inventar complet, cu reacții, comentarii și distribuiri citite pentru toate conturile. Unele cifre ies mai mari decât în raportul vechi, de exemplu Regina Maria: 145 → 284 în S40 și 105 → 246 în S39, deci aceste săptămâni nu sunt comparabile direct cu S29–S35 la acel cont.",
   "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie; comentariile și distribuirile au fost numărate ca 0 când pagina nu afișa niciun număr.",

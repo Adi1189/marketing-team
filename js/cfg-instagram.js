@@ -61,7 +61,7 @@ window.REPORT_CONFIG = {
   "showMonth": true
  },
  "notes": [
-  "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze „noi (unice)” = telefoane la prima apariție. La iulie, variația (−9%) e cea din Puls.",
+  "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze: lead-uri noi. La iulie, variația (−9%) e cea din Puls.",
   "Octombrie (S41–S44, 5 octombrie – 1 noiembrie) e calculat din cele patru săptămâni și e complet.",
   "Titlurile postărilor de top din iulie și august sunt citite din descrierile postărilor, pe 15 octombrie (la colaborări apare contul partener); linkurile sunt complete. Like-urile din iulie–august au fost citite pe 12–14 octombrie.",
   "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40, octombrie: S44), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină."
@@ -79,7 +79,7 @@ window.REPORT_CONFIG = {
     "posts": "5 din 5 săpt. (S27–S31)",
     "avgeng": "5 din 5 săpt.",
     "followers": "la S31",
-    "leads": "Facebook + Instagram, împreună · noi (unice): 836"
+    "leads": "Facebook + Instagram, împreună · lead-uri noi: 836"
    },
    "followers": 4272,
    "vs": {
@@ -150,7 +150,7 @@ window.REPORT_CONFIG = {
     "posts": "4 din 4 săpt. (S32–S35)",
     "avgeng": "4 din 4 săpt.",
     "followers": "la S35",
-    "leads": "Facebook + Instagram, împreună · noi (unice): 832"
+    "leads": "Facebook + Instagram, împreună · lead-uri noi: 832"
    },
    "followers": 4441,
    "topPosts": {
@@ -218,7 +218,7 @@ window.REPORT_CONFIG = {
     "posts": "5 din 5 săpt. (S36–S40)",
     "avgeng": "5 din 5 săpt.",
     "followers": "la S40",
-    "leads": "Facebook + Instagram, împreună · noi (unice): 827"
+    "leads": "Facebook + Instagram, împreună · lead-uri noi: 827"
    },
    "followers": 4559,
    "topPosts": {
