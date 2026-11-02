@@ -103,15 +103,13 @@ function yearsPanel() {
 
 function profilePanel() {
   var rows = CL.map(function (c) {
-    var p = X.profile[c.id], api = 0; RMONTHS.forEach(function (k) { api += cv(c.id, k); });
-    var gap = p.total - api;
-    return '<tr><td class="left">' + esc(c.name) + '</td><td class="num"><strong>' + f2r(p.rating).replace(/0$/, '0') + '</strong></td><td class="num">' + fn(p.total) + '</td><td class="num">' + fn(api) + '</td><td class="num">' + (gap > 0 ? '+' + gap : gap) + '</td></tr>';
+    var p = X.profile[c.id];
+    return '<tr><td class="left">' + esc(c.name) + '</td><td class="num"><strong>' + f2r(p.rating) + '</strong></td><td class="num">' + fn(p.total) + '</td></tr>';
   }).join('');
-  var tp = 0, ta = 0; CL.forEach(function (c) { tp += X.profile[c.id].total; RMONTHS.forEach(function (k) { ta += cv(c.id, k); }); });
-  return '<h3 class="panel__title">Profilul Google acum</h3><p class="note" style="margin-top:0">Nota și numărul total de recenzii afișate pe profilul fiecărei clinici (toți anii la un loc), la data raportului: ' + X.generated + '. Coloana „în raport” cuprinde doar recenziile din ianuarie 2022 – 31 octombrie 2026.</p>' +
-    '<div class="table-wrap"><table class="kpi cmp"><thead><tr><th class="left">Clinică</th><th>Nota pe profil</th><th>Recenzii pe profil</th><th>Recenzii în raport</th><th>Diferență</th></tr></thead><tbody>' + rows +
-    '<tr class="row--tot"><td class="left"><strong>Total rețea</strong></td><td class="num">–</td><td class="num"><strong>' + fn(tp) + '</strong></td><td class="num"><strong>' + fn(ta) + '</strong></td><td class="num"><strong>+' + (tp - ta) + '</strong></td></tr></tbody></table></div>' +
-    '<p class="note">Diferența (' + (tp - ta) + ') se explică aproape complet prin recenziile de dinainte de ianuarie 2022, care nu sunt în raport: Giurgiu 23, Oltenița 37, Dorobanți 5. La Călărași raportul are o recenzie în plus față de profil. Notele de pe profil sunt rotunjite la o zecimală de Google.</p>';
+  var tp = 0; CL.forEach(function (c) { tp += X.profile[c.id].total; });
+  return '<h3 class="panel__title">Profilul Google acum</h3><p class="note" style="margin-top:0">Nota și numărul total de recenzii de pe pagina Google a fiecărei clinici, cu toți anii la un loc, la ' + X.generated.slice(0, 10) + '. Notele sunt rotunjite la o zecimală de Google.</p>' +
+    '<div class="table-wrap"><table class="kpi cmp"><thead><tr><th class="left">Clinică</th><th>Nota pe profil</th><th>Recenzii pe profil</th></tr></thead><tbody>' + rows +
+    '<tr class="row--tot"><td class="left"><strong>Total rețea</strong></td><td class="num">–</td><td class="num"><strong>' + fn(tp) + '</strong></td></tr></tbody></table></div>';
 }
 
 function renderRev() {

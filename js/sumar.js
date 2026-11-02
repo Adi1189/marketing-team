@@ -88,7 +88,6 @@ function renderExtra() {
   var rec = DATA[key(state.year, state.month)];
   document.getElementById('sumar-leads').innerHTML = leadsPanel(rec, isYtd);
   document.getElementById('sumar-p0').innerHTML = p0Panel(rec, isYtd);
-  document.getElementById('sumar-reviews').innerHTML = reviewsPanel(rec, isYtd);
 }
 
 var _renderBase = render;

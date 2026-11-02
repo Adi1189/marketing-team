@@ -1,8 +1,8 @@
-// Date reale din Puls (Monthly brief → Pacienți) pentru iul–sep 2026 + numărătoare recenzii (septembrie).
+// Date reale din Puls (Monthly brief → Pacienți) pentru iul–oct 2026.
 window.REPORT_CONFIG = {
  "channel": "Sumar",
  "demo": false,
- "pillText": "Date reale · iul–sep 2026",
+ "pillText": "Date reale · iul–oct 2026",
  "kpis": [
   {
    "key": "leads",
@@ -40,45 +40,35 @@ window.REPORT_CONFIG = {
    "hint": "pacienți înregistrați în sistem în lună, suma tuturor clinicilor",
    "type": "num",
    "additive": true
-  },
-  {
-   "key": "reviews",
-   "label": "Recenzii Google",
-   "hint": "recenzii Google noi primite în lună, la toate clinicile",
-   "type": "num",
-   "additive": true
   }
  ],
  "top": null,
  "notes": [
-  "Date reale din Puls pentru iulie, august și septembrie 2026 (Monthly brief → Pacienți și Marketing · Social Ads); recenziile Google sunt numărătoarea ta (total rețea, pe toate cele trei luni).",
+  "Date reale din Puls pentru iulie–octombrie 2026 (Monthly brief → Pacienți; pentru iulie–septembrie și Marketing · Social Ads).",
   "Leaduri primite = toate lead-urile din campaniile Facebook și Instagram din lună, inclusiv telefoanele care au mai sunat. Leaduri noi (unice) = telefoane la prima apariție în istoric. Diferența dintre ele e procentul de leaduri dublate.",
   "Conversia = leaduri noi programate ÷ leaduri noi. Rata de pacienți noi = din pacienții unici ai lunii, ce procent sunt la prima vizită (restul sunt recurenți).",
-  "P0 = pacienți noi înregistrați în sistem în lună, suma tuturor clinicilor. La iulie, variațiile față de luna anterioară (−9% la leaduri primite și la leaduri noi, +9% la P0, +54% la recenzii față de iunie: 118) sunt cele din Puls și din numărătoarea ta, pentru că iunie nu e în pagină.",
+  "P0 = pacienți noi înregistrați în sistem în lună, suma tuturor clinicilor. La iulie, variațiile față de luna anterioară (−9% la leaduri primite și la leaduri noi, +9% la P0) sunt cele din Puls, pentru că iunie nu e în pagină.",
   "Sursa leadurilor pe clinici e tabelul „FB_adds_campaigns” (canal Facebook + Instagram), cu cifre care pot diferi cu câteva procente de raportul Tableau. Suma clinicilor e puțin peste totalul rețelei, fiindcă același telefon poate apărea la mai multe clinici.",
-  "Defalcarea recenziilor pe clinici urmează. Brăila nu e în lista de clinici pentru recenzii."
+  "Octombrie: leadurile noi (unice) și leadurile pe clinici nu apar în pagina Puls folosită, deci lipsesc. Brăila nu e în lista de clinici pentru leaduri."
  ],
  "data": {
   "2026-07": {
    "leads": 1264,
    "convrate": 53,
    "p0": 1656,
-   "reviews": 161,
    "q": {},
    "note": {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.737 pacienți unici · 56% recurenți",
     "p0": "+49% față de iul 2025 · medie 12 luni: 1.316",
-    "reviews": "cifră exactă din Google Business Profile, pe clinici (în tabelul de jos)",
     "newleads": "33,9% din leadurile primite sunt telefoane deja văzute"
    },
    "newrate": 44,
    "vs": {
     "leads": -9,
     "p0": 9,
-    "newleads": -9,
-    "reviews": 41.2
+    "newleads": -9
    },
    "p0table": {
     "clusters": [
@@ -272,73 +262,18 @@ window.REPORT_CONFIG = {
      "leads": 836,
      "conv": 53
     }
-   },
-   "reviews_by": {
-    "total": 161,
-    "clusters": [
-     {
-      "id": "c1",
-      "name": "Cluster 1 · Zona de Sud",
-      "rows": [
-       {
-        "n": "Oltenița",
-        "v": 5
-       },
-       {
-        "n": "Giurgiu",
-        "v": 22
-       },
-       {
-        "n": "Slobozia",
-        "v": 19
-       },
-       {
-        "n": "Călărași",
-        "v": 32
-       },
-       {
-        "n": "Brăila",
-        "v": 1
-       }
-      ]
-     },
-     {
-      "id": "c2",
-      "name": "Cluster 2 · Buc + Centru",
-      "rows": [
-       {
-        "n": "Dorobanți",
-        "v": 15
-       },
-       {
-        "n": "Cotroceni",
-        "v": 6
-       },
-       {
-        "n": "Târgoviște",
-        "v": 22
-       },
-       {
-        "n": "Focșani",
-        "v": 39
-       }
-      ]
-     }
-    ]
    }
   },
   "2026-08": {
    "leads": 1366,
    "convrate": 54,
    "p0": 1611,
-   "reviews": 175,
    "q": {},
    "note": {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.467 pacienți unici · 54% recurenți",
     "p0": "+30% față de aug 2025 · medie 12 luni: 1.347",
-    "reviews": "cifră exactă din Google Business Profile, pe clinici (în tabelul de jos)",
     "newleads": "39,1% din leadurile primite sunt telefoane deja văzute"
    },
    "newrate": 46,
@@ -534,73 +469,18 @@ window.REPORT_CONFIG = {
      "leads": 832,
      "conv": 54
     }
-   },
-   "reviews_by": {
-    "total": 175,
-    "clusters": [
-     {
-      "id": "c1",
-      "name": "Cluster 1 · Zona de Sud",
-      "rows": [
-       {
-        "n": "Oltenița",
-        "v": 6
-       },
-       {
-        "n": "Giurgiu",
-        "v": 26
-       },
-       {
-        "n": "Slobozia",
-        "v": 25
-       },
-       {
-        "n": "Călărași",
-        "v": 25
-       },
-       {
-        "n": "Brăila",
-        "v": 0
-       }
-      ]
-     },
-     {
-      "id": "c2",
-      "name": "Cluster 2 · Buc + Centru",
-      "rows": [
-       {
-        "n": "Dorobanți",
-        "v": 16
-       },
-       {
-        "n": "Cotroceni",
-        "v": 6
-       },
-       {
-        "n": "Târgoviște",
-        "v": 36
-       },
-       {
-        "n": "Focșani",
-        "v": 35
-       }
-      ]
-     }
-    ]
    }
   },
   "2026-09": {
    "leads": 1311,
    "convrate": 50,
-   "p0": 1427,
-   "reviews": 236,
+   "p0": 1422,
    "q": {},
    "note": {
     "leads": "medie 21 luni (iul 25–iul 26): 1.126",
     "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
     "newrate": "din 3.779 pacienți unici · 62% recurenți",
-    "p0": "+20% față de sep 2025 · medie 12 luni: 1.367",
-    "reviews": "cifră exactă din Google Business Profile, pe clinici (în tabelul de jos)",
+    "p0": "+20% față de sep 2025 · medie 12 luni: 1.366",
     "newleads": "36,9% din leadurile primite sunt telefoane deja văzute"
    },
    "p0table": {
@@ -675,9 +555,9 @@ window.REPORT_CONFIG = {
        },
        {
         "n": "Cotroceni",
-        "p0": 72,
-        "mom": -30,
-        "yoy": -42,
+        "p0": 69,
+        "mom": -33,
+        "yoy": -44,
         "ytd": -14
        },
        {
@@ -689,27 +569,27 @@ window.REPORT_CONFIG = {
        },
        {
         "n": "Focșani",
-        "p0": 298,
+        "p0": 296,
         "mom": -11,
         "yoy": null,
         "ytd": null
        }
       ],
       "total": {
-       "p0": 170,
-       "mom": -9,
-       "yoy": 9,
+       "p0": 169,
+       "mom": -10,
+       "yoy": 8,
        "ytd": 64,
        "avg12": 167,
-       "avg12d": 2
+       "avg12d": 1
       },
       "sum": {
-       "p0": 680,
-       "mom": -9,
-       "yoy": 46,
+       "p0": 675,
+       "mom": -10,
+       "yoy": 45,
        "ytd": 167,
-       "avg12": 615,
-       "avg12d": 11
+       "avg12": 614,
+       "avg12d": 10
       }
      }
     ],
@@ -722,66 +602,13 @@ window.REPORT_CONFIG = {
       "avg12d": 0
      },
      "sum": {
-      "p0": 1427,
-      "mom": -11,
+      "p0": 1422,
+      "mom": -12,
       "yoy": 20,
-      "avg12": 1367,
+      "avg12": 1366,
       "avg12d": 4
      }
     }
-   },
-   "reviews_by": {
-    "total": 236,
-    "clusters": [
-     {
-      "id": "c1",
-      "name": "Cluster 1 · Zona de Sud",
-      "rows": [
-       {
-        "n": "Oltenița",
-        "v": 6
-       },
-       {
-        "n": "Giurgiu",
-        "v": 28
-       },
-       {
-        "n": "Slobozia",
-        "v": 18
-       },
-       {
-        "n": "Călărași",
-        "v": 25
-       },
-       {
-        "n": "Brăila",
-        "v": 0
-       }
-      ]
-     },
-     {
-      "id": "c2",
-      "name": "Cluster 2 · Buc + Centru",
-      "rows": [
-       {
-        "n": "Dorobanți",
-        "v": 27
-       },
-       {
-        "n": "Cotroceni",
-        "v": 12
-       },
-       {
-        "n": "Târgoviște",
-        "v": 78
-       },
-       {
-        "n": "Focșani",
-        "v": 42
-       }
-      ]
-     }
-    ]
    },
    "newrate": 38,
    "newleads": 827,
@@ -848,6 +675,147 @@ window.REPORT_CONFIG = {
     "network": {
      "leads": 827,
      "conv": 50
+    }
+   }
+  },
+  "2026-10": {
+   "leads": 1855,
+   "newleads": null,
+   "convrate": 49,
+   "newrate": 44,
+   "p0": 1694,
+   "q": {},
+   "note": {
+    "leads": "medie 22 luni: 1.159",
+    "convrate": "leaduri noi programate ÷ leaduri noi · medie: 43%",
+    "newrate": "din 3.818 pacienți unici · 56% recurenți",
+    "p0": "+14% față de oct 2025 · medie 12 luni: 1.383"
+   },
+   "p0table": {
+    "clusters": [
+     {
+      "id": "c1",
+      "name": "Cluster 1 · Zona de Sud",
+      "rows": [
+       {
+        "n": "Oltenița",
+        "p0": 153,
+        "mom": -4,
+        "yoy": -19,
+        "ytd": -2
+       },
+       {
+        "n": "Giurgiu",
+        "p0": 172,
+        "mom": -13,
+        "yoy": -2,
+        "ytd": -5
+       },
+       {
+        "n": "Slobozia",
+        "p0": 182,
+        "mom": 9,
+        "yoy": 1,
+        "ytd": -8
+       },
+       {
+        "n": "Călărași",
+        "p0": 209,
+        "mom": -6,
+        "yoy": -18,
+        "ytd": -6
+       },
+       {
+        "n": "Brăila",
+        "p0": 289,
+        "mom": null,
+        "yoy": null,
+        "ytd": null
+       }
+      ],
+      "total": {
+       "p0": 201,
+       "mom": 7,
+       "yoy": 1,
+       "ytd": -5,
+       "avg12": 188,
+       "avg12d": 7
+      },
+      "sum": {
+       "p0": 1005,
+       "mom": 35,
+       "yoy": 26,
+       "ytd": -2,
+       "avg12": 769,
+       "avg12d": 31
+      }
+     },
+     {
+      "id": "c2",
+      "name": "Cluster 2 · Buc + Centru",
+      "rows": [
+       {
+        "n": "Dorobanți",
+        "p0": 56,
+        "mom": -35,
+        "yoy": -77,
+        "ytd": -18
+       },
+       {
+        "n": "Cotroceni",
+        "p0": 74,
+        "mom": 7,
+        "yoy": -57,
+        "ytd": -21
+       },
+       {
+        "n": "Târgoviște",
+        "p0": 251,
+        "mom": 12,
+        "yoy": -6,
+        "ytd": 166
+       },
+       {
+        "n": "Focșani",
+        "p0": 308,
+        "mom": 4,
+        "yoy": null,
+        "ytd": null
+       }
+      ],
+      "total": {
+       "p0": 172,
+       "mom": 2,
+       "yoy": -25,
+       "ytd": 46,
+       "avg12": 162,
+       "avg12d": 6
+      },
+      "sum": {
+       "p0": 689,
+       "mom": 2,
+       "yoy": 0,
+       "ytd": 128,
+       "avg12": 614,
+       "avg12d": 12
+      }
+     }
+    ],
+    "network": {
+     "avg": {
+      "p0": 188,
+      "mom": 6,
+      "yoy": -11,
+      "avg12": 176,
+      "avg12d": 7
+     },
+     "sum": {
+      "p0": 1694,
+      "mom": 19,
+      "yoy": 14,
+      "avg12": 1383,
+      "avg12d": 22
+     }
     }
    }
   }
