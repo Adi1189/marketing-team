@@ -1,4 +1,4 @@
-// Date reale din rapoartele KPI Tier 1 (S27–S41), pe săptămână.
+// Date reale din rapoartele KPI Tier 1 (S27–S44), pe săptămână.
 window.WEEKLY_CONFIG = {
  "channel": "Instagram",
  "weeks": [
@@ -85,6 +85,11 @@ window.WEEKLY_CONFIG = {
   {
    "id": "S43",
    "range": "19–25 oct",
+   "month": "Octombrie"
+  },
+  {
+   "id": "S44",
+   "range": "26 oct–1 nov",
    "month": "Octombrie"
   }
  ],
@@ -219,20 +224,21 @@ window.WEEKLY_CONFIG = {
  },
  "topLabel": "Engagement",
  "take": [
-  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 17 săptămâni: 7,4 postări pe săptămână la noi, 6,8 la Regina Maria, 6,5 la Life și 16,2 la DENT ESTET. Vârful nostru a fost 12 în S38. În S43 am avut 9 postări, față de 19 la DENT ESTET.",
-  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 17 din 17 săptămâni cu cifre (0,42–1,43% față de 0,12–0,67%), peste Regina Maria în 16 și peste Life în 17. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 17 săptămâni (S29, S35, S40).",
-  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 17 cu cifre e S40 (19,3), cea mai bună e S33 (66,0). În S42 a fost 28,1, iar în S43 28,8.",
-  "Urmăritori, de la prima cifră (S28) la S43: DENT ESTET +1.516 (+19,8%), noi +396 (+9,3%). Life +5,6% și Regina Maria +2,2%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+8,0%) și Dental Blue (+14,2%) pornesc de la baze foarte mici.",
+  "Ritmul nostru e aproape de al Regina Maria și al Life, dar la jumătate din al DENT ESTET. Media pe 18 săptămâni: 7,5 postări pe săptămână la noi, 6,7 la Regina Maria, 6,5 la Life și 16,4 la DENT ESTET. Vârful nostru a fost 12 în S38. În S44 am avut 9 postări, față de 19 la DENT ESTET.",
+  "Pe rata de engagement (engagement mediu împărțit la urmăritori) suntem peste DENT ESTET în 18 din 18 săptămâni cu cifre (0,42%–1,43% față de 0,12%–0,67%), peste Regina Maria în 17 și peste Life în 18. Pe engagement mediu per postare, DENT ESTET ne depășește în 3 din 18 săptămâni (S29, S35, S40).",
+  "Engagementul nostru mediu pe postare (like-uri + comentarii): cea mai slabă săptămână dintre cele 18 cu cifre e S40 (19,3), cea mai bună e S33 (66,0). În S43 a fost 28,8, iar în S44 22,3.",
+  "Urmăritori, de la prima cifră (S27) la S44: DENT ESTET +1.573 (+20,5%), noi +421 (+9,9%). Life +5,6% și Regina Maria +2,2%, dar la acestea cifrele sunt rotunjite la 0,1K. Elidadent (+8,6%) și Dental Blue (+16,6%) pornesc de la baze foarte mici.",
   "Cele mai mari vârfuri ale pieței: Regina Maria 630 (S41); Regina Maria 476 (S29); Elidadent 389 (S38). La noi, cele mai bune trei săptămâni după postarea de top: 151 (S32); 136 (S34); 95 (S33)."
  ],
  "notes": [
-  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S40, ISO).",
+  "Rapoartele KPI Tier 1 compară contul nostru cu cei 5 concurenți principali (Tier 1). Săptămânile sunt cele din rapoarte (S27–S44, ISO).",
   "Engagement = like-uri + comentarii (Instagram nu arată distribuirile); unde raportul dă doar like-uri, cifra e minimă („≥”). Urmăritorii apar doar în câteva rapoarte (se păstrează ultima cifră cunoscută).",
   "Leadurile sunt din Puls (Marketing · Social Ads, „Trend săptămânal”): leaduri primite din campaniile Facebook + Instagram la un loc, pe săptămâni ISO, inclusiv telefoanele care au mai sunat. Nu se pot separa pe canal, așa că aceeași cifră apare pe ambele pagini. Puls începe de la S30.",
   "S41 (5–11 octombrie) vine din raportul rulat pe 12 octombrie. Regina Maria are în S41 un reel în colaborare cu 630 de interacțiuni; fără el media ei ar fi 17,0. Raportul nu are variația față de S40 (nu a măsurat acea săptămână), dar aici S40 există și e folosit pentru variație.",
   "Urmăritorii sunt cifrele din rapoartele săptămânale vechi, citite în acele săptămâni (rotunjite la mii la Facebook, exacte la Instagram pentru noi, DENT ESTET, Elidadent și Dental Blue); unde raportul vechi nu avea cifră, am păstrat citirea de la rulare, marcată „≈”. S41 e citirea de la rulare.",
   "S42 (12–18 octombrie) vine din raportul rulat pe 19 octombrie, din contul logat. La colaborări apare postarea contului partener (de exemplu reelul Fundației la noi: fără el, media noastră ar fi 24,7).",
-  "S43 (19–25 octombrie) vine din raportul rulat pe 26 octombrie, din contul logat; like-urile pot mai crește după citire. Dental Blue nu a postat."
+  "S43 (19–25 octombrie) vine din raportul rulat pe 26 octombrie, din contul logat; like-urile pot mai crește după citire. Dental Blue nu a postat.",
+  "S44 (26 octombrie – 1 noiembrie) vine din raportul rulat pe 2 noiembrie, din contul logat. La DENT ESTET și Elidadent o postare are like-urile ascunse și nu intră în medie („≥”). Dental Blue nu a postat. Postările în colaborare din grila altor conturi nu sunt numărate."
  ],
  "data": {
   "DrA": {
@@ -595,6 +601,27 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/reel/Deq4KxfHGJE/"
     },
     "topval": 88
+   },
+   "S44": {
+    "q": {
+     "followers": "",
+     "topval": ""
+    },
+    "note": {
+     "leads": "Puls: nu avem încă cifra pentru S44"
+    },
+    "leads": null,
+    "posts": 9,
+    "eng_sum": 201,
+    "eng_n": 9,
+    "followers": 4693,
+    "top": {
+     "title": "Reel: „Poate că unul dintre cele mai periculoase momente într-o profesie…”",
+     "value": 50,
+     "q": "",
+     "url": "https://www.instagram.com/dr.ardeleanu/reel/De8262wmqcr/"
+    },
+    "topval": 50
    }
   },
   "DE": {
@@ -926,6 +953,28 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/p/DeyhkcAlTCZ/"
     },
     "topval": 48
+   },
+   "S44": {
+    "q": {
+     "followers": "",
+     "topval": "",
+     "avgeng": "≥"
+    },
+    "note": {
+     "avgeng": "18 din 19 postări au engagement citit"
+    },
+    "leads": null,
+    "posts": 19,
+    "eng_sum": 254,
+    "eng_n": 18,
+    "followers": 9246,
+    "top": {
+     "title": "Feed: detartrajul de două ori pe an, pentru un zâmbet sănătos",
+     "value": 30,
+     "q": "",
+     "url": "https://www.instagram.com/dent.estet/p/DfJraKpCS4W/"
+    },
+    "topval": 30
    }
   },
   "RM": {
@@ -1269,6 +1318,25 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/p/Dewmx74iCSb/"
     },
     "topval": 32
+   },
+   "S44": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {},
+    "leads": null,
+    "posts": 6,
+    "eng_sum": 228,
+    "eng_n": 6,
+    "followers": 13700,
+    "top": {
+     "title": "Feed: de Ziua Reginei, 29 oct, sărbătoare cu echipa din clinici",
+     "value": 60,
+     "q": "",
+     "url": "https://www.instagram.com/reginamariadentalclinics/p/DfFvCGvDlis/"
+    },
+    "topval": 60
    }
   },
   "Life": {
@@ -1606,6 +1674,25 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/reel/De1Cl_8G-vp/"
     },
     "topval": 75
+   },
+   "S44": {
+    "q": {
+     "followers": "≈",
+     "topval": ""
+    },
+    "note": {},
+    "leads": null,
+    "posts": 7,
+    "eng_sum": 58,
+    "eng_n": 7,
+    "followers": 13300,
+    "top": {
+     "title": "Reel: adevărul despre tartru, care nu dispare doar spălându-te mai bine",
+     "value": 21,
+     "q": "",
+     "url": "https://www.instagram.com/lifedentalspa/reel/DfB6Q73CFzJ/"
+    },
+    "topval": 21
    }
   },
   "Eli": {
@@ -1931,6 +2018,28 @@ window.WEEKLY_CONFIG = {
      "url": "https://www.instagram.com/reel/Deq7SQ7E5Ws/"
     },
     "topval": 16
+   },
+   "S44": {
+    "q": {
+     "followers": "",
+     "topval": "",
+     "avgeng": "≥"
+    },
+    "note": {
+     "avgeng": "9 din 10 postări au engagement citit"
+    },
+    "leads": null,
+    "posts": 10,
+    "eng_sum": 115,
+    "eng_n": 9,
+    "followers": 515,
+    "top": {
+     "title": "Reel: Halloween vs. nuntă, cu hashtag-uri de brand",
+     "value": 27,
+     "q": "",
+     "url": "https://www.instagram.com/clinicaelidadent/reel/DfKBBXMDgC8/"
+    },
+    "topval": 27
    }
   },
   "DB": {
@@ -2255,6 +2364,28 @@ window.WEEKLY_CONFIG = {
     "eng_sum": null,
     "eng_n": 0,
     "followers": 426,
+    "top": {
+     "title": "fără postări",
+     "value": null,
+     "q": "",
+     "url": null
+    },
+    "topval": null
+   },
+   "S44": {
+    "q": {
+     "followers": "",
+     "topval": "",
+     "avgeng": "–"
+    },
+    "note": {
+     "posts": "nicio postare în săptămână"
+    },
+    "leads": null,
+    "posts": 0,
+    "eng_sum": null,
+    "eng_n": 0,
+    "followers": 435,
     "top": {
      "title": "fără postări",
      "value": null,
