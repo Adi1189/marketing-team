@@ -64,7 +64,7 @@ window.REPORT_CONFIG = {
   "Iulie–octombrie (S27–S44) au inventar complet de postări, cu reacții, comentarii și distribuiri citite pentru toate conturile.",
   "Engagement = reacții + comentarii + distribuiri.",
   "Urmăritorii sunt rotunjiți la mii în rapoarte (≈17.000), așa că o creștere lunară nu se poate vedea.",
-  "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). Între paranteze: lead-uri noi. La iulie, variația (−9%) e cea din Puls.",
+  "Leadurile sunt din Puls (Monthly brief → Pacienți): leaduri primite din campaniile Facebook + Instagram, la un loc (aceeași cifră pe ambele pagini, pentru că nu se pot separa pe canal). La iulie, variația (−9%) e cea din Puls.",
   "Octombrie (S41–S44, 5 octombrie – 1 noiembrie) e calculat din cele patru săptămâni și e complet.",
   "Urmăritorii pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40, octombrie: S44), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină."
  ],
@@ -82,7 +82,7 @@ window.REPORT_CONFIG = {
     "posts": "5 din 5 săpt. (S27–S31)",
     "avgeng": "5 din 5 săpt.",
     "followers": "la S31 · rotunjit",
-    "leads": "Facebook + Instagram, împreună · lead-uri noi: 836"
+    "leads": "Facebook + Instagram, împreună"
    },
    "vs": {
     "leads": -9
@@ -151,7 +151,7 @@ window.REPORT_CONFIG = {
     "posts": "4 din 4 săpt. (S32–S35)",
     "avgeng": "4 din 4 săpt.",
     "followers": "la S35 · rotunjit",
-    "leads": "Facebook + Instagram, împreună · lead-uri noi: 832"
+    "leads": "Facebook + Instagram, împreună"
    },
    "topPosts": {
     "DrA": {
@@ -217,7 +217,7 @@ window.REPORT_CONFIG = {
     "posts": "5 din 5 săpt. (S36–S40)",
     "avgeng": "5 din 5 săpt.",
     "followers": "la S40 · rotunjit",
-    "leads": "Facebook + Instagram, împreună · lead-uri noi: 827"
+    "leads": "Facebook + Instagram, împreună"
    },
    "topPosts": {
     "DrA": {

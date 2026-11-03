@@ -86,7 +86,6 @@ function leadsPanel(rec, isYtd) {
 function renderExtra() {
   var isYtd = state.mode === 'ytd';
   var rec = DATA[key(state.year, state.month)];
-  document.getElementById('sumar-leads').innerHTML = leadsPanel(rec, isYtd);
   document.getElementById('sumar-p0').innerHTML = p0Panel(rec, isYtd);
 }
 

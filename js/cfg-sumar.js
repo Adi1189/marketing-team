@@ -12,13 +12,6 @@ window.REPORT_CONFIG = {
    "additive": true
   },
   {
-   "key": "newleads",
-   "label": "Leaduri noi Facebook + Instagram",
-   "hint": "lead-uri noi; pe ele se calculează conversia",
-   "type": "num",
-   "additive": true
-  },
-  {
    "key": "convrate",
    "decimals": 0,
    "label": "Rata de conversie leaduri → pacienți",
@@ -45,11 +38,9 @@ window.REPORT_CONFIG = {
  "top": null,
  "notes": [
   "Date reale din Puls pentru iulie–octombrie 2026 (Monthly brief → Pacienți; pentru iulie–septembrie și Marketing · Social Ads).",
-   "Leaduri primite = lead-urile primite în lună din campaniile Facebook și Instagram (definiția din Puls).",
+  "Leaduri primite = lead-urile primite în lună din campaniile Facebook și Instagram (definiția din Puls).",
   "Conversia = lead-uri noi programate ÷ lead-uri noi (definiția din Puls). Rata de pacienți noi = din pacienții unici ai lunii, ce procent sunt la prima vizită (restul sunt recurenți).",
-  "P0 = pacienți noi înregistrați în sistem în lună, suma tuturor clinicilor. La iulie, variațiile față de luna anterioară (−9% la leaduri primite și la leaduri noi, +9% la P0) sunt cele din Puls, pentru că iunie nu e în pagină.",
-  "Sursa leadurilor pe clinici e tabelul „FB_adds_campaigns” (canal Facebook + Instagram). Suma clinicilor e puțin peste totalul rețelei.",
-  "Octombrie: leadurile noi și leadurile pe clinici nu apar în pagina Puls folosită, deci lipsesc. Brăila nu e în lista de clinici pentru leaduri."
+  "P0 = pacienți noi înregistrați în sistem în lună, suma tuturor clinicilor. La iulie, variațiile față de luna anterioară (−9% la leaduri primite, +9% la P0) sunt cele din Puls, pentru că iunie nu e în pagină."
  ],
  "data": {
   "2026-07": {
@@ -66,8 +57,7 @@ window.REPORT_CONFIG = {
    "newrate": 44,
    "vs": {
     "leads": -9,
-    "p0": 9,
-    "newleads": -9
+    "p0": 9
    },
    "p0table": {
     "clusters": [
@@ -194,72 +184,6 @@ window.REPORT_CONFIG = {
       "avg12": 1316,
       "avg12d": 26
      }
-    }
-   },
-   "newleads": 836,
-   "leadtable": {
-    "clusters": [
-     {
-      "id": "c1",
-      "name": "Cluster 1 · Zona de Sud",
-      "rows": [
-       {
-        "n": "Oltenița",
-        "leads": 62,
-        "conv": 35
-       },
-       {
-        "n": "Giurgiu",
-        "leads": 123,
-        "conv": 52
-       },
-       {
-        "n": "Slobozia",
-        "leads": 83,
-        "conv": 58
-       },
-       {
-        "n": "Călărași",
-        "leads": 130,
-        "conv": 56
-       },
-       {
-        "n": "Brăila",
-        "leads": null,
-        "conv": null
-       }
-      ]
-     },
-     {
-      "id": "c2",
-      "name": "Cluster 2 · Buc + Centru",
-      "rows": [
-       {
-        "n": "Dorobanți",
-        "leads": 111,
-        "conv": 60
-       },
-       {
-        "n": "Cotroceni",
-        "leads": 0,
-        "conv": null
-       },
-       {
-        "n": "Târgoviște",
-        "leads": 154,
-        "conv": 50
-       },
-       {
-        "n": "Focșani",
-        "leads": 179,
-        "conv": 51
-       }
-      ]
-     }
-    ],
-    "network": {
-     "leads": 836,
-     "conv": 53
     }
    }
   },
@@ -401,72 +325,6 @@ window.REPORT_CONFIG = {
       "avg12d": 20
      }
     }
-   },
-   "newleads": 832,
-   "leadtable": {
-    "clusters": [
-     {
-      "id": "c1",
-      "name": "Cluster 1 · Zona de Sud",
-      "rows": [
-       {
-        "n": "Oltenița",
-        "leads": 72,
-        "conv": 35
-       },
-       {
-        "n": "Giurgiu",
-        "leads": 146,
-        "conv": 66
-       },
-       {
-        "n": "Slobozia",
-        "leads": 68,
-        "conv": 56
-       },
-       {
-        "n": "Călărași",
-        "leads": 130,
-        "conv": 28
-       },
-       {
-        "n": "Brăila",
-        "leads": null,
-        "conv": null
-       }
-      ]
-     },
-     {
-      "id": "c2",
-      "name": "Cluster 2 · Buc + Centru",
-      "rows": [
-       {
-        "n": "Dorobanți",
-        "leads": 118,
-        "conv": 66
-       },
-       {
-        "n": "Cotroceni",
-        "leads": 0,
-        "conv": null
-       },
-       {
-        "n": "Târgoviște",
-        "leads": 145,
-        "conv": 61
-       },
-       {
-        "n": "Focșani",
-        "leads": 162,
-        "conv": 54
-       }
-      ]
-     }
-    ],
-    "network": {
-     "leads": 832,
-     "conv": 54
-    }
    }
   },
   "2026-09": {
@@ -607,77 +465,10 @@ window.REPORT_CONFIG = {
      }
     }
    },
-   "newrate": 38,
-   "newleads": 827,
-   "leadtable": {
-    "clusters": [
-     {
-      "id": "c1",
-      "name": "Cluster 1 · Zona de Sud",
-      "rows": [
-       {
-        "n": "Oltenița",
-        "leads": 59,
-        "conv": 37
-       },
-       {
-        "n": "Giurgiu",
-        "leads": 106,
-        "conv": 52
-       },
-       {
-        "n": "Slobozia",
-        "leads": 85,
-        "conv": 52
-       },
-       {
-        "n": "Călărași",
-        "leads": 111,
-        "conv": 44
-       },
-       {
-        "n": "Brăila",
-        "leads": null,
-        "conv": null
-       }
-      ]
-     },
-     {
-      "id": "c2",
-      "name": "Cluster 2 · Buc + Centru",
-      "rows": [
-       {
-        "n": "Dorobanți",
-        "leads": 109,
-        "conv": 56
-       },
-       {
-        "n": "Cotroceni",
-        "leads": 0,
-        "conv": null
-       },
-       {
-        "n": "Târgoviște",
-        "leads": 165,
-        "conv": 47
-       },
-       {
-        "n": "Focșani",
-        "leads": 198,
-        "conv": 54
-       }
-      ]
-     }
-    ],
-    "network": {
-     "leads": 827,
-     "conv": 50
-    }
-   }
+   "newrate": 38
   },
   "2026-10": {
    "leads": 1855,
-   "newleads": null,
    "convrate": 49,
    "newrate": 44,
    "p0": 1694,
