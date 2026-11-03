@@ -5,6 +5,21 @@ window.REPORT_CONFIG = {
  "pillText": "Date reale · iul–oct 2026",
  "kpis": [
   {
+   "key": "p0",
+   "label": "Pacienți noi înregistrați (P0)",
+   "hint": "pacienți înregistrați în sistem în lună, suma tuturor clinicilor",
+   "type": "num",
+   "additive": true
+  },
+  {
+   "key": "newrate",
+   "label": "Rata de pacienți noi",
+   "hint": "din 100 de pacienți care au venit în lună, câți sunt noi (prima vizită), în procente",
+   "type": "pct",
+   "additive": false,
+   "decimals": 0
+  },
+  {
    "key": "leads",
    "label": "Leaduri primite Facebook + Instagram",
    "hint": "lead-urile primite în lună din campaniile Facebook și Instagram",
@@ -18,21 +33,6 @@ window.REPORT_CONFIG = {
    "hint": "lead-uri noi programate ÷ lead-uri noi, în procente",
    "type": "pct",
    "additive": false
-  },
-  {
-   "key": "newrate",
-   "label": "Rata de pacienți noi",
-   "hint": "din 100 de pacienți care au venit în lună, câți sunt noi (prima vizită), în procente",
-   "type": "pct",
-   "additive": false,
-   "decimals": 0
-  },
-  {
-   "key": "p0",
-   "label": "Pacienți noi înregistrați (P0)",
-   "hint": "pacienți înregistrați în sistem în lună, suma tuturor clinicilor",
-   "type": "num",
-   "additive": true
   }
  ],
  "top": null,

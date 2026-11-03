@@ -35,13 +35,6 @@ window.REPORT_CONFIG = {
    "hint": "câți abonați are canalul, la ultimul raport din perioadă",
    "type": "num",
    "additive": "last"
-  },
-  {
-   "key": "leads",
-   "label": "Număr de leaduri",
-   "hint": "contacte noi (persoane interesate de servicii) venite din acest canal",
-   "type": "num",
-   "additive": true
   }
  ],
  "top": {
@@ -55,7 +48,6 @@ window.REPORT_CONFIG = {
   "Vizualizările sunt cele din ziua raportului, pentru videoclipurile publicate în acea săptămână. Un video recent are mai puține vizualizări decât unul vechi, deci ultimele zile din fiecare săptămână sunt dezavantajate.",
   "Community posts nu sunt numărate.",
   "Cifrele sunt exacte pentru canalul nostru, în toate cele 18 săptămâni (S27–S44).",
-  "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "Iulie, august și septembrie (S27–S40) au fost recitite cu skill-ul actualizat, cu vizualizările citite pe 12–15 octombrie.",
   "Octombrie (S41–S44, 5 octombrie – 1 noiembrie) e calculat din cele patru săptămâni și e complet.",
   "Abonații pe fiecare lună sunt cifra din ultima săptămână a lunii (iulie: S31, august: S35, septembrie: S40, octombrie: S44), din rapoartele săptămânale vechi; unde lipsea, e citirea de la rulare. Rotunjirile („≈”) vin din pagină.",

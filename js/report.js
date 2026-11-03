@@ -191,7 +191,7 @@ function renderTable() {
   }
 
   document.getElementById('kpi-head').innerHTML =
-    '<th>KPI</th><th>' + curLabel + '</th><th>' + prevLabel + '</th><th>Variație</th>';
+    '<th>KPI</th><th>' + prevLabel + '</th><th>' + curLabel + '</th><th>Variație</th>';
 
   document.getElementById('kpi-body').innerHTML = KPIS.filter(function (k) { return !k.hidden; }).map(function (k) {
     var c = cur ? cur[k.key] : null, p = prev ? prev[k.key] : null;
@@ -202,8 +202,8 @@ function renderTable() {
     }
     if (!isYtd && cur && cur.nocmp) d = { text: '–', cls: '' };   // set de întrebări diferit: nu comparăm
     return '<tr><td class="kpi__name">' + k.label + '<span class="kpi__hint">' + k.hint + '</span></td>' +
-           '<td class="num"><strong>' + cellHtml(k, cur, true) + '</strong></td>' +
            '<td class="num">' + cellHtml(k, prev, false) + '</td>' +
+           '<td class="num"><strong>' + cellHtml(k, cur, true) + '</strong></td>' +
            '<td class="num ' + d.cls + '">' + d.text + '</td></tr>';
   }).join('');
 

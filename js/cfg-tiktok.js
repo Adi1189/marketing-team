@@ -35,13 +35,6 @@ window.REPORT_CONFIG = {
    "hint": "câți urmăritori are contul, la ultimul raport din perioadă",
    "type": "num",
    "additive": "last"
-  },
-  {
-   "key": "leads",
-   "label": "Număr de leaduri",
-   "hint": "contacte noi (persoane interesate de servicii) venite din acest canal",
-   "type": "num",
-   "additive": true
   }
  ],
  "top": {
@@ -55,7 +48,6 @@ window.REPORT_CONFIG = {
   "Numărul de videouri vine din paginile de profil TikTok și e complet pentru toate cele 18 săptămâni (S27–S44).",
   "Pentru iulie, august și septembrie (S27–S40) avem vizualizările totale ale fiecărui cont, citite pe 12–14 octombrie.",
   "Pentru top postare: la iulie, august și septembrie avem titlul și linkul fiecărui cont (titlurile din iulie–august sunt citite din descrierile videoclipurilor).",
-  "Leadurile din Puls sunt doar pentru Facebook + Instagram; pentru acest canal nu avem o sursă de leaduri.",
   "„≥” = cifră minimă (raportul nu a avut toate datele), „≈” = aproximare, „–” = lipsă în rapoarte.",
   "Octombrie (S41–S44, 5 octombrie – 1 noiembrie) e calculat din cele patru săptămâni și e complet. Atenție: S41 a fost citită fără cont autentificat, deci TikTok poate fi puțin subestimat în octombrie.",
   "Urmăritorii pe TikTok sunt cifrele exacte din rapoartele săptămânale vechi, citite în acele săptămâni; pentru fiecare lună e cifra din ultima ei săptămână (iulie: S31, august: S35, septembrie: S40, octombrie: S44)."

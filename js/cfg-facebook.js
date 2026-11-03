@@ -5,6 +5,13 @@ window.REPORT_CONFIG = {
  "demo": false,
  "kpis": [
   {
+   "key": "leads",
+   "label": "Număr de leaduri",
+   "hint": "leaduri primite din campaniile Meta; Facebook + Instagram împreună, nu se pot separa pe canal",
+   "type": "num",
+   "additive": true
+  },
+  {
    "key": "posts",
    "label": "Număr de postări",
    "hint": "câte postări au fost publicate în perioada aleasă",
@@ -44,13 +51,6 @@ window.REPORT_CONFIG = {
    "hint": "câți urmăritori are pagina la sfârșitul perioadei",
    "type": "num",
    "additive": "last"
-  },
-  {
-   "key": "leads",
-   "label": "Număr de leaduri",
-   "hint": "leaduri primite din campaniile Meta; Facebook + Instagram împreună, nu se pot separa pe canal",
-   "type": "num",
-   "additive": true
   }
  ],
  "top": {
@@ -275,7 +275,7 @@ window.REPORT_CONFIG = {
    "eng_sum": 1062,
    "eng_n": 35,
    "followers": 18000,
-   "leads": null,
+   "leads": 1855,
    "q": {
     "posts": "",
     "avgeng": "",
@@ -283,7 +283,7 @@ window.REPORT_CONFIG = {
    },
    "note": {
     "followers": "la S44 · rotunjit",
-    "leads": "Puls: nu avem încă cifra pentru octombrie"
+    "leads": "Puls · Pacienți (Facebook + Instagram, împreună)"
    },
    "topPosts": {
     "DrA": {
