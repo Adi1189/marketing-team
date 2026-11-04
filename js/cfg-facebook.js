@@ -14,7 +14,7 @@ window.REPORT_CONFIG = {
   {
    "key": "posts",
    "label": "Număr de postări",
-   "hint": "câte postări au fost publicate în perioada aleasă",
+   "hint": "câte postări au fost publicate în perioada aleasă, pe cele 3 pagini: clinici, Dental Safari și Fundația Dr. Ardeleanu",
    "type": "num",
    "additive": true
   },
@@ -37,7 +37,7 @@ window.REPORT_CONFIG = {
   {
    "key": "avgeng",
    "label": "Engagement mediu / postare",
-   "hint": "câte interacțiuni (reacții, comentarii, distribuiri) are în medie o postare",
+   "hint": "pagina de clinici: câte interacțiuni (reacții, comentarii, distribuiri) are în medie o postare",
    "type": "num1",
    "additive": true,
    "ratio": [
@@ -48,7 +48,7 @@ window.REPORT_CONFIG = {
   {
    "key": "followers",
    "label": "Număr de urmăritori",
-   "hint": "câți urmăritori are pagina la sfârșitul perioadei",
+   "hint": "pagina de clinici: câți urmăritori are la sfârșitul perioadei",
    "type": "num",
    "additive": "last"
   }
@@ -70,7 +70,7 @@ window.REPORT_CONFIG = {
  ],
  "data": {
   "2026-07": {
-   "posts": 35,
+   "posts": 45,
    "eng_sum": 668,
    "eng_n": 35,
    "followers": 17000,
@@ -79,7 +79,7 @@ window.REPORT_CONFIG = {
     "followers": "≈"
    },
    "note": {
-    "posts": "5 din 5 săpt. (S27–S31)",
+    "posts": "clinici 35 + Dental Safari 10",
     "avgeng": "5 din 5 săpt.",
     "followers": "la S31 · rotunjit",
     "leads": "Facebook + Instagram, împreună"
@@ -139,7 +139,7 @@ window.REPORT_CONFIG = {
    }
   },
   "2026-08": {
-   "posts": 28,
+   "posts": 33,
    "eng_sum": 850,
    "eng_n": 28,
    "followers": 17000,
@@ -148,7 +148,7 @@ window.REPORT_CONFIG = {
     "followers": "≈"
    },
    "note": {
-    "posts": "4 din 4 săpt. (S32–S35)",
+    "posts": "clinici 28 + Dental Safari 5",
     "avgeng": "4 din 4 săpt.",
     "followers": "la S35 · rotunjit",
     "leads": "Facebook + Instagram, împreună"
@@ -205,7 +205,7 @@ window.REPORT_CONFIG = {
    }
   },
   "2026-09": {
-   "posts": 46,
+   "posts": 53,
    "eng_sum": 1311,
    "eng_n": 46,
    "followers": 17000,
@@ -214,7 +214,7 @@ window.REPORT_CONFIG = {
     "followers": "≈"
    },
    "note": {
-    "posts": "5 din 5 săpt. (S36–S40)",
+    "posts": "clinici 46 + Dental Safari 5 + Fundația 2",
     "avgeng": "5 din 5 săpt.",
     "followers": "la S40 · rotunjit",
     "leads": "Facebook + Instagram, împreună"
@@ -271,7 +271,7 @@ window.REPORT_CONFIG = {
    }
   },
   "2026-10": {
-   "posts": 35,
+   "posts": 43,
    "eng_sum": 1062,
    "eng_n": 35,
    "followers": 18000,
@@ -282,6 +282,7 @@ window.REPORT_CONFIG = {
     "followers": "≈"
    },
    "note": {
+    "posts": "clinici 35 + Dental Safari 2 + Fundația 6",
     "followers": "la S44 · rotunjit",
     "leads": "Puls · Pacienți (Facebook + Instagram, împreună)"
    },
@@ -431,7 +432,7 @@ window.REPORT_CONFIG = {
      },
      "followers": 17000,
      "topval": 51,
-     "posts": 35,
+     "posts": "clinici 35 + Dental Safari 2 + Fundația 6",
      "eng_sum": 668,
      "eng_n": 35
     },
