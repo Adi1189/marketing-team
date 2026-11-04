@@ -38,17 +38,6 @@ function webPanel() {
   if (!hasSeo()) return noSeo(t);
   return '<h3 class="panel__title">' + t + '</h3><p class="note" style="margin-top:0">Lista obișnuită de linkuri albastre, de sub cutie. Poziția 1 = primul link; prima pagină are cam 10 rezultate. Pagina clinicii noastre e de obicei cea care apare.</p>' + posTable('web') + legendRow();
 }
-function sideBySidePanel() {
-  var t = 'Google Search și răspunsurile AI, una lângă alta';
-  if (!hasSeo()) return noSeo(t);
-  var rows = SEO.cities.map(function (c) {
-    var web = c.searches.filter(function (s) { return s.web === 1; }).length, map = c.searches.filter(function (s) { return s.map === 1; }).length;
-    return '<tr><td class="left">' + esc(c.n) + ' <span class="cell__note">' + esc(c.status) + '</span></td><td class="num">' + esc(c.reviews) + ' · ' + esc(c.rating) + '</td><td class="num"><strong>' + web + '/4</strong></td><td class="num"><strong>' + map + '/4</strong></td><td class="num">' + esc(c.aiMode) + '</td><td class="num">' + esc(c.gpt) + '</td></tr>';
-  }).join('');
-  return '<h3 class="panel__title">' + t + '</h3><p class="note" style="margin-top:0">De câte ori suntem primii, la fiecare tip de rezultat: pe web, în cutia cu hartă, în Google AI Mode și în ChatGPT.</p><div class="table-wrap"><table class="kpi cmp"><thead><tr><th class="left">Oraș</th><th>Recenzii Google Maps · notă</th><th>Web: primul loc</th><th>Map Pack: primul loc</th><th>Google AI Mode: primul loc</th><th>ChatGPT: primul loc</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-    '<p class="note">Web și Map Pack sunt din cele 4 căutări de aici. Google AI Mode (rulat cu cont conectat) și ChatGPT (fără cont) sunt din cele 5 întrebări din raportul GEO din 30 octombrie: setul de întrebări e altul, deci coloanele nu se compară cifră cu cifră. Recenziile sunt cele din cutia Google Maps, la zi.</p>' +
-    '<p class="note"><strong>Clicuri, afișări și poziția medie oficială</strong> vin din Search Console și nu sunt în acest raport; la KPI apar cu „–”. Cuvintele generale, fără oraș (de exemplu „clinica dentara”), au nevoie de același export.</p>';
-}
 function cityDetailPanel() {
   var t = 'Rezultate pe oraș · cine e în cutie lângă noi';
   if (!hasSeo()) return noSeo(t);
@@ -70,7 +59,6 @@ function takePanel() {
 function renderSeo() {
   document.getElementById('seo-q').innerHTML = mapPanel();
   document.getElementById('seo-cities').innerHTML = webPanel();
-  document.getElementById('seo-general').innerHTML = sideBySidePanel();
   document.getElementById('seo-trend').innerHTML = cityDetailPanel();
   document.getElementById('seo-take').innerHTML = takePanel();
 }

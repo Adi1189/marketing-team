@@ -5,20 +5,6 @@ window.REPORT_CONFIG = {
  "pillText": "Google Search · 6 orașe × 4 căutări · 30 oct 2026",
  "kpis": [
   {
-   "key": "web1",
-   "label": "Căutări cu apariție pe prima pagină Google",
-   "hint": "din 24 de căutări testate (4 căutări × 6 orașe), în câte apare site-ul nostru printre primele ~10 rezultate obișnuite",
-   "type": "num",
-   "additive": false
-  },
-  {
-   "key": "webTop",
-   "label": "Căutări în care pagina clinicii e prima pe web",
-   "hint": "din 24, în câte e primul rezultat obișnuit, fără reclame",
-   "type": "num",
-   "additive": false
-  },
-  {
    "key": "map3",
    "label": "Căutări în care intrăm în cutia cu hartă (Map Pack)",
    "hint": "din 24, în câte apărem printre cele 3 clinici de pe hartă, de sus",
@@ -33,23 +19,23 @@ window.REPORT_CONFIG = {
    "additive": false
   },
   {
+   "key": "web1",
+   "label": "Căutări cu apariție pe prima pagină Google",
+   "hint": "din 24 de căutări testate (4 căutări × 6 orașe), în câte apare site-ul nostru printre primele ~10 rezultate obișnuite",
+   "type": "num",
+   "additive": false
+  },
+  {
+   "key": "webTop",
+   "label": "Căutări în care pagina clinicii e prima pe web",
+   "hint": "din 24, în câte e primul rezultat obișnuit, fără reclame",
+   "type": "num",
+   "additive": false
+  },
+  {
    "key": "ai",
    "label": "Rezumatul AI din Google ne menționează",
    "hint": "din 24, în câte căutări textul scris de AI, deasupra rezultatelor, ne numește (verificat, nu intră în tabele)",
-   "type": "num",
-   "additive": false
-  },
-  {
-   "key": "clicks",
-   "label": "Clicuri pe pagina clinicii (Search Console)",
-   "hint": "câte persoane au intrat din Google pe pagina clinicii; vine din Search Console, nu din acest raport",
-   "type": "num",
-   "additive": false
-  },
-  {
-   "key": "impr",
-   "label": "Afișări în Google (Search Console)",
-   "hint": "de câte ori a apărut site-ul în rezultate; vine din Search Console, nu din acest raport",
    "type": "num",
    "additive": false
   }
@@ -57,10 +43,10 @@ window.REPORT_CONFIG = {
  "top": null,
  "notes": [
   "Cifrele vin din 24 de căutări (4 căutări × 6 orașe), făcute pe 30 octombrie 2026 în Google, dintr-un browser conectat la un cont Google al echipei, cu personalizarea oprită (pws=0), limba și țara pe România, dintr-o locație din București. Sunt o aproximare, nu date oficiale: ordinea din cutie poate diferi pentru un om aflat în orașul respectiv.",
-  "Raportul nu are Search Console (clicuri, impresii, poziția medie oficială), nici Core Web Vitals sau indexare: de aceea clicurile și afișările apar cu „–”. Pentru ele avem nevoie de exporturile din Search Console.",
+  "Raportul nu are Search Console (clicuri, afișări, poziția medie oficială), nici Core Web Vitals sau indexare; pentru ele avem nevoie de exporturile din Search Console.",
   "Am citit doar prima pagină (~10 rezultate). „Poz. 8” înseamnă al optulea rezultat obișnuit, fără a număra cutia cu hartă, rezumatul AI sau reclamele. Reclamele nu au fost analizate.",
   "Map Pack = cutia cu cele 3 clinici și harta, deasupra rezultatelor, când cineva caută o clinică locală. „Lista extinsă” = lista de sub cutie; am notat doar dacă apărem acolo, nu poziția.",
-  "Căutările sunt altele decât la GEO: 4 căutări scurte (ca ale unui om care scrie repede), nu cele 5 întrebări „recomandă-mi…”. De aceea coloanele Google AI Mode și ChatGPT din tabelul „una lângă alta” nu se compară cifră cu cifră cu cele de Google Search.",
+  "Căutările sunt altele decât la GEO: 4 căutări scurte (ca ale unui om care scrie repede), nu cele 5 întrebări „recomandă-mi…”. De aceea cifrele de aici nu se compară cu cele din raportul GEO.",
   "București (Cotroceni și Dorobanți) și Brăila lipsesc din această măsurătoare. O singură zi: pozițiile se schimbă de la o zi la alta, deci observațiile sunt ipoteze de verificat, nu concluzii."
  ],
  "data": {
