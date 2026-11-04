@@ -23,7 +23,7 @@ function citiesPanel(rec, isYtd) {
   return '<h3 class="panel__title">' + title + '</h3><div class="table-wrap"><table class="kpi cmp"><thead><tr><th>Oraș</th>' +
     '<th>ChatGPT<span class="th__hint">apariții / întrebări · de câte ori primii</span></th><th>Google AI Mode<span class="th__hint">apariții / întrebări · de câte ori primii</span></th>' +
     '<th>Total<span class="th__hint">ambele motoare</span></th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-    '<p class="note">„#1” = poziția 1 în răspuns. Iulie și august au 4 orașe (Slobozia, Giurgiu, Târgoviște, Focșani); din septembrie sunt 6 (au intrat Călărași și Oltenița).' + (rec.measured === '30 octombrie' ? ' În octombrie, Google AI Mode a rulat cu cont conectat (personalizat), iar ChatGPT fără cont.' : '') + '</p>';
+    '<p class="note">„#1” = poziția 1 în răspuns. Iulie și august au 4 orașe (Slobozia, Giurgiu, Târgoviște, Focșani); din septembrie sunt 6 (au intrat Călărași și Oltenița).</p>';
 }
 
 
@@ -73,14 +73,14 @@ function ratePanel() {
          '<text x="' + (cx + bw / 2 + 4) + '" y="' + (y(p) + 16) + '" text-anchor="middle" font-size="10.5" fill="#3a2a22">' + m.pos1 + '/' + m.queries + '</text>' +
          '<text x="' + cx + '" y="' + (H - 38) + '" text-anchor="middle" font-size="13" font-weight="700" fill="#3a2a22">' + m.date + '</text>' +
          '<text x="' + cx + '" y="' + (H - 20) + '" text-anchor="middle" font-size="10" fill="#8a7a6c">' + m.set + '</text>';
-    if (m.newSet || m.condChange) { var lx = x0 + i * gw; s += '<line x1="' + lx + '" x2="' + lx + '" y1="' + (top - 10) + '" y2="' + (top + plotH) + '" stroke="#bfa98a" stroke-dasharray="4 4"/><text x="' + (lx + 6) + '" y="' + (top - 14) + '" font-size="10.5" fill="#8a7a6c">' + (m.newSet ? 'set nou de întrebări' : 'Google cu cont conectat') + '</text>'; }
+    if (m.newSet) { var lx = x0 + i * gw; s += '<line x1="' + lx + '" x2="' + lx + '" y1="' + (top - 10) + '" y2="' + (top + plotH) + '" stroke="#bfa98a" stroke-dasharray="4 4"/><text x="' + (lx + 6) + '" y="' + (top - 14) + '" font-size="10.5" fill="#8a7a6c">' + 'set nou de întrebări' + '</text>'; }
   });
   s += '</svg>';
   return '<h3 class="panel__title">Cât de des apărem în răspunsurile AI · pe măsurătoare</h3>' +
     '<p class="note" style="margin-top:0">Pentru fiecare măsurătoare: în câte din răspunsurile testate (ChatGPT și Google AI Mode la un loc) am fost numiți (bordo) și în câte am fost pe primul loc din listă (auriu).</p>' +
     '<div class="legend"><span class="lg" style="cursor:default"><i style="background:#7b1c16"></i>Apărem în răspuns</span><span class="lg" style="cursor:default"><i style="background:#c9a227"></i>Suntem pe locul 1</span></div>' +
     '<div class="chartcard" style="padding:12px;overflow-x:auto">' + s + '</div>' +
-    '<p class="note">Iulie și august au aceleași 7 întrebări și 4 orașe, deci se compară direct (64% → 73%). Septembrie are alt set de întrebări și 6 orașe (au intrat Călărași și Oltenița, unde apărem peste tot), deci creșterea până la 87% e în parte efectul setului nou. Octombrie are aceleași 5 întrebări și 6 orașe ca septembrie, deci se compară direct cu el (87% → 95%), dar Google AI Mode a rulat cu cont conectat (personalizat): partea de pe Google e un plafon. ChatGPT, fără cont, a crescut de la 90% la 93%.</p>';
+    '<p class="note">Iulie și august au aceleași 7 întrebări și 4 orașe, deci se compară direct (64% → 73%). Septembrie are alt set de întrebări și 6 orașe (au intrat Călărași și Oltenița, unde apărem peste tot), deci creșterea până la 87% e în parte efectul setului nou. Octombrie are aceleași 5 întrebări și 6 orașe ca septembrie, deci se compară direct cu el (87% → 95%). ChatGPT a crescut de la 90% la 93%.</p>';
 }
 
 function trendPanel() {
@@ -94,7 +94,7 @@ function trendPanel() {
     '<tr><th rowspan="2">Oraș</th><th colspan="' + n + '" class="grp">ChatGPT</th><th colspan="' + n + '" class="grp">Google AI Mode</th></tr>' +
     '<tr>' + hd + hd + '</tr></thead><tbody>' + rows + '</tbody></table></div>' +
     '<div class="legend" style="margin-top:10px"><span class="lg" style="cursor:default;background:rgba(123,28,22,.92);color:#fff">1 · primii</span><span class="lg" style="cursor:default;background:rgba(123,28,22,.58);color:#fff">2</span><span class="lg" style="cursor:default;background:rgba(123,28,22,.34)">3</span><span class="lg" style="cursor:default;background:rgba(201,162,39,.38)">jos în listă</span><span class="lg" style="cursor:default;background:#f1eae0">— nu apărem</span><span class="lg" style="cursor:default">n/m nemăsurat</span></div>' +
-    '<p class="note">Cifra = poziția în lista din răspuns (1 = primul); cu cât culoarea e mai închisă, cu atât poziția e mai bună. „jos” = apărem, dar spre finalul listei. „—” = nu apărem. „n/m” = oraș nemăsurat în acea rulare. În octombrie, Google AI Mode a rulat cu cont conectat (personalizat), deci coloana aceea se citește ca un plafon, nu ca ce vede un pacient nou.</p>';
+    '<p class="note">Cifra = poziția în lista din răspuns (1 = primul); cu cât culoarea e mai închisă, cu atât poziția e mai bună. „jos” = apărem, dar spre finalul listei. „—” = nu apărem. „n/m” = oraș nemăsurat în acea rulare.</p>';
 }
 
 function takePanel(rec) {

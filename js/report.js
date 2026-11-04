@@ -201,7 +201,7 @@ function renderTable() {
       d = { text: (vv > 0 ? '+' : '') + vv.toLocaleString('ro-RO') + '%', cls: vv > 0 ? 'delta--up' : vv < 0 ? 'delta--down' : '' };
     }
     if (!isYtd && cur && cur.nocmp) d = { text: '–', cls: '' };   // set de întrebări diferit: nu comparăm
-    return '<tr><td class="kpi__name">' + k.label + '<span class="kpi__hint">' + k.hint + '</span></td>' +
+    return '<tr><td class="kpi__name' + (k.sub ? ' kpi__name--sub' : '') + '">' + k.label + '<span class="kpi__hint">' + k.hint + '</span></td>' +
            '<td class="num">' + cellHtml(k, prev, false) + '</td>' +
            '<td class="num"><strong>' + cellHtml(k, cur, true) + '</strong></td>' +
            '<td class="num ' + d.cls + '">' + d.text + '</td></tr>';

@@ -42,7 +42,7 @@ window.REPORT_CONFIG = {
  ],
  "top": null,
  "notes": [
-  "Cifrele vin din 24 de căutări (4 căutări × 6 orașe), făcute pe 30 octombrie 2026 în Google, dintr-un browser conectat la un cont Google al echipei, cu personalizarea oprită (pws=0), limba și țara pe România, dintr-o locație din București. Sunt o aproximare, nu date oficiale: ordinea din cutie poate diferi pentru un om aflat în orașul respectiv.",
+  "Cifrele vin din 24 de căutări (4 căutări × 6 orașe), făcute pe 30 octombrie 2026 în Google, cu personalizarea oprită (pws=0), limba și țara pe România, dintr-o locație din București. Sunt o aproximare, nu date oficiale: ordinea din cutie poate diferi pentru un om aflat în orașul respectiv.",
   "Raportul nu are Search Console (clicuri, afișări, poziția medie oficială), nici Core Web Vitals sau indexare; pentru ele avem nevoie de exporturile din Search Console.",
   "Am citit doar prima pagină (~10 rezultate). „Poz. 8” înseamnă al optulea rezultat obișnuit, fără a număra cutia cu hartă, rezumatul AI sau reclamele. Reclamele nu au fost analizate.",
   "Map Pack = cutia cu cele 3 clinici și harta, deasupra rezultatelor, când cineva caută o clinică locală. „Lista extinsă” = lista de sub cutie; am notat doar dacă apărem acolo, nu poziția.",

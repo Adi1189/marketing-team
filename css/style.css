@@ -269,6 +269,7 @@ table.kpi td { padding: 13px 16px; border-bottom: 1px solid #f0e6da; }
 table.kpi tbody tr:nth-child(even) { background: #fbf6ef; }
 table.kpi td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .kpi__name { font-weight: 500; }
+.kpi__name--sub { padding-left: 28px !important; font-weight: 400; color: var(--text-muted); }
 .kpi__hint { display: block; font-size: 12px; font-weight: 400; color: var(--text-muted); margin-top: 2px; }
 .delta--up   { color: #6f8a1f; font-weight: 600; }
 .delta--down { color: #b3261e; font-weight: 600; }
