@@ -21,7 +21,10 @@
   ];
 
   // Pornim mereu pe Month. Luna aleasă se vede în toate modurile; la Week apare în plus rândul cu săptămânile lunii.
-  var state = { tab: 'sumar', month: 9, year: YEAR, mode: 'month', week: null };
+  // Implicit: ultima lună completă = luna calendaristică dinainte de cea curentă
+  // (dacă tab-ul nu are date pentru ea, sare automat la ultima lună cu date, vezi snapMonth)
+  var now = new Date(), lastDone = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+  var state = { tab: 'sumar', month: lastDone.getMonth() + 1, year: lastDone.getFullYear(), mode: 'month', week: null };
   var keysOf = {};       // tab -> toate lunile cu date (AAAA-LL)
   var avail = {};        // tab -> luni cu date, în anul ales
   var weeksInfo = null;  // lista de săptămâni, din pagina săptămânală încărcată
