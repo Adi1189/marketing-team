@@ -32,17 +32,16 @@ function questionsPanel(rec, isYtd) {
   if (isYtd) return '<h3 class="panel__title">' + title + '</h3><p class="note">Tabelul pe întrebări se vede doar la Month (alege „Month” sus, în dreapta).</p>';
   if (!rec || !rec.qtable) return '<h3 class="panel__title">' + title + '</h3><p class="note">Nu există măsurătoare GEO pentru luna selectată.</p>';
   var Q = rec.qtable;
-  var head1 = '<tr><th rowspan="2" class="left">Întrebare</th>' + Q.cities.map(function (c) { return '<th colspan="2" class="grp">' + esc(c.n) + '</th>'; }).join('') + '</tr>';
-  var head2 = '<tr>' + Q.cities.map(function () { return '<th class="subh">ChatGPT</th><th class="subh">Google</th>'; }).join('') + '</tr>';
-  var rows = Q.questions.map(function (q, i) {
-    return '<tr><td class="left">' + esc(q) + '</td>' + Q.cities.map(function (c) {
-      return '<td class="num">' + posCell(c.cg[i]) + '</td><td class="num">' + posCell(c.g[i]) + '</td>';
-    }).join('') + '</tr>';
-  }).join('');
-  var total = '<tr class="row--tot"><td class="left"><strong>Apariții</strong><span class="cell__note">din ' + Q.questions.length + ' întrebări</span></td>' + Q.cities.map(function (c) {
+  var N = Q.questions.length;
+  var head1 = '<tr><th rowspan="2" class="left">Clinică</th>' + Q.questions.map(function (q) { return '<th colspan="2" class="grp">' + esc(q) + '</th>'; }).join('') + '<th colspan="2" class="grp">Apariții · din ' + N + ' întrebări</th></tr>';
+  var head2 = '<tr>' + Q.questions.map(function () { return '<th class="subh">ChatGPT</th><th class="subh">Google</th>'; }).join('') + '<th class="subh">ChatGPT</th><th class="subh">Google</th></tr>';
+  var rows = Q.cities.map(function (c) {
     var a = c.cg.filter(function (x) { return x != null; }).length, b = c.g.filter(function (x) { return x != null; }).length;
-    return '<td class="num"><strong>' + a + '/' + Q.questions.length + '</strong></td><td class="num"><strong>' + b + '/' + Q.questions.length + '</strong></td>';
-  }).join('') + '</tr>';
+    return '<tr><td class="left">' + esc(c.n) + '</td>' + Q.questions.map(function (q, i) {
+      return '<td class="num">' + posCell(c.cg[i]) + '</td><td class="num">' + posCell(c.g[i]) + '</td>';
+    }).join('') + '<td class="num"><strong>' + a + '/' + N + '</strong></td><td class="num"><strong>' + b + '/' + N + '</strong></td></tr>';
+  }).join('');
+  var total = '';
   return '<h3 class="panel__title">' + title + ' · măsurătoarea din ' + rec.measured + '</h3><div class="table-wrap"><table class="kpi cmp qtable"><thead>' + head1 + head2 + '</thead><tbody>' + rows + total + '</tbody></table></div>' +
     '<p class="note">Cifra = poziția în răspuns (1 = primul, în verde). „jos” = apărem, dar spre finalul listei. „prezent” = apărem doar într-un grup secundar. „—” = nu apărem. Întrebările diferă între luni: aceleași 7 întrebări în iulie și august, aceleași 5 întrebări în septembrie și octombrie.</p>';
 }
