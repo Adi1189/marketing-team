@@ -93,7 +93,7 @@ function renderKpis() {
     return '<tr><td class="kpi__name">' + k.label + '<span class="kpi__hint">' + k.hint + '</span></td>' +
            '<td class="num"><strong>' + cellHtml(k, cur, true) + '</strong></td>' +
            '<td class="num">' + cellHtml(k, prev, false) + '</td>' +
-           '<td class="num ' + d.cls + '">' + d.text + '</td></tr>';
+           '<td class="num"><span class="dchip ' + d.cls + '">' + d.text + '</span></td></tr>';
   }).join('');
 }
 

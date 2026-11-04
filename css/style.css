@@ -1,14 +1,24 @@
 :root {
-  --brand-primary: #7B1C16;   /* Falu Red – cards, accents */
-  --header-bg:     #6C1712;   /* header, as in Puls */
-  --brand-cream:   #F5EDE3;
-  --brand-wheat:   #F2DAB7;
-  --brand-gold:    #C9A227;   /* subtitle text */
-  --brand-black:   #222222;
-  --brand-white:   #FFFFFF;
-  --text-muted:    #6f6258;
-  --radius:        18px;
-  --shadow:        0 2px 4px rgba(60, 20, 10, .05), 0 8px 24px rgba(60, 20, 10, .07);
+  /* Sistem de design digital v1 (skill brand v2.0) */
+  --brand-primary:#7B1C16; --brand-primary-deep:#5E140F; --brand-primary-soft:#A14841;
+  --brand-wheat:#F2DAB7; --brand-cream:#F5EDE3; --brand-cream-warm:#FBF6EE;
+  --brand-amber:#C9A227; --brand-amber-ink:#806418;
+  --brand-yellow:#FBE483; --brand-olive:#B5BD5C; --brand-terracotta:#DD7E6B; --brand-alert:#FF0300;
+  --paper:#FBF7F1; --paper-pure:#FFFFFF;
+  --ink:#222222; --ink-soft:#4A4541; --ink-mute:#6B645E;
+  --rule:#E6DCCD; --rule-soft:#EFE7D7;
+  --pos:#15803D; --pos-bg:#DCFCE7; --neg:#B91C1C; --neg-bg:#FEE2E2; --warn:#92400E; --warn-bg:#FFFBEB;
+  --radius-sm:6px; --radius-md:12px; --radius-pill:999px;
+  --shadow:0 1px 3px rgba(43,24,18,.08),0 8px 24px rgba(43,24,18,.07);
+  --font-display:'Playfair Display',Georgia,serif;
+  --font-body:'Poppins','Segoe UI',Arial,sans-serif;
+  /* nume vechi, păstrate ca alias */
+  --header-bg:var(--brand-primary-deep);
+  --brand-gold:var(--brand-amber);
+  --brand-black:var(--ink);
+  --brand-white:#FFFFFF;
+  --text-muted:var(--ink-mute);
+  --radius:12px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -18,7 +28,7 @@ html, body { margin: 0; padding: 0; }
 body {
   font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
   color: var(--brand-black);
-  background: var(--brand-cream);
+  background: var(--paper);
   min-height: 100vh;
   line-height: 1.5;
 }
@@ -214,7 +224,7 @@ a.btn { display: block; text-align: center; text-decoration: none; }
 }
 .section-sub { margin: 0 0 20px; font-size: 14px; color: var(--text-muted); }
 .pill {
-  font-size: 10.5px;
+  font-size: 11px;
   font-weight: 600;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -271,8 +281,8 @@ table.kpi td.num { text-align: right; white-space: nowrap; font-variant-numeric:
 .kpi__name { font-weight: 500; }
 .kpi__name--sub { padding-left: 28px !important; font-weight: 400; color: var(--text-muted); }
 .kpi__hint { display: block; font-size: 12px; font-weight: 400; color: var(--text-muted); margin-top: 2px; }
-.delta--up   { color: #6f8a1f; font-weight: 600; }
-.delta--down { color: #b3261e; font-weight: 600; }
+.delta--up   { color: var(--pos); font-weight: 600; }
+.delta--down { color: var(--neg); font-weight: 600; }
 .note { font-size: 14px; color: var(--text-muted); margin: 14px 0 0; }
 
 /* ---------- Antet raport (stil Puls: titlu + toggle + bară de perioadă) ---------- */
@@ -438,7 +448,7 @@ table.kpi tbody tr.row--us td:first-child { box-shadow: inset 4px 0 0 var(--bran
 table.mini { font-size: 14px; }
 table.mini thead th { background: #f8f3ee; color: var(--brand-primary); border-radius: 0; font-size: 11.5px; padding: 10px 12px; vertical-align: bottom; }
 table.mini td { padding: 9px 12px; }
-.th__hint { display: block; font-size: 10px; font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--text-muted); margin-top: 2px; white-space: normal; }
+.th__hint { display: block; font-size: 11px; font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--text-muted); margin-top: 2px; white-space: normal; }
 table.mini tr.row--tot td { background: #f6efe9; border-bottom-color: #ecdccb; }
 .net { margin-top: 20px; background: #fbf6ef; border: 1px solid #efe4d6; border-radius: 14px; padding: 6px 20px; }
 .net__row { display: grid; grid-template-columns: 1.3fr 1fr 1.2fr; gap: 12px; align-items: center; padding: 14px 0; }
@@ -452,7 +462,7 @@ table.mini tr.row--tot td { background: #f6efe9; border-bottom-color: #ecdccb; }
 table.cmp th.grp { text-align: center; }
 table.cmp th .th__hint { color: rgba(255,255,255,.75); }
 
-table.qtable th.subh { background: #8f2f28; font-size: 10.5px; padding: 6px 8px; text-align: center; }
+table.qtable th.subh { background: #8f2f28; font-size: 11px; padding: 6px 8px; text-align: center; }
 table.qtable td.num { text-align: center; padding: 11px 8px; }
 table.qtable th.grp { border-left: 2px solid rgba(255,255,255,.25); }
 table.qtable td:nth-child(2n+2) { border-left: 2px solid #f0e3d3; }
@@ -467,7 +477,7 @@ table.qtable tr.row--tot td { background: #f6efe9; }
   .brand { gap: 14px; }
   .brand__logo img { height: 28px; }
   .brand__title { font-size: 26px; }
-  .brand__sub { font-size: 10px; letter-spacing: .12em; }
+  .brand__sub { font-size: 11px; letter-spacing: .12em; }
   .page { padding: 32px 20px 48px; }
   .card { padding: 26px 24px 28px; }
   .grid--3, .grid--4, .grid--5 { grid-template-columns: repeat(2, 1fr); }
@@ -482,7 +492,7 @@ table.qtable tr.row--tot td { background: #f6efe9; }
 
 /* ---------- Mod embed (pagina e afișată în noul meniu) ---------- */
 html.embed .rep-top, html.embed .fab { display: none !important; }
-html.embed body { min-height: 0; background: var(--brand-cream); }
+html.embed body { min-height: 0; background: var(--paper); }
 html.embed .page { padding: 22px 28px 40px; max-width: none; }
 html.embed .section-title { font-size: 0; margin: 0 0 14px; }
 html.embed .section-sub { display: none; }
@@ -507,3 +517,58 @@ td[style*="rgba(201,162,39"] .pos--low{color:#5a4208}
 .cdet .note{padding:0 14px}
 .cell--wrap{white-space:normal;min-width:220px;font-size:13px}
 .cdet>summary .cell__note{display:inline}
+
+
+/* ================= Brand v2 (skill dr-ardeleanu-brand 2.0) ================= */
+/* antet: gradient bordo, logo oficial alb (Reverse_h) */
+.topbar, .rep-head { background: linear-gradient(90deg, var(--brand-primary), var(--brand-primary-deep)); }
+.rep-head__title { display: flex; align-items: center; gap: 18px; }
+.rep-head__title::before {
+  content: ""; flex: none; width: 128px; height: 37px;
+  background: url(../assets/logo_reverse_h.png) left center / contain no-repeat;
+}
+html.embed .rep-head__title::before { display: none; }
+.brand__logo { background: none; padding: 0; border-radius: 0; }
+.brand__logo img { height: 48px; }
+.period__label { color: var(--brand-amber-ink); }
+
+/* carduri / panouri: alb, bordură fină, rază 12 */
+.panel, .card { border: 1px solid var(--rule); border-radius: var(--radius-md); }
+.card { border-left: 5px solid var(--brand-primary); }
+.panel__title, .card__title { font-family: var(--font-display); color: var(--brand-primary); }
+.panel__title { font-weight: 700; }
+
+/* tabele: zebră paper/alb, cifre aliniate, prima coloană fixă */
+table.kpi tbody tr:nth-child(odd) td { background: var(--paper); }
+table.kpi tbody tr:nth-child(even) td { background: #fff; }
+table.kpi tbody tr:nth-child(even) { background: transparent; }
+table.kpi td { border-bottom-color: var(--rule-soft); font-variant-numeric: tabular-nums; }
+table.kpi th:first-child, table.kpi td:first-child { position: sticky; left: 0; z-index: 1; }
+table.kpi th:first-child { background: var(--brand-primary); }
+table.mini tr.row--tot td, table.qtable tr.row--tot td { background: var(--brand-wheat); color: var(--ink); border-top: 2px solid var(--brand-primary); }
+
+/* variații: chip cu ▲ ▼ și culori de stare */
+.dchip { display: inline-flex; align-items: center; gap: 4px; font-weight: 700; font-size: 12px; padding: 4px 9px; border-radius: var(--radius-pill); font-variant-numeric: tabular-nums; }
+.dchip.delta--up { color: var(--pos); background: var(--pos-bg); }
+.dchip.delta--down { color: var(--neg); background: var(--neg-bg); }
+.dchip.delta--up::before { content: "▲"; font-size: 9px; }
+.dchip.delta--down::before { content: "▼"; font-size: 9px; }
+
+/* pastile / taburi */
+.chip { border-color: var(--rule); }
+.tabs { background: #fff; border-top: 1px solid var(--rule); }
+.tab { color: var(--ink-mute); }
+
+/* subsol */
+.site-foot { background: linear-gradient(90deg, var(--brand-primary), var(--brand-primary-deep)); color: #fff; margin-top: 56px; border-top: 3px solid var(--brand-amber); }
+.site-foot__in { max-width: 1320px; margin: 0 auto; padding: 32px 44px 20px; display: grid; grid-template-columns: 1.2fr 1.6fr 1fr; gap: 28px; align-items: start; }
+.site-foot img { height: 44px; width: auto; display: block; margin-bottom: 8px; }
+.site-foot__tag { font-size: 13px; color: var(--brand-wheat); margin: 0; }
+.site-foot h4 { margin: 0 0 8px; font: 600 11px/1 var(--font-body); letter-spacing: .2em; text-transform: uppercase; color: var(--brand-wheat); }
+.site-foot p { margin: 0; font-size: 13px; line-height: 1.7; color: #fff; }
+.site-foot__bar { max-width: 1320px; margin: 0 auto; padding: 14px 44px 22px; border-top: 1px solid rgba(255,255,255,.18); font-size: 11px; letter-spacing: .06em; color: var(--brand-wheat); }
+.site-foot__bar strong { letter-spacing: .2em; margin-right: 10px; color: #fff; }
+@media (max-width: 800px) { .site-foot__in { grid-template-columns: 1fr; padding: 24px 18px 12px; } .site-foot__bar { padding: 12px 18px 20px; } }
+html.embed .site-foot { display: none; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+.brand__sub { color: var(--brand-wheat); }

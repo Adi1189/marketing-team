@@ -39,8 +39,8 @@
     var pw = periodWeeks().map(function (w) { return w.id; });
     var s = '<svg width="' + Wd + '" height="' + H + '" viewBox="0 0 ' + Wd + ' ' + H + '">';
     WEEKS.forEach(function (w, i) { if (pw.indexOf(w.id) > -1) s += '<rect x="' + (x(i) - step / 2) + '" y="' + (top - 8) + '" width="' + step + '" height="' + (plotH + 8) + '" fill="#f6e9cf" opacity=".6"/>'; });
-    [0.25, 0.5, 0.75, 1].forEach(function (f) { var yy = top + plotH * (1 - f * (cap / max)); s += '<line x1="8" x2="' + (Wd - 8) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="12" y="' + (yy - 3) + '" font-size="10" fill="#8a7a6c">' + fnum(cap * f, cap < 10 ? 1 : 0) + '</text>'; });
-    WEEKS.forEach(function (w, i) { s += '<text x="' + x(i) + '" y="' + (H - 24) + '" text-anchor="middle" font-size="11" fill="#8a7a6c">' + w.id + '</text><text x="' + x(i) + '" y="' + (H - 10) + '" text-anchor="middle" font-size="9" fill="#b3a595">' + w.range.split('–')[0].replace(' iun', ' iun').replace(' iul', ' iul') + '</text>'; });
+    [0.25, 0.5, 0.75, 1].forEach(function (f) { var yy = top + plotH * (1 - f * (cap / max)); s += '<line x1="8" x2="' + (Wd - 8) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="12" y="' + (yy - 3) + '" font-size="11" fill="#6B645E">' + fnum(cap * f, cap < 10 ? 1 : 0) + '</text>'; });
+    WEEKS.forEach(function (w, i) { s += '<text x="' + x(i) + '" y="' + (H - 24) + '" text-anchor="middle" font-size="11" fill="#6B645E">' + w.id + '</text><text x="' + x(i) + '" y="' + (H - 10) + '" text-anchor="middle" font-size="11" fill="#b3a595">' + w.range.split('–')[0].replace(' iun', ' iun').replace(' iul', ' iul') + '</text>'; });
     ids.slice().reverse().forEach(function (b) {
       var d = '', prev = false;
       WEEKS.forEach(function (w, i) { var v = weekly(b, w.id); if (v == null) { prev = false; return; } d += (prev ? 'L' : 'M') + x(i) + ',' + y(v); prev = true; });
@@ -48,7 +48,7 @@
       WEEKS.forEach(function (w, i) {
         var v = weekly(b, w.id); if (v == null) return; var over = v > max;
         s += '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="' + (b === 'DrA' ? 4 : 3) + '" fill="' + COL[b] + '"><title>' + esc(BR.filter(function (q) { return q.id === b; })[0].name) + ' · ' + w.id + ': ' + fnum(v, ENG ? 1 : 0) + '</title></circle>';
-        if (over) s += '<text x="' + x(i) + '" y="' + (top - 12) + '" text-anchor="middle" font-size="10" font-weight="800" fill="' + COL[b] + '">▲ ' + fnum(v, 0) + '</text>';
+        if (over) s += '<text x="' + x(i) + '" y="' + (top - 12) + '" text-anchor="middle" font-size="11" font-weight="800" fill="' + COL[b] + '">▲ ' + fnum(v, 0) + '</text>';
       });
     });
     return s + '</svg>';

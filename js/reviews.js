@@ -19,7 +19,7 @@ function barsSvg(labels, vals, opts) {
     var cx = (i + 0.5) * step, v = vals[i], bw = Math.min(opts.bw || 22, step * 0.62), hi = i === opts.hi;
     s += '<rect x="' + (cx - bw / 2) + '" y="' + y(v) + '" width="' + bw + '" height="' + Math.max(top + plotH - y(v), v > 0 ? 1 : 0) + '" rx="3" fill="' + (hi ? '#7b1c16' : (opts.dim && opts.dim[i] ? '#d9b7a8' : '#a05048')) + '"' + (opts.proj && opts.proj[i] ? ' fill-opacity=".35" stroke="#7b1c16" stroke-dasharray="4 3"' : '') + '/>';
     if (v > 0 && (opts.every ? i % opts.every === 0 : true) || hi) s += '<text x="' + cx + '" y="' + (y(v) - 6) + '" text-anchor="middle" font-size="11" font-weight="' + (hi ? 800 : 600) + '" fill="#5a1a14">' + fn(v) + '</text>';
-    if (!opts.skipLabel || opts.skipLabel(i)) s += '<text x="' + cx + '" y="' + (H - 18) + '" text-anchor="middle" font-size="' + (opts.fs || 10.5) + '" fill="#8a7a6c">' + l + '</text>';
+    if (!opts.skipLabel || opts.skipLabel(i)) s += '<text x="' + cx + '" y="' + (H - 18) + '" text-anchor="middle" font-size="' + (opts.fs || 10.5) + '" fill="#6B645E">' + l + '</text>';
   });
   if (opts.line) {
     var d = '', pts = opts.line.map(function (v, i) { return v == null ? null : [(i + 0.5) * step, y(v)]; });
@@ -50,14 +50,14 @@ function lineSvg(labels, vals, counts, hi) {
   var n = labels.length, step = 38, W = n * step, H = 230, top = 28, bot = 44, plotH = H - top - bot, lo = 4.25, hiV = 5.0;
   function y(v) { return top + plotH - (Math.max(lo, v) - lo) / (hiV - lo) * plotH; }
   var s = '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '">';
-  [4.25, 4.5, 4.75, 5.0].forEach(function (v) { var yy = y(v); s += '<line x1="8" x2="' + (W - 8) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="4" y="' + (yy - 3) + '" font-size="10" fill="#8a7a6c">' + f2r(v) + '</text>'; });
+  [4.25, 4.5, 4.75, 5.0].forEach(function (v) { var yy = y(v); s += '<line x1="8" x2="' + (W - 8) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="4" y="' + (yy - 3) + '" font-size="11" fill="#6B645E">' + f2r(v) + '</text>'; });
   var d = ''; vals.forEach(function (v, i) { if (v != null) d += (d && vals[i - 1] != null ? 'L' : 'M') + ((i + 0.5) * step) + ',' + y(v); });
   s += '<path d="' + d + '" fill="none" stroke="#a8841e" stroke-width="2.6" stroke-linejoin="round"/>';
   vals.forEach(function (v, i) {
     if (v == null) return; var cx = (i + 0.5) * step, h = i === hi;
     s += '<circle cx="' + cx + '" cy="' + y(v) + '" r="' + (h ? 6 : 3.5) + '" fill="' + (h ? '#7b1c16' : '#7b1c16') + '"/>';
     if (h || i === n - 1) s += '<text x="' + cx + '" y="' + (y(v) - 10) + '" text-anchor="middle" font-size="11" font-weight="800" fill="#5a1a14">' + f2r(v) + '</text>';
-    if (i % 2 === 0 || i === n - 1) s += '<text x="' + cx + '" y="' + (H - 18) + '" text-anchor="middle" font-size="10.5" fill="#8a7a6c">' + labels[i] + '</text>';
+    if (i % 2 === 0 || i === n - 1) s += '<text x="' + cx + '" y="' + (H - 18) + '" text-anchor="middle" font-size="11" fill="#6B645E">' + labels[i] + '</text>';
   });
   return s + '</svg>';
 }
@@ -92,7 +92,7 @@ function yearsPanel() {
     var a = ct(c.id, cur, last), b = ct(c.id, cur - 1, last), d = b ? (a / b - 1) * 100 : null;
     var cls = d == null ? '' : d > 0 ? 'delta--up' : d < 0 ? 'delta--down' : '';
     return '<tr><td class="left">' + esc(c.name) + '</td>' + yrs.map(function (y) { var v = ct(c.id, y); return '<td class="num">' + (v ? fn(v) : '<span class="muted">–</span>') + '</td>'; }).join('') +
-      '<td class="num"><span class="' + cls + '">' + (d == null ? (a ? 'nou' : '–') : (d > 0 ? '+' : '') + d.toFixed(0).replace('-', '−') + '%') + '</span> <span class="cell__note">' + fn(a) + ' vs ' + fn(b) + '</span></td></tr>';
+      '<td class="num"><span class="dchip ' + cls + '">' + (d == null ? (a ? 'nou' : '–') : (d > 0 ? '+' : '') + d.toFixed(0).replace('-', '−') + '%') + '</span> <span class="cell__note">' + fn(a) + ' vs ' + fn(b) + '</span></td></tr>';
   }).join('');
   var rowTot = '<tr class="row--tot"><td class="left"><strong>Total rețea</strong></td>' + yrs.map(function (y) { return '<td class="num"><strong>' + fn(yearTotal(y)) + '</strong></td>'; }).join('') +
     '<td class="num"><strong>' + (samePeriod ? '+' + ((yearTotal(cur) / samePeriod - 1) * 100).toFixed(1).replace('.', ',') + '%' : '–') + '</strong> <span class="cell__note">' + fn(yearTotal(cur)) + ' vs ' + fn(samePeriod) + '</span></td></tr>';

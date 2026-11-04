@@ -56,8 +56,8 @@
     function x(i) { return 14 + (i + 0.5) * step; }
     var s = '<svg width="100%" style="max-height:' + (H * 1.4) + 'px" viewBox="0 0 ' + Wd + ' ' + H + '">';
     keys.forEach(function (k, i) { if (sel.indexOf(k) > -1) s += '<rect x="' + (x(i) - step / 2) + '" y="' + (top - 8) + '" width="' + step + '" height="' + (plotH + 8) + '" fill="#f6e9cf" opacity=".6"/>'; });
-    [0.25, 0.5, 0.75, 1].forEach(function (f) { var yy = top + plotH * (1 - f * (cap / max)); s += '<line x1="8" x2="' + (Wd - 8) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="12" y="' + (yy - 3) + '" font-size="10" fill="#8a7a6c">' + fnum(cap * f, cap < 10 ? 1 : 0) + '</text>'; });
-    keys.forEach(function (k, i) { s += '<text x="' + x(i) + '" y="' + (H - 14) + '" text-anchor="middle" font-size="12" fill="#8a7a6c">' + MONTHS[+k.slice(5) - 1] + ' ' + k.slice(0, 4) + '</text>'; });
+    [0.25, 0.5, 0.75, 1].forEach(function (f) { var yy = top + plotH * (1 - f * (cap / max)); s += '<line x1="8" x2="' + (Wd - 8) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="12" y="' + (yy - 3) + '" font-size="11" fill="#6B645E">' + fnum(cap * f, cap < 10 ? 1 : 0) + '</text>'; });
+    keys.forEach(function (k, i) { s += '<text x="' + x(i) + '" y="' + (H - 14) + '" text-anchor="middle" font-size="12" fill="#6B645E">' + MONTHS[+k.slice(5) - 1] + ' ' + k.slice(0, 4) + '</text>'; });
     ids.slice().reverse().forEach(function (b) {
       var d = '', prev = false;
       keys.forEach(function (k, i) { var v = monthlyVal(b, k); if (v == null) { prev = false; return; } d += (prev ? 'L' : 'M') + x(i) + ',' + y(v); prev = true; });
@@ -65,7 +65,7 @@
       keys.forEach(function (k, i) {
         var v = monthlyVal(b, k); if (v == null) return; var over = v > max;
         s += '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="' + (b === 'DrA' ? 4.5 : 3.5) + '" fill="' + COL[b] + '"><title>' + esc(BR.filter(function (q) { return q.id === b; })[0].name) + ' · ' + MONTHS[+k.slice(5) - 1] + ': ' + fnum(v, ENG ? 1 : 0) + '</title></circle>';
-        if (over) s += '<text x="' + x(i) + '" y="' + (top - 12) + '" text-anchor="middle" font-size="10" font-weight="800" fill="' + COL[b] + '">▲ ' + fnum(v, 0) + '</text>';
+        if (over) s += '<text x="' + x(i) + '" y="' + (top - 12) + '" text-anchor="middle" font-size="11" font-weight="800" fill="' + COL[b] + '">▲ ' + fnum(v, 0) + '</text>';
       });
     });
     return s + '</svg>';
@@ -106,7 +106,7 @@
       s += '<text x="0" y="' + (yy + 20) + '" font-size="13" font-weight="' + (it.b.us ? 800 : 600) + '" fill="' + (it.b.us ? '#7b1c16' : '#3a2a22') + '">' + esc(it.b.name) + '</text>' +
            '<rect x="' + left + '" y="' + yy + '" width="' + Math.max(bw, 2) + '" height="26" rx="5" fill="' + COL[it.b.id] + '" opacity="' + (it.b.us ? 1 : 0.8) + '"/>' +
            '<text x="' + (left + bw + 8) + '" y="' + (yy + 18) + '" font-size="13" font-weight="800" fill="#3a2a22">' + fnum(it.rate, ENG ? 2 : 1) + '%</text>' +
-           '<text x="' + (left + bw + 62) + '" y="' + (yy + 18) + '" font-size="11" fill="#8a7a6c">(' + fnum(it.fol) + (CFG.channel === 'YouTube' ? ' abonați' : ' urmăritori') + ')</text>';
+           '<text x="' + (left + bw + 62) + '" y="' + (yy + 18) + '" font-size="11" fill="#6B645E">(' + fnum(it.fol) + (CFG.channel === 'YouTube' ? ' abonați' : ' urmăritori') + ')</text>';
     });
     s += '</svg>';
     var notes = [];

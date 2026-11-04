@@ -62,18 +62,18 @@ function ratePanel() {
   var gw = 200, x0 = 70, W = x0 + S.length * gw + 20, H = 300, top = 34, bot = 66, plotH = H - top - bot, bw = 62;
   function y(p) { return top + plotH - p / 100 * plotH; }
   var s = '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '">';
-  [0, 25, 50, 75, 100].forEach(function (g) { var yy = y(g); s += '<line x1="40" x2="' + (W - 10) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="34" y="' + (yy + 4) + '" text-anchor="end" font-size="10" fill="#8a7a6c">' + g + '%</text>'; });
+  [0, 25, 50, 75, 100].forEach(function (g) { var yy = y(g); s += '<line x1="40" x2="' + (W - 10) + '" y1="' + yy + '" y2="' + yy + '" stroke="#f3dfbf"/><text x="34" y="' + (yy + 4) + '" text-anchor="end" font-size="11" fill="#6B645E">' + g + '%</text>'; });
   S.forEach(function (m, i) {
     var cx = x0 + i * gw + gw / 2, a = m.appearances / m.queries * 100, p = m.pos1 / m.queries * 100;
     s += '<rect x="' + (cx - bw - 4) + '" y="' + y(a) + '" width="' + bw + '" height="' + (top + plotH - y(a)) + '" rx="4" fill="#7b1c16"/>' +
          '<text x="' + (cx - bw / 2 - 4) + '" y="' + (y(a) - 6) + '" text-anchor="middle" font-size="14" font-weight="800" fill="#5a1a14">' + Math.round(a) + '%</text>' +
-         '<text x="' + (cx - bw / 2 - 4) + '" y="' + (y(a) + 16) + '" text-anchor="middle" font-size="10.5" fill="#fff">' + m.appearances + '/' + m.queries + '</text>' +
+         '<text x="' + (cx - bw / 2 - 4) + '" y="' + (y(a) + 16) + '" text-anchor="middle" font-size="11" fill="#fff">' + m.appearances + '/' + m.queries + '</text>' +
          '<rect x="' + (cx + 4) + '" y="' + y(p) + '" width="' + bw + '" height="' + (top + plotH - y(p)) + '" rx="4" fill="#c9a227"/>' +
          '<text x="' + (cx + bw / 2 + 4) + '" y="' + (y(p) - 6) + '" text-anchor="middle" font-size="14" font-weight="800" fill="#7a5f0e">' + Math.round(p) + '%</text>' +
-         '<text x="' + (cx + bw / 2 + 4) + '" y="' + (y(p) + 16) + '" text-anchor="middle" font-size="10.5" fill="#3a2a22">' + m.pos1 + '/' + m.queries + '</text>' +
+         '<text x="' + (cx + bw / 2 + 4) + '" y="' + (y(p) + 16) + '" text-anchor="middle" font-size="11" fill="#3a2a22">' + m.pos1 + '/' + m.queries + '</text>' +
          '<text x="' + cx + '" y="' + (H - 38) + '" text-anchor="middle" font-size="13" font-weight="700" fill="#3a2a22">' + m.date + '</text>' +
-         '<text x="' + cx + '" y="' + (H - 20) + '" text-anchor="middle" font-size="10" fill="#8a7a6c">' + m.set + '</text>';
-    if (m.newSet) { var lx = x0 + i * gw; s += '<line x1="' + lx + '" x2="' + lx + '" y1="' + (top - 10) + '" y2="' + (top + plotH) + '" stroke="#bfa98a" stroke-dasharray="4 4"/><text x="' + (lx + 6) + '" y="' + (top - 14) + '" font-size="10.5" fill="#8a7a6c">' + 'set nou de întrebări' + '</text>'; }
+         '<text x="' + cx + '" y="' + (H - 20) + '" text-anchor="middle" font-size="11" fill="#6B645E">' + m.set + '</text>';
+    if (m.newSet) { var lx = x0 + i * gw; s += '<line x1="' + lx + '" x2="' + lx + '" y1="' + (top - 10) + '" y2="' + (top + plotH) + '" stroke="#bfa98a" stroke-dasharray="4 4"/><text x="' + (lx + 6) + '" y="' + (top - 14) + '" font-size="11" fill="#6B645E">' + 'set nou de întrebări' + '</text>'; }
   });
   s += '</svg>';
   return '<h3 class="panel__title">Cât de des apărem în răspunsurile AI · pe măsurătoare</h3>' +

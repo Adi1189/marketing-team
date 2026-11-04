@@ -204,7 +204,7 @@ function renderTable() {
     return '<tr><td class="kpi__name' + (k.sub ? ' kpi__name--sub' : '') + '">' + k.label + '<span class="kpi__hint">' + k.hint + '</span></td>' +
            '<td class="num">' + cellHtml(k, prev, false) + '</td>' +
            '<td class="num"><strong>' + cellHtml(k, cur, true) + '</strong></td>' +
-           '<td class="num ' + d.cls + '">' + d.text + '</td></tr>';
+           '<td class="num"><span class="dchip ' + d.cls + '">' + d.text + '</span></td></tr>';
   }).join('');
 
   var general = 'YTD = de la începutul măsurătorilor (' + MONTHS[firstMonthOfYear(state.year) - 1].toLowerCase() + ') până la luna aleasă. Variația se compară cu luna anterioară (Month) sau cu aceeași perioadă din anul trecut (YTD); unde nu avem date, apare „–”.';
