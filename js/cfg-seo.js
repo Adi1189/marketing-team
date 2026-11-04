@@ -81,46 +81,6 @@ window.REPORT_CONFIG = {
   ],
   "cities": [
    {
-    "n": "Călărași",
-    "status": "de încadrat",
-    "reviews": "956",
-    "rating": "4,9",
-    "aiMode": "5/5",
-    "gpt": "5/5",
-    "searches": [
-     {
-      "q": "Dentist Calarasi",
-      "map": 1,
-      "pack": "Noi (956) · Smile Boutique (96) · Dental Clas (64)",
-      "web": 1,
-      "top3": "Noi · Medici-Stomatologi · Facebook (Smile Boutique)"
-     },
-     {
-      "q": "Clinica dentara Calarasi",
-      "map": 3,
-      "pack": "Smile Boutique (96) · Dental Clas (64) · Noi (956)",
-      "web": 1,
-      "top3": "Noi · Facebook (Smile Boutique) · Ark Medical"
-     },
-     {
-      "q": "Stomatologie Calarasi",
-      "map": 1,
-      "pack": "Noi (956) · Smile Boutique (96) · Dental Clas (64)",
-      "web": 1,
-      "top3": "Noi · Medici-Stomatologi · Facebook (Smile Boutique)"
-     },
-     {
-      "q": "Dentist copii Calarasi",
-      "map": 2,
-      "pack": "Smile Boutique (96) · Noi (956) · Dental Clas (64)",
-      "web": 1,
-      "top3": "Noi · Med.Ro · Facebook (grup local)"
-     }
-    ],
-    "extra": "Alte pagini ale noastre pe prima pagină: pagina principală (poz. 8) la „clinica dentara” și un articol (poz. 8) la „dentist copii”.",
-    "verdict": "Primul loc pe web la toate cele 4 căutări și în Map Pack la 2 din 4. La „clinica dentara” suntem al treilea în cutie, iar la „dentist copii” al doilea, după Smile Boutique (96 de recenzii, față de 956 la noi): ordinea din cutie nu depinde doar de recenzii."
-   },
-   {
     "n": "Oltenița",
     "status": "matur · 2017",
     "reviews": "690",
@@ -159,6 +119,46 @@ window.REPORT_CONFIG = {
     ],
     "extra": "Alte pagini ale noastre pe prima pagină: pagina principală (poz. 8) la „clinica dentara” și un articol (poz. 7) la „dentist copii”.",
     "verdict": "Perfect: primul loc la toate cele 4 căutări, și în Map Pack, și pe web. Cel mai bun concurent din cutie are 46 de recenzii (Elite City Dent), față de 690 la noi."
+   },
+   {
+    "n": "Giurgiu",
+    "status": "matur",
+    "reviews": "~1,2K",
+    "rating": "4,9",
+    "aiMode": "2/5",
+    "gpt": "1/5",
+    "searches": [
+     {
+      "q": "Dentist Giurgiu",
+      "map": 1,
+      "pack": "Noi (~1,2K) · Hus Lavinia (~1,3K) · Saviem Smile (261)",
+      "web": 1,
+      "top3": "Noi · Medici-Stomatologi · Saviem Smile"
+     },
+     {
+      "q": "Clinica dentara Giurgiu",
+      "map": 1,
+      "pack": "Noi (~1,2K) · Hus Lavinia (~1,3K) · Saviem Smile (261)",
+      "web": 1,
+      "top3": "Noi · Saviem Smile · DentistOnline (CareLiveMed)"
+     },
+     {
+      "q": "Stomatologie Giurgiu",
+      "map": 1,
+      "pack": "Noi (~1,2K) · Hus Lavinia (~1,3K) · Saviem Smile (261)",
+      "web": 1,
+      "top3": "Noi · Medici-Stomatologi · Saviem Smile"
+     },
+     {
+      "q": "Dentist copii Giurgiu",
+      "map": 1,
+      "pack": "Noi (~1,2K) · Hus Lavinia (~1,3K) · Saviem Smile (261)",
+      "web": 1,
+      "top3": "Noi · Noi (pagina Dental Safari) · Med.Ro"
+     }
+    ],
+    "extra": "Alte pagini ale noastre pe prima pagină: pagina principală (poz. 8 la „clinica dentara”, poz. 7 la „stomatologie”) și pagina Dental Safari (poz. 2 la „dentist copii”).",
+    "verdict": "Perfect pe Google Search: primul loc la toate cele 4 căutări, înaintea lui Hus Lavinia (~1,3K recenzii) și Saviem Smile. La „dentist copii”, pagina Dental Safari ocupă și poziția 2 pe web, imediat după pagina clinicii."
    },
    {
     "n": "Slobozia",
@@ -201,44 +201,44 @@ window.REPORT_CONFIG = {
     "verdict": "Perfect: primul loc la toate cele 4 căutări, pe ambele zone. Avem 873 de recenzii, față de 209 la Dental Blue și 198 la AS Dental. Pe web, al doilea rezultat e de obicei site-ul clinicii Dr. Malama."
    },
    {
-    "n": "Giurgiu",
-    "status": "matur",
-    "reviews": "~1,2K",
+    "n": "Călărași",
+    "status": "de încadrat",
+    "reviews": "956",
     "rating": "4,9",
-    "aiMode": "2/5",
-    "gpt": "1/5",
+    "aiMode": "5/5",
+    "gpt": "5/5",
     "searches": [
      {
-      "q": "Dentist Giurgiu",
+      "q": "Dentist Calarasi",
       "map": 1,
-      "pack": "Noi (~1,2K) · Hus Lavinia (~1,3K) · Saviem Smile (261)",
+      "pack": "Noi (956) · Smile Boutique (96) · Dental Clas (64)",
       "web": 1,
-      "top3": "Noi · Medici-Stomatologi · Saviem Smile"
+      "top3": "Noi · Medici-Stomatologi · Facebook (Smile Boutique)"
      },
      {
-      "q": "Clinica dentara Giurgiu",
-      "map": 1,
-      "pack": "Noi (~1,2K) · Hus Lavinia (~1,3K) · Saviem Smile (261)",
+      "q": "Clinica dentara Calarasi",
+      "map": 3,
+      "pack": "Smile Boutique (96) · Dental Clas (64) · Noi (956)",
       "web": 1,
-      "top3": "Noi · Saviem Smile · DentistOnline (CareLiveMed)"
+      "top3": "Noi · Facebook (Smile Boutique) · Ark Medical"
      },
      {
-      "q": "Stomatologie Giurgiu",
+      "q": "Stomatologie Calarasi",
       "map": 1,
-      "pack": "Noi (~1,2K) · Hus Lavinia (~1,3K) · Saviem Smile (261)",
+      "pack": "Noi (956) · Smile Boutique (96) · Dental Clas (64)",
       "web": 1,
-      "top3": "Noi · Medici-Stomatologi · Saviem Smile"
+      "top3": "Noi · Medici-Stomatologi · Facebook (Smile Boutique)"
      },
      {
-      "q": "Dentist copii Giurgiu",
-      "map": 1,
-      "pack": "Noi (~1,2K) · Hus Lavinia (~1,3K) · Saviem Smile (261)",
+      "q": "Dentist copii Calarasi",
+      "map": 2,
+      "pack": "Smile Boutique (96) · Noi (956) · Dental Clas (64)",
       "web": 1,
-      "top3": "Noi · Noi (pagina Dental Safari) · Med.Ro"
+      "top3": "Noi · Med.Ro · Facebook (grup local)"
      }
     ],
-    "extra": "Alte pagini ale noastre pe prima pagină: pagina principală (poz. 8 la „clinica dentara”, poz. 7 la „stomatologie”) și pagina Dental Safari (poz. 2 la „dentist copii”).",
-    "verdict": "Perfect pe Google Search: primul loc la toate cele 4 căutări, înaintea lui Hus Lavinia (~1,3K recenzii) și Saviem Smile. La „dentist copii”, pagina Dental Safari ocupă și poziția 2 pe web, imediat după pagina clinicii."
+    "extra": "Alte pagini ale noastre pe prima pagină: pagina principală (poz. 8) la „clinica dentara” și un articol (poz. 8) la „dentist copii”.",
+    "verdict": "Primul loc pe web la toate cele 4 căutări și în Map Pack la 2 din 4. La „clinica dentara” suntem al treilea în cutie, iar la „dentist copii” al doilea, după Smile Boutique (96 de recenzii, față de 956 la noi): ordinea din cutie nu depinde doar de recenzii."
    },
    {
     "n": "Târgoviște",

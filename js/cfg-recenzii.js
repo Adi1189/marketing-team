@@ -106,13 +106,13 @@ window.REPORT_CONFIG = {
   "firstCol": "Clinică",
   "brands": [
    {
-    "id": "giurgiu",
-    "name": "Giurgiu",
+    "id": "oltenita",
+    "name": "Oltenița",
     "us": false
    },
    {
-    "id": "calarasi",
-    "name": "Călărași",
+    "id": "giurgiu",
+    "name": "Giurgiu",
     "us": false
    },
    {
@@ -121,13 +121,18 @@ window.REPORT_CONFIG = {
     "us": false
    },
    {
-    "id": "oltenita",
-    "name": "Oltenița",
+    "id": "calarasi",
+    "name": "Călărași",
     "us": false
    },
    {
     "id": "targoviste",
     "name": "Târgoviște",
+    "us": false
+   },
+   {
+    "id": "focsani",
+    "name": "Focșani",
     "us": false
    },
    {
@@ -138,11 +143,6 @@ window.REPORT_CONFIG = {
    {
     "id": "cotroceni",
     "name": "Cotroceni",
-    "us": false
-   },
-   {
-    "id": "focsani",
-    "name": "Focșani",
     "us": false
    },
    {
@@ -6643,24 +6643,28 @@ window.REVIEWS_EXTRA = {
  "generated": "02.11.2026 08:28",
  "clinics": [
   {
-   "id": "giurgiu",
-   "name": "Giurgiu"
+   "id": "oltenita",
+   "name": "Oltenița"
   },
   {
-   "id": "calarasi",
-   "name": "Călărași"
+   "id": "giurgiu",
+   "name": "Giurgiu"
   },
   {
    "id": "slobozia",
    "name": "Slobozia"
   },
   {
-   "id": "oltenita",
-   "name": "Oltenița"
+   "id": "calarasi",
+   "name": "Călărași"
   },
   {
    "id": "targoviste",
    "name": "Târgoviște"
+  },
+  {
+   "id": "focsani",
+   "name": "Focșani"
   },
   {
    "id": "dorobanti",
@@ -6669,10 +6673,6 @@ window.REVIEWS_EXTRA = {
   {
    "id": "cotroceni",
    "name": "Cotroceni"
-  },
-  {
-   "id": "focsani",
-   "name": "Focșani"
   },
   {
    "id": "braila",

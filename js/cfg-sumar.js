@@ -123,20 +123,6 @@ window.REPORT_CONFIG = {
       "name": "Cluster 2 · Buc + Centru",
       "rows": [
        {
-        "n": "Dorobanți",
-        "p0": 100,
-        "mom": -3,
-        "yoy": -27,
-        "ytd": 4
-       },
-       {
-        "n": "Cotroceni",
-        "p0": 71,
-        "mom": 3,
-        "yoy": -22,
-        "ytd": -17
-       },
-       {
         "n": "Târgoviște",
         "p0": 218,
         "mom": -1,
@@ -149,6 +135,20 @@ window.REPORT_CONFIG = {
         "mom": -4,
         "yoy": null,
         "ytd": null
+       },
+       {
+        "n": "Dorobanți",
+        "p0": 100,
+        "mom": -3,
+        "yoy": -27,
+        "ytd": 4
+       },
+       {
+        "n": "Cotroceni",
+        "p0": 71,
+        "mom": 3,
+        "yoy": -22,
+        "ytd": -17
        }
       ],
       "total": {
@@ -263,20 +263,6 @@ window.REPORT_CONFIG = {
       "name": "Cluster 2 · Buc + Centru",
       "rows": [
        {
-        "n": "Dorobanți",
-        "p0": 93,
-        "mom": -7,
-        "yoy": 37,
-        "ytd": 7
-       },
-       {
-        "n": "Cotroceni",
-        "p0": 103,
-        "mom": 45,
-        "yoy": 84,
-        "ytd": -9
-       },
-       {
         "n": "Târgoviște",
         "p0": 218,
         "mom": 0,
@@ -289,6 +275,20 @@ window.REPORT_CONFIG = {
         "mom": 1,
         "yoy": null,
         "ytd": null
+       },
+       {
+        "n": "Dorobanți",
+        "p0": 93,
+        "mom": -7,
+        "yoy": 37,
+        "ytd": 7
+       },
+       {
+        "n": "Cotroceni",
+        "p0": 103,
+        "mom": 45,
+        "yoy": 84,
+        "ytd": -9
        }
       ],
       "total": {
@@ -402,20 +402,6 @@ window.REPORT_CONFIG = {
       "name": "Cluster 2 · Buc + Centru",
       "rows": [
        {
-        "n": "Dorobanți",
-        "p0": 86,
-        "mom": -8,
-        "yoy": -39,
-        "ytd": 0
-       },
-       {
-        "n": "Cotroceni",
-        "p0": 69,
-        "mom": -33,
-        "yoy": -44,
-        "ytd": -14
-       },
-       {
         "n": "Târgoviște",
         "p0": 224,
         "mom": 3,
@@ -428,6 +414,20 @@ window.REPORT_CONFIG = {
         "mom": -11,
         "yoy": null,
         "ytd": null
+       },
+       {
+        "n": "Dorobanți",
+        "p0": 86,
+        "mom": -8,
+        "yoy": -39,
+        "ytd": 0
+       },
+       {
+        "n": "Cotroceni",
+        "p0": 69,
+        "mom": -33,
+        "yoy": -44,
+        "ytd": -14
        }
       ],
       "total": {
@@ -543,20 +543,6 @@ window.REPORT_CONFIG = {
       "name": "Cluster 2 · Buc + Centru",
       "rows": [
        {
-        "n": "Dorobanți",
-        "p0": 56,
-        "mom": -35,
-        "yoy": -77,
-        "ytd": -18
-       },
-       {
-        "n": "Cotroceni",
-        "p0": 74,
-        "mom": 7,
-        "yoy": -57,
-        "ytd": -21
-       },
-       {
         "n": "Târgoviște",
         "p0": 251,
         "mom": 12,
@@ -569,6 +555,20 @@ window.REPORT_CONFIG = {
         "mom": 4,
         "yoy": null,
         "ytd": null
+       },
+       {
+        "n": "Dorobanți",
+        "p0": 56,
+        "mom": -35,
+        "yoy": -77,
+        "ytd": -18
+       },
+       {
+        "n": "Cotroceni",
+        "p0": 74,
+        "mom": 7,
+        "yoy": -57,
+        "ytd": -21
        }
       ],
       "total": {
